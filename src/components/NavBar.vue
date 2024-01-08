@@ -24,7 +24,7 @@
                         <router-link class="nav-link" to="#" >Pabrik</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="#" >Pengadaan</router-link>
+                        <router-link class="nav-link" to="/pengadaan" >Pengadaan</router-link>
                     </li>
                     <li class="nav-item">
                         <router-link class="nav-link" to="/berita" >Berita</router-link>
