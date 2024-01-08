@@ -24,6 +24,7 @@
   import VisionMision from '@/components/VisionMision.vue';  
   import AwardInfo from '@/components/AwardInfo.vue';
   import FooterSection from '@/components/FooterSection.vue';
+  
 
   export default {
     name: 'ProfileView',

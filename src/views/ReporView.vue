@@ -5,6 +5,7 @@
         <YearlyReport/>
         <FinanceReport/>
         <ContinuityReport/>
+        <FooterSection/>
     </div>
 </template>
 <script>
@@ -12,6 +13,7 @@
     import YearlyReport from '@/components/YearlyReport.vue'
     import FinanceReport from '@/components/FinanceReport.vue'
     import ContinuityReport from '@/components/ContinuityReport.vue'
+    import FooterSection from '@/components/FooterSection.vue'
 
     export default {
         name: 'RaporView',
@@ -19,8 +21,8 @@
             NavBar,
             YearlyReport,   
             FinanceReport,
-            ContinuityReport
-
+            ContinuityReport,
+            FooterSection
         }
     }
 </script>

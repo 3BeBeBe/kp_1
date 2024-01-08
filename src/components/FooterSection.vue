@@ -1,4 +1,5 @@
 <template>
+    <div class="mt-5 mb-5 custom-container">
     <div class="container">
         <div class="row">
             <div class="col-md-3">
@@ -15,23 +16,65 @@
             </div>
             <div class="col-md-3">
                 <h5>MEDIA SOSIAL</h5>
-                <div class="col-md-4">
-                    <p>Logo Tweeter</p>
-                </div>
-                
-                <div class="col-md-4">
-                    <p>Logo Facebook</p>
-                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <p>Logo Tweeter</p>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <p>Logo Facebook</p>
+                    </div>
 
-                <div class="col-md-4">
-                    <p>Logo Instagram</p>
+                    <div class="col-md-4">
+                        <p>Logo Instagram</p>
+                    </div>
                 </div>
                 <ul>
                     <li>Syarat & Ketentuan Penggunaan Website</li>
                     <li>Kebijakan Privasi</li>
                 </ul>
             </div>
+            <div class="col-md-3">
+                <h5>ANAK USAHA DARI</h5>
+                <img class="img-fluid" src="https://www.pi-energi.com/files/media/2020/09/logo-pi.png">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="https://www.pi-utilitas.com/files/media/2022/04/iso9001-2015.png">
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="https://www.pi-utilitas.com/files/media/2022/04/iso14001-2015.png">
+                    </div>
+
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="https://www.pi-utilitas.com/files/media/2022/04/iso137001-2016.png">
+                    </div>
+                </div>
+            </div>
         </div> 
+        <hr>
+    </div>
+    <div class="row text-center">
+            <p> | 
+            <a href="https://bumn.go.id/">KEMENTRIAN BUMN</a>
+             | 
+            <a href="https://www.pupuk-indonesia.com/">PT PUPUK INDONESIA</a>
+             | 
+            <a href="https://www.petrokimia-gresik.com/">PT PETROKIMIA GRESIK</a>
+             |             
+            <a href="https://www.pupuk-kujang.co.id/">PT PUPUK KUJANG CIKAMPEK</a>
+             | 
+            <a href="http://www.rekayasa.com/">PT REKAYASA INDUSTRI</a>
+             | 
+            <a href="http://www.pupukkaltim.com/">PT PUPUK KALIMANTAN TIMUR</a>
+             | 
+            <a href="https://www.pusri.co.id/">PT PUPUK SRIWIDJAJA PALEMBANG</a>
+             | 
+            <a href="https://www.pim.co.id/">PT PUPUK ISKANDAR MUDA</a>
+             | 
+            <a href="https://kaltimdayamandiri.co.id/">PT KALTIM DAYA MANDIRI</a> 
+             | </p>
+        </div>
     </div>
 </template>
 <script>
@@ -39,3 +82,15 @@
         name: 'FooterSection'
     }
 </script>
+<style>
+    .custom-container {
+      background-color: #2b9ef5; /* Custom background color (gold) */
+      color: #ffffff; /* Custom text color (dark gray) */
+      padding: 20px; /* Custom padding */
+      border-radius: 0px; /* Custom border radius */
+      /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Custom box shadow */
+    }
+    .custom-container a {
+        color: #ffffff;
+    }
+</style>

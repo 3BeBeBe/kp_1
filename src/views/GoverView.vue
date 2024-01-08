@@ -6,6 +6,7 @@
         <SOPTable/>
         <AuditCharter/>
         <WhistleBlowing/>
+        <FooterSection/>
     </div>
 </template>
 <script>
@@ -14,6 +15,7 @@
     import SOPTable from '@/components/SOPTable.vue';
     import AuditCharter from '@/components/AuditCharter.vue';
     import WhistleBlowing from '@/components/WhistleBlowing.vue';
+    import FooterSection from '@/components/FooterSection.vue';
 
     export default {
         name: 'GovernanceView',
@@ -22,7 +24,8 @@
             GoodCorporate,
             SOPTable,
             AuditCharter,
-            WhistleBlowing
+            WhistleBlowing,
+            FooterSection
         }
     }
 </script>
