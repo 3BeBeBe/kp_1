@@ -6,10 +6,11 @@
     <VisionMision/>
     <CompanyValue/>
     <h2 class="text-center">Manajemen</h2>
-    <ComisariesList/>
     <DirectorsList/>
+    <ComisariesList/>    
     <CompanyStructure/>
     <AwardInfo/>
+    <FooterSection/>
   </div>
 </template>
   
@@ -22,6 +23,7 @@
   import CompanyStructure from '@/components/CompanyStructure.vue';
   import VisionMision from '@/components/VisionMision.vue';  
   import AwardInfo from '@/components/AwardInfo.vue';
+  import FooterSection from '@/components/FooterSection.vue';
 
   export default {
     name: 'ProfileView',
@@ -33,7 +35,8 @@
       DirectorsList,
       CompanyStructure,
       VisionMision,
-      AwardInfo
+      AwardInfo,
+      FooterSection
     }
   }
 </script>
