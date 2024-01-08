@@ -1,5 +1,5 @@
 <template>
-<div class="container" data-aos="fade-up">
+<div class="container mt-5" data-aos="fade-up">
     <div class="section-header text-center">
     <h2>AKHLAK</h2>
     <p>Nilai - nilai perusahaan</p>
@@ -18,7 +18,6 @@
                 <li>Bertanggung jawab atas tugas, keputusan dan tindakan yanng dilakukan.</li>
                 <li>Berpegang teguh kepada nilai moral dan etika.</li>
             </ul>
-            <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
 
@@ -34,7 +33,6 @@
                 <li>Membantu orang lain belajar.</li>
                 <li>Menyelesaikan tugas dengan kualitas terbaik.</li>
             </ul>
-            <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
 
@@ -50,7 +48,6 @@
                 <li>Suka menolong orang lain.</li>
                 <li>Membangun lingkungan kerja yang kondusif.</li>
             </ul>
-            <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
 
@@ -66,7 +63,6 @@
                 <li>Rela berkorban untuk mencapai tujuan yang lebih besar.</li>
                 <li>Patuh kepada pimpinan sepanjang tidak bertentangan dengan hukum dan etika.</li>
             </ul>
-            <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
 
@@ -82,7 +78,6 @@
                 <li>Terus – menerus melakukan perbaikan mengikuti perkembangan teknologi.</li>
                 <li>Bertindak proaktif.</li>
             </ul>
-            <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
 
@@ -98,7 +93,6 @@
                 <li>Terbuka dalam bekerja sama untuk menghasilkan nilai tambah.</li>
                 <li>Menggerakan pemanfaatan berbagai sumberdaya untuk tujuan bersama.</li>
             </ul>
-            <a href="#" class="readmore stretched-link">Read more <i class="bi bi-arrow-right"></i></a>
             </div>
         </div>
     </div>

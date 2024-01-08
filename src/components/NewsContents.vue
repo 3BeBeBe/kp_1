@@ -1,5 +1,5 @@
 <template>
-        <div class="card">
+    <div class="card">
         <div class="card-header text-center">
             <ul class="nav nav-underline justify-content-center">
             <li class="nav-item">
@@ -63,8 +63,7 @@
             </div>
         </div>
         </div>
-        </div>
-
+    </div>
 </template>
 <script>
     export default {

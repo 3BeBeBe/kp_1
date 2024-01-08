@@ -1,137 +1,162 @@
 <template>
-<div class="container" data-aos="fade-up">
-
-<div class="section-header text-center">
-  <h2>Portfolio</h2>
-  <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia reprehenderit sunt deleniti</p>
-</div>
-
-<div class="portfolio-isotope" data-portfolio-filter="*" data-portfolio-layout="masonry" data-portfolio-sort="original-order" data-aos="fade-up" data-aos-delay="100">
-
-  <div>
-    <ul class="portfolio-flters">
-      <li data-filter="*" class="filter-active">All</li>
-      <li data-filter=".filter-app">App</li>
-      <li data-filter=".filter-product">Product</li>
-      <li data-filter=".filter-branding">Branding</li>
-      <li data-filter=".filter-books">Books</li>
-    </ul><!-- End Portfolio Filters -->
-  </div>
-
-  <div class="row gy-4 portfolio-container">
-
-    <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-      <div class="portfolio-wrap">
-        <a href="https://www.pi-utilitas.com/files/media/2023/02/Sertifikat-ISO-9001-PT-Pupuk-Indonesia-Utilitas-Tahun-2022.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://www.pi-utilitas.com/files/media/2023/02/Sertifikat-ISO-9001-PT-Pupuk-Indonesia-Utilitas-Tahun-2022.jpg" class="img-fluid" alt=""></a>
-        <div class="portfolio-info">
-          <p>Predikat “Gold” pada Gugus GKM Cute di Temu Karya Mutu Produktivitas Nasional (TKMPN) XXVI </p>
+<div class="container mt-5">
+  <div class="card">
+        <div class="card-header">
+            <ul class="nav nav-underline">
+            <li class="nav-item">
+                <a id="tab1" class="nav-link active" data-bs-toggle="tab" aria-current="true" href="#hal1">1</a>
+            </li>
+            <li class="nav-item">
+                <a id="tab1" class="nav-link" data-bs-toggle="tab" aria-current="true" href="#hal2">2</a>            
+            </li>
+            <li class="nav-item">
+                <a id="tab1" class="nav-link" data-bs-toggle="tab" aria-current="true" href="#hal3">3</a>            
+            </li>
+            <li class="nav-item">
+                <a id="tab1" class="nav-link" data-bs-toggle="tab" aria-current="true" href="#hal4">4</a>            
+            </li>
+            </ul>
         </div>
-      </div>
-    </div><!-- End Portfolio Item -->
-
-    <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-      <div class="portfolio-wrap">
-        <a href="https://www.pi-utilitas.com/files/media/2022/12/IQA-2022.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://www.pi-utilitas.com/files/media/2022/12/IQA-2022.png" class="img-fluid" alt=""></a>
-        <div class="portfolio-info">
-          <p>Predikat “Gold” pada Gugus QCC Warning di Temu Karya Mutu Produktivitas Nasional (TKMPN) XXVI </p>
+        
         </div>
-      </div>
-    </div><!-- End Portfolio Item -->
+        <div class="container tab-content mt-2 text-center">
+        <div class="tab-pane fade show active" id="hal1">
+        <div class="row mt-4 ">
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2023/02/Sertifikat-ISO-9001-PT-Pupuk-Indonesia-Utilitas-Tahun-2022.jpg">
 
-    <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
-      <div class="portfolio-wrap">
-        <a href="https://www.pi-utilitas.com/files/media/2022/12/TKMPN-XXVI-copy.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://www.pi-utilitas.com/files/media/2022/12/TKMPN-XXVI-copy.jpg" class="img-fluid" alt=""></a>
-        <div class="portfolio-info">
-          <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <h4>ISO 9001:2015</h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/12/IQA-2022.png">
+
+                <h4>IQA 2022</h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/12/TKMPN-XXVI-copy.jpg">
+
+                <h4>Predikat “Platinum” pada Gugus GKM Jamur Merang di Temu Karya Mutu Produktivitas Nasional (TKMPN) XXVI</h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/12/TKMPN-XXVI-copy-2.jpg">
+
+                <h4>Predikat “Gold” pada Gugus GKM Cute di Temu Karya Mutu Produktivitas Nasional (TKMPN) XXVI</h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/12/TKMPN-XXVI.jpg">
+
+                <h4>Predikat “Gold” pada Gugus QCC Warning di Temu Karya Mutu Produktivitas Nasional (TKMPN) XXVI </h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/11/IQPC-Bali.png">
+
+                <h4>IQPC 2022</h4>
+            </div>
         </div>
-      </div>
-    </div><!-- End Portfolio Item -->
-
-    <div class="col-xl-4 col-md-6 portfolio-item filter-books">
-      <div class="portfolio-wrap">
-        <a href="https://www.pi-utilitas.com/files/media/2022/12/TKMPN-XXVI-copy-2.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://www.pi-utilitas.com/files/media/2022/12/TKMPN-XXVI-copy-2.jpg" class="img-fluid" alt=""></a>
-        <div class="portfolio-info">
-          <p>Lorem ipsum, dolor sit amet consectetur</p>
         </div>
-      </div>
-    </div><!-- End Portfolio Item -->
+        <div class="tab-pane fade" id="hal2">
+        <div class="row mt-4 ">
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/11/Penghargaan-The-Most-Committed-GRC-Leader_rotated_page-0001.png">
 
-    <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-      <div class="portfolio-wrap">
-        <a href="https://www.pi-utilitas.com/files/media/2022/12/TKMPN-XXVI.jpg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://www.pi-utilitas.com/files/media/2022/12/TKMPN-XXVI.jpg" class="img-fluid" alt=""></a>
-        <div class="portfolio-info">
-          <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <h4>The Most Committed GRC Leader Agus Subekti – Direktur Utama </h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/11/Special-Appriciation-of-Top-GRC-Awards-2022-on-Fraud-Control-System_rotated_page-0001.png">
+
+                <h4>TOP SPECIAL RECOGNITION TOP GRC AWARDS 2022</h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/11/TOP-GRC-Awards-2022-3-Stars_rotated_page-0001.png">
+
+                <h4>TOP GRC AWARDS 2022 # 3 STARS </h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/WhatsApp-Image-2022-07-19-at-5.18.23-PM.jpeg">
+
+                <h4>Kecelakaan Nihil</h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/WhatsApp_Image_2022-06-23_at_4.46.16_PM__1_-removebg-preview-1.png">
+
+                <h4>ICCOSH 2022</h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/DSC00461-removebg-preview.png">
+
+                <h4>PIQI 2021</h4>
+            </div>
         </div>
-      </div>
-    </div><!-- End Portfolio Item -->
-
-    <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-      <div class="portfolio-wrap">
-        <a href="https://www.pi-utilitas.com/files/media/2022/11/IQPC-Bali.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://www.pi-utilitas.com/files/media/2022/11/IQPC-Bali.png" class="img-fluid" alt=""></a>
-        <div class="portfolio-info">
-          <p>Lorem ipsum, dolor sit amet consectetur</p>
         </div>
-      </div>
-    </div><!-- End Portfolio Item -->
+        <div class="tab-pane fade" id="hal3">
+        <div class="row mt-4 ">
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/DSC00458-removebg-preview.png">
 
-    <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
-      <div class="portfolio-wrap">
-        <a href="https://www.pi-utilitas.com/files/media/2022/11/Penghargaan-The-Most-Committed-GRC-Leader_rotated_page-0001.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://www.pi-utilitas.com/files/media/2022/11/Penghargaan-The-Most-Committed-GRC-Leader_rotated_page-0001.png" class="img-fluid" alt=""></a>
-        <div class="portfolio-info">
-          <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <h4>PIQI 2021 </h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/DSC03015-removebg-preview.png">
+
+                <h4>ICCOSH 2021</h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/TKMPN-QCC-ENERGIZE-COGEN-2021_page-0002.jpg">
+
+                <h4>TKMPN XXV dan IQPC 2021 </h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/TKMPN-QCC-ENERGIZE-COGEN-2021_page-0001.jpg">
+
+                <h4>TKMPN XXV and IQPC 2021</h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/Sertifikat-ISO-45001-PT-Pupuk-Indonesia-Utilitas-Tahun-2022.jpg">
+
+                <h4>ISO 45001:2018</h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/Sertifikat-ISO-37001-PT-Pupuk-Indonesia-Utilitas-Tahun-2022.jpg">
+
+                <h4>ISO 37001:2016</h4>
+            </div>
         </div>
-      </div>
-    </div><!-- End Portfolio Item -->
-
-    <div class="col-xl-4 col-md-6 portfolio-item filter-books">
-      <div class="portfolio-wrap">
-        <a href="https://www.pi-utilitas.com/files/media/2022/11/Special-Appriciation-of-Top-GRC-Awards-2022-on-Fraud-Control-System_rotated_page-0001.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://www.pi-utilitas.com/files/media/2022/11/Special-Appriciation-of-Top-GRC-Awards-2022-on-Fraud-Control-System_rotated_page-0001.png" class="img-fluid" alt=""></a>
-        <div class="portfolio-info">
-          <p>Lorem ipsum, dolor sit amet consectetur</p>
         </div>
-      </div>
-    </div><!-- End Portfolio Item -->
+        <div class="tab-pane fade" id="hal4">
+        <div class="row mt-4 ">
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/Sertifikat-ISO-14001-PT-Pupuk-Indonesia-Utilitas-Tahun-2022.jpg">
 
-    <div class="col-xl-4 col-md-6 portfolio-item filter-app">
-      <div class="portfolio-wrap">
-        <a href="https://www.pi-utilitas.com/files/media/2022/11/TOP-GRC-Awards-2022-3-Stars_rotated_page-0001.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://www.pi-utilitas.com/files/media/2022/11/TOP-GRC-Awards-2022-3-Stars_rotated_page-0001.png" class="img-fluid" alt=""></a>
-        <div class="portfolio-info">
-          <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <h4>ISO 14001:2015 </h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/07/Picture4.png">
+
+                <h4>APQO IC 2021 </h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/07/Picture3.png">
+
+                <h4>APQO IC 2021 </h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/07/Picture2.png">
+
+                <h4>ICQCC 2021 </h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/07/Picture1.png">
+
+                <h4>ICQCC 2021 </h4>
+            </div>
+            <div class="col-md-4">
+                <img class="img-fluid size-image" src="https://www.pi-energi.com/files/media/2020/09/PIALA-QCC-COGEN-piutilitas.png">
+
+                <h4>TKMPN 2019</h4>
+            </div>
         </div>
-      </div>
-    </div><!-- End Portfolio Item -->
-
-    <div class="col-xl-4 col-md-6 portfolio-item filter-product">
-      <div class="portfolio-wrap">
-        <a href="https://www.pi-utilitas.com/files/media/2022/08/WhatsApp-Image-2022-07-19-at-5.18.23-PM.jpeg" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://www.pi-utilitas.com/files/media/2022/08/WhatsApp-Image-2022-07-19-at-5.18.23-PM.jpeg" class="img-fluid" alt=""></a>
-        <div class="portfolio-info">
-          <p>Lorem ipsum, dolor sit amet consectetur</p>
         </div>
-      </div>
-    </div><!-- End Portfolio Item -->
-
-    <div class="col-xl-4 col-md-6 portfolio-item filter-branding">
-      <div class="portfolio-wrap">
-        <a href="https://www.pi-utilitas.com/files/media/2022/08/WhatsApp_Image_2022-06-23_at_4.46.16_PM__1_-removebg-preview-1.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://www.pi-utilitas.com/files/media/2022/08/WhatsApp_Image_2022-06-23_at_4.46.16_PM__1_-removebg-preview-1.png" class="img-fluid" alt=""></a>
-        <div class="portfolio-info">
-          <p>Lorem ipsum, dolor sit amet consectetur</p>
-        </div>
-      </div>
-    </div><!-- End Portfolio Item -->
-
-    <div class="col-xl-4 col-md-6 portfolio-item filter-books">
-      <div class="portfolio-wrap">
-        <a href="https://www.pi-utilitas.com/files/media/2022/08/DSC00461-removebg-preview.png" data-gallery="portfolio-gallery-app" class="glightbox"><img src="https://www.pi-utilitas.com/files/media/2022/08/DSC00461-removebg-preview.png" class="img-fluid" alt=""></a>
-        <div class="portfolio-info">
-          <p>Lorem ipsum, dolor sit amet consectetur</p>
-        </div>
-      </div>
-    </div><!-- End Portfolio Item -->
-
-  </div><!-- End Portfolio Container -->
-
-</div>
-
+    </div>
 </div>
 </template>
 <script>
@@ -139,3 +164,13 @@
         name: 'AwardInfo',
     }
 </script>
+
+<style>
+  .size-image {
+      max-width: 100%; /* Adjust the maximum width as needed */
+      max-height: 200px; /* Adjust the maximum height as needed */
+      height: auto; /* Maintain aspect ratio */
+      display: block; /* Prevents extra space below inline images */
+      margin: 0 auto; /* Center the image within the container */
+    }
+</style>
