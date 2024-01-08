@@ -2,21 +2,20 @@
     <div class="news">
         <NavBar/>
         <NewsCarousal/>
-        <ArticleSection/>
+        <NewsContents/>
     </div>
 </template>
 <script>
     import NavBar from '@/components/NavBar.vue';
     import NewsCarousal from '@/components/NewsCarousal.vue';
-    import ArticleSection from '@/components/ArticleSection.vue';
+    import NewsContents from '@/components/NewsContents.vue';
 
     export default {
         name: 'NewsView',
         components: {
             NavBar,
             NewsCarousal,
-            ArticleSection
+            NewsContents
         }
     }
-
 </script>
