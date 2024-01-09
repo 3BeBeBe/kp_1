@@ -1,9 +1,9 @@
 <template>
 <div class="container mt-5">
-  <div class="text-center">
-    <h2>Penghargaan</h2>
-  </div>
-  <div class="card mt-5">
+    <div class="text-center">
+        <h2>Penghargaan</h2>
+    </div>
+    <div class="card mt-5">
         <div class="card-header">
             <ul class="nav nav-underline">
             <li class="nav-item">
@@ -19,10 +19,9 @@
                 <a id="tab1" class="nav-link" data-bs-toggle="tab" aria-current="true" href="#hal4">4</a>            
             </li>
             </ul>
-        </div>
-        
-        </div>
-        <div class="container tab-content mt-2 text-center">
+        </div>   
+    </div>
+    <div class="container tab-content mt-2 text-center">
         <div class="tab-pane fade show active" id="hal1">
         <div class="row mt-4 ">
             <div class="col-md-4">
@@ -158,7 +157,7 @@
                 <h4>TKMPN 2019</h4>
             </div>
         </div>
-        </div>
+     </div>
     </div>
 </div>
 </template>

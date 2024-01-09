@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" color="white">
+    <nav class="navbar sticky-top bg-body-tertiary navbar-expand-lg bg-body-tertiary" color="white">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">LOGO</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
