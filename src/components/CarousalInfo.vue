@@ -45,7 +45,6 @@
         <img
           src="https://www.pi-energi.com/files/media/2020/09/KDM_1.jpg"
           class="img-fluid"
-          style="max-width: 100%; height: auto"
           alt="Responsive image"
         />
         <div class="d-md-block overlay-text">
@@ -107,6 +106,13 @@ export default {
       text-align: center;
     } */
 
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
 .responsived-image {
   width: 100%;
   height: 100%; /* Set the height to 100% */
@@ -120,12 +126,15 @@ export default {
 
 .overlay-text {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* top: 75%; */
+  bottom: 0;
+  left: 0;
+  /* transform: translate(-50%, -50%); */
   color: white;
-  font-size: 24px;
-  font-weight: bold;
-  text-align: center; /* Center text horizontally */
+  /* font-size: 24px; */
+  /* font-weight: bold; */
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  /* text-align: center; Center text horizontally */
 }
 </style>
