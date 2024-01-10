@@ -1,7 +1,7 @@
 <template>
 <div class="container mt-5">
     <div class="text-center">
-        <h2>Penghargaan</h2>
+        <h2>PENGHARGAAN</h2>
     </div>
     <div class="card mt-5">
         <div class="card-header">

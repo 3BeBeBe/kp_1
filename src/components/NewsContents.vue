@@ -3,10 +3,10 @@
         <div class="card-header text-center">
             <ul class="nav nav-underline justify-content-center">
             <li class="nav-item">
-                <a id="tab1" class="nav-link active" data-bs-toggle="tab" aria-current="true" href="#artikel1">Artikel</a>
+                <h3><a id="tab1" class="nav-link active" data-bs-toggle="tab" aria-current="true" href="#artikel1">Artikel</a></h3>
             </li>
             <li class="nav-item">
-                <a id="tab1" class="nav-link" data-bs-toggle="tab" aria-current="true" href="#pers1">Siaran Pers</a>            
+                <h3><a id="tab1" class="nav-link" data-bs-toggle="tab" aria-current="true" href="#pers1">Siaran Pers</a></h3>            
             </li>
             </ul>
         </div>

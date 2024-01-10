@@ -5,7 +5,7 @@
     <CompanyHistory/>
     <VisionMision/>
     <CompanyValue/>
-    <h2 class="text-center">Manajemen</h2>
+    <h2 class="text-center">MANAJEMEN</h2>
     <DirectorsList/>
     <ComisariesList/>    
     <CompanyStructure/>

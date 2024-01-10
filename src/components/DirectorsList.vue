@@ -2,8 +2,8 @@
 <div class="container" data-aos="fade-up">
 
     <div class="section-header text-center">
-    <h2>Direksi</h2>
-    <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
+    <h3>DIREKSI</h3>
+    <!-- <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p> -->
     </div>
 
     <div class="row gy-4">

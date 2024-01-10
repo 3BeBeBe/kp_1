@@ -1,6 +1,6 @@
 <template>
     <div class="container mt-5">
-        <h2 class="text-center">Good Corporate Governance</h2>
+        <h2 class="text-center">GOOD CORPORATE GOVERNANCE</h2>
         <br>
             <div class="row justify-content-center">
                 <div class="col-md-6 pr-md-5 align-items-center justify-content-center">

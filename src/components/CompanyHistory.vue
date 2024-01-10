@@ -2,7 +2,7 @@
         <div class="container mt-5">
             <div class="row justify-content-center">
                 <div class="col-md-6 pr-md-5">
-                    <h2>Sejarah Perusahaan</h2>
+                    <h2>SEJARAH PERUSAHAAN</h2>
                     <br>
                     <div class="rounded-image">
                         <img src="https://cdn0-production-images-kly.akamaized.net/woCFFqsNnzDtDC1MsvT5AwPbZIQ=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4322775/original/070909200_1676296324-IMG-20230213-WA0014.jpg" class="img-fluid">
