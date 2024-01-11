@@ -54,8 +54,7 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/FactoView.vue')
-  }
-  ,
+  },
   {
     path: '/media',
     name: 'media',
@@ -63,7 +62,16 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/MediaView.vue')
+  },
+  {
+    path: '/galeri',
+    name: 'galeri',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/GalerView.vue')
   }
+  
 ]
 
 const router = createRouter({
