@@ -6,31 +6,31 @@
                     <div class="tab-pane fade show active" id="laptah">
                     <div class="row mt-4 ">
                         <div class="col-md-4">
-                            <img class="img-fluid size-image mt-2" src="https://www.pi-utilitas.com/files/media/2023/08/Screen-Shot-2023-08-08-at-13.50.20.png">
+                            <img class="img-fluid size-image mt-2" src="../assets/laporanTahun/1.png">
                             <h4><a href="../assets/laporanTahun/AR-PIU-2022_OK_.pdf" target="_blank">Laporan Tahunan 2022</a></h4>
                         </div>
                         <div class="col-md-4">
-                            <img class="img-fluid size-image mt-2" src="https://www.pi-utilitas.com/files/media/2023/02/cover-annual-2021.jpg">
+                            <img class="img-fluid size-image mt-2" src="../assets/laporanTahun/2.jpg">
                             <h4><a href="../assets/laporanTahun/PIE-AR-2021-2-FEB-2023-Lowres.pdf" target="_blank">Laporan Tahunan 2021</a></h4>
                         </div>
                         <div class="col-md-4">
-                            <img class="img-fluid size-image mt-2" src="https://www.pi-energi.com/files/media/2022/01/AR2020.png">
+                            <img class="img-fluid size-image mt-2" src="../assets/laporanTahun/3.png">
                             <h4><a href="../assets/laporanTahun/PIE-AR-2021-2-FEB-2023-Lowres.pdf" target="_blank">Laporan Tahunan 2020</a></h4>
                         </div>
                         <div class="col-md-4">
-                            <img class="img-fluid size-image mt-2" src="https://www.pi-energi.com/files/media/2020/10/cover-AR-2019.png">
+                            <img class="img-fluid size-image mt-2" src="../assets/laporanTahun/4.png">
                             <h4><a href="../assets/laporanTahun/PIE-AR-2021-2-FEB-2023-Lowres.pdf" target="_blank">Laporan Tahunan 2019</a></h4>
                         </div>
                         <div class="col-md-4">
-                            <img class="img-fluid size-image mt-2" src="https://www.pi-energi.com/files/media/2020/09/annual-2018.jpg">
+                            <img class="img-fluid size-image mt-2" src="../assets/laporanTahun/5.jpg">
                             <h4><a href="../assets/laporanTahun/PIE-AR-2021-2-FEB-2023-Lowres.pdf" target="_blank">Laporan Tahunan 2018</a></h4>
                         </div>
                         <div class="col-md-4">
-                            <img class="img-fluid size-image mt-2" src="https://www.pi-energi.com/files/media/2020/09/annual-2017.jpg">
+                            <img class="img-fluid size-image mt-2" src="../assets/laporanTahun/6.jpg">
                             <h4><a href="../assets/laporanTahun/PIE-AR-2021-2-FEB-2023-Lowres.pdf" target="_blank">Laporan Tahunan 2017</a></h4>
                         </div>
                         <div class="col-md-4">
-                            <img class="img-fluid size-image mt-2" src="https://www.pi-energi.com/files/media/2020/09/annual-2016.jpg">
+                            <img class="img-fluid size-image mt-2" src="../assets/laporanTahun/7.jpg">
                             <h4><a href="../assets/laporanTahun/PIE-AR-2021-2-FEB-2023-Lowres.pdf" target="_blank">Laporan Tahunan 2016</a></h4>
                         </div>
                     </div>

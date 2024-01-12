@@ -16,17 +16,17 @@
             </div>
             <div class="col-md-3">
                 <h5>MEDIA SOSIAL</h5>
-                <div class="row">
+                <div class="row mt-4 mb-4 justify-content-center">
                     <div class="col-md-4">
-                        <p>Logo Tweeter</p>
+                        <img class="img-fluid" src="../assets/Ikon SosMed/1.png" width="50" height="50">
                     </div>
                     
                     <div class="col-md-4">
-                        <p>Logo Facebook</p>
+                        <img class="img-fluid" src="../assets/Ikon SosMed/2.png" width="50" height="50">
                     </div>
 
                     <div class="col-md-4">
-                        <p>Logo Instagram</p>
+                        <img class="img-fluid" src="../assets/Ikon SosMed/3.png" width="50" height="50">
                     </div>
                 </div>
                 <ul>
@@ -36,18 +36,18 @@
             </div>
             <div class="col-md-3">
                 <h5>ANAK USAHA DARI</h5>
-                <img class="img-fluid" src="https://www.pi-energi.com/files/media/2020/09/logo-pi.png">
+                <img class="img-fluid mt-4" src="../assets/LOGO PIU Putih.png" >
                 <div class="row">
                     <div class="col-md-4">
-                        <img class="img-fluid" src="https://www.pi-utilitas.com/files/media/2022/04/iso9001-2015.png">
+                        <img class="img-fluid" src="../assets/ISO/iso9001-2015.png">
                     </div>
                     
                     <div class="col-md-4">
-                        <img class="img-fluid" src="https://www.pi-utilitas.com/files/media/2022/04/iso14001-2015.png">
+                        <img class="img-fluid" src="../assets/ISO/iso14001-2015.png">
                     </div>
 
                     <div class="col-md-4">
-                        <img class="img-fluid" src="https://www.pi-utilitas.com/files/media/2022/04/iso137001-2016.png">
+                        <img class="img-fluid" src="../assets/ISO/iso137001-2016.png">
                     </div>
                 </div>
             </div>
