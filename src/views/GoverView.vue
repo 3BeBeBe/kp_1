@@ -1,7 +1,7 @@
 <template>
     <div class="governance">
         <NavBar/>
-        <img src="https://www.pi-energi.com/files/media/2020/09/image-banner-gcg.jpg" class="d-block w-100">
+        <img src="../assets/Carousal/TataKelola.jpg" class="d-block w-100">
         <GoodCorporate/>
         <SOPTable/>
         <AuditCharter/>

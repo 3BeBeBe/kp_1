@@ -5,7 +5,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-6 pr-md-5 align-items-center justify-content-center">
                     <div class="rounded-image">
-                        <img src="https://www.pi-utilitas.com/files/media/2022/08/WhatsApp-Image-2022-07-06-at-1.25.55-PM-1.jpeg" class="img-fluid">
+                        <img src="../assets/Galeri/Kunjungan ke PT RDM/1.jpeg" class="img-fluid">
                     </div>
                     <br>
                     <div>             

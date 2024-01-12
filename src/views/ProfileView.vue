@@ -1,7 +1,7 @@
 <template>
   <div class="profile">
     <NavBar/>
-    <img src="https://www.pi-energi.com/files/media/2020/09/image-banner-profile.jpg" class="d-block w-100">
+    <img src="../assets/Carousal/Profile.jpg" class="d-block w-100">
     <CompanyHistory/>
     <VisionMision/>
     <CompanyValue/>
