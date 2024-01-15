@@ -1,22 +1,21 @@
 <template>
-    <div class="/laporan">
+    <div class="perscont">
         <NavBar/>
-        <!-- <img src="../assets/Carousal/Laporan.jpg" class="d-block w-100"> -->
-        <ReportContent/>
+        <PersContent/>
         <FooterSection/>
     </div>
 </template>
 <script>
     import NavBar from '@/components/NavBar.vue'
     import FooterSection from '@/components/FooterSection.vue'
-    import ReportContent from '@/components/ReportContent.vue'
+    import PersContent from '@/components/PersContent.vue'
 
     export default {
-        name: 'RaporView',
+        name: 'PersView',
         components: {
             NavBar,
             FooterSection,
-            ReportContent
+            PersContent
         }
     }
 </script>
