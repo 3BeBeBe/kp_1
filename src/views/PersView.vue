@@ -1,5 +1,5 @@
 <template>
-    <div class="perscont">
+    <div class="/pers">
         <NavBar/>
         <PersContent/>
         <FooterSection/>

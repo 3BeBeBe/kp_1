@@ -30,7 +30,7 @@
                             <router-link class="nav-link" to="/berita" >Berita</router-link>
                         </li>
                         <li class="nav-item">
-                            <router-link class="nav-link" to="/perscont" >Siaran Pers</router-link>
+                            <router-link class="nav-link" to="/pers">Siaran Pers</router-link>
                         </li>
                         <li class="nav-item">
                             <router-link class="nav-link" to="/laporan" >Reports</router-link>
