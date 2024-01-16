@@ -33,10 +33,12 @@
         name: 'GoodCorporate'
     }
 </script>
-<style>
+<style scoped>
     .gover-overlay-text {
         position: relative;
         color: rgb(255, 255, 255);
+        /* font-size: 24px;
+        font-weight: bold; */
     }
 
     .good-corporate {
@@ -46,7 +48,20 @@
         color: white;
     }
 
-    .carousel-image-container::before {
-        background: rgba(0, 0, 0, 0.8);
+    .carousel-image-container {
+        position: relative;
     }
+
+    .carousel-image-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.8);
+        /* background: linear-gradient(to right, rgb(0, 0, 0) 25%, rgba(0, 0, 0, 0) 100%); */
+    }
+
+    
 </style>

@@ -82,7 +82,7 @@
         name: 'FooterSection'
     }
 </script>
-<style>
+<style scoped>
     .custom-container {
       background-color: #2b9ef5; /* Custom background color (gold) */
       color: #ffffff; /* Custom text color (dark gray) */
