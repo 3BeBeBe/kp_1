@@ -1,20 +1,16 @@
 <template>
-    <div class="container mt-5">
-        <h2 class="text-center">GOOD CORPORATE GOVERNANCE</h2>
-        <br>
+    <div class="good-corporate carousel-image-container">
+        <div class="container">
+            <br>
             <div class="row justify-content-center">
-                <div class="col-md-6 pr-md-5 align-items-center justify-content-center">
-                    <div class="rounded-image">
-                        <img src="../assets/Galeri/Kunjungan ke PT RDM/1.jpeg" class="img-fluid">
-                    </div>
-                    <br>
-                    <div>             
-                        <h3>Komitmen PT Pupuk Indonesia Utilitas Penerapan Tata Kelola Perusahaan yang Baik (Good Corporate Governance)</h3>
+                <div class="col-md-5 mb-5 d-flex align-items-center justify-content-center">
+                    <div class="gover-overlay-text">             
+                        <h2><b>Komitmen PT Pupuk Indonesia Utilitas Penerapan Tata Kelola Perusahaan yang Baik (Good Corporate Governance)</b></h2>
                     </div>
                 </div>
             
-                <div class="col-md-6 pl-mb-5">
-                    <div class="mb-4">                        
+                <div class="col-md-7">
+                    <div class="mb-5 gover-overlay-text">                        
                         <p class="text-justify">Dalam rangka mewujudkan tujuan perusahaan menjadi penyedia solusi bagi sektor agro industri nasional, dengan ini Direksi dan Dewan Komisaris PT Pupuk Indonesia Utilitas, berkomitmen :</p>
 
                         <ol>
@@ -30,9 +26,27 @@
                 </div> 
             </div>
         </div>
+    </div>
 </template>
 <script>
     export default {
         name: 'GoodCorporate'
     }
 </script>
+<style>
+    .gover-overlay-text {
+        position: relative;
+        color: rgb(255, 255, 255);
+    }
+
+    .good-corporate {
+        background-image: url('../assets/Carousal/TataKelola.jpg');
+        background-size: cover; /* Cover the entire area of the component */
+        background-position: center; /* Center the image */
+        color: white;
+    }
+
+    .carousel-image-container::before {
+        background: rgba(0, 0, 0, 0.8);
+    }
+</style>

@@ -27,9 +27,6 @@
                         <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Media</router-link>
                     <ul class="dropdown-menu">
                         <li class="nav-item">
-                            <router-link class="nav-link" to="/berita" >Berita</router-link>
-                        </li>
-                        <li class="nav-item">
                             <router-link class="nav-link" to="/galeri" >Galeri</router-link>
                         </li>
                         <li><hr class="dropdown-divider"></li>
@@ -38,7 +35,9 @@
                         </li>
                     </ul>
                     </li>
-
+                    <li class="nav-item">
+                        <router-link class="nav-link" to="/berita" >Berita</router-link>
+                    </li>
                 </ul>
                 <form class="d-flex" role="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">

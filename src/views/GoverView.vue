@@ -1,10 +1,11 @@
 <template>
     <div class="governance">
         <NavBar/>
-        <img src="../assets/Carousal/TataKelola.jpg" class="d-block w-100">
+        <!-- <img src="../assets/Carousal/TataKelola.jpg" class="d-block w-100"> -->
         <GoodCorporate/>
         <SOPTable/>
         <AuditCharter/>
+        <CustomerComplaint/>
         <WhistleBlowing/>
         <FooterSection/>
     </div>
@@ -16,6 +17,7 @@
     import AuditCharter from '@/components/AuditCharter.vue';
     import WhistleBlowing from '@/components/WhistleBlowing.vue';
     import FooterSection from '@/components/FooterSection.vue';
+    import CustomerComplaint from '@/components/CustomerComplaint.vue';
 
     export default {
         name: 'GovernanceView',
@@ -25,7 +27,8 @@
             SOPTable,
             AuditCharter,
             WhistleBlowing,
-            FooterSection
+            FooterSection,
+            CustomerComplaint
         }
     }
 </script>
