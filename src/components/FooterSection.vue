@@ -84,7 +84,7 @@
 </script>
 <style scoped>
     .custom-container {
-      background-color: #2b9ef5; /* Custom background color (gold) */
+      background-color: #084e8b; /* Custom background color (gold) */
       color: #ffffff; /* Custom text color (dark gray) */
       padding: 20px; /* Custom padding */
       border-radius: 0px; /* Custom border radius */
