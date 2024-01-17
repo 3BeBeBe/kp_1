@@ -15,7 +15,7 @@
 
                         <ol>
                             <li>Melaksanakan setiap transaksional dan pengambilan keputusan berdasarkan prinsip-prinsip Good Corporate Governance (GCG) dan kepatuhan terhadap peraturan perundangan yang berlaku.</li>
-                            <li>Melaksanakan tugas dan tanggungjawab sesuai dengan Pedoman Good Corporate Governance, Board Policy Manual, Pedoman Etika Bisnis & Etika Kerja dan pedoman pendukung lainnya yang terkait dengan penerapan GCG secara konsisten dan penuh tanggungjawab.</li>
+                            <li>Melaksanakan tugas dan tanggungjawab sesuai dengan Pedoman Good Corporate Governance, Board Policy Manual, Pedoman Etika Bisnis & Etika Kerja dan pedoman pendukung lainnya yang terkait dengan penerapan GCG secara konsisten dan penuh tanggung jawab.</li>
                             <li>Melaksanakan pedoman lainnya terkait penerapan GCG bagi seluruh Insan PI Utilitas agar tercipta lingkungan kerja yang beretika dan bermartabat.</li>
                             <li>Menerapkan laporan Manajemen dan Laporan Keuangan perusahaan yang disajikan secara transparan, akurat dan tepat waktu, serta memastikan terpenuhinya kewajiban transparasi lainnya sesuai dengan peraturan perundang-undangan yang berlaku.</li>
                             <li>Memberikan keteladanan dalam semua hal dan menciptakan lingkungan kondusif dalam rangka pelaksanaan PI Utilitas bersih terhadap praktik Korupsi, Kolusi dan Nepotisme serta praktik kecurangan (Fraud) dan praktik pelanggaran hukum lainnya dengan menerapkan sanksi yang tegas untuk setiap pelanggaran.</li>
