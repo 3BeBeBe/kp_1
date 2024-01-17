@@ -6,27 +6,37 @@
                 <h5>PT. PUPUK INDONESIA UTILITAS</h5>
                 <p>Alamanda Tower Lt 26,Jl. T.B. Simatupang No 22-26, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430</p>
                 <p>Phone: (021) 29661630</p>
-                <p>Email: info@pi-utilitas.com</p>
+                <p>Email:
+                    <a href=mailto:info@pi-utilitas.com>info@pi-utilitas.com</a>
+                </p>
             </div>
             <div class="col-md-3">
                 <h5>IPP GRESIK (GRESIK GAS COGENERATION PLANT)</h5>
                 <p>Jalan Gubernur Suryo, Pabrik 3 PT. Petrokimia Gresik, Gresik, Jawa Timur</p>
-                <p>Phone: </p>
-                <p>Email: info@pi-utilitas.com</p>
+                <p>Phone: -</p>
+                <p>Email: 
+                    <a href=mailto:info@pi-utilitas.com>info@pi-utilitas.com</a>
+                </p>
             </div>
             <div class="col-md-3">
                 <h5>MEDIA SOSIAL</h5>
                 <div class="row mt-4 mb-4 justify-content-center">
                     <div class="col-md-4">
-                        <img class="img-fluid" src="../assets/Ikon SosMed/1.png" width="50" height="50">
+                        <a href="https://twitter.com/PIUtilitas" target="_blank">
+                            <img class="img-fluid" src="https://img.freepik.com/premium-vector/new-twitter-logo-x-2023-twitter-x-logo-official-vector-download_691560-10797.jpg" width="50" height="50">
+                        </a>
                     </div>
                     
                     <div class="col-md-4">
-                        <img class="img-fluid" src="../assets/Ikon SosMed/2.png" width="50" height="50">
+                        <a href="https://www.facebook.com/Pupuk.Indonesia" target="_blank">
+                            <img class="img-fluid" src="../assets/Ikon SosMed/2.png" width="50" height="50">
+                        </a>
                     </div>
 
                     <div class="col-md-4">
-                        <img class="img-fluid" src="../assets/Ikon SosMed/3.png" width="50" height="50">
+                        <a href="https://www.instagram.com/pi_utilitas/" target="_blank">
+                            <img class="img-fluid" src="../assets/Ikon SosMed/3.png" width="50" height="50">
+                        </a>
                     </div>
                 </div>
                 <ul>
@@ -80,7 +90,9 @@
 <script>
     export default {
         name: 'FooterSection'
-    }
+}
+
+    
 </script>
 <style scoped>
     .custom-container {
