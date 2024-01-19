@@ -4203,6 +4203,11 @@ launch-editor@^2.2.1, launch-editor@^2.6.0, launch-editor@^2.6.1:
     picocolors "^1.0.0"
     shell-quote "^1.8.1"
 
+leader-line@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.npmjs.org/leader-line/-/leader-line-1.0.7.tgz"
+  integrity sha512-PhJpQLV7XychSIuGPD0TEqR9PgRYBbrhReaOcmHFOVtTw4dWKfUMAtOb7UP7xTsoib6sFzq2giQeOUHy7LCuJQ==
+
 levn@^0.4.1:
   version "0.4.1"
   resolved "https://registry.npmjs.org/levn/-/levn-0.4.1.tgz"

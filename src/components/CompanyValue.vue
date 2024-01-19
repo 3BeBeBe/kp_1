@@ -1,106 +1,174 @@
 <template>
-<div class="container mt-5" data-aos="fade-up">
-    <div class="section-header text-center">
-    <h2>AKHLAK</h2>
-    <p>Nilai - nilai perusahaan</p>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div ref="column1" id="column1" class="col-md-3 mb-5 ms-4 me-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#amanah" aria-expanded="false" aria-controls="amanah">
+                        <h3><b>Amanah</b></h3>
+                    </button>
+                </p>
+                <div class="collapse multi-collapse" id="amanah">
+                    <div class="card card-body">
+                        <p>Memegang teguh kepercayaan yang diberikan.</p>
+                        <ul>
+                            <li>Memenuhi janji dan komitmen.</li>
+                            <li>Bertanggung jawab atas tugas, keputusan dan tindakan yanng dilakukan.</li>
+                            <li>Berpegang teguh kepada nilai moral dan etika.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#kompetensi" aria-expanded="false" aria-controls="kompetensi">
+                        <h3><b>Kompetensi</b></h3>
+                    </button>             
+                </p>
+                <div class="collapse multi-collapse" id="kompetensi">
+                    <div class="card card-body">
+                        <p>Terus belajar dan mengembangkan kapabilitas.</p>
+                        <ul>
+                            <li>Meningkatkan kompetensi dari untuk menjawab tantangan yang selalu berubah.</li>
+                            <li>Membantu orang lain belajar.</li>
+                            <li>Menyelesaikan tugas dengan kualitas terbaik.</li>
+                        </ul>
+                    </div>  
+                </div>
+            </div>
+    
+            <div ref="column3" id="column3" class="col-md-3 mb-5 ms-4 me-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#harmonis" aria-expanded="false" aria-controls="harmonis">
+                        <h3><b>Harmonis</b></h3>
+                    </button>             
+                </p>
+                <div class="collapse multi-collapse" id="harmonis">
+                    <div class="card card-body">
+                        <p>Saling peduli dan menghargai perbedaan.</p>
+                        <ul>
+                            <li>Menghargai setiap orang apapun latar belakangnya.</li>
+                            <li>Suka menolong orang lain.</li>
+                            <li>Membangun lingkungan kerja yang kondusif.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div ref="title" id="title" class="title centered mb-5">
+                <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">
+                    <h2><b>AKHLAK</b></h2>
+                    <p><b>Nilai - nilai perusahaan</b></p>
+                </button>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div ref="column4" id="column4" class="col-md-3 mb-5 ms-4 me-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#loyal" aria-expanded="false" aria-controls="loyal">
+                        <h3><b>Loyal</b></h3>
+                    </button>             
+                </p>
+                <div class="collapse multi-collapse" id="loyal">
+                    <div class="card card-body">
+                        <p>Berdedikasi dan mengutamakan kepentingan Bangsa dan Negara</p>
+                        <ul>
+                            <li>Menjaga nama baik sesama karyawan, pimpinan, BUMN dan Negara.</li>
+                            <li>Rela berkorban untuk mencapai tujuan yang lebih besar.</li>
+                            <li>Patuh kepada pimpinan sepanjang tidak bertentangan dengan hukum dan etika.</li>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+    
+            <div ref="column5" id="column5" class="col-md-3 mb-5 ms-4 me-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#adaptif" aria-expanded="false" aria-controls="adaptif">
+                        <h3><b>Adaptif</b></h3>
+                    </button>             
+                </p>
+                <div class="collapse multi-collapse" id="adaptif">
+                    <div class="card card-body">
+                        <p>Terus berinovasi dan antusias dalam menggerakan ataupun menghadapi perubahan.</p>
+                        <ul>
+                            <li>Cepat menyesuaikan diri untuk menjadi lebih baik.</li>
+                            <li>Terus – menerus melakukan perbaikan mengikuti perkembangan teknologi.</li>
+                            <li>Bertindak proaktif.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    
+            <div ref="column6" id="column6" class="col-md-3 mb-5 ms-4 me-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#kolaboratif" aria-expanded="false" aria-controls="kolaboratif">
+                        <h3><b>Kolaboratif</b></h3>
+                    </button>             
+                </p>
+                <div class="collapse multi-collapse" id="kolaboratif">
+                    <div class="card card-body">
+                        <p>Membangun kerja sama yang sinergis.</p>
+                        <ul>
+                            <li>Memberikan kesempatan kepada berbagai pihak untuk berkontribusi.</li>
+                            <li>Terbuka dalam bekerja sama untuk menghasilkan nilai tambah.</li>
+                            <li>Menggerakan pemanfaatan berbagai sumberdaya untuk tujuan bersama.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-
-    <div class="row gy-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="col-lg-4 col-md-6">
-            <div class="service-item  position-relative">
-            <div class="icon">
-                <i class="bi bi-activity"></i>
-            </div>
-            <h3>Amanah</h3>
-            <p>Memegang teguh kepercayaan yang diberikan.</p>
-            <ul>
-                <li>Memenuhi janji dan komitmen.</li>
-                <li>Bertanggung jawab atas tugas, keputusan dan tindakan yanng dilakukan.</li>
-                <li>Berpegang teguh kepada nilai moral dan etika.</li>
-            </ul>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-            <div class="service-item position-relative">
-            <div class="icon">
-                <i class="bi bi-broadcast"></i>
-            </div>
-            <h3>Kompeten</h3>
-            <p>Terus belajar dan mengembangkan kapabilitas.</p>
-            <ul>
-                <li>Meningkatkan kompetensi dari untuk menjawab tantangan yang selalu berubah.</li>
-                <li>Membantu orang lain belajar.</li>
-                <li>Menyelesaikan tugas dengan kualitas terbaik.</li>
-            </ul>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-            <div class="service-item position-relative">
-            <div class="icon">
-                <i class="bi bi-easel"></i>
-            </div>
-            <h3>Harmonis</h3>
-            <p>Saling peduli dan menghargai perbedaan.</p>
-            <ul>
-                <li>Menghargai setiap orang apapun latar belakangnya.</li>
-                <li>Suka menolong orang lain.</li>
-                <li>Membangun lingkungan kerja yang kondusif.</li>
-            </ul>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-            <div class="service-item position-relative">
-            <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
-            </div>
-            <h3>Loyal</h3>
-            <p>Berdedikasi dan mengutamakan kepentingan Bangsa dan Negara</p>
-            <ul>
-                <li>Menjaga nama baik sesama karyawan, pimpinan, BUMN dan Negara.</li>
-                <li>Rela berkorban untuk mencapai tujuan yang lebih besar.</li>
-                <li>Patuh kepada pimpinan sepanjang tidak bertentangan dengan hukum dan etika.</li>
-            </ul>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-            <div class="service-item position-relative">
-            <div class="icon">
-                <i class="bi bi-calendar4-week"></i>
-            </div>
-            <h3>Adaptif</h3>
-            <p>Terus berinovasi dan antusias dalam menggerakan ataupun menghadapi perubahan.</p>
-            <ul>
-                <li>Cepat menyesuaikan diri untuk menjadi lebih baik.</li>
-                <li>Terus – menerus melakukan perbaikan mengikuti perkembangan teknologi.</li>
-                <li>Bertindak proaktif.</li>
-            </ul>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-            <div class="service-item position-relative">
-            <div class="icon">
-                <i class="bi bi-chat-square-text"></i>
-            </div>
-            <h3>Kolaboratif</h3>
-            <p>Membangun kerja sama yang sinergis.</p>
-            <ul>
-                <li>Memberikan kesempatan kepada berbagai pihak untuk berkontribusi.</li>
-                <li>Terbuka dalam bekerja sama untuk menghasilkan nilai tambah.</li>
-                <li>Menggerakan pemanfaatan berbagai sumberdaya untuk tujuan bersama.</li>
-            </ul>
-            </div>
-        </div>
-    </div>
-</div>
-</template>
-
-<script>
-    export default {
-        name: 'CompanyValue'
-    }
-</script>
+    </template>
+    
+    <script>
+    // /* global LeaderLine */
+    
+        export default {
+            name: 'CompanyValue'
+            // mounted() {
+            //     this.$nextTick(() => {
+            //         const title = this.$refs.title;
+            //         const column1 = this.$refs.column1;
+            //         const column2 = this.$refs.column2;
+            //         const column3 = this.$refs.column3;
+            //         const column4 = this.$refs.column4;
+            //         const column5 = this.$refs.column5;
+            //         const column6 = this.$refs.column6;
+    
+            //         console.log(title, column1, column2, column3);
+    
+            //         new LeaderLine(title, column1, { path: 'magnet', endPlug: 'behind' });
+            //         new LeaderLine(title, column2, { path: 'magnet', endPlug: 'behind' });
+            //         new LeaderLine(title, column3, { path: 'magnet', endPlug: 'behind' });
+            //         new LeaderLine(title, column4, { path: 'magnet', endPlug: 'behind' });
+            //         new LeaderLine(title, column5, { path: 'magnet', endPlug: 'behind' });
+            //         new LeaderLine(title, column6, { path: 'magnet', endPlug: 'behind' });
+            //     });
+            // }
+        }
+    </script>
+    
+    <style scoped>
+        .outlined {
+            border: 1px solid #000; /* Change color as needed */
+        }
+        
+        .title {
+            width: 30%;
+            min-height: 0px;
+            /* background-color: #084e8b; */
+            color: #ffffff;
+            padding: 20px;
+            border-radius: 0px;
+            margin: 0 auto;
+        }   
+    
+        .centered{
+            /* display: flex;  */
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
