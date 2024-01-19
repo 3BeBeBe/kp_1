@@ -23,7 +23,11 @@
                 <div class="row mt-4 mb-4 justify-content-center">
                     <div class="col-md-4">
                         <a href="https://twitter.com/PIUtilitas" target="_blank">
+<<<<<<< HEAD
                             <img class="img-fluid" src="../assets/Ikon SosMed/1.png" width="50" height="50">
+=======
+                            <img class="img-fluid rounder-circle" src="https://img.freepik.com/premium-vector/new-twitter-logo-x-2023-twitter-x-logo-official-vector-download_691560-10797.jpg" width="50" height="50">
+>>>>>>> 0814157d57c0d875266ed43a4ee50f2832fde0fa
                         </a>
                     </div>
                     
@@ -104,5 +108,21 @@
     }
     .custom-container a {
         color: #ffffff;
+    }
+    .rounder-circle {
+        border-radius: 50%;
+    }
+    .rounded-circle-container {
+        display: inline-block; /* Ensures the container only takes the space it needs */
+        overflow: hidden; /* Clips the image within the container */
+        background-color: white;
+        border-radius: 50%; /* Creates a circular shape */
+    }
+
+    .rounded-circle-container img {
+        display: block;
+        width: 50%; /* Make the image take up 100% of the container width */
+        height: 50%; /* Make the image take up 100% of the container height */
+        object-fit: cover;
     }
 </style>
