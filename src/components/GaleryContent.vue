@@ -1,78 +1,874 @@
 <template>
     <div class="container mt-5">
-        <div class="row no-gutters">
-            <div class="col-md-6">
-                <div class="overlay-container">
-                    <img src="../assets/Galeri/Kunjungan ke PT RDM/1.jpeg" class="img-fluid">
-                    <div class="overlay-text">
-                        <h2><b>Kunjungan ke PT RDM </b></h2>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="row no-gutters">
-                    <div class="col-md-12 bg-primary">
-                    <div class="overlay-container">
-                        <img src="../assets/Galeri/Sedekah Hewan Qurban/1.jpeg" class="img-fluid">
-                        <div class="overlay-text">
-                            <h3><b>Sedekah Hewan Qurban</b></h3>
-                        </div>
-                    </div>
-                </div>
-                    <div class="col-md-6">
-                        <div class="overlay-container">
-                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/1.jpg" class="img-fluid">
-                            <div class="overlay-text">
-                                <h3><b>Donor Darah Sewindu PI Utilitas</b></h3>
+        <div class="row mb-4" id="r1">
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g1" aria-expanded="false" aria-controls="g1">
+                        <img src="../assets/Galeri/Bantuan Sarana Olahraga Untuk SDN Roomo Gresik/1.jpeg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">
+                                <h4>Bantuan Sarana Olahraga Untuk SDN Roomo Gresik</h4>
                             </div>
                         </div>
-                    </div>
-                <div class="col-md-6">
-                    <div class="overlay-container">
-                        <img src="../assets/Galeri/Penanaman Mangrove/1.jpg" class="img-fluid">
-                        <div class="overlay-text">
-                            <h3><b>Penanaman Mangrove</b></h3>
+                    </button>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g2" aria-expanded="false" aria-controls="g2">
+                        <img src="../assets/Galeri/Bantuan Untuk TK PIKPG/1.jpeg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">                        
+                                <h4>Bantuan Untuk TK PIKPG</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g3" aria-expanded="false" aria-controls="g3">
+                        <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/1.jpg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">
+                                <h4>Donor Darah Sewindu PI Utilitas</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+            <div class="collapse multi-collapse" id="g1" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Bantuan Sarana Olahraga Untuk SDN Roomo Gresik/1.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Bantuan Sarana Olahraga Untuk SDN Roomo Gresik/2.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Bantuan Sarana Olahraga Untuk SDN Roomo Gresik/3.jpeg" class="img-fluid" alt="Card image">
                         </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="overlay-container">
-                        <img src="../assets/Galeri/Pelatihan Manajemen Destinasi Wisata/1.jpeg" class="img-fluid">
-                        <div class="overlay-text">
-                            <h3><b>Pelatihan Manajemen Destinasi Wisata</b></h3>
-                        </div>
-                    </div>
-                </div>
-                
                 </div>
             </div>
+            <div class="collapse multi-collapse" id="g2" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Bantuan Untuk TK PIKPG/1.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Bantuan Untuk TK PIKPG/2.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Bantuan Untuk TK PIKPG/3.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Bantuan Untuk TK PIKPG/4.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse multi-collapse" id="g3" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/1.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/2.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/3.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/4.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/5.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/6.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/7.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/8.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/9.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/10.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g4" aria-expanded="false" aria-controls="g4">
+                        <img src="../assets/Galeri/Gebyar Ramadhan Bersama PMI/1.jpg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">
+                                <h4>Gebyar Ramadhan Bersama PMI</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g5" aria-expanded="false" aria-controls="g5">
+                        <img src="../assets/Galeri/Gelar Buah Nusantara/1.jpg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">                        
+                                <h4>Gelar Buah Nusantara</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g6" aria-expanded="false" aria-controls="g6">
+                        <img src="../assets/Galeri/Idul Adha 2019/1.jpeg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">
+                                <h4>Idul Adha 2019</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+
+            <div class="collapse multi-collapse" id="g4" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Gebyar Ramadhan Bersama PMI/1.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Gebyar Ramadhan Bersama PMI/2.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Gebyar Ramadhan Bersama PMI/3.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Gebyar Ramadhan Bersama PMI/4.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Gebyar Ramadhan Bersama PMI/5.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse multi-collapse" id="g5" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Gelar Buah Nusantara/1.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Gelar Buah Nusantara/2.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Gelar Buah Nusantara/3.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse multi-collapse" id="g6" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/1.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/2.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/3.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/4.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/5.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/6.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/7.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/8.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/9.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/10.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g7" aria-expanded="false" aria-controls="g7">
+                        <img src="../assets/Galeri/Instalasi PLTS di Pulau Bawean Gili Noko Selayar/1.jpeg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">
+                                <h4>Instalasi PLTS di Pulau Bawean Gili Noko Selayar</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g8" aria-expanded="false" aria-controls="g8">
+                        <img src="../assets/Galeri/Kunjungan Dekom & Direksi PI Utilitas ke PT KDM/1.jpeg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">                        
+                                <h4>Kunjungan Dekom & Direksi PI Utilitas ke PT KDM</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g9" aria-expanded="false" aria-controls="g9">
+                        <img src="../assets/Galeri/Kunjungan ke PT RDM/1.jpeg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">
+                                <h4>Kunjungan ke PT RDM</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+
+            <div class="collapse multi-collapse" id="g7" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Kunjungan Dekom & Direksi PI Utilitas ke PT KDM/1.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Kunjungan Dekom & Direksi PI Utilitas ke PT KDM/2.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Kunjungan Dekom & Direksi PI Utilitas ke PT KDM/3.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Kunjungan Dekom & Direksi PI Utilitas ke PT KDM/4.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Kunjungan Dekom & Direksi PI Utilitas ke PT KDM/5.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse multi-collapse" id="g8" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="Kunjungan Dekom & Direksi PI Utilitas ke PT KDM/1.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="Kunjungan Dekom & Direksi PI Utilitas ke PT KDM/2.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="Kunjungan Dekom & Direksi PI Utilitas ke PT KDM/3.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="Kunjungan Dekom & Direksi PI Utilitas ke PT KDM/4.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="Kunjungan Dekom & Direksi PI Utilitas ke PT KDM/5.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="Kunjungan Dekom & Direksi PI Utilitas ke PT KDM/6.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="Kunjungan Dekom & Direksi PI Utilitas ke PT KDM/7.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse multi-collapse" id="g9" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Kunjungan ke PT RDM/1.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Kunjungan ke PT RDM/2.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Kunjungan ke PT RDM/3.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Kunjungan ke PT RDM/4.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Kunjungan ke PT RDM/5.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g10" aria-expanded="false" aria-controls="g10">
+                        <img src="../assets/Galeri/Pelatihan Manajemen Destinasi Wisata/1.jpeg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">
+                                <h4>Pelatihan Manajemen Destinasi Wisata</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g11" aria-expanded="false" aria-controls="g11">
+                        <img src="../assets/Galeri/Pembagian Masker Gratis Untuk Masyarakat Gresik/1.jpeg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">                        
+                                <h4>Pembagian Masker Gratis Untuk Masyarakat Gresik</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g12" aria-expanded="false" aria-controls="g12">
+                        <img src="../assets/Galeri/Pembagian Sembako Untuk Masyarakat Sekitar Head Office/1.jpg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">
+                                <h4>Pembagian Sembako Untuk Masyarakat Sekitar Head Office</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+
+            <div class="collapse multi-collapse" id="g10" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Pelatihan Manajemen Destinasi Wisata/1.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Pelatihan Manajemen Destinasi Wisata/2.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Pelatihan Manajemen Destinasi Wisata/3.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse multi-collapse" id="g11" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Pembagian Masker Gratis Untuk Masyarakat Gresik/1.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse multi-collapse" id="g12" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Pembagian Sembako Untuk Masyarakat Sekitar Head Office/1.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Pembagian Sembako Untuk Masyarakat Sekitar Head Office/2.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Pembagian Sembako Untuk Masyarakat Sekitar Head Office/3.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g13" aria-expanded="false" aria-controls="g13">
+                        <img src="../assets/Galeri/Pembagian Sembako Untuk Pegawai Outsourcing PIE/1.jpg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">
+                                <h4>Pembagian Sembako Untuk Pegawai Outsourcing PIE</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g14" aria-expanded="false" aria-controls="g14">
+                        <img src="../assets/Galeri/Pembagian Sembako Untuk Pondok Pesantren Aladzhivie/1.png" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">                        
+                                <h4>Pembagian Sembako Untuk Pondok Pesantren Aladzhivie</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g15" aria-expanded="false" aria-controls="g15">
+                        <img src="../assets/Galeri/Pembagian Sembako Untuk Yayasan Yatim Piatu Jakarta Pusat/1.jpg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">
+                                <h4>Pembagian Sembako Untuk Yayasan Yatim Piatu Jakarta Pusat</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+
+            <div class="collapse multi-collapse" id="g13" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Pembagian Sembako Untuk Pegawai Outsourcing PIE/1.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Pembagian Sembako Untuk Pegawai Outsourcing PIE/2.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Pembagian Sembako Untuk Pegawai Outsourcing PIE/3.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse multi-collapse" id="g14" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Pembagian Sembako Untuk Pondok Pesantren Aladzhivie/1.png" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse multi-collapse" id="g15" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Pembagian Sembako Untuk Yayasan Yatim Piatu Jakarta Pusat/1.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Pembagian Sembako Untuk Yayasan Yatim Piatu Jakarta Pusat/2.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Pembagian Sembako Untuk Yayasan Yatim Piatu Jakarta Pusat/3.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Pembagian Sembako Untuk Yayasan Yatim Piatu Jakarta Pusat/4.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g16" aria-expanded="false" aria-controls="g16">
+                        <img src="../assets/Galeri/Penanaman Mangrove/1.jpg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">
+                                <h4>Penanaman Mangrove</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g17" aria-expanded="false" aria-controls="g17">
+                        <img src="../assets/Galeri/Penghijauan Kab. Gresik/1.jpg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">                        
+                                <h4>Penghijauan Kab. Gresik</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g18" aria-expanded="false" aria-controls="g18">
+                        <img src="../assets/Galeri/Perayaan 17 Agustus 2022/1.jpg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">
+                                <h4>Perayaan 17 Agustus 2022</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+
+            <div class="collapse multi-collapse" id="g16" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Penanaman Mangrove/1.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Penanaman Mangrove/2.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Penanaman Mangrove/3.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Penanaman Mangrove/4.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Penanaman Mangrove/5.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse multi-collapse" id="g17" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Penghijauan Kab. Gresik/1.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Penghijauan Kab. Gresik/2.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Penghijauan Kab. Gresik/3.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Penghijauan Kab. Gresik/4.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Penghijauan Kab. Gresik/5.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Penghijauan Kab. Gresik/6.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Penghijauan Kab. Gresik/7.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse multi-collapse" id="g18" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan 17 Agustus 2022/1.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan 17 Agustus 2022/2.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan 17 Agustus 2022/3.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan 17 Agustus 2022/4.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan 17 Agustus 2022/5.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan 17 Agustus 2022/6.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan 17 Agustus 2022/7.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan 17 Agustus 2022/8.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan 17 Agustus 2022/9.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g19" aria-expanded="false" aria-controls="g19">
+                        <img src="../assets/Galeri/Perayaan Sewindu PI Utilitas/1.jpg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">
+                                <h4>Perayaan Sewindu PI Utilitas</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g20" aria-expanded="false" aria-controls="g20">
+                        <img src="../assets/Galeri/Rebranding PI Utilitas/1.jpg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">
+                                <h4>Rebranding PI Utilitas</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g21" aria-expanded="false" aria-controls="g21">
+                        <img src="../assets/Galeri/Santunan Untuk Panti Asuhan Gresik/1.jpg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">
+                                <h4>Santunan Untuk Panti Asuhan Gresik</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+
+            <div class="collapse multi-collapse" id="g19" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan Sewindu PI Utilitas/1.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan Sewindu PI Utilitas/2.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan Sewindu PI Utilitas/3.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan Sewindu PI Utilitas/4.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan Sewindu PI Utilitas/5.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan Sewindu PI Utilitas/6.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan Sewindu PI Utilitas/7.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan Sewindu PI Utilitas/8.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan Sewindu PI Utilitas/9.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan Sewindu PI Utilitas/10.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan Sewindu PI Utilitas/11.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan Sewindu PI Utilitas/12.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Perayaan Sewindu PI Utilitas/13.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse multi-collapse" id="g20" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Rebranding PI Utilitas/1.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Rebranding PI Utilitas/2.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Rebranding PI Utilitas/3.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Rebranding PI Utilitas/4.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Rebranding PI Utilitas/5.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse multi-collapse" id="g21" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Santunan Untuk Panti Asuhan Gresik/1.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Santunan Untuk Panti Asuhan Gresik/2.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Santunan Untuk Panti Asuhan Gresik/3.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g22" aria-expanded="false" aria-controls="g22">
+                        <img src="../assets/Galeri/Sedekah Hewan Qurban/1.jpeg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">
+                                <h4>Sedekah Hewan Qurban</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g23" aria-expanded="false" aria-controls="g23">
+                        <img src="../assets/Galeri/TKMPN 2019/1.jpg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">
+                                <h4>TKMPN 2019</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <p class="d-flex gap-2 flex-column justify-content-between">
+                    <button class="cardia" type="button" data-bs-toggle="collapse" data-bs-target="#g24" aria-expanded="false" aria-controls="g24">
+                        <img src="../assets/Galeri/Vaksinasi COVID-19 Bersama PMI Jakarta Pusat/1.jpg" alt="Card image">
+                        <div class="cardia-overlay">
+                            <div class="cardia-overlay-text">
+                                <h4>Vaksinasi COVID-19 Bersama PMI Jakarta Pusat</h4>
+                            </div>
+                        </div>
+                    </button>
+                </p>
+            </div>
+
+            <div class="collapse multi-collapse" id="g22" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Sedekah Hewan Qurban/1.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Sedekah Hewan Qurban/2.jpeg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse multi-collapse" id="g23" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/TKMPN 2019/1.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/TKMPN 2019/2.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/TKMPN 2019/3.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/TKMPN 2019/4.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/TKMPN 2019/5.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/TKMPN 2019/6.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/TKMPN 2019/7.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/TKMPN 2019/8.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/TKMPN 2019/9.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse multi-collapse" id="g24" data-bs-parent="#r1">
+                <div class="card card-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Vaksinasi COVID-19 Bersama PMI Jakarta Pusat/1.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Vaksinasi COVID-19 Bersama PMI Jakarta Pusat/2.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Vaksinasi COVID-19 Bersama PMI Jakarta Pusat/3.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Vaksinasi COVID-19 Bersama PMI Jakarta Pusat/4.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Vaksinasi COVID-19 Bersama PMI Jakarta Pusat/5.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <img src="../assets/Galeri/Vaksinasi COVID-19 Bersama PMI Jakarta Pusat/6.jpg" class="img-fluid" alt="Card image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </template>
+
 <script>
-    export default {
-        name: 'GaleryContent'
-    }
+export default {
+    name: 'CompanyValue'
+}
 </script>
-<style>
-    .responsive-image {
-      width: 100%; /* Set the width to 100% to make the image responsive */
-      height: 50%; /* Maintain the aspect ratio */
-    }
 
-    .overlay-text {
-      position: absolute;
-      top: 80%;
-      left: 5%; /* Adjust this value to move the text to the left */
-      transform: translate(0%, -70%);
-      color: white;
-      font-size: 20px;
-      font-weight: bold;
+<style scoped>
+    .cardia {
+        position: relative;
+        height: 200px;
+        width: 100%;
+        border: none;
+        padding: 0;
+        background: none;
     }
-
-    .overlay-container {
-      position: relative;
-      width: 100%;
-      height: 100%;
+    .cardia img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .cardia-overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .cardia-overlay-text {
+        color: #fff; 
+        display: flex; 
+        justify-content: flex-start; /* Align items to the left */
+        align-items: flex-end; 
+        padding: 30px;
+        text-align: left;
     }
 </style>
