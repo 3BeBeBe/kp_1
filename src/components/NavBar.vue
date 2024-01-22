@@ -9,7 +9,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav navbar-collapse justify-content-end me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav navbar-auto me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <router-link class="nav-link" to="/profile" >Profile</router-link>
                     </li>
@@ -24,16 +24,15 @@
                     </li>
                     
                     <li class="nav-item dropdown">
-                        <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Media</router-link>
-                    <ul class="dropdown-menu">
-                        <li class="nav-item">
-                            <router-link class="nav-link" to="/galeri" >Galeri</router-link>
-                        </li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li class="nav-item">
-                            <router-link class="nav-link" to="/laporan" >Laporan</router-link>
-                        </li>
-                    </ul>
+                        <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Publikasi</router-link>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <router-link class="dropdown-item" to="/galeri" >Galeri</router-link>
+                            </li>
+                            <li>
+                                <router-link class="dropdown-item" to="/laporan" >Laporan</router-link>
+                            </li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <router-link class="nav-link" to="/berita" >Berita</router-link>

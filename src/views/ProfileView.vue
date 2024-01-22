@@ -4,10 +4,8 @@
     <img src="../assets/Carousal/Profile.jpg" class="d-block w-100">
     <CompanyHistory/>
     <VisionMision/>
-    <CompanyValue/>
-    <h2 class="text-center">MANAJEMEN</h2>
-    <DirectorsList/>
-    <ComisariesList/>    
+    <CompanyValue/> 
+    <ManagementList/>
     <CompanyStructure/>
     <AwardInfo/>
     <FooterSection/>
@@ -18,8 +16,7 @@
   import NavBar from '@/components/NavBar.vue';
   import CompanyHistory from '@/components/CompanyHistory.vue';
   import CompanyValue from '@/components/CompanyValue.vue';
-  import ComisariesList from '@/components/ComisariesList.vue';
-  import DirectorsList from '@/components/DirectorsList.vue';
+  import ManagementList from '@/components/ManagementList.vue';
   import CompanyStructure from '@/components/CompanyStructure.vue';
   import VisionMision from '@/components/VisionMision.vue';  
   import AwardInfo from '@/components/AwardInfo.vue';
@@ -31,9 +28,8 @@
     components: {
       NavBar,
       CompanyValue,
+      ManagementList,
       CompanyHistory,
-      ComisariesList,
-      DirectorsList,
       CompanyStructure,
       VisionMision,
       AwardInfo,

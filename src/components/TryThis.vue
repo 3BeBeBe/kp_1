@@ -1,174 +1,114 @@
 <template>
-<div class="container mt-5">
-    <div class="row justify-content-center">
-        <div ref="column1" id="column1" class="col-md-3 mb-5 ms-4 me-4">
-            <p class="d-flex gap-2 flex-column justify-content-between">
-                <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#amanah" aria-expanded="false" aria-controls="amanah">
-                    <h3><b>Amanah</b></h3>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <button class="card">
+                    <img src="../assets/Galeri/Bantuan Sarana Olahraga Untuk SDN Roomo Gresik/1.jpeg" alt="Card image">
+                    <div class="card-overlay">
+                        <div class="card-overlay-text">
+                            <h4>Bantuan Sarana Olahraga Untuk SDN Roomo Gresik</h4>
+                        </div>
+                    </div>
                 </button>
-            </p>
-            <div class="collapse multi-collapse" id="amanah">
-                <div class="card card-body">
-                    <p>Memegang teguh kepercayaan yang diberikan.</p>
-                    <ul>
-                        <li>Memenuhi janji dan komitmen.</li>
-                        <li>Bertanggung jawab atas tugas, keputusan dan tindakan yanng dilakukan.</li>
-                        <li>Berpegang teguh kepada nilai moral dan etika.</li>
-                    </ul>
-                </div>
             </div>
+            <div class="col-md-4">
+                <button class="card">
+                    <img src="../assets/Galeri/Bantuan Untuk TK PIKPG/1.jpeg" alt="Card image">
+                    <div class="card-overlay">
+                        <div class="card-overlay-text">                        
+                            <h4>Bantuan Untuk TK PIKPG</h4>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class="col-md-4">
+                <button class="card">
+                    <img src="../assets/Galeri/Donor Darah Sewindu PI Utilitas/1.jpg" alt="Card image">
+                    <div class="card-overlay">
+                        <div class="card-overlay-text">
+                            <h4>Donor Darah Sewindu PI Utilitas</h4>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <!-- Add more columns as needed... -->
         </div>
 
-        <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
-            <p class="d-flex gap-2 flex-column justify-content-between">
-                <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#kompetensi" aria-expanded="false" aria-controls="kompetensi">
-                    <h3><b>Kompetensi</b></h3>
-                </button>             
-            </p>
-            <div class="collapse multi-collapse" id="kompetensi">
-                <div class="card card-body">
-                    <p>Terus belajar dan mengembangkan kapabilitas.</p>
-                    <ul>
-                        <li>Meningkatkan kompetensi dari untuk menjawab tantangan yang selalu berubah.</li>
-                        <li>Membantu orang lain belajar.</li>
-                        <li>Menyelesaikan tugas dengan kualitas terbaik.</li>
-                    </ul>
-                </div>  
-            </div>
-        </div>
 
-        <div ref="column3" id="column3" class="col-md-3 mb-5 ms-4 me-4">
-            <p class="d-flex gap-2 flex-column justify-content-between">
-                <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#harmonis" aria-expanded="false" aria-controls="harmonis">
-                    <h3><b>Harmonis</b></h3>
-                </button>             
-            </p>
-            <div class="collapse multi-collapse" id="harmonis">
-                <div class="card card-body">
-                    <p>Saling peduli dan menghargai perbedaan.</p>
-                    <ul>
-                        <li>Menghargai setiap orang apapun latar belakangnya.</li>
-                        <li>Suka menolong orang lain.</li>
-                        <li>Membangun lingkungan kerja yang kondusif.</li>
-                    </ul>
-                </div>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <button class="card">
+                    <img src="../assets/Galeri/Gebyar Ramadhan Bersama PMI/1.jpg" alt="Card image">
+                    <div class="card-overlay">
+                        <div class="card-overlay-text">
+                            <h4>Gebyar Ramadhan Bersama PMI</h4>
+                        </div>
+                    </div>
+                </button>
             </div>
+            <div class="col-md-4">
+                <button class="card">
+                    <img src="../assets/Galeri/Gelar Buah Nusantara/1.jpg" alt="Card image">
+                    <div class="card-overlay">
+                        <div class="card-overlay-text">                        
+                            <h4>Gelar Buah Nusantara</h4>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <div class="col-md-4">
+                <button class="card">
+                    <img src="../assets/Galeri/Idul Adha 2019/1.jpeg" alt="Card image">
+                    <div class="card-overlay">
+                        <div class="card-overlay-text">
+                            <h4>Idul Adha 2019</h4>
+                        </div>
+                    </div>
+                </button>
+            </div>
+            <!-- Add more columns as needed... -->
         </div>
     </div>
-    <div class="row justify-content-center">
-        <div ref="title" id="title" class="title centered mb-5">
-            <button class="btn btn-primary btn-lg" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">
-                <h2><b>AKHLAK</b></h2>
-                <p><b>Nilai - nilai perusahaan</b></p>
-            </button>
-        </div>
-    </div>
-    <div class="row justify-content-center">
-        <div ref="column4" id="column4" class="col-md-3 mb-5 ms-4 me-4">
-            <p class="d-flex gap-2 flex-column justify-content-between">
-                <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#loyal" aria-expanded="false" aria-controls="loyal">
-                    <h3><b>Loyal</b></h3>
-                </button>             
-            </p>
-            <div class="collapse multi-collapse" id="loyal">
-                <div class="card card-body">
-                    <p>Berdedikasi dan mengutamakan kepentingan Bangsa dan Negara</p>
-                    <ul>
-                        <li>Menjaga nama baik sesama karyawan, pimpinan, BUMN dan Negara.</li>
-                        <li>Rela berkorban untuk mencapai tujuan yang lebih besar.</li>
-                        <li>Patuh kepada pimpinan sepanjang tidak bertentangan dengan hukum dan etika.</li>
-                    </ul>
-                </div> 
-            </div>
-        </div>
-
-        <div ref="column5" id="column5" class="col-md-3 mb-5 ms-4 me-4">
-            <p class="d-flex gap-2 flex-column justify-content-between">
-                <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#adaptif" aria-expanded="false" aria-controls="adaptif">
-                    <h3><b>Adaptif</b></h3>
-                </button>             
-            </p>
-            <div class="collapse multi-collapse" id="adaptif">
-                <div class="card card-body">
-                    <p>Terus berinovasi dan antusias dalam menggerakan ataupun menghadapi perubahan.</p>
-                    <ul>
-                        <li>Cepat menyesuaikan diri untuk menjadi lebih baik.</li>
-                        <li>Terus – menerus melakukan perbaikan mengikuti perkembangan teknologi.</li>
-                        <li>Bertindak proaktif.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div ref="column6" id="column6" class="col-md-3 mb-5 ms-4 me-4">
-            <p class="d-flex gap-2 flex-column justify-content-between">
-                <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#kolaboratif" aria-expanded="false" aria-controls="kolaboratif">
-                    <h3><b>Kolaboratif</b></h3>
-                </button>             
-            </p>
-            <div class="collapse multi-collapse" id="kolaboratif">
-                <div class="card card-body">
-                    <p>Membangun kerja sama yang sinergis.</p>
-                    <ul>
-                        <li>Memberikan kesempatan kepada berbagai pihak untuk berkontribusi.</li>
-                        <li>Terbuka dalam bekerja sama untuk menghasilkan nilai tambah.</li>
-                        <li>Menggerakan pemanfaatan berbagai sumberdaya untuk tujuan bersama.</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 </template>
 
 <script>
-// /* global LeaderLine */
-
-    export default {
-        name: 'CompanyValue'
-        // mounted() {
-        //     this.$nextTick(() => {
-        //         const title = this.$refs.title;
-        //         const column1 = this.$refs.column1;
-        //         const column2 = this.$refs.column2;
-        //         const column3 = this.$refs.column3;
-        //         const column4 = this.$refs.column4;
-        //         const column5 = this.$refs.column5;
-        //         const column6 = this.$refs.column6;
-
-        //         console.log(title, column1, column2, column3);
-
-        //         new LeaderLine(title, column1, { path: 'magnet', endPlug: 'behind' });
-        //         new LeaderLine(title, column2, { path: 'magnet', endPlug: 'behind' });
-        //         new LeaderLine(title, column3, { path: 'magnet', endPlug: 'behind' });
-        //         new LeaderLine(title, column4, { path: 'magnet', endPlug: 'behind' });
-        //         new LeaderLine(title, column5, { path: 'magnet', endPlug: 'behind' });
-        //         new LeaderLine(title, column6, { path: 'magnet', endPlug: 'behind' });
-        //     });
-        // }
-    }
+export default {
+    name: 'CompanyValue'
+}
 </script>
 
 <style scoped>
-    .outlined {
-        border: 1px solid #000; /* Change color as needed */
+    .card {
+        position: relative;
+        height: 200px;
+        width: 100%;
+        border: none;
+        padding: 0;
+        background: none;
     }
-    
-    .title {
-        width: 30%;
-        min-height: 0px;
-        /* background-color: #084e8b; */
-        color: #ffffff;
-        padding: 20px;
-        border-radius: 0px;
-        margin: 0 auto;
-    }   
-
-    .centered{
-        /* display: flex;  */
+    .card img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+    .card-overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding-top: 80px;
+        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        justify-content: flex-end;
+    }
+    .card-overlay-text {
+        color: #fff; 
+        display: flex; 
+        justify-content: flex-start; /* Align items to the left */
+        align-items: flex-end; 
+        padding: 30px;
+        text-align: left;
     }
 </style>

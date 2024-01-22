@@ -18,7 +18,6 @@
                     </div>
                 </div>
             </div>
-    
             <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
                 <p class="d-flex gap-2 flex-column justify-content-between">
                     <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#kompetensi" aria-expanded="false" aria-controls="kompetensi">
@@ -36,7 +35,6 @@
                     </div>  
                 </div>
             </div>
-    
             <div ref="column3" id="column3" class="col-md-3 mb-5 ms-4 me-4">
                 <p class="d-flex gap-2 flex-column justify-content-between">
                     <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#harmonis" aria-expanded="false" aria-controls="harmonis">
@@ -81,7 +79,6 @@
                     </div> 
                 </div>
             </div>
-    
             <div ref="column5" id="column5" class="col-md-3 mb-5 ms-4 me-4">
                 <p class="d-flex gap-2 flex-column justify-content-between">
                     <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#adaptif" aria-expanded="false" aria-controls="adaptif">
@@ -99,7 +96,6 @@
                     </div>
                 </div>
             </div>
-    
             <div ref="column6" id="column6" class="col-md-3 mb-5 ms-4 me-4">
                 <p class="d-flex gap-2 flex-column justify-content-between">
                     <button class="btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#kolaboratif" aria-expanded="false" aria-controls="kolaboratif">
