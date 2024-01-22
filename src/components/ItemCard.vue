@@ -41,5 +41,12 @@
 <style scoped>
 .card {
     height: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust as needed */
+    transform: scale(1.1);
 }
 </style>
