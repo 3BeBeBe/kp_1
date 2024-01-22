@@ -52,3 +52,12 @@ export default {
     name: 'NavBar'
 }
 </script>
+
+<style scoped>
+.nav-link {
+    color: #084e8b !important
+}
+.nav-link:hover{
+    color: #0d6efd !important
+}
+</style>

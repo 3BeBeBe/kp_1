@@ -1,6 +1,6 @@
 <template>
 <div class="container">
-    <h2 class="text-center">BERITA</h2>
+    <h2 class="text-center" style="color: #084e8b;"><i>Berita</i></h2>
     <div class="row justify-content-center">
         <div class="col-md-3 d-flex justify-content-between">
             <div class="card">
