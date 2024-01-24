@@ -226,20 +226,20 @@
                     <div class="tab-pane fade" id="artikel">
                         <div class="row">
                             <div class="col-md-4 mb-3">
-                                <div class="card card-fixed">
+                                <button class="card card-fixed">
                                     <img src="https://www.pi-utilitas.com/files/media/2022/09/TOP-GRC-AWARDS.jpg" class="card-img-top img-fixed" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title text-start">Pupuk Indonesia Utilitas Raih Tiga Penghargaan di Ajang TOP GRC Awards 2022 </h5>
                                     </div>
-                                </div>
+                                </button>
                             </div>
                             <div class="col-md-4 mb-3">
-                                <div class="card card-fixed">
+                                <button class="card card-fixed">
                                     <img src="https://www.pi-utilitas.com/files/media/2022/09/TOP-GRC-AWARDS.jpg" class="card-img-top img-fixed" alt="...">
                                     <div class="card-body">
                                         <h5 class="card-title text-start">Pupuk Indonesia Utilitas Raih Tiga Penghargaan di Ajang TOP GRC Awards 2022 </h5>
                                     </div>
-                                </div>
+                                </button>
                             </div>
                         </div>
                     </div>
