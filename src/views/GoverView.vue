@@ -4,7 +4,7 @@
         <!-- <img src="../assets/Carousal/TataKelola.jpg" class="d-block w-100"> -->
         <GoodCorporate/>
         <SOPTable/>
-        <GCGAssesment/>
+        <!-- <GCGAssesment/> -->
         <AuditCharter/>
         <CustomerComplaint/>
         <WhistleBlowing/>
@@ -19,7 +19,7 @@
     import WhistleBlowing from '@/components/WhistleBlowing.vue';
     import FooterSection from '@/components/FooterSection.vue';
     import CustomerComplaint from '@/components/CustomerComplaint.vue';
-    import GCGAssesment from '@/components/GCGAssesment.vue';
+    // import GCGAssesment from '@/components/GCGAssesment.vue';
 
     export default {
         name: 'GovernanceView',
@@ -30,8 +30,8 @@
             AuditCharter,
             WhistleBlowing,
             FooterSection,
-            CustomerComplaint,
-            GCGAssesment
+            CustomerComplaint
+            // GCGAssesment
         }
     }
 </script>

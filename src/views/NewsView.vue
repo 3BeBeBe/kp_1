@@ -1,14 +1,14 @@
 <template>
     <div class="news">
         <NavBar/>
-        <NewsCarousal/>
+        <!-- <NewsCarousal/> -->
         <NewsContents/>
         <FooterSection/>
     </div>
 </template>
 <script>
     import NavBar from '@/components/NavBar.vue';
-    import NewsCarousal from '@/components/NewsCarousal.vue';
+    // import NewsCarousal from '@/components/NewsCarousal.vue';
     import NewsContents from '@/components/NewsContents.vue';
     import FooterSection from '@/components/FooterSection.vue';
 
@@ -16,7 +16,7 @@
         name: 'NewsView',
         components: {
             NavBar,
-            NewsCarousal,
+            // NewsCarousal,
             NewsContents,
             FooterSection
         }

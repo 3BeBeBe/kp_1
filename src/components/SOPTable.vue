@@ -6,7 +6,11 @@
                 <h3 >Pedoman GCG</h3>
                 <p>Tata Kelola Perusahaan berisi Arahan Strategis Direksi dan Dewan Komisaris dalam Penerapan GCG di Perusahaan dan menjadi induk kebijakan perusahaan  yang menjadi acuan bagi seluruh kegiatan Indonesia Power meliputi Hubungan antara Perusahaan dengan Pemegang Saham, Fungsi serta peran Dewan Komisaris dan Direksi, Hubungan Perusahaan dengan pemangku kepentingan (Stakeholder) dan prinsip-prinsip mengenai kebijakan pokok Perusahaan.</p>
             </div>
-                <div class="text-end">
+                <div class="text-end d-flex justify-content-end">
+                    <button class="btn btn-primary me-2" type="button" data-bs-toggle="collapse" data-bs-target="#gcg" aria-expanded="false" aria-controls="gcg">
+                        GCG Assesment
+                    </button>
+                    
                     <a href="../assets/tataKelola/PEDOMAN-PENILAIAN-PENERAPAN-GCG-GCG-ASSESSMENT.pdf" class="btn btn-primary" download>Download</a>
                 </div>
                 <hr>
@@ -22,6 +26,15 @@
                 </div>
                 <hr>
         </div>
+
+        <div class="col-md-12 mb-5 d-flex flex-column justify-content-between">
+            <div class="collapse multi-collapse" id="gcg">
+                <div class="card card-body">
+                    <GCGAssesment/>
+                </div>
+            </div>
+        </div>
+
         <div class="col-md-6 mb-5 d-flex flex-column justify-content-between">
             <div> 
                 <h3 >Pedoman COC</h3>
@@ -46,7 +59,12 @@
     </div>
 </template>
 <script>
+    import GCGAssesment from './GCGAssesment.vue'
+
     export default {
-        name: 'SOPTable'
+        name: 'SOPTable',
+        components: {
+            GCGAssesment
+        }
     }   
 </script>
