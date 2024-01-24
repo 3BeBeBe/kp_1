@@ -23,24 +23,34 @@
                     <div class="tab-pane fade show active" id="pers">
                         <div class="row">
                             <div class="col-md-4">
-                                <img class="img-fluid" src="https://www.pi-utilitas.com/files/media/2022/09/TOP-GRC-AWARDS.jpg">
-
-                                <h4>Pupuk Indonesia Utilitas Raih Tiga Penghargaan di Ajang TOP GRC Awards 2022 </h4>
+                                <div class="card">
+                                    <img src="https://www.pi-utilitas.com/files/media/2022/09/TOP-GRC-AWARDS.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pupuk Indonesia Utilitas Raih Tiga Penghargaan di Ajang TOP GRC Awards 2022 </h5>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    
 
                     <div class="tab-pane fade" id="artikel">
                         <div class="row">
                             <div class="col-md-4">
-                                <img class="img-fluid" src="https://www.pi-utilitas.com/files/media/2022/11/WhatsApp-Image-2022-11-18-at-11.19.02.jpeg">
-
-                                <h4>Berdayakan Kelompok Wanita, PI Utilitas Bentuk Bank Sampah Desa Banyuwangi</h4>
+                                <div class="card">
+                                    <img src="https://www.pi-utilitas.com/files/media/2022/09/TOP-GRC-AWARDS.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pupuk Indonesia Utilitas Raih Tiga Penghargaan di Ajang TOP GRC Awards 2022 </h5>
+                                    </div>
+                                </div>
                             </div>
                             <div class="col-md-4">
-                                <img class="img-fluid" src="https://www.pi-utilitas.com/files/media/2022/10/buah-nipah.jpg">
-
-                                <h4>Terus Kembangkan Potensi, PI Utilitas Bekali Warga Cara Mengolah Buah Nipah </h4>
+                                <div class="card">
+                                    <img src="https://www.pi-utilitas.com/files/media/2022/09/TOP-GRC-AWARDS.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Pupuk Indonesia Utilitas Raih Tiga Penghargaan di Ajang TOP GRC Awards 2022 </h5>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
