@@ -377,7 +377,7 @@
                             </div>
                             <div class="col-md-4 mb-3">
                                 <button class="card card-fixed">
-                                    <img src="../assets/siaranPers/SP-16" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-16.jpg" class="card-img-top img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Jelajah</h5>
 
