@@ -484,12 +484,12 @@
     .card-fixed {
         width: 100%; /* Adjust as needed */
         height: 350px; /* Adjust as needed */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 8px rgba(0, 183, 255, 0.25);
         transition: transform 0.3s ease;
     }
 
     .card-fixed:hover {
-        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjust as needed */
+        box-shadow: 0 8px 16px rgba(0, 195, 255, 0.4); /* Adjust as needed */
         transform: scale(1.05);
     }
 </style>
