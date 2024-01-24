@@ -35,7 +35,7 @@
                     <img src="https://www.pi-utilitas.com/files/media/2021/06/banner-2.jpg" class="d-block w-100 carousel-image">
                 </div>
                 <div class="d-none d-md-block overlay-text">
-                    <h1><i></i>Tolak Gratifikasi</h1>
+                    <h1><i>Tolak Gratifikasi</i></h1>
                     <br>
                 <h4>Seluruh keluarga PT Pupuk Indonesia Utilitas <b><u>MENOLAK</u></b> segala bentuk suap serta mendukung terwujudnya prinsip-prinsip <b>Tata Kelola Perusahaan yang Baik (Good Corporate Governance).</b></h4>
                 </div>
