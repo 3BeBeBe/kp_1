@@ -8,33 +8,36 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <div class="carousel-image-container">
-                    <img src="https://www.pi-energi.com/files/media/2020/09/image-banner-factory.jpg" class="d-block w-100 carousel-image">
+                    <img src="https://www.pi-utilitas.com/files/media/2020/09/image-banner-factory.jpg" class="d-block w-100 carousel-image">
                 </div>
                 <div class="row">
                     <div class="col-md-6">
                         <div class="d-none d-md-block overlay-text">
-                            <h2>First slide label</h2>
-                            <h1><b>Some representative placeholder content for the first slide.</b></h1>
+                            <h1><i>Gresik Gas Cogeneration Plant (GGCP)</i></h1>
+                            <br>
+                            <h4>Dibangun untuk memenuhi kebutuhan listrik dan steam dari <b>PT Petrokimia Gresik</b> yang saat ini sedang mengembangkan fasilitas produksi terbarunya, <b>Pabrik Amurea II.</b></h4>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="carousel-item img-fluid">
                 <div class="carousel-image-container">
-                    <img src="https://www.pi-energi.com/files/media/2020/09/KDM_1.jpg" class="d-block w-100 carousel-image">
+                    <img src="https://www.pi-utilitas.com/files/media/2020/09/KDM_1.jpg" class="d-block w-100 carousel-image">
                 </div>
                 <div class="d-none d-md-block overlay-text">
-                    <h2>First slide label</h2>
-                    <h1><b>Some representative placeholder content for the first slide.</b></h1>
+                    <h1><i>Kaltim Daya Mandiri (KDM)</i></h1>
+                    <br>
+                <h4>Didirikan dengan tujuan untuk <b>menyuplai kebutuhan utilitas pada fasilitas produksi dan perumahan PT. Pupuk Kaltim</b> serta perusahan-perusahaan lain yang berada di lingkungan <b>Kaltim Industrial Estate.</b></h4>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="carousel-image-container">
-                    <img src="https://www.pi-energi.com/files/media/2020/09/image-banner-proc.jpg" class="d-block w-100 carousel-image">
+                    <img src="https://www.pi-utilitas.com/files/media/2021/06/banner-2.jpg" class="d-block w-100 carousel-image">
                 </div>
                 <div class="d-none d-md-block overlay-text">
-                    <h2>First slide label</h2>
-                    <h1><b>Some representative placeholder content for the first slide.</b></h1>
+                    <h1><i></i>Tolak Gratifikasi</h1>
+                    <br>
+                <h4>Seluruh keluarga PT Pupuk Indonesia Utilitas <b><u>MENOLAK</u></b> segala bentuk suap serta mendukung terwujudnya prinsip-prinsip <b>Tata Kelola Perusahaan yang Baik (Good Corporate Governance).</b></h4>
                 </div>
             </div>
         </div>
@@ -53,7 +56,7 @@
         name: 'CarousalInfo'
     }
 </script>
-<style>
+<style scoped>
     .responsive-image {
       width: 100%; /* Set the width to 100% to make the image responsive */
       height: 50%; /* Maintain the aspect ratio */

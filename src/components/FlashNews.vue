@@ -1,8 +1,9 @@
 <template>
 <div class="container">
-    <h2 class="text-center">BERITA</h2>
+    <h1 class="text-center" style="color: #084e8b;"><i>Berita</i></h1>
     <div class="row justify-content-center">
-        <div class="col-md-3 d-flex justify-content-between">
+        <!-- <div class="col-md-3 d-flex justify-content-between">
+            
             <div class="card">
                 <div class="card-body">
                 <img class="img-fluid" src="https://www.pi-utilitas.com/files/media/2022/11/WhatsApp-Image-2022-11-18-at-11.19.02.jpeg">
@@ -12,7 +13,7 @@
                 <p>Makna dari pepatah inilah yang menjadi semangat PI Utilitas dalam menjalankan program Corporate Social Responsibility (CSR).</p>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="col-md-9 d-flex justify-content-center">
             <div class="row justify-content-center">
 
