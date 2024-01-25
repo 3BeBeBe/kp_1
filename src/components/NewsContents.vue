@@ -927,7 +927,7 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="container modal-body p-3">
-                                            <h2>PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h2>
+                                            <h2>Berdayakan Kelompok Wanita, PI Utilitas Bentuk Bank Sampah Desa Banyuwangi</h2>
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
                                                     <img src="../assets/artikel/Artikel_1.jpeg" class="img-fluid p-3">
@@ -986,11 +986,11 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="container modal-body p-3">
-                                            <h2>Pupuk Indonesia Luncurkan Program Kompetisi Jurnalistik</h2>
+                                            <h2>Terus Kembangkan Potensi, PI Utilitas Bekali Warga Cara Mengolah Buah Nipah</h2>
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
                                                     <img src="../assets/artikel/Artikel_2.jpg" class="img-fluid p-3">
-                                                    <p class="card-text text-start"><small class="text-body-secondary">11 November 2022</small></p>
+                                                    <p class="card-text text-start"><small class="text-body-secondary">28 Oktober 2022</small></p>
                                                 <!-- </div>
                                                 <div class="col-md-6"> -->
                                                     <p class="head-modal">Gresik, Jawa Timur</p>
@@ -1059,7 +1059,7 @@
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
                                                     <img src="../assets/artikel/Artikel_3.jpg" class="img-fluid p-3">
-                                                    <p class="card-text text-start"><small class="text-body-secondary">11 November 2022</small></p>
+                                                    <p class="card-text text-start"><small class="text-body-secondary">17 September 2022</small></p>
                                                 <!-- </div>
                                                 <div class="col-md-6"> -->
                                                     <p class="text-justify">
@@ -1135,11 +1135,11 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="container modal-body p-3">
-                                            <h2>PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h2>
+                                            <h2>PI Utilitas Disiplin Implementasikan GRC</h2>
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
                                                     <img src="../assets/artikel/Artikel_4.jpeg" class="img-fluid p-3">
-                                                    <p class="card-text text-start"><small class="text-body-secondary">11 November 2022</small></p>
+                                                    <p class="card-text text-start"><small class="text-body-secondary">31 Agustus 2022</small></p>
                                                 <!-- </div>
                                                 <div class="col-md-6"> -->
                                                     <p class="text-justify">
@@ -1200,11 +1200,11 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="container modal-body p-3">
-                                            <h2>PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h2>
+                                            <h2>Dukungan Keuangan untuk Pengembangan Bisnis Utilitas Berbasis Energi Baru Terbarukan</h2>
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
                                                     <img src="../assets/artikel/Artikel_4.jpeg" class="img-fluid p-3">
-                                                    <p class="card-text text-start"><small class="text-body-secondary">11 November 2022</small></p>
+                                                    <p class="card-text text-start"><small class="text-body-secondary">24 Agustus 2022</small></p>
                                                 <!-- </div>
                                                 <div class="col-md-6"> -->
                                                     <p class="head-modal">
@@ -1260,11 +1260,11 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="container modal-body p-3">
-                                            <h2>PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h2>
+                                            <h2>Bisnis Utilitas Berbasis Energi Baru Terbarukan</h2>
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
                                                     <img src="../assets/artikel/Artikel_6.jpg" class="img-fluid p-3">
-                                                    <p class="card-text text-start"><small class="text-body-secondary">11 November 2022</small></p>
+                                                    <p class="card-text text-start"><small class="text-body-secondary">12 Agustus 2022</small></p>
                                                 <!-- </div>
                                                 <div class="col-md-6"> -->
                                                     <p class="head-modal">
@@ -1319,11 +1319,11 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="container modal-body p-3">
-                                            <h2>PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h2>
+                                            <h2>Masa Depan Bisnis Utilitas</h2>
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
                                                     <img src="../assets/artikel/Artikel_7.jpg" class="img-fluid p-3">
-                                                    <p class="card-text text-start"><small class="text-body-secondary">11 November 2022</small></p>
+                                                    <p class="card-text text-start"><small class="text-body-secondary">1 Agustus 2022</small></p>
                                                 <!-- </div>
                                                 <div class="col-md-6"> -->
                                                     <p class="head-modal">
@@ -1391,11 +1391,11 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="container modal-body p-3">
-                                            <h2>PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h2>
+                                            <h2>PT Pupuk Indonesia Utilitas Catatkan Kinerja Positif Selama Tahun 2021</h2>
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
                                                     <img src="../assets/artikel/Artikel_8.jpg" class="img-fluid p-3">
-                                                    <p class="card-text text-start"><small class="text-body-secondary">11 November 2022</small></p>
+                                                    <p class="card-text text-start"><small class="text-body-secondary">11 Juli 2022</small></p>
                                                 <!-- </div>
                                                 <div class="col-md-6"> -->
                                                 
@@ -1467,11 +1467,11 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="container modal-body p-3">
-                                            <h2>PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h2>
+                                            <h2>e-Announcement LHKPN Pupuk Indonesia Group</h2>
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
                                                     <img src="../assets/artikel/Artikel_9.png" class="img-fluid p-3">
-                                                    <p class="card-text text-start"><small class="text-body-secondary">11 November 2022</small></p>
+                                                    <p class="card-text text-start"><small class="text-body-secondary">29 Januari 2022</small></p>
                                             <p>Dalam rangka meningkatkan trasnparansi pelaporan LHKPN dan merujuk pada surat Komisi Pemberantasan Korupsi Nomor : B/3950/LHK.00/10-12/05/2019 tanggal 8 Mei 2019, bahwa tautan e-Annoucement diperuntukkan ditambahkan pada laman resmi website instansi.</p>
                                             <a href="https://elhkpn.kpk.go.id/portal/user/pengumuman_lhkpn/VERWVFpGZHhlVU5TUml0VVJGbDBZMlJOTmt4NVYzbHJkR3hRVnpkR2FURjJWM2NyZDJWWE1WQm5Oa3hIVjI1eGNERkNhRWRDY1ZkcFlsb3pPVzR6T1E9PQ==">e-Announcement LHKPN Pupuk Indonesia Group</a>
                                         </div>
@@ -1502,11 +1502,11 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="container modal-body p-3">
-                                            <h2>PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h2>
+                                            <h2>Dua Sertifikat ISO Diraih Sekaligus Oleh PT Pupuk Indonesia Utilitas</h2>
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
-                                                    <img src="../assets/artikel/Artikel_7.jpg" class="img-fluid p-3">
-                                                    <p class="card-text text-start"><small class="text-body-secondary">11 November 2022</small></p>
+                                                    <img src="../assets/artikel/Artikel_10.jpg" class="img-fluid p-3">
+                                                    <p class="card-text text-start"><small class="text-body-secondary">8 Januari 2022</small></p>
                                                 <p class="text-justify">Jum’at, 7 Januari 2022 PI Utilitas meraih 2 sertifikat ISO sekaligus yaitu ISO 14001:2015 tentang Sistem Manajemen Lingkungan dan ISO 37001:2016 tentang Sistem Manajemen Anti Penyuapan (SMAP). Raihan ISO 37001:2016 tentang Sistem Manajemen Lingkungan ini membuktikan bahwa PI Utilitas berkomitmen untuk selalu menerapkan tanggung jawab lingkungan pada proses produksi di area sekitar pabrik. Tanggung jawab sosial lingkungan (TJSL) atau istilah lainnya Corporate Social Responsibility (CSR) merupakan bagian penting dari roda bisnis perusahaan. PI Utilitas meyakini bahwa CSR memiliki peran strategis dalam keberlanjutan perusahaan. Perusahaan yang hanya berorientasi pada bisnis saja akan menghadapi tantangan yang sulit. Oleh karena itu, PI Utilitas telah konsisten menjalankan berbagai program CSR multisektor meliputi sektor pendidikan, kesehatan, ekonomi, keagamaan, sarana umum, serta bantuan bencana alam. Seluruh program CSR PI Utilitas didasarkan pada korelasi nyata antara perusahaan dan komunitas serta komitmen perusahaan terus mendukung tercapaianya pembangunan berkelanjutan atau Sustainable Development Goals (SDGs).</p>
                                                 <p class="text-justify">Selain itu, capaian sertifikasi ISO 37001:2016 tentang Sistem Manajemen Anti Penyuapan juga membuktikan bahwa seluruh insan PIU telah berperan dalam menciptakan lingkungan kerja yang bersih dari korupsi melalui kepatuhan terhadap kode etik dan penerapan sistem pelaporan apabila terjadi gratifikasi dan penyuapan melalui whistleblowing system. Whistleblowing system adalah mekanisme pelaporan yang dapat diajukan oleh internal perusahaan atau eksternal perusahaan untuk melaporkan adanya perbuatan yang melanggar hukum, atau peraturan lain yang berlaku, atau perbuatan menentang etika yang dilakukan oleh karyawan di perusahaan dengan tetap menjaga rahasia dari si pelapor. Setiap pihak baik insan Perusahaan maupun pihak eksternal memiliki kesempatan yang sama dalam melaporkan dugaan tindak pelanggaran di Perusahaan. WBS merupakan bagian dari sistem pengendalian internal dalam mencegah penyimpangan dan kecurangan serta memperkuat penerapan praktik Tata Kelola Perusahaan.</p>
                                         </div>
@@ -1537,11 +1537,11 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="container modal-body p-3">
-                                            <h2>PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h2>
+                                            <h2>Kebijakan Mutu, Keselamatan dan Kesehatan Kerja, Lindung Lingkungan dan Anti Penyuapan</h2>
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
-                                                    <img src="../assets/artikel/Artikel_7.jpg" class="img-fluid p-3">
-                                                    <p class="card-text text-start"><small class="text-body-secondary">11 November 2022</small></p>
+                                                    <img src="../assets/artikel/Artikel_11.png" class="img-fluid p-3">
+                                                    <p class="card-text text-start"><small class="text-body-secondary">2 April 2021</small></p>
                                             <p class="head-modal">Kebijakan Mutu, Keselamatan dan Kesehatan Kerja, Lindung Lingkungan dan Anti Penyuapan</p>
                                             <p class="text-justify">PT Pupuk Indonesia Energi sebagai perusahaan energi dan utilitas senantiasa berusaha menjaga kehandalan dan integritas operasinya melalui penerapan Sistem Manajemen Terintegrasi - Mutu, Keselamatan dan Kesehatan Kerja, Lindung Lingkungan dan Anti Penyuapan dengan menerapkan AKHLAK-Amanah, Kompeten, Harmonis, Loyal, Adaptif dan Kolaboratif pada semua aktivitasnya.</p>
                                             <p class="text-justify">1. Taat terhadap peraturan perundangan dan persyaratan lainnya yang berlaku;</p>
@@ -1587,11 +1587,11 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="container modal-body p-3">
-                                            <h2>PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h2>
+                                            <h2>Tingkatkan Kompetensi SDM, PI Utilitas Tandatangani MoU dengan UGM</h2>
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
-                                                    <img src="../assets/artikel/Artikel_7.jpg" class="img-fluid p-3">
-                                                    <p class="card-text text-start"><small class="text-body-secondary">11 November 2022</small></p>
+                                                    <img src="../assets/artikel/Artikel_12.jpg" class="img-fluid p-3">
+                                                    <p class="card-text text-start"><small class="text-body-secondary">9 Februari 2021</small></p>
                                         <p class="text-justify">Direktur Utama PI Utilitas, Agus Subekti menandatangani Nota Kesepahaman bersama (MoU) dengan Ir. Muhammad Waziz Wildan, M.Sc., Ph.D. selaku Dekan Fakultas Teknik Universitas Gadjah Mada (UGM), Selasa, 27 Mei 2021 di Gedung Fakultas Teknik UGM. Penandatanganan MoU dengan salah satu universitas terkemuka tersebut mengenai program peningkatan kualitas sumber daya manusia PT Pupuk Indonesia Utilitas melalui pendidikan profesi insinyur (PS-PPI) Fakultas Teknik UGM. Dengan ditandatanganinya nota kesepahaman ini, diharapkan dapat meningkatkan penguasaan dan pengembangan ilmu pengetahuan melalui pendidikan, keprofesian berkelanjutan dan riset, serta peningkatan mutu insinyur profesional. Terdapat 11 karyawan PI Utilitas yang mendapatkan kesempatan menempuh pendidikat profesi dan nantinya berhak mendapatkan sertifikat insinyur professional dari Universitas Gadjah Mada (UGM) dan Persatuan Insinyur Indonesia (PII). PI Utilitas meyakini bahwa sumber daya manusia merupakan kunci yang menentukan maju atau mundurnya perusahaan. harus dilatih dan dikembangkan kemampuannya.</p>
                                         <p class="text-justify">Maka dari itu, sumber daya manusia adalah individu yang bekerja sebagai penggerak perusahaan dan berfungsi sebagai aset yang harus dilatih dan dikembangkan kemampuannya. Apalagi pada era disrupsi pandemi dan berbagai perubahan serta tantangan bisnis, kompetensi SDM harus senantiasa ditingkatkan guna membangun perusahaan yang lebih agile serta tetap resilient. Kerjasama ini merupakan langkah strategis PI Utilitas guna menciptakan akselerasi kompetensi SDM perusahaan yang diharapkan dapat meningkatkan kinerja positif perusahaan sehingga mampu mempercepat kemajuan bisnis dari PT Pupuk Indonesia Utilitas.</p>
                                         </div>
@@ -1622,11 +1622,11 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="container modal-body p-3">
-                                            <h2>PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h2>
+                                            <h2>Kunjungi Yogyakarta, Dirut PI-Energi Dalami Potensi Energi Baru Terbarukan</h2>
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
-                                                    <img src="../assets/artikel/Artikel_7.jpg" class="img-fluid p-3">
-                                                    <p class="card-text text-start"><small class="text-body-secondary">11 November 2022</small></p>
+                                                    <img src="../assets/artikel/Artikel_13.jpg" class="img-fluid p-3">
+                                                    <p class="card-text text-start"><small class="text-body-secondary">29 Februari 2020</small></p>
                                         <p class="text-justify">Dalam rangka pengembangan Energi baru dan terbarukan, Pupuk Indonesia Energi (PI-Energi) terus melakukan studi banding untuk perencanaan implementasi instalasi pembangkit listrik energi baru dan terbarukan. Direktur Utama PI-Energi Tentaminarto telah mengunjungi Pantai Baru, Bantul, Yogyakarta, dan Baron Technopark, Gunung Kidul, Yogyakarta, pada Senin, 24 Februari 2020.</p>
                                         <p class="text-justify">Pada kesempatan itu, Tenta didampingi Rama Usvika (General Manager Investasi), Hisar Desmon Yosua (Manager Pabrik IPP Gresik), Zakky Syafaristanto (Electrical Engineer) dan Candrika Ajeng (Staf Investasi dan Pengembangan).</p>
                                         <p class="text-justify">“PI-Energi harus menjadi perusahaan yang leading dalam bidang energi konvensional, non konvensional bahkan energi baru dan terbarukan. Kami terus berupaya memaksimalkan pengelolaan yang baik dan bijak pada sumber energi baru dan terbarukan,” ujar Tenta.</p>
@@ -1661,11 +1661,11 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="container modal-body p-3">
-                                            <h2>PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h2>
+                                            <h2>Lestarikan Ekowisata, PT Pupuk Indonesia Energi Salurkan Dana CSR</h2>
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
-                                                    <img src="../assets/artikel/Artikel_7.jpg" class="img-fluid p-3">
-                                                    <p class="card-text text-start"><small class="text-body-secondary">11 November 2022</small></p>
+                                                    <img src="../assets/artikel/Artikel_14.jpg" class="img-fluid p-3">
+                                                    <p class="card-text text-start"><small class="text-body-secondary">17 Februari 2020</small></p>
                                         <p class="text-justify">Sebagai wujud dukungan pelestarian ekowisata, PT Pupuk Indonesia Energi (PI Energi) menyalurkan bantuan kepedulian dalam rangka pelaksanaan Corporate Social Responsibility (CSR) di akhir tahun 2019.</p>
                                         <p class="text-justify">Dana bantuan sebesar Rp368.000.000 diberikan kepada kawasan Gresik, Jawa Timur. Kegiatan CSR ini merupakan upaya rehabilitasi ekosistem alam dan penghijauan jalan desa. Tak hanya itu, dana CSR juga akan dimanfaatkan untuk membangun fasilitas pendukung Ekowisata.</p>
                                         <p class="text-justify">PI Energi secara rutin terus menerus memantau perkembangan pengerjaan kegiatan CSR yang sudah dimulai sejak Desember 2019 itu, agar kelak terealisasi dengan baik.</p>
@@ -1700,11 +1700,11 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="container modal-body p-3">
-                                            <h2>PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h2>
+                                            <h2>Jelajah</h2>
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
-                                                    <img src="../assets/artikel/Artikel_7.jpg" class="img-fluid p-3">
-                                                    <p class="card-text text-start"><small class="text-body-secondary">11 November 2022</small></p>
+                                                    <img src="../assets/siaranPers/SP-16.jpg" class="img-fluid p-3">
+                                                    <p class="card-text text-start"><small class="text-body-secondary">29 November 2019</small></p>
                                         <p class="text-justify">Pada hari kerja, mulai Senin hingga Jumat, para anggota komunitas bekerja sesuai dengan Tugas Pokok dan Fungsi (Tupoksi). Mulai dari jabatan Direksi hingga staf di kantor PI Energi.</p>
                                         <p class="text-justify">Namun di akhir pekan, Tupoksi yang berlaku pada hari kerja itu mencair. Mereka semua sepakat untuk meninggalkan sejenak jabatan-jabatan di kantor dan bergabung dalam PIE Rider. Sebuah komunitas pengendara sepeda motor yang memiliki hobby serupa, mengendarai sepeda motor jarak jauh yang kini lebih dikenal dengan Touring.</p>
                                         <p class="text-justify">PIE Rider didirikan oleh direksi dan karyawan PI-Energi. Tujuan didirikan sebagai wadah untuk menyalurkan kesamaan hobi anggotanya yaitu touring motor. Anggotanya juga merupakan bagian dari  keluarga besar PI-Energi. Mulai dari jajaran direksi, manajemen hingga karyawan. Syarat untuk bergabung, selain menjadi bagian dari keluarga besar PI-Energi hanya ada dua. Pertama, memiliki sepeda motor. Kedua, hobi touring.</p>
@@ -1745,11 +1745,11 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="container modal-body p-3">
-                                            <h2>PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h2>
+                                            <h2>Tiga Masalah, Tiga Solusi</h2>
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
-                                                    <img src="../assets/artikel/Artikel_7.jpg" class="img-fluid p-3">
-                                                    <p class="card-text text-start"><small class="text-body-secondary">11 November 2022</small></p>
+                                                    <img src="../assets/siaranPers/SP-16.jpg" class="img-fluid p-3">
+                                                    <p class="card-text text-start"><small class="text-body-secondary">29 November 2019</small></p>
                                         <p class="head-modal text-justify">Oleh: Manager Teknologi PI-Energi/Process and Corrosion Engineer, Manik Priandani</p>
                                         <p class="text-justify">Pupuk Indonesia Energi (PI-Energi) adalah salah satu anak perusahaan PT Pupuk Indonesia (Persero). Bergerak sebagai produsen utilitas berupa listrik dan uap (steam). Pembangkit (plant) yang dimiliki PI-energi adalah Gresik Gas Cogeneration Plant (GGCP) yang terletak di Kawasan Industri Petrokimia Gresik, Jawa Timur. Selain itu, PI-Energi juga memiliki mayoritas saham di Kaltim Daya Mandiri (KDM) yang terletak di Kawasan Industri Pupuk Kalimantan Timur di Bontang.</p>
                                         <p class="text-justify">Saat ini, produk Listrik dan Steam PI-Energi dipergunakan sebagai energi penggerak, penerang, maupun bahan baku proses produksi untuk pabrik pupuk di lingkungan Pupuk Indonesia (Persero). Salah satu peralatan terpenting dalam unit proses di pembangkit PI-Energi adalah Boiler.</p>
@@ -1799,11 +1799,11 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="container modal-body p-3">
-                                            <h2>PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h2>
+                                            <h2>Tumbuh Kembang Energi Listrik Di Indonesia</h2>
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
-                                                    <img src="../assets/artikel/Artikel_7.jpg" class="img-fluid p-3">
-                                                    <p class="card-text text-start"><small class="text-body-secondary">11 November 2022</small></p>
+                                                    <img src="../assets/siaranPers/SP-16.jpg" class="img-fluid p-3">
+                                                    <p class="card-text text-start"><small class="text-body-secondary">29 November 2019</small></p>
                                             <p class="head-modal text-justify">Oleh: Andik C. Budianto</p>
                                             <p class="text-justify">Pada awal abad ke-19, di Hindia Belanda, terutama di Pulau Jawa, mulai berdiri satu per satu pabrik gula dan teh. Berdirinya pabrik tentu harus disertai pembangunan pembangkit listrik. Mulai saat itulah listrik dikenal sebagai sumber energi.</p>
                                             <p class="text-justify">Hari terus berganti hingga akhirnya Presiden Pertama Republik Indonesia (RI), Ir. Sukarno membentuk Jawatan Listrik dan Gas di bawah Departemen Pekerjaan Umum pada 27 Oktober 1945. Tak lama setelah RI memproklamirkan diri sebagai negara merdeka pada 17 Agustus 1945.</p>
@@ -1835,7 +1835,7 @@
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art18">
                                     <img src="../assets/siaranPers/SP-16.jpg" class="card-img-top img-fixed">
                                     <div class="card-body text-start">
-                                        <h5 class="card-title"> Prospek Energi Surya Dan Mini Hidro Di Indonesia</h5>
+                                        <h5 class="card-title">Prospek Energi Surya Dan Mini Hidro Di Indonesia</h5>
 
                                         <p class="card-text text-start"><small class="text-body-secondary">29 November 2019</small></p>
                                     </div>
@@ -1852,11 +1852,11 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="container modal-body p-3">
-                                            <h2>PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h2>
+                                            <h2>Prospek Energi Surya Dan Mini Hidro Di Indonesia</h2>
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
-                                                    <img src="../assets/artikel/Artikel_7.jpg" class="img-fluid p-3">
-                                                    <p class="card-text text-start"><small class="text-body-secondary">11 November 2022</small></p>
+                                                    <img src="../assets/siaranPers/SP-16.jpg" class="img-fluid p-3">
+                                                    <p class="card-text text-start"><small class="text-body-secondary">29 November 2019</small></p>
                                         <p class="text-justify head-modal">Oleh: General manager Investasi & Pengembangan Pupuk Indonesia, Rama Usvika</p>
                                         <p class="text-justify">Dari sekian banyak opsi Energi Baru Terbarukan (EBT) , ada beberapa potensi bisnis yang menarik untuk dieksplorasi. Faktor kematangan teknologi (technological maturity) yang sudah cukup tinggi, biaya investasi peralatan yang semakin menurun di tahun-tahun mendatang dan market demand yang tercipta dari kondisi ekonomi-sosial-politik Indonesia menjadi pertimbangan utama. Opsi tersebut antara lain energi surya dan mini hidro.</p>
                                         <p class="text-justify" style="color: #f15a24">Energi Surya</p>
@@ -1891,7 +1891,7 @@
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art19">
                                     <img src="../assets/siaranPers/SP-16.jpg" class="card-img-top img-fixed">
                                     <div class="card-body text-start">
-                                        <h5 class="card-title"> Efisiensi Yang Telah Teruji</h5>
+                                        <h5 class="card-title">Efisiensi Yang Telah Teruji</h5>
 
                                         <p class="card-text text-start"><small class="text-body-secondary">29 November 2019</small></p>
                                     </div>
@@ -1908,11 +1908,11 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="container modal-body p-3">
-                                            <h2>PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h2>
+                                            <h2>Efisiensi Yang Telah Teruji</h2>
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
-                                                    <img src="../assets/artikel/Artikel_7.jpg" class="img-fluid p-3">
-                                                    <p class="card-text text-start"><small class="text-body-secondary">11 November 2022</small></p>
+                                                    <img src="../assets/siaranPers/SP-16.jpg" class="img-fluid p-3">
+                                                    <p class="card-text text-start"><small class="text-body-secondary">29 November 2019</small></p>
                                         <p class="text-justify head-modal">Oleh: Corporate Secretary PI-Energi, Benny Swastika Nasution.</p>
                                         <p class="text-justify">Sebelum memulai artikel singkat ini, penulis merasa perlu untuk terlebih dahulu mengemukakan definisi mengenai efisiensi. Menurut Kamus Besar Bahasa Indonesia (KBBI), efisiensi yang berasal dari kata dasar efisien adalah ketepatan cara (usaha, kerja) dalam menjalankan sesuatu (dengan tidak membuang waktu, tenaga, biaya).</p>
                                         <p class="text-justify">Sebagai sebuah perusahaan yang telah berdiri selama lima tahun sejak Agustus 2014, Pupuk Indonesia Energi (PI-Energi) memang lahir sekaligus dibesarkan dengan semangat untuk melakukan efisiensi. Semua berawal sekitar tahun 2010 ketika produksi gas bumi nasional mengalami penurunan di satu sisi. Sementara di sisi lain, trend harga gas terus mengalami peningkatan.</p>
@@ -1955,11 +1955,11 @@
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="container modal-body p-3">
-                                            <h2>PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h2>
+                                            <h2>Pupuk Indonesia Energi, Hadir Untuk Efisiensi</h2>
                                             <!-- <div class="row">
                                                 <div class="col-md-6 mb-3"> -->
                                                     <img src="../assets/artikel/Artikel_7.jpg" class="img-fluid p-3">
-                                                    <p class="card-text text-start"><small class="text-body-secondary">11 November 2022</small></p>
+                                                    <p class="card-text text-start"><small class="text-body-secondary">29 November 2019</small></p>
                                         <p class="text-justify head-modal">Oleh: Direktur Utama Pupuk Indonesia Energi (PI-Energi), Tentaminarto Tri Februartono</p>
                                         <p class="text-justify">Sejak berdiri pada 18 Agustus 2019 lalu, Pupuk Indonesia Energi (PI-Energi), telah menorehkan capaian-capaian signifikan. Selain itu, juga banyak pelajaran-pelajaran berharga yang telah diperoleh.</p>
                                         <p class="text-justify">Pada awalnya, PI-Energi didirikan untuk meningkatkan daya saing industri pupuk.  Daya saing dapat ditingkatkan hanya dengan mengedepankan efisiensi dan reliabilitas energi serta utilitas di lingkungan pabrik pupuk PT Pupuk Indonesia (Persero). Di samping itu juga untuk mengubah utilitas dari cost center menjadi profit center untuk peningkatan nilai (Creating Value) bisnis di lingkungan PT Pupuk Indonesia (Persero).</p>
