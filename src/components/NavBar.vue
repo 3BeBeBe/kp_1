@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar sticky-top bg-body-tertiary navbar-expand-lg bg-body-tertiary" color="white">
+    <nav class="navbar sticky-top bg-body-tertiary navbar-expand-lg bg-body-tertiary border-bottom border-body py-0">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">
                 <img src="../assets/Salinan LOGO PIU Warna.png" width="90" height="72">

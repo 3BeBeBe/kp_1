@@ -1,9 +1,9 @@
 <template>
-    <div class="container mt-5">
-        <!-- <div class="row">
-            <div class="col-md-3">  -->
-                <!-- <div class="card">
-                    <div class="card-header text-center">  -->
+    <div class="container justify-content-center mx-auto m-5">
+        <div class="row justify-content-center mx-auto">
+            <!-- <div class="col-md-3">   -->
+                <!-- <div class="card"> -->
+                    <div class="card-header text-center"> 
                         <ul class="nav nav-tabs justify-content-start mt-2 mb-2 d-flex align-items-end">
                             <li class="nav-item" v-for="tab in tabs" :key="tab.id">
                                 <h2 :class="{ 'active-tab': tab.active, 'inactive-tab': !tab.active }">
@@ -13,17 +13,17 @@
                                 </h2>
                             </li>
                         </ul>
-                    <!-- </div>
-                </div> -->
-            <!-- </div>   
+                    </div>
+                <!-- </div> -->
+            <!-- </div>    -->
             
-            <div class="col-md-9"> -->
+            <!-- <div class="col-md-9"> -->
                 <div class="container tab-content">
 
                     <div class="tab-pane fade show active" id="pers">
                         <div class="row">
                             <div class="col-md-4 mb-3">
-                                <button class="card card-fixed">
+                                <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers1">
                                     <img src="../assets/siaranPers/SP-1.jpg" class="card-img-top img-fixed">
                                     <div class="card-body">
                                         <h5 class="card-title text-start">PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h5>
@@ -32,6 +32,56 @@
                                     </div>
                                 </button>
                             </div>
+                            <!-- Modal -->
+                            <div class="modal fade" id="pers1" tabindex="-1" aria-hidden="true">
+                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="container modal-body p-3">
+                                            <h2>PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h2>
+                                            <!-- <div class="row">
+                                                <div class="col-md-6 mb-3"> -->
+                                                    <img src="../assets/siaranPers/SP-1.jpg" class="img-fluid p-3">
+                                                    <p class="card-text text-start"><small class="text-body-secondary">13 Desember 2022</small></p>
+                                                <!-- </div>
+                                                <div class="col-md-6"> -->
+                                                    <p class="text-justify">
+                                                        PT Pupuk Indonesia Utilitas berhasil meraih penghargaan dalam ajang Indonesian Quality Award (IQA) tahun 2022 yang diselenggarakan oleh Indonesian Quality Award Foundation (IQAF) bersama BUMN Executive Club (BEC) di hotel Fairmont Jakarta pada Senin, 12 Desember 2022. Dalam ajang ini, PT Pupuk Indonesia Utilitas berhasil meraih predikat “Good Performance” dengan skor 508 atau mengalami peningkatan 31 poin dari pencapaian tahun sebelumnya yaitu 477 (berdasarkan penilaian KPKU)
+                                                    </p>
+
+                                                    <p class="text-justify">
+                                                        Untuk diketahui, Good Performance adalah kategori dalam asesmen dengan implementasi kerangka BEF yang memiliki skor 476-575.
+                                                    </p>
+                                                    
+                                                    <p class="text-justify">
+                                                        IQA merupakan bentuk penghargaan terhadap penilaian kinerja ekselen berbasiskan Kriteria Baldrige atau yang juga dikenal dengan istilah Malcolm Baldrige Criteria for Performance Excellence (MBCfPE).
+                                                    </p>
+
+                                                    <p class="text-justify">
+                                                        Penilaian mengacu pada kriteria kinerja ekselen Malcolm Baldrige Education Critera for Performance Excellence. Kriteria ini terdiri dari tujuh kategori, yaitu leadership, strategic planning, customer focus, measurement analysis & knowledge management, workforce focus, Process Management, dan result.
+                                                    </p>
+                                                <!-- </div> -->
+
+                                                <p class="text-justify">
+                                                    Direktur Utama PT Pupuk Indonesia Utilitas, Agus Subekti mengatakan bahwa penghargaan ini sebagai komitmen untuk mendorong kinerja unggul perusahaan sekaligus menjadi semangat bagi kami untuk terus melakukan transformasi bisnis dan meningkatkan kinerja perusahaan ditengah tantangan atas ketidakpastian lingkungan bisnis dan ekonomi global.
+                                                </p>
+
+                                                <p class="text-justify">
+                                                    Kegiatan penilaian ini akan menjadi agenda rutin perusahaan dalam penerapan Baldridge Excellence Framework (BFF) yang berkelanjutan sehingga dapat membantu peningkatan kinerja pada tahun-tahun selanjutnya.
+                                                </p>
+
+                                                <p class="text-justify">
+                                                    Adapun tema yang diusung pada tahun 2022 ini “Membangun Ketangguhan Organisasi Untuk Pemulihan Nasional dan Unggul Dalam Persaiangan Global”. Tema ini sejalan dengan semangat perusahaan yang dibuktikan dengan mencatatkan pencapaian kinerja yang baik dan meningkat dimasa Covid-19 serta mampu menjawab tantangan yang ada pada lingkungan bisnis dan ketidakpastian ekonomi global melalui 5 (lima) strategi yang diterapkan perusahaan, pertama meningkatkan kehandalan pabrik, kedua meningkatkan kompetensi Sumber Daya Manusia (SDM) yang dimiliki, ketiga menjaga tingkat kesehatan karyawan, keempat melakukan efisiensi biaya dan yang terakhir atau kelima sekaligus yang terpenting adalah menjaga kepuasan pelanggan”. 
+                                                </p>
+                                            <!-- </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
                             <div class="col-md-4 mb-3">
                                 <button class="card card-fixed">
                                     <img src="../assets/siaranPers/SP-2.jpg" class="card-img-top img-fixed">
@@ -255,16 +305,7 @@
                                     </div>
                                 </button>
                             </div>
-                            <!-- <div class="col-md-4 mb-3">
-                                <button class="card card-fixed">
-                                    <img src="../assets/siaranPers/SP-16.jpg" class="card-img-top img-fixed">
-                                    <div class="card-body text-start">
-                                        <h5 class="card-title">PI Utilitas Terima Kunjungan Kerja Spesifik</h5>
 
-                                        <p class="card-text text-start"><small class="text-body-secondary">17 September 2022</small></p>
-                                    </div>
-                                </button>
-                            </div> -->
                             <div class="col-md-4 mb-3">
                                 <button class="card card-fixed">
                                     <img src="../assets/artikel/Artikel_4.jpeg" class="card-img-top img-fixed">
@@ -377,7 +418,7 @@
                             </div>
                             <div class="col-md-4 mb-3">
                                 <button class="card card-fixed">
-                                    <img src="../assets/siaranPers/SP-16" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-16.jpg" class="card-img-top img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Jelajah</h5>
 
@@ -439,14 +480,17 @@
                     </div>
                     
                 </div> 
+        
             <!-- </div> -->
         </div>
-    <!-- </div> -->
+    </div>
+
+    
 </template>
 <script>
     export default {
         name: 'NewsContents',
-            data() {
+        data() {
             return {
                 tabs: [
                     { id: 'tab1', name: 'SIARAN PERS', href: '#pers', active: true },

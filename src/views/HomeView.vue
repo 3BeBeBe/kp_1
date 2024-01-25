@@ -6,7 +6,6 @@
     <ItemCard/>
     <FlashNews/>
     <FooterSection/>
-    
   </div>
 </template>
 
