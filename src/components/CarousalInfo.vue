@@ -6,13 +6,13 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-bs-interval="100">
                 <div class="carousel-image-container">
                     <img src="https://www.pi-utilitas.com/files/media/2020/09/image-banner-factory.jpg" class="d-block w-100 carousel-image">
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="d-none d-md-block overlay-text">
+                        <div class="d-md-block overlay-text">
                             <h1><i>Gresik Gas Cogeneration Plant (GGCP)</i></h1>
                             <br>
                             <h4>Dibangun untuk memenuhi kebutuhan listrik dan steam dari <b>PT Petrokimia Gresik</b> yang saat ini sedang mengembangkan fasilitas produksi terbarunya, <b>Pabrik Amurea II.</b></h4>
@@ -21,17 +21,17 @@
                 </div>
             </div>
             <div class="carousel-item img-fluid">
-                <div class="carousel-image-container">
+                <div class="carousel-image-container" data-bs-interval="100">
                     <img src="https://www.pi-utilitas.com/files/media/2020/09/KDM_1.jpg" class="d-block w-100 carousel-image">
                 </div>
-                <div class="d-none d-md-block overlay-text">
+                <div class="d-md-block overlay-text">
                     <h1><i>Kaltim Daya Mandiri (KDM)</i></h1>
                     <br>
                 <h4>Didirikan dengan tujuan untuk <b>menyuplai kebutuhan utilitas pada fasilitas produksi dan perumahan PT. Pupuk Kaltim</b> serta perusahan-perusahaan lain yang berada di lingkungan <b>Kaltim Industrial Estate.</b></h4>
                 </div>
             </div>
             <div class="carousel-item">
-                <div class="carousel-image-container">
+                <div class="carousel-image-container" data-bs-interval="100">
                     <img src="https://www.pi-utilitas.com/files/media/2021/06/banner-2.jpg" class="d-block w-100 carousel-image">
                 </div>
                 <div class="d-none d-md-block overlay-text">
