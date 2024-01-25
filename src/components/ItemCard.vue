@@ -2,13 +2,15 @@
     <div class="continer m-5">
         <div class="row justify-content-center">
             <div class="col-md-3 mb-3">
-                <div class="card">
+
+                <router-link to="/pabrik" style="text-decoration: none;"> <div class="card">
                     <img src="https://www.pi-utilitas.com/files/media/2020/09/KDM_1.jpg" class="card-img-top img-fluid">
                     <div class="card-body">
                         <h5 class="card-title">Pembangkit Listrik</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text">Router-link to pabrik implemented</p>
                     </div>
                 </div>
+                </router-link>
             </div>
             <div class="col-md-3">
                 <div class="card">
