@@ -305,10 +305,6 @@
                                     </div>
                                 </button>
                             </div>
-<<<<<<< HEAD
-
-=======
->>>>>>> 01d5612d085c4507648f6ca9893033357a42a9f7
                             <div class="col-md-4 mb-3">
                                 <button class="card card-fixed">
                                     <img src="../assets/artikel/Artikel_4.jpeg" class="card-img-top img-fixed">
