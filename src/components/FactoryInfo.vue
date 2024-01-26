@@ -39,7 +39,7 @@
         name: 'FactoryInfo'
     }
 </script>
-<style>
+<style scoped>
     .size-image {
       max-width: 100%; /* Adjust the maximum width as needed */
       max-height: 200px; /* Adjust the maximum height as needed */
