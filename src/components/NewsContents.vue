@@ -2052,8 +2052,13 @@
 
     .active-tab {
         font-weight: 450;
-        font-style: italic;
-        font-family: fantasy;
+        /* font-style: italic; */
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .inactive-tab{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 500;
     }
 
     .modal-title {

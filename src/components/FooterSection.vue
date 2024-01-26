@@ -3,7 +3,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <h5>PT. PUPUK INDONESIA UTILITAS</h5>
+                <h5><b>PT. PUPUK INDONESIA UTILITAS</b></h5>
                 <p>Alamanda Tower Lt 26,Jl. T.B. Simatupang No 22-26, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430</p>
                 <p>Phone: (021) 29661630</p>
                 <p>Email:
@@ -11,7 +11,7 @@
                 </p>
             </div>
             <div class="col-md-3">
-                <h5>IPP GRESIK (GRESIK GAS COGENERATION PLANT)</h5>
+                <h5><b>IPP GRESIK (GRESIK GAS COGENERATION PLANT)</b></h5>
                 <p>Jalan Gubernur Suryo, Pabrik 3 PT. Petrokimia Gresik, Gresik, Jawa Timur</p>
                 <p>Phone: -</p>
                 <p>Email: 
@@ -19,7 +19,7 @@
                 </p>
             </div>
             <div class="col-md-3">
-                <h5>MEDIA SOSIAL</h5>
+                <h5><b>MEDIA SOSIAL</b></h5>
                 <div class="row mt-4 mb-4 justify-content-center">
                     <div class="col-md-4">
                         <a href="https://twitter.com/PIUtilitas" target="_blank">
@@ -47,7 +47,7 @@
                 </ul>
             </div>
             <div class="col-md-3">
-                <h5>ANAK USAHA DARI</h5>
+                <h5><b>ANAK USAHA DARI</b></h5>
                 <img class="img-fluid mt-4" src="../assets/LOGO PIU Putih.png" >
                 <div class="row">
                     <div class="col-md-4">
