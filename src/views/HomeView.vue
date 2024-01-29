@@ -4,7 +4,8 @@
     <CarousalInfo/>
     <FlashInfo/>
     <ItemCard/>
-    <FlashNews/>
+    <!-- <FlashNews/> -->
+    <NewsCarousal/>
     <FooterSection/>
   </div>
 </template>
@@ -15,8 +16,9 @@ import ItemCard from '@/components/ItemCard.vue'
 import CarousalInfo from '@/components/CarousalInfo.vue'
 import NavBar from '@/components/NavBar.vue'
 import FlashInfo from '@/components/FlashInfo.vue'
-import FlashNews from '@/components/FlashNews.vue'
+// import FlashNews from '@/components/FlashNews.vue'
 import FooterSection from '@/components/FooterSection.vue'
+import NewsCarousal from '@/components/NewsCarousal.vue'
 
 export default {
   name: 'HomeView',
@@ -25,8 +27,9 @@ export default {
     CarousalInfo,
     ItemCard,
     FlashInfo,
-    FlashNews,
-    FooterSection
+    // FlashNews,
+    FooterSection,
+    NewsCarousal
   }
 }
 </script>
