@@ -17,7 +17,7 @@
                         <router-link class="nav-link" to="/governance" >Tata Kelola</router-link>
                     </li>
                     <li class="nav-item">
-                        <router-link class="nav-link" to="/pabrik" >Pabrik</router-link>
+                        <router-link class="nav-link" to="/sketch" >Pabrik</router-link>
                     </li>
                     <li class="nav-item">
                         <router-link class="nav-link" to="/pengadaan" >Pengadaan</router-link>
