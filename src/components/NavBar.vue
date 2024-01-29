@@ -32,6 +32,9 @@
                             <li>
                                 <router-link class="dropdown-item" to="/laporan" >Laporan</router-link>
                             </li>
+                            <li>
+                                <router-link class="dropdown-item" to="/buzz" >Bulletin BUZZ</router-link>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item">

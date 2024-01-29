@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-shade fit-bg" :class="{ 'fade-transition': isTransitioning }"  :style="{ backgroundImage: `url(${selectedImage})` }">
+    <div class="slide-content bg-shade fit-bg d-flex align-items-center" :style="{ backgroundImage: `url(${selectedImage})` }">
     <div class="container p-3">
                     
         <div class="row d-flex align-items-center mb-2">
@@ -8,69 +8,36 @@
             </div>
             <div class="col-md-6" style="color: white;">
                 <h2>GRESIK GAS COGENERATION PLANT(GGCP)</h2>
-                <p>PT Pupuk Indonesia Utilitas (PI Utilitas) atau sebelumnya bernama PT Pupuk Indonesia Energi didirikan berdasarkan Akta No. 11 tanggal 18 Agustus 2014. Di tahun yang sama terjadi pula inisiasi Pembangunan Gresik Gas Cogeneration Plant (GGCP di Gresik, Jawa Timur). Pada 2015, PI Utilitas mulai melakukan Konstruksi Fisik Gresik Gas Cogeneration Plant. Tepat pada April 2018, Pabrik Gresik Gas Cogeneration Plant (GGCP) resmi beroperasi secara komersil hingga saat ini.</p>
-                <p>Proyek Gresik Gas Cogeneration Plant (GGCP) yang sudah mulai dijalankan dan dioptimalkan di tahun 2018 senantiasa mendorong Kinerja PI Utilitas untuk terus unggul dalam persaingan usaha tanpa melupakan tanggung jawabnya sebagai korporasi yang tumbuh di tengah publik. Dengan mengedepankan prinsip penerapan bisnis yang tetap memperhatikan lingkungan, PI Utilitas yakin akan mampu terus tumbuh menjadi korporasi yang berkelanjutan dan berintegritas tinggi.</p>
+                <p>PT Pupuk Indonesia Utilitas (PI Utilitas) atau sebelumnya bernama PT Pupuk Indonesia Energi didirikan berdasarkan Akta No. 11 tanggal 18 Agustus 2014. Di tahun yang sama terjadi pula inisiasi Pembangunan Gresik Gas Cogeneration Plant (GGCP di Gresik, Jawa Timur). Pada 2015, PI Utilitas mulai melakukan Konstruksi Fisik Gresik Gas Cogeneration Plant. Tepat pada April 2018, Pabrik GGCP resmi beroperasi secara komersil hingga saat ini.</p>
+                <p>Proyek GGCP yang sudah mulai dijalankan dan dioptimalkan di tahun 2018 senantiasa mendorong Kinerja PI Utilitas untuk terus unggul dalam persaingan usaha tanpa melupakan tanggung jawabnya sebagai korporasi yang tumbuh di tengah publik. Dengan mengedepankan prinsip penerapan bisnis yang tetap memperhatikan lingkungan, PI Utilitas yakin akan mampu terus tumbuh menjadi korporasi yang berkelanjutan dan berintegritas tinggi.</p>
             </div>
         </div>
 
         <div class="justify-content-end flex-container">
-            
-                <button class="btn ms-2" v-if="selectedImage !== 'https://www.pi-energi.com/files/media/2020/09/DJI_0228.jpg'" style="background: url('https://www.pi-energi.com/files/media/2020/09/DJI_0228.jpg') no-repeat center center / cover; width: 70%; height: 100px;" @click="changeImage('https://www.pi-energi.com/files/media/2020/09/DJI_0228.jpg')">
-                </button>
+                
+            <button class="btn ms-2" v-if="selectedImage !== require('@/assets/pabrik/GGCP/ggcp1.jpg')" :style="buttonStyle(require('@/assets/pabrik/GGCP/ggcp1.jpg'))" @click="changeImage(require('@/assets/pabrik/GGCP/ggcp1.jpg'))">
+            </button>
         
-                <button class="btn ms-2" v-if="selectedImage !== 'https://www.pi-energi.com/files/media/2020/09/GGCP_Agustus5.jpg'" style="background: url('https://www.pi-energi.com/files/media/2020/09/GGCP_Agustus5.jpg') no-repeat center center / cover; width: 70%; height: 100px;" @click="changeImage('https://www.pi-energi.com/files/media/2020/09/GGCP_Agustus5.jpg')">
-                </button>
+            <button class="btn ms-2" v-if="selectedImage !== require('@/assets/pabrik/GGCP/ggcp2.jpg')" :style="buttonStyle(require('@/assets/pabrik/GGCP/ggcp2.jpg'))" @click="changeImage(require('@/assets/pabrik/GGCP/ggcp2.jpg'))">
+            </button>
             
-                <button class="btn ms-2" v-if="selectedImage !== 'https://www.pi-energi.com/files/media/2020/09/GGCP_Maret2.jpg'" style="background: url('https://www.pi-energi.com/files/media/2020/09/GGCP_Maret2.jpg') no-repeat center center / cover; width: 70%; height: 100px;" @click="changeImage('https://www.pi-energi.com/files/media/2020/09/GGCP_Maret2.jpg')">
-                </button>
+            <button class="btn ms-2" v-if="selectedImage !== require('@/assets/pabrik/GGCP/ggcp3.jpg')" :style="buttonStyle(require('@/assets/pabrik/GGCP/ggcp3.jpg'))" @click="changeImage(require('@/assets/pabrik/GGCP/ggcp3.jpg'))">
+            </button>
             
-                <button class="btn ms-2" v-if="selectedImage !== 'https://www.pi-energi.com/files/media/2020/09/GGCP_Okt3.jpg'"
-                style="background: url('https://www.pi-energi.com/files/media/2020/09/GGCP_Okt3.jpg') no-repeat center center / cover; width: 70%; height: 100px;" @click="changeImage('https://www.pi-energi.com/files/media/2020/09/GGCP_Okt3.jpg')">
-                </button>
+            <button class="btn ms-2" v-if="selectedImage !== require('@/assets/pabrik/GGCP/ggcp4.jpg')" :style="buttonStyle(require('@/assets/pabrik/GGCP/ggcp4.jpg'))" @click="changeImage(require('@/assets/pabrik/GGCP/ggcp4.jpg'))">
+            </button>
             
-                <button class="btn ms-2" v-if="selectedImage !== 'https://www.pi-energi.com/files/media/2020/09/IG_Pekerja-GGCP2.jpg'" style="background: url('https://www.pi-energi.com/files/media/2020/09/IG_Pekerja-GGCP2.jpg') no-repeat center center / cover; width: 70%; height: 100px;" @click="changeImage('https://www.pi-energi.com/files/media/2020/09/IG_Pekerja-GGCP2.jpg')">
-                </button>
+            <button class="btn ms-2" v-if="selectedImage !== require('@/assets/pabrik/GGCP/ggcp5.jpg')" :style="buttonStyle(require('@/assets/pabrik/GGCP/ggcp5.jpg'))" @click="changeImage(require('@/assets/pabrik/GGCP/ggcp5.jpg'))">
+            </button>
             
-                <button class="btn ms-2" v-if="selectedImage !== 'https://www.pi-energi.com/files/media/2020/09/IG_Proyek-GGCP1.jpg'"  style="background: url('https://www.pi-energi.com/files/media/2020/09/IG_Proyek-GGCP1.jpg') no-repeat center center / cover; width: 70%; height: 100px;" @click="changeImage('https://www.pi-energi.com/files/media/2020/09/IG_Proyek-GGCP1.jpg')">
-                </button>
+            <button class="btn ms-2" v-if="selectedImage !== require('@/assets/pabrik/GGCP/ggcp6.jpg')" :style="buttonStyle(require('@/assets/pabrik/GGCP/ggcp6.jpg'))" @click="changeImage(require('@/assets/pabrik/GGCP/ggcp6.jpg'))">
+            </button>
             
         </div>
     </div>
-        <!-- <div class="row">
-            <div class="col-md-3">
-                <img class="img-fluid" src="https://www.pi-energi.com/files/media/2020/09/DJI_0228.jpg">
-                <img class="img-fluid" src="https://www.pi-energi.com/files/media/2020/09/GGCP_Agustus5.jpg">
-                <img class="img-fluid" src="https://www.pi-energi.com/files/media/2020/09/GGCP_Maret2.jpg">
-            </div>
-            <div class="col-md-3">
-                <img class="img-fluid" src="https://www.pi-energi.com/files/media/2020/09/GGCP_Okt3.jpg">
-                <img class="img-fluid" src="https://www.pi-energi.com/files/media/2020/09/IG_Pekerja-GGCP2.jpg">
-                <img class="img-fluid" src="https://www.pi-energi.com/files/media/2020/09/IG_Proyek-GGCP1.jpg">
-            </div>
-            <div class="col-md-6">
-                <h2>GRESIK GAS COGENERATION PLANT(GGCP)</h2>
-                <p>PT Pupuk Indonesia Utilitas (PI Utilitas) atau sebelumnya bernama PT Pupuk Indonesia Energi didirikan berdasarkan Akta No. 11 tanggal 18 Agustus 2014. Di tahun yang sama terjadi pula inisiasi Pembangunan Gresik Gas Cogeneration Plant (GGCP di Gresik, Jawa Timur). Pada 2015, PI Utilitas mulai melakukan Konstruksi Fisik Gresik Gas Cogeneration Plant. Tepat pada April 2018, Pabrik Gresik Gas Cogeneration Plant (GGCP) resmi beroperasi secara komersil hingga saat ini.</p>
-                <p>Proyek Gresik Gas Cogeneration Plant (GGCP) yang sudah mulai dijalankan dan dioptimalkan di tahun 2018 senantiasa mendorong Kinerja PI Utilitas untuk terus unggul dalam persaingan usaha tanpa melupakan tanggung jawabnya sebagai korporasi yang tumbuh di tengah publik. Dengan mengedepankan prinsip penerapan bisnis yang tetap memperhatikan lingkungan, PI Utilitas yakin akan mampu terus tumbuh menjadi korporasi yang berkelanjutan dan berintegritas tinggi.</p>
-            </div>
-        </div>
-        <div class="row mt-5">
-            <div class="col-md-6">
-                <h2>KALTIM DAYA MANDIRI</h2>
-                <p>Kaltim Daya Mandiri (KDM) adalah salah satu perusahaan utilitas dan Energi yang didirikan dengan tujuan untuk menyuplai kebutuhan utilitas pada fasilitas produksi dan perumahan PT. Pupuk Kaltim serta perusahan-perusahaan lain yang berada di lingkungan Kaltim Industrial Estate.</p>
-            </div>
-            <div class="col-md-3">
-                <img class="img-fluid" src="https://www.pi-utilitas.com/files/media/2020/09/KDM-BontangFactory-5100-Final.jpg">
-                <img class="img-fluid" src="https://www.pi-utilitas.com/files/media/2020/09/KDM-BontangFactory-7748-Final.jpg">
-                <img class="img-fluid" src="https://www.pi-utilitas.com/files/media/2020/09/KDM-BontangFactory-8041-Final.jpg">
-            </div>
-            <div class="col-md-3">
-                <img class="img-fluid" src="https://www.pi-energi.com/files/media/2020/09/KDM_4.jpg">
-                <img class="img-fluid" src="https://www.pi-energi.com/files/media/2020/09/KDM_1.jpg">
-            </div>
-        </div> -->
     </div>
 
-    <div class="bg-shade fit-bg d-flex align-items-center" :class="{ 'fade-transition': isTransitioning }"  :style="{ backgroundImage: `url(${selectedImage2})` }">
+    <div class="slide-content bg-shade fit-bg d-flex align-items-center"  :style="{ backgroundImage: `url(${selectedImage2})` }">
     <div class="container p-3">
                     
         <div class="row d-flex align-items-center mb-5">
@@ -85,43 +52,35 @@
 
         <div class="justify-content-end flex-container">
             
-                <button class="btn ms-2" v-if="selectedImage2 !== 'https://www.pi-utilitas.com/files/media/2020/09/KDM-BontangFactory-5100-Final.jpg'" style="background: url('https://www.pi-utilitas.com/files/media/2020/09/KDM-BontangFactory-5100-Final.jpg') no-repeat center center / cover; width: 60%; height: 100px;" @click="changeImage2('https://www.pi-utilitas.com/files/media/2020/09/KDM-BontangFactory-5100-Final.jpg')">
-                </button>
+            <button class="btn ms-2" v-if="selectedImage2 !== require('@/assets/pabrik/KDM/kdm1.jpg')" :style="buttonStyle(require('@/assets/pabrik/KDM/kdm1.jpg'))" @click="changeImage(require('@/assets/pabrik/KDM/kdm1.jpg'))">
+            </button>
         
-                <button class="btn ms-2" v-if="selectedImage2 !== 'https://www.pi-utilitas.com/files/media/2020/09/KDM-BontangFactory-7748-Final.jpg'" style="background: url('https://www.pi-utilitas.com/files/media/2020/09/KDM-BontangFactory-7748-Final.jpg') no-repeat center center / cover; width: 60%; height: 100px;" @click="changeImage2('https://www.pi-utilitas.com/files/media/2020/09/KDM-BontangFactory-7748-Final.jpg')">
-                </button>
+            <button class="btn ms-2" v-if="selectedImage2 !== require('@/assets/pabrik/KDM/kdm2.jpg')" :style="buttonStyle(require('@/assets/pabrik/KDM/kdm2.jpg'))" @click="changeImage(require('@/assets/pabrik/KDM/kdm2.jpg'))">
+            </button>
+
+            <button class="btn ms-2" v-if="selectedImage2 !== require('@/assets/pabrik/KDM/kdm3.jpg')" :style="buttonStyle(require('@/assets/pabrik/KDM/kdm3.jpg'))" @click="changeImage(require('@/assets/pabrik/KDM/kdm3.jpg'))">
+            </button>
             
-                <button class="btn ms-2" v-if="selectedImage2 !== 'https://www.pi-utilitas.com/files/media/2020/09/KDM-BontangFactory-8041-Final.jpg'" style="background: url('https://www.pi-utilitas.com/files/media/2020/09/KDM-BontangFactory-8041-Final.jpg') no-repeat center center / cover; width: 60%; height: 100px;" @click="changeImage2('https://www.pi-utilitas.com/files/media/2020/09/KDM-BontangFactory-8041-Final.jpg')">
-                </button>
+            <button class="btn ms-2" v-if="selectedImage2 !== require('@/assets/pabrik/KDM/kdm4.jpg')" :style="buttonStyle(require('@/assets/pabrik/KDM/kdm4.jpg'))" @click="changeImage(require('@/assets/pabrik/KDM/kdm4.jpg'))">
+            </button>
             
-                <button class="btn ms-2" v-if="selectedImage2 !== 'https://www.pi-energi.com/files/media/2020/09/KDM_4.jpg'"
-                style="background: url('https://www.pi-energi.com/files/media/2020/09/KDM_4.jpg') no-repeat center center / cover; width: 60%; height: 100px;" @click="changeImage2('https://www.pi-energi.com/files/media/2020/09/KDM_4.jpg')">
-                </button>
-            
-                <button class="btn ms-2" v-if="selectedImage2 !== 'https://www.pi-energi.com/files/media/2020/09/KDM_1.jpg'" style="background: url('https://www.pi-energi.com/files/media/2020/09/KDM_1.jpg') no-repeat center center / cover; width: 60%; height: 100px;" @click="changeImage2('https://www.pi-energi.com/files/media/2020/09/KDM_1.jpg')">
-                </button>
+            <button class="btn ms-2" v-if="selectedImage2 !== require('@/assets/pabrik/KDM/kdm5.jpg')" :style="buttonStyle(require('@/assets/pabrik/KDM/kdm5.jpg'))" @click="changeImage(require('@/assets/pabrik/KDM/kdm5.jpg'))">
+            </button>
             
         </div>
     </div>
     </div>
+
+    
 </template>
 <script>
     export default {
         name: 'TryThis',
         data() {
             return {
-                selectedImage: 'https://www.pi-energi.com/files/media/2020/09/DJI_0228.jpg', // Default image
-                selectedImage2: 'https://www.pi-utilitas.com/files/media/2020/09/KDM-BontangFactory-5100-Final.jpg',
-                isTransitioning: false,
+                selectedImage: require('@/assets/pabrik/GGCP/ggcp1.jpg'), // Default image
+                selectedImage2: require('@/assets/pabrik/KDM/kdm1.jpg'),
             };
-        },
-        watch: {
-            selectedImage() {
-                this.isTransitioning = true;
-                setTimeout(() => {
-                    this.isTransitioning = false;
-                }, 1000); // Transition duration
-            },
         },
         methods: {
             changeImage(url) {
@@ -129,6 +88,13 @@
             },
             changeImage2(url) {
                 this.selectedImage2 = url;
+            },
+            buttonStyle(url) {
+                return {
+                    background: `url(${url}) no-repeat center center / cover`,
+                    width: '70%',
+                    height: '100px',
+                };
             },
         },
     }
