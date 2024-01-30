@@ -1,4 +1,5 @@
 <template>
+    <div class="management-list-container">
     <div class="container">
         <div class="text-center">
             <h2><b>Manajemen</b></h2>
@@ -63,6 +64,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </template>
 <script>

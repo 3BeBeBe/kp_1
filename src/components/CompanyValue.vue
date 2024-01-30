@@ -56,7 +56,7 @@
         </div>
         <div class="row justify-content-center">
             <div ref="title" id="title" class="title centered mb-5">
-                <button class="btn btn-light btn-lg" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">
+                <button class="btn btn-outline-light btn-lg" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">
                     <h2><b><i>Akhlak</i></b></h2>
                     <p><i>Nilai - Nilai Perusahaan</i></p>
                 </button>
@@ -170,9 +170,9 @@
             text-align: center;
         }
 
-        .company-value-container {
-            background-color: #084e8b;
-        }
+        /* .company-value-container {
+            background: linear-gradient(to bottom, #084e8b, #ffffff);
+        }  */
 
         .card-body {
             height: 300px;
