@@ -6,7 +6,7 @@
             <h2><i><b>Sejarah Perusahaan</b></i></h2>
             <br>
             <div class="rounded-image">
-              <img src="https://cdn0-production-images-kly.akamaized.net/woCFFqsNnzDtDC1MsvT5AwPbZIQ=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4322775/original/070909200_1676296324-IMG-20230213-WA0014.jpg" class="img-fluid">
+              <img src="../assets/pabrik/GGCP/ggcp4.jpg" class="img-fluid">
             </div>
             <p class="text-justify">Perusahaan yang bergerak dalam bidang industri penghasil energi dan utilitas untuk seluruh Anak Perusahaan yang bernaung di dalam kelompok usaha PT Pupuk Indonesia (Persero) yang bergerak di bidang industri pupuk dan agrokimia.</p>
             <p class="text-justify">Pendirian Perusahaan dimaksudkan sebagai langkah untuk meningkatkan daya saing BUMN Pupuk dan mengupayakan efisiensi biaya produksi pupuk oleh BUMN Pupuk melalui usaha penggunaan teknologi yang ramah lingkungan dan melakukan penghematan bahan baku dan energi.</p>
@@ -17,9 +17,6 @@
               <p class="text-justify">Dengan kecenderungan produksi Gas Bumi Nasional yang menurun serta tren harga gas yang terus meningkat, dan untuk menjalankan amanat Instruksi Presiden No. 2 Tahun 2010 tentang revitalisasi industri pupuk guna tetap menjaga keberlangsungan usaha dan daya saing Perusahaan Pupuk di grup PIHC, PT Pupuk Indoensia (Persero) bersama-sama dengan Anak Perusahaannya yaitu PT Petrokima Gresik, PT Pupuk Kujang Cikampek, PT Pupuk Kalimantan Timur, PT Pupuk Iskandar Muda, PT Pupuk Sriwidjaja Palembang dan Rekayasa Industri mendirikan PI Utilitas untuk memproduksi dan mensuplai energi dan utilitas ke Perusahaan-Perusahaan di lingkungan kelompok usaha PT Pupuk Indonesia (Persero) pada khususnya, serta ke industri atau Perusahaan lainnya pada umumnya.</p>
             </div>
             <div>
-              <div class="rounded-image">
-                <img src="https://www.pi-energi.com/files/media/2020/09/image-banner-factory.jpg" class="img-fluid">
-              </div>
               <p class="text-justify">Tanggal 1 Desember 2021 PT Pupuk Indonesia Utilitas melakukan rebranding dari yang sebelumnya bernama PT Pupuk Indonesia Energi sesuai dengan perubahan Anggaran Dasar PT Pupuk Indonesia Utilitas yang terakhir dimuat dalam Akta No. 02 Tanggal 28 Oktober 2021. Rebranding ini mengukuhkan PI Utilitas sebagai one stop utility provider untuk menunjang tiga komponen kebutuhan utama pabrik pupuk meliputi utilitas, amoniak, dan urea. Utilitas berupa listrik, steam, air, dan nitrogen membuat ruang lingkup bisnis perusahaan lebih luas dan potensi pasar juga lebih besar.</p>
             </div>
           </div>
@@ -83,7 +80,7 @@ export default {
   }
   
   .rounded-image {
-    border-radius: 25px; /* Adjust the border-radius to control the roundness of the corners */
+    border-radius: 0px; /* Adjust the border-radius to control the roundness of the corners */
     overflow: hidden;
   }
   

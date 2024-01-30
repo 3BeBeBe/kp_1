@@ -9,7 +9,7 @@
                 <div>
                     <p>Whistleblowing system adalah mekanisme pelaporan yang dapat diajukan oleh internal perusahaan atau eksternal perusahaan untuk melaporkan adanya perbuatan yang melanggar hukum, atau peraturan lain yang berlaku, atau perbuatan menentang etika yang dilakukan oleh karyawan di perusahaan dengan tetap menjaga rahasia dari si pelapor. Setiap pihak baik insan Perusahaan maupun pihak eksternal memiliki kesempatan yang sama dalam melaporkan dugaan tindak pelanggaran di Perusahaan. WBS merupakan bagian dari sistem pengendalian internal dalam mencegah penyimpangan dan kecurangan serta memperkuat penerapan praktik Tata Kelola Perusahaan.
                     </p>
-                    <p>Whistleblower PI Utilitas dapat di akses di https://wbs.pupuk-indonesia.com/
+                    <p>Whistleblower PI Utilitas dapat di akses di <a href="https://wbs.pupuk-indonesia.com/">https://wbs.pupuk-indonesia.com/</a>
                     </p>   
 
                     <p class="d-inline-flex gap-1 me-3">
@@ -25,30 +25,24 @@
             </div>
         </div>
         
-        
         <div class="collapse" id="collapseExample">
             <div class="card card-body">
-                <form>
+                <form @submit.prevent="submitForm">
                     <div class="row" style="color: black;">
                         <div class="col-md-6">
                             <div class="mb-3">
                                 <label for="inputNama" class="form-label">Nama Terlapor</label>
-                                <input type="nama" class="form-control" id="inputNama" aria-describedby="namaHelp">
+                                <input type="nama" class="form-control" id="inputNama" v-model="nama">
                             </div>
                             <div class="mb-3">
                                 <label for="inputTelepon" class="form-label">Waktu Kejadian</label>
-                                <input type="telepon" class="form-control" id="inputTelepon" aria-describedby="teleponHelp">
+                                <input type="telepon" class="form-control" id="inputTelepon" v-model="telepon">
                             </div>
-                            
-                            <!-- <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                            </div> -->
                         </div>
                         <div class="col-md-6">
                             <div class="mb-3">
                                 <label for="inputJenis" class="form-label">Unit Kerja</label>
-                                <select class="form-select" aria-label="Default select example">
+                                <select type="jenis" class="form-select" v-model="jenis">
                                     <option selected>---</option>
                                     <option value="1">Unit Kerja Pengadaan</option>
                                     <option value="2">Keuangan</option>
@@ -58,14 +52,14 @@
                                 </select>
                             </div>
                             <div class="mb-3">
-                                <label for="inputEmail" class="form-label">Tempat Kejadian</label>
-                                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+                                <label for="inputLokasi" class="form-label">Tempat Kejadian</label>
+                                <input type="email" class="form-control" id="inputLokasi" v-model="lokasi">
                             </div>
                         </div>
                         
                         <div class="mb-3">
                                 <label for="inputDetail" class="form-label">Detail Pengaduan</label>
-                                <textarea class="form-control" id="inputDetail" rows="5"></textarea>
+                                <textarea class="form-control" id="inputDetail" rows="5" v-model="detail"></textarea>
                             </div>
                         <div class="mb-3">
                             <label for="formFileMultiple" class="form-label">File Pendukung</label>
@@ -76,7 +70,6 @@
                         </div>
                     </div>
                 </form>
-                
             </div>
         </div>
         <br>
@@ -85,8 +78,40 @@
 </template>
 
 <script>
+    import axios from 'axios';
+
     export default {
-        name: 'WhistleBlowing'
+        name: 'WhistleBlowing',
+            data() {
+            return {
+                nama: '',
+                telepon: '',
+                jenis: '',
+                lokasi: '',
+                detail: '',
+                // Add more fields as needed...
+            };
+        },
+        methods: {
+            submitForm() {
+                const formData = {
+                    nama: this.nama,
+                    telepon: this.telepon,
+                    jenis: this.jenis,
+                    lokasi: this.lokasi,
+                    detail: this.detail,
+                    // Add more fields as needed...
+                };
+
+                axios.post('http://localhost:8081/send-email', formData)
+                    .then(response => {
+                        console.log(response);
+                    })
+                    .catch(error => {
+                        console.error(error);
+                    });
+            },
+        },
     }
 </script>
 
