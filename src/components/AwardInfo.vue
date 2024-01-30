@@ -25,32 +25,32 @@
         <div class="tab-pane fade show active" id="hal1">
         <div class="row mt-4 ">
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2023/02/Sertifikat-ISO-9001-PT-Pupuk-Indonesia-Utilitas-Tahun-2022.jpg">
+                <img class="img-fluid size-image" src="../assets/award/Sertifikat-ISO-9001-PT-Pupuk-Indonesia-Utilitas-Tahun-2022.jpg">
 
                 <h4>ISO 9001:2015</h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/12/IQA-2022.png">
+                <img class="img-fluid size-image" src="../assets/award/IQA-2022.png">
 
                 <h4>IQA 2022</h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/12/TKMPN-XXVI-copy.jpg">
+                <img class="img-fluid size-image" src="../assets/award/TKMPN-XXVI-copy.jpg">
 
                 <h4>Predikat “Platinum” pada Gugus GKM Jamur Merang di Temu Karya Mutu Produktivitas Nasional (TKMPN) XXVI</h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/12/TKMPN-XXVI-copy-2.jpg">
+                <img class="img-fluid size-image" src="../assets/award/TKMPN-XXVI-copy-2.jpg">
 
                 <h4>Predikat “Gold” pada Gugus GKM Cute di Temu Karya Mutu Produktivitas Nasional (TKMPN) XXVI</h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/12/TKMPN-XXVI.jpg">
+                <img class="img-fluid size-image" src="../assets/award/TKMPN-XXVI.jpg">
 
                 <h4>Predikat “Gold” pada Gugus QCC Warning di Temu Karya Mutu Produktivitas Nasional (TKMPN) XXVI </h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/11/IQPC-Bali.png">
+                <img class="img-fluid size-image" src="../assets/award/IQPC-Bali.png">
 
                 <h4>IQPC 2022</h4>
             </div>
@@ -59,32 +59,32 @@
         <div class="tab-pane fade" id="hal2">
         <div class="row mt-4 ">
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/11/Penghargaan-The-Most-Committed-GRC-Leader_rotated_page-0001.png">
+                <img class="img-fluid size-image" src="../assets/award/Penghargaan-The-Most-Committed-GRC-Leader_rotated_page-0001.png">
 
                 <h4>The Most Committed GRC Leader Agus Subekti – Direktur Utama </h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/11/Special-Appriciation-of-Top-GRC-Awards-2022-on-Fraud-Control-System_rotated_page-0001.png">
+                <img class="img-fluid size-image" src="../assets/award/Special-Appriciation-of-Top-GRC-Awards-2022-on-Fraud-Control-System_rotated_page-0001.png">
 
                 <h4>TOP SPECIAL RECOGNITION TOP GRC AWARDS 2022</h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/11/TOP-GRC-Awards-2022-3-Stars_rotated_page-0001.png">
+                <img class="img-fluid size-image" src="../assets/award/TOP-GRC-Awards-2022-3-Stars_rotated_page-0001.png">
 
                 <h4>TOP GRC AWARDS 2022 # 3 STARS </h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/WhatsApp-Image-2022-07-19-at-5.18.23-PM.jpeg">
+                <img class="img-fluid size-image" src="../assets/award/WhatsApp-Image-2022-07-19-at-5.18.23-PM.jpeg">
 
                 <h4>Kecelakaan Nihil</h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/WhatsApp_Image_2022-06-23_at_4.46.16_PM__1_-removebg-preview-1.png">
+                <img class="img-fluid size-image" src="../assets/award/WhatsApp_Image_2022-06-23_at_4.46.16_PM__1_-removebg-preview-1.png">
 
                 <h4>ICCOSH 2022</h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/DSC00461-removebg-preview.png">
+                <img class="img-fluid size-image" src="../assets/award/DSC00461-removebg-preview.png">
 
                 <h4>PIQI 2021</h4>
             </div>
@@ -93,32 +93,32 @@
         <div class="tab-pane fade" id="hal3">
         <div class="row mt-4 ">
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/DSC00458-removebg-preview.png">
+                <img class="img-fluid size-image" src="../assets/award/DSC00458-removebg-preview.png">
 
                 <h4>PIQI 2021 </h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/DSC03015-removebg-preview.png">
+                <img class="img-fluid size-image" src="../assets/award/DSC03015-removebg-preview.png">
 
                 <h4>ICCOSH 2021</h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/TKMPN-QCC-ENERGIZE-COGEN-2021_page-0002.jpg">
+                <img class="img-fluid size-image" src="../assets/award/TKMPN-QCC-ENERGIZE-COGEN-2021_page-0002.jpg">
 
                 <h4>TKMPN XXV dan IQPC 2021 </h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/TKMPN-QCC-ENERGIZE-COGEN-2021_page-0001.jpg">
+                <img class="img-fluid size-image" src="../assets/award/TKMPN-QCC-ENERGIZE-COGEN-2021_page-0001.jpg">
 
                 <h4>TKMPN XXV and IQPC 2021</h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/Sertifikat-ISO-45001-PT-Pupuk-Indonesia-Utilitas-Tahun-2022.jpg">
+                <img class="img-fluid size-image" src="../assets/award/Sertifikat-ISO-45001-PT-Pupuk-Indonesia-Utilitas-Tahun-2022.jpg">
 
                 <h4>ISO 45001:2018</h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/Sertifikat-ISO-37001-PT-Pupuk-Indonesia-Utilitas-Tahun-2022.jpg">
+                <img class="img-fluid size-image" src="../assets/award/Sertifikat-ISO-37001-PT-Pupuk-Indonesia-Utilitas-Tahun-2022.jpg">
 
                 <h4>ISO 37001:2016</h4>
             </div>
@@ -127,32 +127,32 @@
         <div class="tab-pane fade" id="hal4">
         <div class="row mt-4 ">
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/08/Sertifikat-ISO-14001-PT-Pupuk-Indonesia-Utilitas-Tahun-2022.jpg">
+                <img class="img-fluid size-image" src="../assets/award/Sertifikat-ISO-14001-PT-Pupuk-Indonesia-Utilitas-Tahun-2022.jpg">
 
                 <h4>ISO 14001:2015 </h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/07/Picture4.png">
+                <img class="img-fluid size-image" src="../assets/award/Picture4.png">
 
                 <h4>APQO IC 2021 </h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/07/Picture3.png">
+                <img class="img-fluid size-image" src="../assets/award/Picture3.png">
 
                 <h4>APQO IC 2021 </h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/07/Picture2.png">
+                <img class="img-fluid size-image" src="../assets/award/Picture2.png">
 
                 <h4>ICQCC 2021 </h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-utilitas.com/files/media/2022/07/Picture1.png">
+                <img class="img-fluid size-image" src="../assets/award/Picture1.png">
 
                 <h4>ICQCC 2021 </h4>
             </div>
             <div class="col-md-4">
-                <img class="img-fluid size-image" src="https://www.pi-energi.com/files/media/2020/09/PIALA-QCC-COGEN-piutilitas.png">
+                <img class="img-fluid size-image" src="../assets/award/PIALA-QCC-COGEN-piutilitas.png">
 
                 <h4>TKMPN 2019</h4>
             </div>

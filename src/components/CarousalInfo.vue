@@ -22,7 +22,7 @@
             </div>
             <div class="carousel-item img-fluid">
                 <div class="carousel-image-container" data-bs-interval="100">
-                    <img src="https://www.pi-utilitas.com/files/media/2020/09/KDM_1.jpg" class="d-block w-100 carousel-image">
+                    <img src="../assets/pabrik/KDM/kdm1.jpg" class="d-block w-100 carousel-image">
                 </div>
                 <div class="d-md-block overlay-text">
                     <h1><i>Kaltim Daya Mandiri (KDM)</i></h1>
