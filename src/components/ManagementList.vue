@@ -1,13 +1,14 @@
 <template>
     <div class="container">
         <div class="text-center">
-            <h2><b>MANJAMEN</b></h2>
+            <h2><b>Manajemen</b></h2>
+            <br>
         </div>
         <div class="text-center">
-            <h3>DIREKSI</h3>
+            <h3>Direksi</h3>
         </div>
         <div class="row">
-            <div class="col-md-4 d-flex">
+            <div class="col-md-4 d-flex rounded-image">
                 <div>
                     <img src="../assets/Manajemen/Direksi/Nuri Kristiawan - Direktur Keuangan.jpg" class="img-fluid img-fixed" alt="">
                     <h4>Nuri Kristiawan</h4>
@@ -15,7 +16,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 d-flex">
+            <div class="col-md-4 d-flex rounded-image">
                 <div>
                     <img src="../assets/Manajemen/Direksi/Mochamad Safiie - Direktur Utama.jpg" class="img-fluid img-fixed" alt="">
                     <h4>Mochamad Safiie</h4>
@@ -23,7 +24,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 d-flex">
+            <div class="col-md-4 d-flex rounded-image">
                 <div>
                     <img src="../assets/Manajemen/Direksi/Anis Ernani - Direktur Operasi.jpg" class="img-fluid img-fixed" alt="">
                     <h4>Anis Ernani</h4>
@@ -32,10 +33,13 @@
             </div>
         </div>
         <div class="section-header text-center">
-            <h3>KOMISARIS</h3>
+            <br>
+            <br>
+            <h3>Komisaris</h3>
+            <br>
         </div>
         <div class="row">
-            <div class="col-md-4 d-flex">
+            <div class="col-md-4 d-flex rounded-image">
                 <div>
                     <img src="../assets/Manajemen/Komisaris/Sumyana Sukandar - Komisaris Utama.jpg" class="img-fluid img-fixed" alt="">
                     <h4>Sumyana Sukandar</h4>
@@ -43,7 +47,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 d-flex">
+            <div class="col-md-4 d-flex rounded-image">
                 <div>
                     <img src="../assets/Manajemen/Komisaris/Imam Mujahidin Fahmid - Komisaris.jpg" class="img-fluid img-fixed" alt="">
                     <h4>Imam Mujahidin Fahmid</h4>
@@ -51,7 +55,7 @@
                 </div>
             </div>
 
-            <div class="col-md-4 d-flex">
+            <div class="col-md-4 d-flex rounded-image">
                 <div>
                     <img src="../assets/Manajemen/Komisaris/Monica Desideria - Komisaris.jpg" class="img-fluid img-fixed" alt="">
                     <h4>Monica Desideria</h4>
@@ -72,5 +76,9 @@
         width: 100%; /* Adjust as needed */
         height: 300px; /* Adjust as needed */
         object-fit: cover;
+    }
+    .rounded-image {
+        border-radius: 50px; /* Adjust the border-radius to control the roundness of the corners */
+        overflow: hidden;
     }
 </style>
