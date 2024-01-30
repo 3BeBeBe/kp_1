@@ -1,15 +1,15 @@
 <template>
-    <nav class="navbar sticky-top bg-body-tertiary navbar-expand-lg bg-body-tertiary border-bottom border-body py-0">
+    <nav class="navbar sticky-top bg-body-tertiary navbar-expand-lg bg-body-tertiary border-bottom border-body py-0" style="padding: 0.5rem 1rem;">
         <div class="container-fluid">
             <a class="navbar-brand" href="/">
-                <img src="../assets/Salinan LOGO PIU Warna.png" width="90" height="72">
+                <img src="../assets/Salinan LOGO PIU Warna.png" width="60" height="48">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav navbar-auto me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav navbar-auto me-auto">
                     <li class="nav-item">
                         <router-link class="nav-link" to="/profile" >Profile</router-link>
                     </li>
