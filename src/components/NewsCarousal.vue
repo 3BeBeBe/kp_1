@@ -1,5 +1,5 @@
 <template>
-    <div class="container mt-5">
+    <div class="container p-5 mt-5">
         <div class="row">
             <div class="col-md-5">
                 <img class="img-fluid" src="https://www.pi-utilitas.com/files/media/2022/12/FOTO-UNTUK-SIARAN-PERS-PT-Pupuk-Indonesia-Utilitas-Raih-Indonesian-Quality-Award-2022.jpg">
