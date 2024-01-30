@@ -1,10 +1,15 @@
 <template>
   <div class="profile">
     <NavBar/>
-    <img src="../assets/Carousal/Profile.jpg" class="d-block w-100">
+    <!-- <img src="../assets/Carousal/Profile.jpg" class="d-block w-100">
+     -->
+     <div class="image-container">
+      <img src="../assets/Carousal/Profile.jpg" class="d-block w-100">
+      <div class="image-overlay"></div>
+    </div>
     <CompanyHistory/>
     <VisionMision/>
-    <CompanyValue/> 
+    <CompanyValue/>
     <ManagementList/>
     <CompanyStructure/>
     <AwardInfo/>
@@ -37,3 +42,19 @@
     }
   }
 </script>
+<style>
+
+
+.image-container {
+  position: relative;
+}
+
+.image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 25%; /* Adjust this value to control the height of the fade */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(8, 78, 139, 0.5) 50%, rgba(8, 78, 139, 1) 100%);
+}
+</style>
