@@ -1,8 +1,10 @@
 <template>
     <div class="company-history-container">
       <div class="container">
+        <div class="background-overlay"></div>
+        <div class="background-image"></div>
         <div class="row justify-content-center">
-          <div class="col-md-12 mt-5" ref="fadeInElement3">
+          <div class="col-md-12 mt-5 fade-in-right" ref="fadeInElement3">
             <h2><i><b>Sejarah Perusahaan</b></i></h2>
             <br>
           </div>
