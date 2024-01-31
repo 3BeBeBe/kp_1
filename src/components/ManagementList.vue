@@ -126,10 +126,7 @@
 <script>
 export default {
   name: "ManagementList",
-},
-function toggleCard(card) {
-    card.classList.toggle('flipped');
-};
+}
 </script>
 
 <style>
