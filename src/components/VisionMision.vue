@@ -17,7 +17,7 @@
 
         <div class="col-md-7 pl-mb-5 order-md-3 colored-text-white">
           <div class="mb-4" style="text-align: center">
-            <h2>
+            <h2 class="colored-text-orange">
               <i><b>Visi</b></i>
             </h2>
             <h4 class="text-justify">
@@ -31,7 +31,7 @@
         <div class="col-md-7 pl-mb-5 order-md-3">
           <div class="mb-4" style="text-align: center">
             <h2> 
-              <i class="colored-text-white"><b>Misi</b></i>
+              <i class="colored-text-orange"><b>Misi</b></i>
             </h2>
             <div class="row">
               <div class="col-md-6 mb-3">
@@ -49,20 +49,20 @@
                 <p class="colored-text-white">Memberikan nilai tambah bagi stakeholders.</p>
               </div>
               <div class="col-md-6 mb-3">
-                <img class="rounded-image" src="../assets/Plugin icon - 1.png">
+                <img class="rounded-image " src="../assets/Plugin icon - 1.png">
                 <br>
                 <br>
-                <p>
+                <p class="colored-text-white">
                   Mengutamakan keselamatan dan kesehatan kerja serta menjaga
                   pelestarian lingkungan hidup dalam setiap kegiatan
                   operasional.
                 </p>
               </div>
               <div class="col-md-6 mb-3">
-                <img class="rounded-image" src="../assets/Plugin icon - 1.png">
+                <img class="rounded-image " src="../assets/Plugin icon - 1.png">
                 <br>
                 <br>
-                <p>Memberikan kontribusi terhadap ketahanan energi nasional.</p>
+                <p class="colored-text-white">Memberikan kontribusi terhadap ketahanan energi nasional.</p>
               </div>
             </div>
           </div>
@@ -79,7 +79,8 @@ export default {
 </script>
 <style>
 .vision-mision {
-    background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(8, 78, 139, 0.75) 10%, rgba(8, 78, 139, 1) 100%);
+    /* background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(8, 78, 139, 0.75) 10%, rgba(8, 78, 139, 1) 100%); */
+    background-color: #084e8b;
 }
 .rounded-image {
   border-radius: 25px; /* Adjust the border-radius to control the roundness of the corners */
@@ -87,5 +88,9 @@ export default {
 }
 .colored-text-white {
     color: white;
+}
+.colored-text-orange {
+  /* color: #f15a24; */
+  color: #ff865b;
 }
 </style>

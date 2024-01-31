@@ -1,9 +1,13 @@
 <template>
     <div class="company-history-container">
+      <div class="background-overlay"></div>
+      <div class="background-image"></div>
       <div class="container mt-0">
+        <h2 class="fade-in-right" ref="fadeInElement3"><i><b>Sejarah Perusahaan</b></i></h2>
         <div class="row justify-content-center">
+          
           <div class="col-md-6 pr-md-5 fade-in-right" ref="fadeInElement1">
-            <h2><i><b>Sejarah Perusahaan</b></i></h2>
+            
             <br>
             <div class="rounded-image">
               <img src="https://cdn0-production-images-kly.akamaized.net/woCFFqsNnzDtDC1MsvT5AwPbZIQ=/1200x900/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4322775/original/070909200_1676296324-IMG-20230213-WA0014.jpg" class="img-fluid">
@@ -14,11 +18,12 @@
   
           <div class="col-md-6 pl-mb-5 fade-in-left" ref="fadeInElement2">
             <div class="mb-4">
+              <br>
               <p class="text-justify">Dengan kecenderungan produksi Gas Bumi Nasional yang menurun serta tren harga gas yang terus meningkat, dan untuk menjalankan amanat Instruksi Presiden No. 2 Tahun 2010 tentang revitalisasi industri pupuk guna tetap menjaga keberlangsungan usaha dan daya saing Perusahaan Pupuk di grup PIHC, PT Pupuk Indoensia (Persero) bersama-sama dengan Anak Perusahaannya yaitu PT Petrokima Gresik, PT Pupuk Kujang Cikampek, PT Pupuk Kalimantan Timur, PT Pupuk Iskandar Muda, PT Pupuk Sriwidjaja Palembang dan Rekayasa Industri mendirikan PI Utilitas untuk memproduksi dan mensuplai energi dan utilitas ke Perusahaan-Perusahaan di lingkungan kelompok usaha PT Pupuk Indonesia (Persero) pada khususnya, serta ke industri atau Perusahaan lainnya pada umumnya.</p>
             </div>
             <div>
               <div class="rounded-image">
-                <img src="https://www.pi-energi.com/files/media/2020/09/image-banner-factory.jpg" class="img-fluid">
+                <!-- <img src="https://www.pi-energi.com/files/media/2020/09/image-banner-factory.jpg" class="img-fluid"> -->
               </div>
               <p class="text-justify">Tanggal 1 Desember 2021 PT Pupuk Indonesia Utilitas melakukan rebranding dari yang sebelumnya bernama PT Pupuk Indonesia Energi sesuai dengan perubahan Anggaran Dasar PT Pupuk Indonesia Utilitas yang terakhir dimuat dalam Akta No. 02 Tanggal 28 Oktober 2021. Rebranding ini mengukuhkan PI Utilitas sebagai one stop utility provider untuk menunjang tiga komponen kebutuhan utama pabrik pupuk meliputi utilitas, amoniak, dan urea. Utilitas berupa listrik, steam, air, dan nitrogen membuat ruang lingkup bisnis perusahaan lebih luas dan potensi pasar juga lebih besar.</p>
             </div>
@@ -79,13 +84,57 @@ export default {
   }
   
   .company-history-container {
-    background-color: #084e8b;
-    color: white; /* Set text color to contrast with the background */
-  }
+  position: relative;
+  color: white; /* Set text color to contrast with the background */
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(8, 78, 139, 0.8); /* Use rgba for the background color with alpha channel */
+  content: "";
+  z-index: -1;
+  opacity: 0.9;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://www.pi-energi.com/files/media/2020/09/image-banner-factory.jpg");
+  background-blend-mode: overlay; /* Adjust the blend mode as needed */
+  background-size: cover; /* Ensure the background image covers the container */
+  z-index: -2;
+}
+
+.background-image::before,
+.background-image::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 20%; /* Adjust the height of the fade effect as needed */
+  pointer-events: none; /* Ensure the pseudo-elements do not interfere with interactions */
+}
+
+.background-image::before {
+  top: 0;
+  background: linear-gradient(rgba(8, 78, 139, 0.8), rgba(8, 78, 139, 0));
+}
+
+.background-image::after {
+  bottom: 0;
+  background: linear-gradient(rgba(8, 78, 139, 0), rgba(8, 78, 139, 0.8));
+}
   
   .company-history img {
     width: 100%;
     height: 50%;
+    opacity: 0.5;
   }
   
   .rounded-image {
