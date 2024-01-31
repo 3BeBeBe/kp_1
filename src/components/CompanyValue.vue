@@ -170,11 +170,15 @@
             text-align: center;
         }
 
-        /* .company-value-container {
-            background: linear-gradient(to bottom, #084e8b, #ffffff);
-        }  */
+        .company-value-container {
+            /* background: linear-gradient(to bottom, #084e8b, #ffffff);
+             */
+             background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(8, 78, 139, 0.5) 10%, rgba(8, 78, 139, 1) 100%);
+
+        } 
 
         .card-body {
             height: 300px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
     </style>
