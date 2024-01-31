@@ -29,7 +29,7 @@
             <h4>Nuri Kristiawan</h4>
           </div>
         </div> -->
-        <div class="flip-card" onclick="toggleCard(this)">
+        <div class="flip-card col-md-4" onclick="toggleCard(this)">
           <div class="flip-card-inner">
             <div class="flip-card-front">
               <img
@@ -126,7 +126,16 @@
 <script>
 export default {
   name: "ManagementList",
+<<<<<<< HEAD
 }
+=======
+  methods: {
+    toggleCard(card) {
+      card.classList.toggle("flipped");
+    },
+  },
+};
+>>>>>>> 681fb09076d337d13bfed42040277bb20cb56b92
 </script>
 
 <style>
