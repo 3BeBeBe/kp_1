@@ -1,143 +1,66 @@
 <template>
-    <div class="slide-content bg-shade fit-bg d-flex align-items-center" :style="{ backgroundImage: `url(${selectedImage})` }">
-    <div class="container p-3">
-                    
-        <div class="row d-flex align-items-center mb-2">
-            <div class="col-md-6 place-holder">
-                <img class="img-fluid" :src="selectedImage">
+    <div class="container mt-0">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-md-8">
+                <h2 class="card-title"><i><b>Visi</b></i></h2>
+                <h4 class="card-text">Menjadi Perusahaan Energi dan Utilitas terintegrasi kelas dunia untuk menunjang bisnis utama PT Pupuk Indonesia (Persero) beserta anak perusahaannya.</h4>    
             </div>
-            <div class="col-md-6" style="color: white;">
-                <h2>GRESIK GAS COGENERATION PLANT(GGCP)</h2>
-                <p>PT Pupuk Indonesia Utilitas (PI Utilitas) atau sebelumnya bernama PT Pupuk Indonesia Energi didirikan berdasarkan Akta No. 11 tanggal 18 Agustus 2014. Di tahun yang sama terjadi pula inisiasi Pembangunan Gresik Gas Cogeneration Plant (GGCP di Gresik, Jawa Timur). Pada 2015, PI Utilitas mulai melakukan Konstruksi Fisik Gresik Gas Cogeneration Plant. Tepat pada April 2018, Pabrik GGCP resmi beroperasi secara komersil hingga saat ini.</p>
-                <p>Proyek GGCP yang sudah mulai dijalankan dan dioptimalkan di tahun 2018 senantiasa mendorong Kinerja PI Utilitas untuk terus unggul dalam persaingan usaha tanpa melupakan tanggung jawabnya sebagai korporasi yang tumbuh di tengah publik. Dengan mengedepankan prinsip penerapan bisnis yang tetap memperhatikan lingkungan, PI Utilitas yakin akan mampu terus tumbuh menjadi korporasi yang berkelanjutan dan berintegritas tinggi.</p>
+            <div class="col-md-4">
+                <img src="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p2/11/2023/09/30/6B977B2A-D585-4BB6-A126-B5D8A8E355BE-4088439324.jpeg" class="img-fluid img-fixed">
             </div>
         </div>
-
-        <div class="justify-content-end flex-container">
-                
-            <button class="btn ms-2" v-if="selectedImage !== require('@/assets/pabrik/GGCP/ggcp1.jpg')" :style="buttonStyle(require('@/assets/pabrik/GGCP/ggcp1.jpg'))" @click="changeImage(require('@/assets/pabrik/GGCP/ggcp1.jpg'))">
-            </button>
-        
-            <button class="btn ms-2" v-if="selectedImage !== require('@/assets/pabrik/GGCP/ggcp2.jpg')" :style="buttonStyle(require('@/assets/pabrik/GGCP/ggcp2.jpg'))" @click="changeImage(require('@/assets/pabrik/GGCP/ggcp2.jpg'))">
-            </button>
-            
-            <button class="btn ms-2" v-if="selectedImage !== require('@/assets/pabrik/GGCP/ggcp3.jpg')" :style="buttonStyle(require('@/assets/pabrik/GGCP/ggcp3.jpg'))" @click="changeImage(require('@/assets/pabrik/GGCP/ggcp3.jpg'))">
-            </button>
-            
-            <button class="btn ms-2" v-if="selectedImage !== require('@/assets/pabrik/GGCP/ggcp4.jpg')" :style="buttonStyle(require('@/assets/pabrik/GGCP/ggcp4.jpg'))" @click="changeImage(require('@/assets/pabrik/GGCP/ggcp4.jpg'))">
-            </button>
-            
-            <button class="btn ms-2" v-if="selectedImage !== require('@/assets/pabrik/GGCP/ggcp5.jpg')" :style="buttonStyle(require('@/assets/pabrik/GGCP/ggcp5.jpg'))" @click="changeImage(require('@/assets/pabrik/GGCP/ggcp5.jpg'))">
-            </button>
-            
-            <button class="btn ms-2" v-if="selectedImage !== require('@/assets/pabrik/GGCP/ggcp6.jpg')" :style="buttonStyle(require('@/assets/pabrik/GGCP/ggcp6.jpg'))" @click="changeImage(require('@/assets/pabrik/GGCP/ggcp6.jpg'))">
-            </button>
-            
-        </div>
-    </div>
-    </div>
-
-    <div class="slide-content bg-shade fit-bg d-flex align-items-center"  :style="{ backgroundImage: `url(${selectedImage2})` }">
-    <div class="container p-3">
-                    
-        <div class="row d-flex align-items-center mb-5">
-            <div class="col-md-6 place-holder">
-                <img class="img-fluid" :src="selectedImage2">
+        <div class="row d-flex align-items-center justify-content-center">
+            <div class="col-md-4">
+                <img src="https://www.pi-utilitas.com/files/media/2020/09/image-mission.jpg" class="img-fluid img-fixed">
             </div>
-            <div class="col-md-6" style="color: white;">
-                <h2>KALTIM DAYA MANDIRI</h2>
-                <p>Kaltim Daya Mandiri (KDM) adalah salah satu perusahaan utilitas dan Energi yang didirikan dengan tujuan untuk menyuplai kebutuhan utilitas pada fasilitas produksi dan perumahan PT. Pupuk Kaltim serta perusahan-perusahaan lain yang berada di lingkungan Kaltim Industrial Estate.</p>
+            <div class="col-md-8">
+                <h2 class="card-title"> 
+                    <i class="colored-text-white"><b>Misi</b></i>
+                </h2>
+                <ul class="card-text justify-content-center">
+                    <li class="colored-text-white">
+                        Melakukan usaha dalam bidang penyediaan energi dan utilitas.
+                    </li>
+                    <li class="colored-text-white">
+                        Memberikan nilai tambah bagi stakeholders.
+                    </li>
+                    <li>
+                        Mengutamakan keselamatan dan kesehatan kerja serta menjaga pelestarian lingkungan hidup dalam setiap kegiatan operasional.
+                    </li>
+                    <li>
+                        Memberikan kontribusi terhadap ketahanan energi nasional.
+                    </li>
+                </ul>
             </div>
         </div>
-
-        <div class="justify-content-end flex-container">
-            
-            <button class="btn ms-2" v-if="selectedImage2 !== require('@/assets/pabrik/KDM/kdm1.jpg')" :style="buttonStyle(require('@/assets/pabrik/KDM/kdm1.jpg'))" @click="changeImage(require('@/assets/pabrik/KDM/kdm1.jpg'))">
-            </button>
-        
-            <button class="btn ms-2" v-if="selectedImage2 !== require('@/assets/pabrik/KDM/kdm2.jpg')" :style="buttonStyle(require('@/assets/pabrik/KDM/kdm2.jpg'))" @click="changeImage(require('@/assets/pabrik/KDM/kdm2.jpg'))">
-            </button>
-
-            <button class="btn ms-2" v-if="selectedImage2 !== require('@/assets/pabrik/KDM/kdm3.jpg')" :style="buttonStyle(require('@/assets/pabrik/KDM/kdm3.jpg'))" @click="changeImage(require('@/assets/pabrik/KDM/kdm3.jpg'))">
-            </button>
-            
-            <button class="btn ms-2" v-if="selectedImage2 !== require('@/assets/pabrik/KDM/kdm4.jpg')" :style="buttonStyle(require('@/assets/pabrik/KDM/kdm4.jpg'))" @click="changeImage(require('@/assets/pabrik/KDM/kdm4.jpg'))">
-            </button>
-            
-            <button class="btn ms-2" v-if="selectedImage2 !== require('@/assets/pabrik/KDM/kdm5.jpg')" :style="buttonStyle(require('@/assets/pabrik/KDM/kdm5.jpg'))" @click="changeImage(require('@/assets/pabrik/KDM/kdm5.jpg'))">
-            </button>
-            
-        </div>
     </div>
-    </div>
-
-    
 </template>
 <script>
     export default {
-        name: 'TryThis',
-        data() {
-            return {
-                selectedImage: require('@/assets/pabrik/GGCP/ggcp1.jpg'), // Default image
-                selectedImage2: require('@/assets/pabrik/KDM/kdm1.jpg'),
-            };
-        },
-        methods: {
-            changeImage(url) {
-                this.selectedImage = url;
-            },
-            changeImage2(url) {
-                this.selectedImage2 = url;
-            },
-            buttonStyle(url) {
-                return {
-                    background: `url(${url}) no-repeat center center / cover`,
-                    width: '70%',
-                    height: '100px',
-                };
-            },
-        },
+        name: 'TryThis'
     }
 </script>
 <style scoped>
     .img-fixed {
-        width: 80%; /* Adjust as needed */
-        height: 100px; /* Adjust as needed */
+        width: 100%; /* Adjust as needed */
+        height: 250px; /* Adjust as needed */
         object-fit: cover;
     }
 
-    .bg-shade{
-        position: relative;
+    .card-custom-color {
+        background-color: #123456;
+        color: #abcdef;
     }
-
-    .bg-shade::before {
-        content: "";
+    
+    .intersect-card-1 {
         position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background: rgba(0, 0, 0, 0.8);
-        /* background: linear-gradient(to right, rgb(0, 0, 0) 25%, rgba(0, 0, 0, 0) 70%); */
-
+        top: 200px; /* Adjust this value to change the vertical position of the second card */
+        right: 50px; /* Adjust this value to change the horizontal position of the second card */
     }
 
-    .fit-bg {
-        height: 100vh; /* Adjust this value to your desired height */
-        object-fit: cover;
-    }
-
-    .flex-container {
-        display: flex;
-        justify-content: flex-end;
-        width: 75%;
-        margin: auto;
-    }
-    .container {
-        position: relative;
-    }
-
-    .fade-transition {
-        transition: background-image 1s ease-in-out;
+    .intersect-card-2 {
+        position: absolute;
+        top: 400px; /* Adjust this value to change the vertical position of the third card */
+        left: 50; /* Adjust this value to change the horizontal position of the third card */
     }
 </style>
