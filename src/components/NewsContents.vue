@@ -1,10 +1,10 @@
 <template>
-    <div class="container justify-content-center mx-auto m-5">
+    <div class="container mt-3 justify-content-center">
         <div class="row justify-content-center mx-auto">
             <!-- <div class="col-md-3">   -->
                 <!-- <div class="card"> -->
-                    <div class="card-header text-center"> 
-                        <ul class="nav nav-tabs justify-content-start mt-2 mb-2 d-flex align-items-end">
+                    <div class="text-center"> 
+                        <ul class="nav nav-underline justify-content-start mt-2 mb-2 d-flex align-items-end">
                             <li class="nav-item" v-for="tab in tabs" :key="tab.id">
                                  <h2 :class="{ 'active-tab': tab.active, 'inactive-tab': !tab.active }">
                                     <a :id="tab.id" class="nav-link" :class="{ active: tab.active }" data-bs-toggle="tab" aria-current="true" :href="tab.href" @click="switchTab(tab.id)">
@@ -16,15 +16,17 @@
                     </div>
                 <!-- </div> -->
             <!-- </div>    -->
+
+            <hr>
             
             <!-- <div class="col-md-9"> -->
                 <div class="container tab-content">
 
                     <div class="tab-pane fade show active" id="pers">
                         <div class="row">
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers1">
-                                    <img src="../assets/siaranPers/SP-1.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-1.jpg" class="img-fixed">
                                     <div class="card-body">
                                         <h5 class="card-title text-start">PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award 2022</h5>
 
@@ -35,7 +37,7 @@
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="pers1" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -78,9 +80,9 @@
                                 </div>
                             </div>
                             
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers2">
-                                    <img src="../assets/siaranPers/SP-2.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-2.jpg" class="img-fixed">
                                     <div class="card-body">
                                         <h5 class="card-title text-start">Pupuk Indonesia Lunurkan Program Kompetisi Jurnalistik</h5>
 
@@ -90,7 +92,7 @@
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="pers2" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -141,9 +143,9 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers3">
-                                    <img src="../assets/siaranPers/SP-3.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-3.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Pupuk Indonesia Utilitas Raih Tiga Penghargaan di Ajang TOP GRC Awards 2022 </h5>
 
@@ -153,7 +155,7 @@
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="pers3" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -233,9 +235,9 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers4">
-                                    <img src="../assets/siaranPers/SP-4.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-4.jpg" class="img-fixed">
                                     <div class="card-body">
                                         <h5 class="card-title text-start">Genap Berusia Sewindu, PI Utilitas Rumuskan Sembilan Rencana Strategis</h5>
 
@@ -245,7 +247,7 @@
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="pers4" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -285,9 +287,9 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers5">
-                                    <img src="../assets/siaranPers/SP-5.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-5.jpg" class="img-fixed">
                                     <div class="card-body">
                                         <h5 class="card-title text-start">Pupuk Indonesia Energi Melakukan Rebranding Menjadi Pupuk Indonesia Utilitas</h5>
 
@@ -297,7 +299,7 @@
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="pers5" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -337,9 +339,9 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers6">
-                                    <img src="../assets/siaranPers/SP-6.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-6.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">PI Utilitas Raih Sertifikasi ISO 9001:2015 Terkait Manajemen Mutu </h5>
 
@@ -349,7 +351,7 @@
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="pers6" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -373,9 +375,9 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers7">
-                                    <img src="../assets/siaranPers/SP-7.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-7.jpg" class="img-fixed">
                                     <div class="card-body">
                                         <h5 class="card-title text-start">PI-Energi Salurkan Bantuan Sembako untuk Pondok Pesantren </h5>
 
@@ -385,7 +387,7 @@
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="pers7" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -413,9 +415,9 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers8">
-                                    <img src="../assets/siaranPers/SP-8.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-8.jpg" class="img-fixed">
                                     <div class="card-body">
                                         <h5 class="card-title text-start">Langkah Preventif PI-Energi Cegah COVID-19 </h5>
 
@@ -425,7 +427,7 @@
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="pers8" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -451,9 +453,9 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers9">
-                                    <img src="../assets/siaranPers/SP-9.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-9.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">PI-Energi Bagikan Sembako Untuk Yayasan Yatim Piatu </h5>
 
@@ -463,7 +465,7 @@
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="pers9" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -483,9 +485,9 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers10">
-                                    <img src="../assets/siaranPers/SP-10.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-10.jpg" class="img-fixed">
                                     <div class="card-body">
                                         <h5 class="card-title text-start">Kunjungi Yogyakarta, Dirut PI-Energi Dalami Potensi Energi Baru Terbarukan</h5>
 
@@ -495,7 +497,7 @@
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="pers10" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -523,9 +525,9 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers11">
-                                    <img src="../assets/siaranPers/SP-11.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-11.jpg" class="img-fixed">
                                     <div class="card-body">
                                         <h5 class="card-title text-start">Lestarikan Ekowisata, PT Pupuk Indonesia Energi Salurkan Dana CSR</h5>
 
@@ -535,7 +537,7 @@
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="pers11" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -559,9 +561,9 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers12">
-                                    <img src="../assets/siaranPers/SP-12.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-12.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">PI-Energi Raih Penghargaan Temu Karya Mutu dan Produktivitas Nasional</h5>
 
@@ -571,7 +573,7 @@
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="pers12" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -601,9 +603,9 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers13">
-                                    <img src="../assets/siaranPers/SP-13.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-13.jpg" class="img-fixed">
                                     <div class="card-body">
                                         <h5 class="card-title text-start">Pemegang Saham PI Energi Angkat Direktur Operasi Baru </h5>
 
@@ -613,7 +615,7 @@
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="pers13" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -641,9 +643,9 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers14">
-                                    <img src="../assets/siaranPers/SP-14.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-14.jpg" class="img-fixed">
                                     <div class="card-body">
                                         <h5 class="card-title text-start">Serahkan Bantuan Pendidikan, PI-Energi Fokus Kembangkan SDM Di Indonesia</h5>
 
@@ -653,7 +655,7 @@
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="pers14" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -693,9 +695,9 @@
                                 </div>
                             </div>
                             
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers15">
-                                    <img src="../assets/siaranPers/SP-15.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-15.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Kembangkan Bisnis, Pupuk Indonesia Energi Gandeng Universitas Padjajaran </h5>
 
@@ -705,7 +707,7 @@
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="pers15" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -749,9 +751,9 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers16">
-                                    <img src="../assets/siaranPers/SP-16.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-16.jpg" class="img-fixed">
                                     <div class="card-body">
                                         <h5 class="card-title text-start">Dirgahayu PT Pupuk Indonesia Energi Ke-2</h5>
 
@@ -761,7 +763,7 @@
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="pers16" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -791,9 +793,9 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers17">
-                                    <img src="../assets/siaranPers/SP-16.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-16.jpg" class="img-fixed">
                                     <div class="card-body">
                                         <h5 class="card-title text-start">Penandatanganan Kontrak EPCC Gresik Gas Cogeneration Plant </h5>
 
@@ -803,7 +805,7 @@
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="pers17" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -823,9 +825,9 @@
                                 </div>
                             </div>
                             
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers18">
-                                    <img src="../assets/siaranPers/SP-16.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-16.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Pupuk Indonesia Energi Bangun Pembangkit Listrik di Gresik </h5>
 
@@ -835,7 +837,7 @@
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="pers18" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -863,9 +865,9 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#pers19">
-                                    <img src="../assets/siaranPers/SP-16.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-16.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">PT Pupuk Indonesia Raih Annual Report Award 2015 </h5>
 
@@ -875,7 +877,7 @@
                             </div>
                             <!-- Modal -->
                             <div class="modal fade" id="pers19" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -907,9 +909,9 @@
 
                     <div class="tab-pane fade" id="artikel">
                         <div class="row">
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art1">
-                                    <img src="../assets/artikel/Artikel_1.jpeg" class="card-img-top img-fixed">
+                                    <img src="../assets/artikel/Artikel_1.jpeg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Berdayakan Kelompok Wanita, PI Utilitas Bentuk Bank Sampah Desa Banyuwangi</h5>
 
@@ -921,7 +923,7 @@
                             <!-- Modal -->
 
                             <div class="modal fade" id="art1" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -966,9 +968,9 @@
 
                             <!-- end of modal -->
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art2">
-                                    <img src="../assets/artikel/Artikel_2.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/artikel/Artikel_2.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title"> Terus Kembangkan Potensi, PI Utilitas Bekali Warga Cara Mengolah Buah Nipah</h5>
 
@@ -980,7 +982,7 @@
                             <!-- Modal -->
 
                             <div class="modal fade" id="art2" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -1035,9 +1037,9 @@
 
                             <!-- end of modal -->
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art3">
-                                    <img src="../assets/artikel/Artikel_3.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/artikel/Artikel_3.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Komisi VII DPR RI Lakukan Kunjungan Kerja Spesifik ke GGCP</h5>
 
@@ -1049,7 +1051,7 @@
                             <!-- Modal -->
 
                             <div class="modal fade" id="art3" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -1115,9 +1117,9 @@
 
                             <!-- end of modal -->
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art4">
-                                    <img src="../assets/artikel/Artikel_4.jpeg" class="card-img-top img-fixed">
+                                    <img src="../assets/artikel/Artikel_4.jpeg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title"> PI Utilitas Disiplin Implementasikan GRC</h5>
 
@@ -1129,7 +1131,7 @@
                             <!-- Modal -->
 
                             <div class="modal fade" id="art4" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -1180,9 +1182,9 @@
 
                             <!-- end of modal -->
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art5">
-                                    <img src="../assets/artikel/Artikel_5.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/artikel/Artikel_5.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Dukungan Keuangan untuk Pengembangan Bisnis Utilitas Berbasis Energi Baru Terbarukan</h5>
 
@@ -1194,7 +1196,7 @@
                             <!-- Modal -->
 
                             <div class="modal fade" id="art5" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -1240,9 +1242,9 @@
 
                             <!-- end of modal -->
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art6">
-                                    <img src="../assets/artikel/Artikel_6.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/artikel/Artikel_6.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Bisnis Utilitas Berbasis Energi Baru Terbarukan</h5>
 
@@ -1254,7 +1256,7 @@
                             <!-- Modal -->
 
                             <div class="modal fade" id="art6" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -1299,9 +1301,9 @@
 
                             <!-- end of modal -->
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art7">
-                                    <img src="../assets/artikel/Artikel_7.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/artikel/Artikel_7.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Masa Depan Bisnis Utilitas</h5>
 
@@ -1313,7 +1315,7 @@
                             <!-- Modal -->
 
                             <div class="modal fade" id="art7" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -1371,9 +1373,9 @@
 
                             <!-- end of modal -->
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art8">
-                                    <img src="../assets/artikel/Artikel_8.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/artikel/Artikel_8.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">PT Pupuk Indonesia Utilitas Catatkan Kinerja Positif Selama Tahun 2021</h5>
 
@@ -1385,7 +1387,7 @@
                             <!-- Modal -->
 
                             <div class="modal fade" id="art8" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -1447,9 +1449,9 @@
 
                             <!-- end of modal -->
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art9">
-                                    <img src="../assets/artikel/Artikel_9.png" class="card-img-top img-fixed">
+                                    <img src="../assets/artikel/Artikel_9.png" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">e-Announcement LHKPN Pupuk Indonesia Group</h5>
 
@@ -1461,7 +1463,7 @@
                              <!-- Modal -->
 
                              <div class="modal fade" id="art9" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -1482,9 +1484,9 @@
 
                             <!-- end of modal -->
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art10">
-                                    <img src="../assets/artikel/Artikel_10.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/artikel/Artikel_10.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Dua Sertifikat ISO Diraih Sekaligus Oleh PT Pupuk Indonesia Utilitas</h5>
 
@@ -1496,7 +1498,7 @@
                             <!-- Modal -->
 
                             <div class="modal fade" id="art10" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -1517,9 +1519,9 @@
 
                             <!-- end of modal -->
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art11">
-                                    <img src="../assets/artikel/Artikel_11.png" class="card-img-top img-fixed">
+                                    <img src="../assets/artikel/Artikel_11.png" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Kebijakan Mutu, Keselamatan dan Kesehatan Kerja, Lindung Lingkungan dan Anti Penyuapan</h5>
 
@@ -1531,7 +1533,7 @@
                             <!-- Modal -->
 
                             <div class="modal fade" id="art11" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -1567,9 +1569,9 @@
 
                             <!-- end of modal -->
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art11">
-                                    <img src="../assets/artikel/Artikel_12.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/artikel/Artikel_12.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Tingkatkan Kompetensi SDM, PI Utilitas Tandatangani MoU dengan UGM</h5>
 
@@ -1581,7 +1583,7 @@
                             <!-- Modal -->
 
                             <div class="modal fade" id="art12" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -1602,9 +1604,9 @@
 
                             <!-- end of modal -->
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art12">
-                                    <img src="../assets/artikel/Artikel_13.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/artikel/Artikel_13.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Kunjungi Yogyakarta, Dirut PI-Energi Dalami Potensi Energi Baru Terbarukan</h5>
 
@@ -1616,7 +1618,7 @@
                             <!-- Modal -->
 
                             <div class="modal fade" id="art13" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -1641,9 +1643,9 @@
 
                             <!-- end of modal -->
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art13">
-                                    <img src="../assets/artikel/Artikel_14.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/artikel/Artikel_14.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Lestarikan Ekowisata, PT Pupuk Indonesia Energi Salurkan Dana CSR</h5>
 
@@ -1655,7 +1657,7 @@
                             <!-- Modal -->
 
                             <div class="modal fade" id="art14" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -1680,9 +1682,9 @@
 
                             <!-- end of modal -->
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art15">
-                                    <img src="../assets/siaranPers/SP-16.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-16.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Jelajah</h5>
 
@@ -1694,7 +1696,7 @@
                             <!-- Modal -->
 
                             <div class="modal fade" id="art15" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -1725,9 +1727,9 @@
 
                             <!-- end of modal -->
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art16">
-                                    <img src="../assets/siaranPers/SP-16.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-16.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Tiga Masalah, Tiga Solusi</h5>
 
@@ -1739,7 +1741,7 @@
                             <!-- Modal -->
 
                             <div class="modal fade" id="art16" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -1779,9 +1781,9 @@
 
                             <!-- end of modal -->
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art17">
-                                    <img src="../assets/siaranPers/SP-16.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-16.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Tumbuh Kembang Energi Listrik Di Indonesia</h5>
 
@@ -1793,7 +1795,7 @@
                             <!-- Modal -->
 
                             <div class="modal fade" id="art17" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -1832,9 +1834,9 @@
 
                             <!-- end of modal -->
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art18">
-                                    <img src="../assets/siaranPers/SP-16.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-16.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Prospek Energi Surya Dan Mini Hidro Di Indonesia</h5>
 
@@ -1846,7 +1848,7 @@
                             <!-- Modal -->
 
                             <div class="modal fade" id="art18" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -1888,9 +1890,9 @@
 
                             <!-- end of modal -->
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art19">
-                                    <img src="../assets/siaranPers/SP-16.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-16.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Efisiensi Yang Telah Teruji</h5>
 
@@ -1902,7 +1904,7 @@
                             <!-- Modal -->
 
                             <div class="modal fade" id="art19" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -1935,9 +1937,9 @@
 
                             <!-- end of modal -->
 
-                            <div class="col-md-4 mb-3">
+                            <div class="col-md-4 col-6 mb-3">
                                 <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#art20">
-                                    <img src="../assets/siaranPers/SP-16.jpg" class="card-img-top img-fixed">
+                                    <img src="../assets/siaranPers/SP-16.jpg" class="img-fixed">
                                     <div class="card-body text-start">
                                         <h5 class="card-title">Pupuk Indonesia Energi, Hadir Untuk Efisiensi</h5>
 
@@ -1949,7 +1951,7 @@
                             <!-- Modal -->
 
                             <div class="modal fade" id="art20" tabindex="-1" aria-hidden="true">
-                                <div class="modal-dialog modal-xl modal-fullscreen-md-down">
+                                <div class="modal-dialog modal-xl modal-fullscreen-sm-down">
                                     <div class="modal-content">
                                         <div class="modal-header">
                                             
@@ -1995,7 +1997,7 @@
         data() {
             return {
                 tabs: [
-                    { id: 'tab1', name: 'SIARAN PERS', href: '#pers', active: true },
+                    { id: 'tab1', name: 'PERS', href: '#pers', active: true },
                     { id: 'tab2', name: 'ARTIKEL', href: '#artikel', active: false }
                 ]
             }
@@ -2012,8 +2014,14 @@
 </script>
 
 <style scoped>
+    .modal-dialog {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .active-tab {
-        font-size: 3em; /* Adjust as needed */
+        font-size: 2em; /* Adjust as needed */
         font-weight: bold;
     }
 
@@ -2032,6 +2040,7 @@
         height: 350px; /* Adjust as needed */
         box-shadow: 0 4px 8px rgba(0, 183, 255, 0.25);
         transition: transform 0.3s ease;
+        border-radius: 0;
     }
 
     .card-fixed:hover {
@@ -2075,5 +2084,35 @@
         font-size: x-large;
     }
 
-
+    @media (max-width: 576px) {
+        h5 {
+            font-size: .7rem; /* Adjust this value to change the font size on phone view */
+        }
+    }
+    @media (max-width: 576px) {
+        .img-fixed {
+            width: 100%; /* Adjust this value to change the image width on phone view */
+            height: 90px; /* Adjust this value to change the image height on phone view */
+            object-fit: cover;
+        }
+    }
+    @media (max-width: 576px) {
+        .text-body-secondaryy {
+            font-size: 0.6rem; /* Adjust this value to change the font size on phone view */
+        }
+    }
+    @media (max-width: 576px) {
+        .card-fixed {
+            width: 100%; /* Adjust as needed */
+            height: 230px; /* Adjust as needed */
+            box-shadow: 0 4px 8px rgba(0, 183, 255, 0.25);
+            transition: transform 0.3s ease;
+            border-radius: 0;
+        }
+    }
+    @media (max-width: 576px) {
+        .modal-fullscreen-sm-down {
+            margin-left: -11px; /* Adjust this value to move the modal to the left */
+        }
+    }
 </style>

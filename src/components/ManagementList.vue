@@ -8,23 +8,16 @@
       <div class="text-center">
         <h3>Direksi</h3>
       </div>
-      <div class="row">
-        <div class="col-md-4 d-flex ">
-          <button
-            class="card card-fixed"
-            data-bs-toggle="modal"
-            data-bs-target="#dir1"
-          >
-            <img
-              src="../assets/Manajemen/Direksi/Nuri Kristiawan - Direktur Keuangan.jpg"
-              class="card-img-top img-fixed"
-            />
-            <div class="card-body">
-              <h5 class="card-title text-start text-center">Nuri Kristiawan</h5>
-              <p class="card-text text=center">Direktur Keuangan</p>
+      <div class="row ">
+        <div class="col-md-4 d-flex justify-content-center ">
+          <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#dir1">
+            <img src="../assets/Manajemen/Direksi/Nuri Kristiawan - Direktur Keuangan.jpg" class="img-fluid card-img-top img-fixed"/>
+            <div class="card-body d-flex justify-content-center text-center">
+              <h5 class="card-title ">Nuri Kristiawan</h5>
+              <p class="card-text ">Direktur Keuangan</p>
             </div>
           </button>
-          <!-- <div>
+          <!-- <div>1+
             <img
               src="../assets/Manajemen/Direksi/Nuri Kristiawan - Direktur Keuangan.jpg"
               class="img-fluid img-fixed"
@@ -73,7 +66,7 @@
           </div>
         </div> -->
 
-        <div class="col-md-4 d-flex ">
+        <div class="col-md-4 d-flex d-flex justify-content-center">
           <button
             class="card card-fixed"
             data-bs-toggle="modal"
@@ -84,8 +77,8 @@
               class="card-img-top img-fixed"
             />
             <div class="card-body">
-              <h5 class="card-title text-start text-center">Mochamad Safiie</h5>
-              <p class="card-text text=center">Direktur Utama</p>
+              <h5 class="card-title text-center">Mochamad Safiie</h5>
+              <p class="card-text text-center">Direktur Utama</p>
             </div>
           </button>
           <!-- <div>
@@ -117,7 +110,7 @@
                 />
 
                 <h2 class="modal-title text-center">Mochamad Safiie</h2>
-                <p class="card-text text-start text-center">
+                <p class="card-text text-center">
                   Direktur Utama
                 </p>
               </div>
@@ -126,7 +119,7 @@
         </div>
         <!-- modal end -->
 
-        <div class="col-md-4 d-flex ">
+        <div class="col-md-4 d-flex d-flex justify-content-center">
           <button
             class="card card-fixed"
             data-bs-toggle="modal"
@@ -137,7 +130,7 @@
               class="card-img-top img-fixed"
             />
             <div class="card-body">
-              <h5 class="card-title text-start text-center">Anis Ernani</h5>
+              <h5 class="card-title text-center">Anis Ernani</h5>
               <p class="card-text text=center">Direktur Operasi</p>
             </div>
           </button>

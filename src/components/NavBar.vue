@@ -10,7 +10,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav navbar-auto me-auto">
-                    <li class="nav-item ms-auto">
+                    <li class="nav-item">
                         <router-link class="nav-link" to="/profile" >Profile</router-link>
                     </li>
                     <li class="nav-item">
@@ -41,7 +41,7 @@
                         <router-link class="nav-link" to="/berita" >Berita</router-link>
                     </li>
                 </ul>
-                <form class="d-flex" role="search" @submit.prevent="search">
+                <form class="d-flex mb-2 mt-2" role="search" @submit.prevent="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" v-model="searchQuery">
                     <button class="btn btn-outline-primary" type="submit">Search</button>
                 </form>
