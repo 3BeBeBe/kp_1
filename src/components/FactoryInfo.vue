@@ -1,7 +1,7 @@
 <template>
     <div class="slide-content bg-shade fit-bg d-flex align-items-center" :style="{ backgroundImage: `url(${selectedImage})` }">
     <div class="container p-3">
-                    
+        <!-- <h1 class="text-center text-white mb-4 factory-info">Pabrik</h1> -->
         <div class="row d-flex align-items-center mb-2">
             <div class="col-md-6 place-holder">
                 <img class="img-fluid" :src="selectedImage">
@@ -29,7 +29,8 @@
                 </div>
             </div>
             <div class="col-md-6 place-holder" style="color: white;">
-                <h2>GRESIK GAS COGENERATION PLANT(GGCP)</h2>
+                <h2 style="font-weight: 700;">Gresik Gas Cogeneration Plant</h2>
+                <br />
                 <p>PT Pupuk Indonesia Utilitas (PI Utilitas) atau sebelumnya bernama PT Pupuk Indonesia Energi didirikan berdasarkan Akta No. 11 tanggal 18 Agustus 2014. Di tahun yang sama terjadi pula inisiasi Pembangunan Gresik Gas Cogeneration Plant (GGCP di Gresik, Jawa Timur). Pada 2015, PI Utilitas mulai melakukan Konstruksi Fisik Gresik Gas Cogeneration Plant. Tepat pada April 2018, Pabrik GGCP resmi beroperasi secara komersil hingga saat ini.</p>
                 <p>Proyek GGCP yang sudah mulai dijalankan dan dioptimalkan di tahun 2018 senantiasa mendorong Kinerja PI Utilitas untuk terus unggul dalam persaingan usaha tanpa melupakan tanggung jawabnya sebagai korporasi yang tumbuh di tengah publik. Dengan mengedepankan prinsip penerapan bisnis yang tetap memperhatikan lingkungan, PI Utilitas yakin akan mampu terus tumbuh menjadi korporasi yang berkelanjutan dan berintegritas tinggi.</p>
             </div>
@@ -85,8 +86,11 @@
                 </div>
             </div>
             <div class="col-md-6" style="color: white;">
-                <h2>KALTIM DAYA MANDIRI</h2>
+                <h2 style="font-weight: 700;">Kaltim Daya Mandiri</h2>
+                <br />
                 <p>Kaltim Daya Mandiri (KDM) adalah salah satu perusahaan utilitas dan Energi yang didirikan dengan tujuan untuk menyuplai kebutuhan utilitas pada fasilitas produksi dan perumahan PT. Pupuk Kaltim serta perusahan-perusahaan lain yang berada di lingkungan Kaltim Industrial Estate.</p>
+                <p>PT Kaltim Daya Mandiri (KDM), anak perusahaan PT Pupuk Indonesia Energi, berdiri sejak 14 September 1995. Awalnya, KDM menginvestasikan 1 unit Gas Turbine Generator (GTG) 34 MW, kemudian menambahkan 1 unit Heat Recovery Steam Generator (HRSG) 168 ton/jam dan 1 unit Demin Water Plant 156 m³/h pada tahun 2000. Pada tahun-tahun berikutnya, KDM membangun 1 unit Nitrogen Plant 500 Nm³/h, integrasi kelistrikan 200 MVA, dan 1 unit SWRO 2x50 m³/h. Di 2008, KDM membentuk anak usaha PT KDM Argo Energy dan mengakuisisi perusahaan energi terbarukan, PT Banyumas Energy Lestari dan PT Mitra Daya Kencana, pada 2015.</p>
+                <p>Bisnis utama KDM adalah memproduksi listrik, steam, demineralized water, nitrogen, dan jasa integrasi listrik untuk kebutuhan pabrik Pupuk Kaltim dan perusahaan-perusahaan yang ada di kawasan industri.</p>
             </div>
         </div>
 
@@ -172,6 +176,13 @@
     }
     .container {
         position: relative;
+    }
+
+    .factory-info {
+        transform: translate(0%, -75px);
+        font-weight: 600;
+        font-size: 72px;
+        font-style: italic;
     }
 
     @media (max-width: 576px){
