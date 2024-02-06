@@ -35,7 +35,7 @@
 
       <!-- <div class="col-md-7 pl-mb-5 order-md-3"> -->
       <div
-        class="col-md-7 pl-mb-5 order-md-3"
+        class="pl-mb-5 order-md-3"
       >
         <div
           class="mb-4"
