@@ -190,6 +190,9 @@
     }
 </script>
 <style>
+    .card {
+        border-radius: 0px;
+    }
   .size-image {
       max-width: 100%; /* Adjust the maximum width as needed */
       max-height: 500px; /* Adjust the maximum height as needed */

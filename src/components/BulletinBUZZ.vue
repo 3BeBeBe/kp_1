@@ -2,24 +2,29 @@
     <!-- <div style="background-color: #143464;"> -->
     <div class="d-flex justify-content-center align-items-center">
         <div class="background-overlay"></div>
-            <div class="background-image"></div>
-        <div class="container p-5 text-white">
+        <div class="background-image"></div>
+        <div class="container mt-3 text-white">
             
             <div class="row justify-content-center">
                 <div class="col-md-4 d-flex flex-column justify-content-center align-items-start">
-                    <p class="">- Have fun reading our Magz</p>
+                    <p class="">- Have fun reading {{ selectedImageDetails.name }}</p>
                     <h2 class="">Catch Phrase (Kalo bisa yang panjang dikit)</h2>
-                    <p class="">lorem ipsum dolor and so'on</p>
+                    <p class="">{{ selectedImageDetails.subName }}</p>
+                    <!-- <p class="">- {{ selectedImageDetails.name }}</p>
+                    <h2 class="">{{ selectedImageDetails.subName }}</h2> -->
 
-                    <a :href="selectedImageDetails.readMoreLink" class="btn btn-primary mb-3" download>Download</a>
+                    <hr>
 
-                    <div class="row">
-                        <div class="col-md-10">
-                            <p>Page</p>
-                            <p>{{ selectedImageDetails.pages }}</p>
+                    <div class="row d-flex">
+                        <div class="col-md-12">
+                            <a :href="selectedImageDetails.readMoreLink" class="btn btn-primary mb-3" download>{{ selectedImageDetails.name }} Download</a>
                         </div>
-                        <div class="col-md-2">
-                            <p>Year</p>
+                        <div class="col-md-6 col-4">
+                            <p>Pages:</p>
+                            <p>{{ selectedImageDetails.pages }} Pages</p>
+                        </div>
+                        <div class="col-md-6 col-4">
+                            <p>Year:</p>
                             <p>{{ selectedImageDetails.year }}</p>
                         </div>
                     </div>
@@ -97,11 +102,11 @@
                 selectedImage: require('@/assets/bulletinBUZZ/edisi6.png'), 
                 // selectedImage: null,
                 images: [
-                    { path: require('@/assets/bulletinBUZZ/edisi6.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_BULETIN_JUNI-2023_FINAL-WEB_compressed.pdf', pages: '36 Pages', year: '2023' },
-                    { path: require('@/assets/bulletinBUZZ/edisi5.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_BULETIN_DESEMBER-2022_FINAL-CETAK-HIRES.pdf', pages: '32 Pages', year: '2022' },
-                    { path: require('@/assets/bulletinBUZZ/edisi4.png'), readMoreLink: '@/assets/bulletinBUZZ/BUZZ-edisi-4.pdf', pages: '32 Pages', year: '2021' },
-                    { path: require('@/assets/bulletinBUZZ/edisi3.jpg'), readMoreLink: '@/assets/bulletinBUZZ/BUZZ-III-Agustus-2020.pdf', pages: '32 Pages', year: '2020' },
-                    { path: require('@/assets/bulletinBUZZ/edisi2.jpg'), readMoreLink: '@/assets/bulletinBUZZ/BUZZ-II-Februari-2019(1).pdf', pages: '32 Pages', year: '2019' },
+                    { name: 'BUZZ 6', subName: 'Transformasi & Penyelarasan Bisnis', path: require('@/assets/bulletinBUZZ/edisi6.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_BULETIN_JUNI-2023_FINAL-WEB_compressed.pdf', pages: '36', year: '2023' },
+                    { name: 'BUZZ 5', subName: 'Tata Kelola & Strategi Baru Korporasi', path: require('@/assets/bulletinBUZZ/edisi5.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_BULETIN_DESEMBER-2022_FINAL-CETAK-HIRES.pdf', pages: '32', year: '2022' },
+                    { name: 'BUZZ 4', subName: 'Energi Baru', path: require('@/assets/bulletinBUZZ/edisi4.png'), readMoreLink: '@/assets/bulletinBUZZ/BUZZ-edisi-4.pdf', pages: '32', year: '2021' },
+                    { name: 'BUZZ 3', subName: 'Inovasi Di Tengah Pandemi', path: require('@/assets/bulletinBUZZ/edisi3.jpg'), readMoreLink: '@/assets/bulletinBUZZ/BUZZ-III-Agustus-2020.pdf', pages: '32', year: '2020' },
+                    { name: 'BUZZ 2', subName: 'Inovasi Berkelanjutan', path: require('@/assets/bulletinBUZZ/edisi2.jpg'), readMoreLink: '@/assets/bulletinBUZZ/BUZZ-II-Februari-2019(1).pdf', pages: '32', year: '2019' },
                     // {
                     //     name: 'edisi6',
                     //     readMoreLink: '@/assets/bulletinBUZZ/PIU_BULETIN_JUNI-2023_FINAL-WEB_compressed.pdf',
@@ -154,8 +159,8 @@
       margin: 0 auto; /* Center the image within the container */
     }
     .img-fixed {
-        width: 90%;
-        height: 420px;
+        width: 80%;
+        height: 400px;
         object-fit: cover;
     }
     .btn{

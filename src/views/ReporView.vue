@@ -1,7 +1,6 @@
 <template>
     <div class="/laporan">
         <NavBar/>
-        <img src="../assets/Carousal/Laporan.jpg" class="d-block w-100">
         <ReportContent/>
         <FooterSection/>
     </div>

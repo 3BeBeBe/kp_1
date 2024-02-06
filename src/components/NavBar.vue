@@ -67,6 +67,9 @@ export default {
 </script>
 
 <style scoped>
+.form-control {
+    border-radius: 0px;
+}
 .nav-link {
     color: #084e8b !important
 }
