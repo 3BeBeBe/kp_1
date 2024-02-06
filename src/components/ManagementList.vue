@@ -12,9 +12,9 @@
         <div class="col-md-4 d-flex justify-content-center ">
           <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#dir1">
             <img src="../assets/Manajemen/Direksi/Nuri Kristiawan - Direktur Keuangan.jpg" class="img-fluid card-img-top img-fixed"/>
-            <div class="card-body d-flex justify-content-center text-center">
+            <div class="card-body text-center">
               <h5 class="card-title ">Nuri Kristiawan</h5>
-              <p class="card-text ">Direktur Keuangan</p>
+              <p class="card-text">Direktur Keuangan</p>
             </div>
           </button>
           <!-- <div>1+

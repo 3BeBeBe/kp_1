@@ -1,7 +1,7 @@
 <template>
     <div class="company-value-container">
     <div class="container mt-0">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mb-0">
             <div ref="column1" id="column1" class="col-md-3 mb-5 ms-4 me-4">
                 <p class="d-flex gap-2 flex-column justify-content-between">
                     <button class="btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#amanah" aria-expanded="false" aria-controls="amanah">
