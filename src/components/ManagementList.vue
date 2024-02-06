@@ -2,30 +2,22 @@
   <div class="management-list-container">
     <div class="container">
       <div class="text-center">
-        <h2><b>Manajemen</b></h2>
+        <h2 class="colored-text-blue" style="font-style: italic;"><b>Manajemen</b></h2>
         <br />
       </div>
       <div class="text-center">
-        <h3>Direksi</h3>
+        <h3 class="colored-text-orange" style="font-weight: 700;">Direksi</h3>
+      <br />
       </div>
-      <div class="row ">
+      <div class="row">
         <div class="col-md-4 d-flex justify-content-center ">
-          <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#dir1">
+          <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#dir1" style="width: 325.29px; height: 400px;">
             <img src="../assets/Manajemen/Direksi/Nuri Kristiawan - Direktur Keuangan.jpg" class="img-fluid card-img-top img-fixed"/>
             <div class="card-body text-center">
               <h5 class="card-title ">Nuri Kristiawan</h5>
               <p class="card-text">Direktur Keuangan</p>
             </div>
           </button>
-          <!-- <div>1+
-            <img
-              src="../assets/Manajemen/Direksi/Nuri Kristiawan - Direktur Keuangan.jpg"
-              class="img-fluid img-fixed"
-              alt=""
-            />
-            <h4>Nuri Kristiawan</h4>
-            <span>Direktur Keuangan</span>
-          </div> -->
         </div>
         <!-- modal -->
         <div class="modal fade" id="dir1" tabindex="-1" aria-hidden="true">
@@ -54,23 +46,12 @@
         </div>
         <!-- modal end -->
 
-        <!-- <div class="col-md-4 d-flex rounded-image">
-          <div>
-            <img
-              src="../assets/Manajemen/Direksi/Mochamad Safiie - Direktur Utama.jpg"
-              class="img-fluid img-fixed"
-              alt=""
-            />
-            <h4>Mochamad Safiie</h4>
-            <span>Direktur Utama</span>
-          </div>
-        </div> -->
-
-        <div class="col-md-4 d-flex d-flex justify-content-center">
+        <div class="col-md-4 d-flex justify-content-center">
           <button
             class="card card-fixed"
             data-bs-toggle="modal"
             data-bs-target="#dir2"
+            style="width: 325.29px; height: 400px;"
           >
             <img
               src="../assets/Manajemen/Direksi/Mochamad Safiie - Direktur Utama.jpg"
@@ -81,15 +62,7 @@
               <p class="card-text text-center">Direktur Utama</p>
             </div>
           </button>
-          <!-- <div>
-            <img
-              src="../assets/Manajemen/Direksi/Nuri Kristiawan - Direktur Keuangan.jpg"
-              class="img-fluid img-fixed"
-              alt=""
-            />
-            <h4>Nuri Kristiawan</h4>
-            <span>Direktur Keuangan</span>
-          </div> -->
+          
         </div>
 
         <!-- modal -->
@@ -119,7 +92,7 @@
         </div>
         <!-- modal end -->
 
-        <div class="col-md-4 d-flex d-flex justify-content-center">
+        <div class="col-md-4 d-flex justify-content-center">
           <button
             class="card card-fixed"
             data-bs-toggle="modal"
@@ -134,15 +107,7 @@
               <p class="card-text text=center">Direktur Operasi</p>
             </div>
           </button>
-          <!-- <div>
-            <img
-              src="../assets/Manajemen/Direksi/Nuri Kristiawan - Direktur Keuangan.jpg"
-              class="img-fluid img-fixed"
-              alt=""
-            />
-            <h4>Nuri Kristiawan</h4>
-            <span>Direktur Keuangan</span>
-          </div> -->
+          
         </div>
 
         <!-- modal -->
@@ -172,27 +137,17 @@
         </div>
         <!-- modal end -->
 
-        <!-- <div class="col-md-4 d-flex rounded-image">
-          <div>
-            <img
-              src="../assets/Manajemen/Direksi/Anis Ernani - Direktur Operasi.jpg"
-              class="img-fluid img-fixed"
-              alt=""
-            />
-            <h4>Anis Ernani</h4>
-            <span>Direktur Operasi</span>
-          </div>
-        </div> -->
+        
       </div>
       
       <div class="section-header text-center">
         <br />
         <br />
-        <h3>Komisaris</h3>
+        <h3 class="colored-text-orange" style="font-weight: 700;">Komisaris</h3>
         <br />
       </div>
       <div class="row">
-        <div class="col-md-4 d-flex ">
+        <div class="col-md-4 d-flex justify-content-center">
           <button
             class="card card-fixed"
             data-bs-toggle="modal"
@@ -207,15 +162,6 @@
               <p class="card-text text=center">Komisaris</p>
             </div>
           </button>
-          <!-- <div>
-            <img
-              src="../assets/Manajemen/Direksi/Nuri Kristiawan - Direktur Keuangan.jpg"
-              class="img-fluid img-fixed"
-              alt=""
-            />
-            <h4>Nuri Kristiawan</h4>
-            <span>Direktur Keuangan</span>
-          </div> -->
         </div>
 
         <!-- modal -->
@@ -245,19 +191,7 @@
         </div>
         <!-- modal end -->
 
-        <!-- <div class="col-md-4 d-flex rounded-image">
-          <div>
-            <img
-              src="../assets/Manajemen/Komisaris/Sumyana Sukandar - Komisaris Utama.jpg"
-              class="img-fluid img-fixed"
-              alt=""
-            />
-            <h4>Sumyana Sukandar</h4>
-            <span>Komisaris Utama</span>
-          </div>
-        </div> -->
-
-        <div class="col-md-4 d-flex ">
+        <div class="col-md-4 d-flex justify-content-center">
           <button
             class="card card-fixed"
             data-bs-toggle="modal"
@@ -272,15 +206,6 @@
               <p class="card-text text=center">Komisaris Utama</p>
             </div>
           </button>
-          <!-- <div>
-            <img
-              src="../assets/Manajemen/Direksi/Nuri Kristiawan - Direktur Keuangan.jpg"
-              class="img-fluid img-fixed"
-              alt=""
-            />
-            <h4>Nuri Kristiawan</h4>
-            <span>Direktur Keuangan</span>
-          </div> -->
         </div>
 
         <!-- modal -->
@@ -310,19 +235,7 @@
         </div>
         <!-- modal end -->
 
-        <!-- <div class="col-md-4 d-flex rounded-image">
-          <div>
-            <img
-              src="../assets/Manajemen/Komisaris/Imam Mujahidin Fahmid - Komisaris.jpg"
-              class="img-fluid img-fixed"
-              alt=""
-            />
-            <h4>Imam Mujahidin Fahmid</h4>
-            <span>Komisaris</span>
-          </div>
-        </div> -->
-
-        <div class="col-md-4 d-flex ">
+        <div class="col-md-4 d-flex justify-content-center">
           <button
             class="card card-fixed"
             data-bs-toggle="modal"
@@ -337,15 +250,6 @@
               <p class="card-text text=center">Komisaris</p>
             </div>
           </button>
-          <!-- <div>
-            <img
-              src="../assets/Manajemen/Direksi/Nuri Kristiawan - Direktur Keuangan.jpg"
-              class="img-fluid img-fixed"
-              alt=""
-            />
-            <h4>Nuri Kristiawan</h4>
-            <span>Direktur Keuangan</span>
-          </div> -->
         </div>
 
         <!-- modal -->
@@ -374,18 +278,6 @@
           </div>
         </div>
         <!-- modal end -->
-
-        <!-- <div class="col-md-4 d-flex rounded-image">
-          <div>
-            <img
-              src="../assets/Manajemen/Komisaris/Monica Desideria - Komisaris.jpg"
-              class="img-fluid img-fixed"
-              alt=""
-            />
-            <h4>Monica Desideria</h4>
-            <span>Komisaris</span>
-          </div>
-        </div> -->
 
       </div>
     </div>
@@ -432,6 +324,14 @@ export default {
   font-weight: 600;
   font-size: x-large;
 }
+
+.colored-text-blue {
+  color: #084e8b;
+}
+
+.colored-text-orange {
+  color: rgb(255, 166, 0);
+}
 .card-text {
   color: rgb(255, 166, 0);
   font-style: italic;
@@ -443,8 +343,8 @@ export default {
   color: #084e8b;
 }
 .card {
-  /* width: 100%;  */
-  /* height: 350px;  */
+  /* width: 500px;  */
+  /* height: 100%;  */
   box-shadow: 0 4px 8px rgba(0, 183, 255, 0.25);
   transition: transform 0.3s ease;
 }

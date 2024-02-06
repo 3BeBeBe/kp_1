@@ -74,29 +74,6 @@ export default {
       lastScrollTop: 0,
     };
   },
-  // mounted() {
-  //   // Listen for scroll events
-  //   window.addEventListener("scroll", this.handleScroll);
-
-  //   // Initial observation on mount
-  //   this.handleScroll();
-  // },
-  // unmounted() {
-  //   // Clean up event listener when the component is unmounted
-  //   window.removeEventListener("scroll", this.handleScroll);
-  // },
-
-  // mounted() {
-  //   // Listen for scroll events
-  //   window.addEventListener("scroll", this.handleScroll);
-
-  //   // Listen for resize events
-  //   window.addEventListener("resize", this.handleScroll);
-
-  //   // Initial observation on mount
-  //   this.handleScroll();
-  // },
-
   mounted() {
   // Listen for scroll events
   window.addEventListener("scroll", this.handleScroll);
@@ -242,6 +219,47 @@ export default {
 .in-viewport {
   opacity: 1;
   transform: translateX(0);
+}
+
+@media screen and (max-width: 768px) {
+  .company-history-container {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .col-md-6 {
+    width: 100%; /* Make columns full width on smaller screens */
+    margin-bottom: 20px; /* Add space between columns */
+  }
+
+  .background-overlay {
+    opacity: 0.7; /* Reduce opacity of background overlay */
+  }
+
+  .background-image {
+    background-attachment: scroll; /* Change background attachment for scrolling */
+    background-position: center center; /* Adjust background position */
+  }
+
+  .company-history img {
+    height: auto; /* Allow images to scale proportionally on smaller screens */
+  }
+
+  .fade-in-right,
+  .fade-in-left {
+    opacity: 1; /* Ensure fading-in elements are visible by default on smaller screens */
+    transform: none; /* Reset transform for smaller screens */
+  }
+
+  .in-viewport {
+    opacity: 1;
+    transform: none;
+  }
+
+  .fade-in,
+  .fade-in-right.in-viewport,
+  .fade-in-left.in-viewport {
+    transition: none; /* Disable transition for fading-in elements on smaller screens */
+  }
 }
 
 </style>
