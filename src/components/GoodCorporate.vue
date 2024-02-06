@@ -3,13 +3,13 @@
         <div class="container">
             <br>
             <div class="row justify-content-center">
-                <div class="col-md-5 mb-5 d-flex align-items-center justify-content-center">
+                <div class="col-md-4 mb-5 d-flex align-items-center justify-content-center">
                     <div class="gover-overlay-text">             
                         <h2><b>Komitmen PT Pupuk Indonesia Utilitas Penerapan Tata Kelola Perusahaan yang Baik (Good Corporate Governance)</b></h2>
                     </div>
                 </div>
             
-                <div class="col-md-7">
+                <div class="col-md-8">
                     <div class="mb-5 gover-overlay-text">                        
                         <p class="text-justify">Dalam rangka mewujudkan tujuan perusahaan menjadi penyedia solusi bagi sektor agro industri nasional, dengan ini Direksi dan Dewan Komisaris PT Pupuk Indonesia Utilitas, berkomitmen :</p>
 

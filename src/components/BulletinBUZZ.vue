@@ -1,13 +1,17 @@
 <template>
-    <div style="background-color: #143464;">
+    <!-- <div style="background-color: #143464;"> -->
+    <div class="d-flex justify-content-center align-items-center">
+        <div class="background-overlay"></div>
+            <div class="background-image"></div>
         <div class="container p-5 text-white">
+            
             <div class="row justify-content-center">
                 <div class="col-md-4 d-flex flex-column justify-content-center align-items-start">
                     <p class="">- Have fun reading our Magz</p>
                     <h2 class="">Catch Phrase (Kalo bisa yang panjang dikit)</h2>
                     <p class="">lorem ipsum dolor and so'on</p>
 
-                    <a :href="selectedImageDetails.readMoreLink" class="btn btn-primary mb-3" download>Read More</a>
+                    <a :href="selectedImageDetails.readMoreLink" class="btn btn-primary mb-3" download>Download</a>
 
                     <div class="row">
                         <div class="col-md-10">
@@ -160,5 +164,28 @@
     .selected {
         background-color: #007bff;
         border-color: #007bff;
+    }
+    .background-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(8, 78, 139, 0.9); /* Use rgba for the background color with alpha channel */
+        content: "";
+        z-index: -1;
+        opacity: 0.9;
+    }
+
+    .background-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url("@/assets/Carousal/Laporan.jpg");
+        background-blend-mode: overlay; /* Adjust the blend mode as needed */
+        background-size: cover; /* Ensure the background image covers the container */
+        z-index: -2;
     }
 </style>

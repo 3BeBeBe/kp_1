@@ -116,6 +116,9 @@
 </script>
 
 <style scoped>
+    .btn{
+        border-radius: 0px;
+    }
     .gover-overlay-text {
         position: relative;
         color: rgb(255, 255, 255);
