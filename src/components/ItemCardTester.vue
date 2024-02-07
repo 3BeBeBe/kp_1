@@ -4,6 +4,7 @@
       <div class="col-md-3">
         <router-link to="/pabrik" style="text-decoration: none">
           <div class="card card-listrik">
+            <div class="card-background"></div>
             <!-- <img src="https://www.pi-utilitas.com/files/media/2020/09/KDM_1.jpg" class="card-img-top img-fluid"> -->
             <div class="card-body">
               <div class="d-flex align-items-center">
@@ -27,10 +28,9 @@
             <div class="card-body">
               <div class="d-flex align-items-center">
                 <div>
-                 <h1 class="big-number-steam">270⠀</h1>
-                 <p class="small-text" style="color: #13934a;">⠀ton/hour</p>   
+                 <h1 class="big-number-steam">⠀270⠀</h1>
+                 <p class="small-text" style="color: #13934a;">⠀⠀⠀⠀ton/hour</p>   
                 </div>
-                
                 <!-- Big "2" here -->
                 <div class="card-text-wrapper">
                   <h5 class="title-steam card-title">Steam</h5>
@@ -50,8 +50,10 @@
             <!-- <img src="https://www.pi-utilitas.com/files/media/2020/09/KDM_1.jpg" class="card-img-top img-fluid"> -->
             <div class="card-body">
               <div class="d-flex align-items-center">
-                <h1 class="big-number-nitrogen">⠀2⠀</h1>
-                <!-- Big "2" here -->
+                <div>
+                 <h1 class="big-number-nitrogen">⠀1000⠀</h1>
+                 <p class="small-text" style="color: #dd5925;">⠀⠀⠀⠀⠀⠀Nm3</p>   
+                </div>
                 <div class="card-text-wrapper">
                   <h5 class="title-nitrogen card-title">Nitrogen</h5>
                   <p class="card-text">Router-link to pabrik implemented</p>
@@ -162,7 +164,7 @@ export default {
   color: #13934a;
 }
 .big-number-nitrogen {
-  font-size: 72px; /* Adjust as needed */
+  font-size: 48px; /* Adjust as needed */
   text-align: center;
   margin-bottom: 0.5rem;
   font-weight: 600;
@@ -172,4 +174,19 @@ export default {
 .card-text-wrapper {
   flex-grow: 1;
 }
+/* .card-background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://www.pi-utilitas.com/files/media/2020/09/KDM_1.jpg');
+  background-size: cover;
+  background-position: right;
+  background-color: rgba(255, 255, 255, 0); 
+  transition: background-color 0.3s ease; 
+  z-index: -1;
+}
+
+.card:hover .card-background {
+  background-color: rgba(255, 255, 255, 0.5); 
+} */
 </style>
