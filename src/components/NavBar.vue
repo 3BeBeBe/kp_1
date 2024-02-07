@@ -38,9 +38,22 @@
                         </ul>
                     </li>
 
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <router-link class="nav-link" to="/pabrik" >Pabrik</router-link>
+                    </li> -->
+
+                    <li class="nav-item dropdown">
+                        <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Lingkungan</router-link>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <router-link class="dropdown-item" to="/ggcp" >Gresik Gas Cogeneration Plant</router-link>
+                            </li>
+                            <li>
+                                <router-link class="dropdown-item" to="/kdm" >Kaltim Daya Mandiri</router-link>
+                            </li>
+                        </ul>
                     </li>
+
                     <li class="nav-item">
                         <router-link class="nav-link" to="/pengadaan" >Pengadaan</router-link>
                     </li>
