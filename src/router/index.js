@@ -86,7 +86,48 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/BUZZView.vue')
+  },
+  {
+    path: '/complaint',
+    name: 'complaint',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/TataKelola/Complaint.vue')
+  },
+  {
+    path: '/governance',
+    name: 'governance',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/TataKelola/Governance.vue')
+  },
+  {
+    path: '/wbs',
+    name: 'wbs',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/TataKelola/WBS.vue')
+  },
+  {
+    path: '/audit',
+    name: 'audit',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/TataKelola/AuditCharterPlaque.vue')
+  },
+  {
+    path: '/procurement',
+    name: 'procurement',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/TataKelola/Procurement.vue')
   }
+  
 ]
 
 const router = createRouter({

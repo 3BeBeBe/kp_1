@@ -13,9 +13,31 @@
                     <li class="nav-item">
                         <router-link class="nav-link" to="/profile" >Profile</router-link>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <router-link class="nav-link" to="/governance" >Tata Kelola</router-link>
+                    </li> -->
+
+                    <li class="nav-item dropdown">
+                        <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tata Kelola</router-link>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <router-link class="dropdown-item" to="/governance" >Governance</router-link>
+                            </li>
+                            <li>
+                                <router-link class="dropdown-item" to="/audit" >Audit Charter</router-link>
+                            </li>
+                            <li>
+                                <router-link class="dropdown-item" to="/complaint" >Customer Complaint</router-link>
+                            </li>
+                            <li>
+                                <router-link class="dropdown-item" to="/procurement" >Pengadaan</router-link>
+                            </li>
+                            <li>
+                                <router-link class="dropdown-item" to="/wbs" >Whistle Blowing System</router-link>
+                            </li>
+                        </ul>
                     </li>
+
                     <li class="nav-item">
                         <router-link class="nav-link" to="/pabrik" >Pabrik</router-link>
                     </li>

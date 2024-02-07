@@ -1,6 +1,6 @@
 <template>
-    <div class="good-corporate carousel-image-container">
-    <div class="container mt-5">
+    <div class="good-corporate carousel-image-container d-flex flex-column justify-content-center">
+    <div class="container">
         <br>
         <h2 class="gover-overlay-text">WHISTLEBLOWING SYSTEM</h2>
         <div class="row gover-overlay-text">
@@ -131,6 +131,7 @@
         background-size: cover; /* Cover the entire area of the component */
         background-position: center; /* Center the image */
         color: white;
+        
     }
 
     .carousel-image-container {
@@ -147,6 +148,5 @@
         /* background: rgba(0, 0, 0, 0.8); */
         background: linear-gradient(to right, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%);
     }
-
     
 </style>
