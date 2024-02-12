@@ -5,6 +5,8 @@
         <h2 class="colored-text-blue" style="font-style: italic;"><b>Manajemen</b></h2>
         <br />
       </div>
+      <DirectorInfo />
+      <ComisariesInfo />
       <div class="text-center">
         <h3 class="colored-text-orange" style="font-weight: 700;">Direksi</h3>
       <br />
@@ -284,8 +286,14 @@
   </div>
 </template>
 <script>
+import DirectorInfo from './DirectorInfo.vue';
+import ComisariesInfo from './ComisariesInfo.vue';
 export default {
   name: "ManagementList",
+  components: {
+    DirectorInfo,
+    ComisariesInfo,
+  },
 };
 </script>
 

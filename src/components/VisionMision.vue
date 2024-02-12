@@ -1,114 +1,66 @@
 <template>
-  <div class="vision-mision">
-    <div class="container mt-0" style="margin-bottom: -25px">
+  <div class="container mt-0">
       <div class="row d-flex align-items-center justify-content-center">
-        <div class="col-md-8 mb-5">
-          <h2 class="card-title colored-text-white">
-            <i><b>Visi</b></i>
-          </h2>
-          <h4 class="card-tex colored-text-white">
-            Menjadi Perusahaan Energi dan Utilitas terintegrasi kelas dunia
-            untuk menunjang bisnis utama PT Pupuk Indonesia (Persero) beserta
-            anak perusahaannya.
-          </h4>
-        </div>
-        <div class="col-md-4">
-          <img
-            src="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p2/11/2023/09/30/6B977B2A-D585-4BB6-A126-B5D8A8E355BE-4088439324.jpeg"
-            class="img-fluid img-fixed"
-          />
-        </div>
-      </div>
-
-      <!-- <div class="col-md-7 pl-mb-5 order-md-3 colored-text-white">
-        <div class="mb-4" style="text-align: center">
-          <h2>
-            <i><b>Visi</b></i>
-          </h2>
-          <h4 class="text-justify">
-            Menjadi Perusahaan Energi dan Utilitas terintegrasi kelas dunia
-            untuk menunjang bisnis utama PT Pupuk Indonesia (Persero) beserta
-            anak perusahaannya.
-          </h4>
-        </div>
-      </div> -->
-
-      <!-- <div class="col-md-7 pl-mb-5 order-md-3"> -->
-      <div
-        class="pl-mb-5 order-md-3"
-      >
-        <div
-          class="mb-4"
-          style="text-align: center; margin: auto;"
-        >
-          <h2 class="mb-3">
-            <i class="colored-text-white"><b>Misi</b></i>
-          </h2>
-          <div class="row">
-            <div class="col-md-6 mb-3">
-              <img class="rounded-image" src="../assets/Plugin icon - 1.png" />
-              <br />
-              <br />
-              <p class="colored-text-white">
-                Melakukan usaha dalam bidang penyediaan energi dan utilitas.
-              </p>
-            </div>
-            <div class="col-md-6 mb-3">
-              <img class="rounded-image" src="../assets/Plugin icon - 1.png" />
-              <br />
-              <br />
-              <p class="colored-text-white">
-                Memberikan nilai tambah bagi stakeholders.
-              </p>
-            </div>
-            <div class="col-md-6 mb-3">
-              <img class="rounded-image" src="../assets/Plugin icon - 1.png" />
-              <br />
-              <br />
-              <p class="colored-text-white">
-                Mengutamakan keselamatan dan kesehatan kerja serta menjaga
-                pelestarian lingkungan hidup dalam setiap kegiatan operasional.
-              </p>
-            </div>
-            <div class="col-md-6 mb-3">
-              <img class="rounded-image" src="../assets/Plugin icon - 1.png" />
-              <br />
-              <br />
-              <p class="colored-text-white">
-                Memberikan kontribusi terhadap ketahanan energi nasional.
-              </p>
-            </div>
+          <div class="col-md-8">
+              <h2 class="card-title"><i><b>Visi</b></i></h2>
+              <h4 class="card-text">Menjadi Perusahaan Energi dan Utilitas terintegrasi kelas dunia untuk menunjang bisnis utama PT Pupuk Indonesia (Persero) beserta anak perusahaannya.</h4>    
           </div>
-        </div>
+          <div class="col-md-4">
+              <img src="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p2/11/2023/09/30/6B977B2A-D585-4BB6-A126-B5D8A8E355BE-4088439324.jpeg" class="img-fluid img-fixed">
+          </div>
       </div>
-    </div>
+      <div class="row d-flex align-items-center justify-content-center">
+          <div class="col-md-4">
+              <img src="https://www.pi-utilitas.com/files/media/2020/09/image-mission.jpg" class="img-fluid img-fixed">
+          </div>
+          <div class="col-md-8">
+              <h2 class="card-title"> 
+                  <i class="colored-text-white"><b>Misi</b></i>
+              </h2>
+              <ul class="card-text justify-content-center">
+                  <li class="colored-text-white">
+                      Melakukan usaha dalam bidang penyediaan energi dan utilitas.
+                  </li>
+                  <li class="colored-text-white">
+                      Memberikan nilai tambah bagi stakeholders.
+                  </li>
+                  <li>
+                      Mengutamakan keselamatan dan kesehatan kerja serta menjaga pelestarian lingkungan hidup dalam setiap kegiatan operasional.
+                  </li>
+                  <li>
+                      Memberikan kontribusi terhadap ketahanan energi nasional.
+                  </li>
+              </ul>
+          </div>
+      </div>
   </div>
 </template>
-
 <script>
-export default {
-  name: "VisionMision",
-};
+  export default {
+      name: 'TryThis'
+  }
 </script>
 <style scoped>
-.img-fixed {
-  width: 100%; /* Adjust as needed */
-  height: 250px; /* Adjust as needed */
-  object-fit: cover;
-}
-.vision-mision {
-  /* background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(8, 78, 139, 0.75) 10%, rgba(8, 78, 139, 1) 100%); */
-  background-color: #084e8b;
-}
-.rounded-image {
-  border-radius: 25px; /* Adjust the border-radius to control the roundness of the corners */
-  overflow: hidden;
-}
-.colored-text-white {
-  color: white;
-}
-.colored-text-orange {
-  /* color: #f15a24; */
-  color: #ff865b;
-}
+  .img-fixed {
+      width: 100%; /* Adjust as needed */
+      height: 250px; /* Adjust as needed */
+      object-fit: cover;
+  }
+
+  .card-custom-color {
+      background-color: #123456;
+      color: #abcdef;
+  }
+  
+  .intersect-card-1 {
+      position: absolute;
+      top: 200px; /* Adjust this value to change the vertical position of the second card */
+      right: 50px; /* Adjust this value to change the horizontal position of the second card */
+  }
+
+  .intersect-card-2 {
+      position: absolute;
+      top: 400px; /* Adjust this value to change the vertical position of the third card */
+      left: 50; /* Adjust this value to change the horizontal position of the third card */
+  }
 </style>

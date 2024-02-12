@@ -54,9 +54,9 @@
                         </ul>
                     </li>
 
-                    <li class="nav-item">
+                    <!--<li class="nav-item">
                         <router-link class="nav-link" to="/pengadaan" >Pengadaan</router-link>
-                    </li>
+                    </li>-->
                     
                     <li class="nav-item dropdown">
                         <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Publikasi</router-link>
