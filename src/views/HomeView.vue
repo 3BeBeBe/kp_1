@@ -3,7 +3,7 @@
     <NavBar/>
     <CarousalInfo/>
     <FlashInfo/>
-    <ItemCard/>
+    <!-- <ItemCard/> -->
     <ItemCardTester/>
     <!-- <FlashNews/> -->
     <NewsCarousal/>
@@ -13,7 +13,7 @@
 
 <script>
 // @ is an alias to /src
-import ItemCard from '@/components/ItemCard.vue'
+// import ItemCard from '@/components/ItemCard.vue'
 import CarousalInfo from '@/components/CarousalInfo.vue'
 import NavBar from '@/components/NavBar.vue'
 import FlashInfo from '@/components/FlashInfo.vue'
@@ -27,7 +27,7 @@ export default {
   components: {
     NavBar,
     CarousalInfo,
-    ItemCard,
+    // ItemCard,
     FlashInfo,
     // FlashNews,
     FooterSection,
