@@ -13,6 +13,30 @@
                     <li class="nav-item">
                         <router-link class="nav-link" to="/profile" >Profile</router-link>
                     </li>
+
+                    <li class="nav-item dropdown">
+                        <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profile</router-link>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <router-link class="dropdown-item" to="/sejarah" >Sejarah</router-link>
+                            </li>
+                            <li>
+                                <router-link class="dropdown-item" to="/visimisi" >Visi Misi</router-link>
+                            </li>
+                            <li>
+                                <router-link class="dropdown-item" to="/nilai" >Nilai-Nilai</router-link>
+                            </li>
+                            <li>
+                                <router-link class="dropdown-item" to="/manajemen" >Manajemen</router-link>
+                            </li>
+                            <li>
+                                <router-link class="dropdown-item" to="/struktur" >Struktur</router-link>
+                            </li>
+                            <li>
+                                <router-link class="dropdown-item" to="/penghargaan" >Penghargaan</router-link>
+                            </li>
+                        </ul>
+                    </li>
                     <!-- <li class="nav-item">
                         <router-link class="nav-link" to="/governance" >Tata Kelola</router-link>
                     </li> -->
@@ -46,10 +70,10 @@
                         <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Lingkungan</router-link>
                         <ul class="dropdown-menu">
                             <li>
-                                <router-link class="dropdown-item" to="/ggcp" >Gresik Gas Cogeneration Plant</router-link>
+                                <router-link class="dropdown-item" to="" >Anak Perusahaan</router-link>
                             </li>
                             <li>
-                                <router-link class="dropdown-item" to="/kdm" >Kaltim Daya Mandiri</router-link>
+                                <router-link class="dropdown-item" to="/pabrik" >Pabrik</router-link>
                             </li>
                         </ul>
                     </li>

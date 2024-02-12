@@ -142,6 +142,54 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/Lingkungan/Pabrik/KDM.vue')
+  },
+  {
+    path: '/penghargaan',
+    name: 'penghargaan',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Profile/Award.vue')
+  },
+  {
+    path: '/manajemen',
+    name: 'manajemen',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Profile/Management.vue')
+  },
+  {
+    path: '/struktur',
+    name: 'struktur',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Profile/Structure.vue')
+  },
+  {
+    path: '/nilai',
+    name: 'nilai',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Profile/Value.vue')
+  },
+  {
+    path: '/visimisi',
+    name: 'visimisi',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Profile/VisionMission.vue')
+  },
+  {
+    path: '/sejarah',
+    name: 'sejarah',
+    // route level code-splitting
+    // this generates a separate chunk (about.[hash].js) for this route
+    // which is lazy-loaded when the route is visited.
+    component: () => import(/* webpackChunkName: "about" */ '../views/Profile/History.vue')
   }
   
 ]
