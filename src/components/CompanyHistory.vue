@@ -47,7 +47,7 @@
           </div>
           <div>
             <div class="rounded-image">
-              <!-- <img src="https://www.pi-energi.com/files/media/2020/09/image-banner-factory.jpg" class="img-fluid"> -->
+              <!-- <img src="https://www.pi-energi.com/files/media/2020/09/image-banner-factory.jpg" class="img-fluid"''> -->
             </div>
             <p class="text-justify">
               Tanggal 1 Desember 2021 PT Pupuk Indonesia Utilitas melakukan
