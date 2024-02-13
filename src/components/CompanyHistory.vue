@@ -10,8 +10,10 @@
           </h2>
           <br />
         </div>
-        <div class="col-md-6 pr-md-5 fade-in-right" ref="fadeInElement1">
-          <img src="../assets/pabrik/GGCP/ggcp4.jpg" class="img-fluid" />
+        <div class="col-md-6 fade-in-right" ref="fadeInElement1">
+          <div class="img-container">
+            <img src="../assets/FO_1.jpg" class="img-fluid" />
+          </div>
 
           <p class="text-justify">
             Perusahaan yang bergerak dalam bidang industri penghasil energi dan
@@ -27,9 +29,8 @@
           </p>
         </div>
 
-        <div class="col-md-6 pl-mb-5 fade-in-left" ref="fadeInElement2">
+        <div class="col-md-6 fade-in-left" ref="fadeInElement2">
           <div class="mb-4">
-            <br />
             <p class="text-justify">
               Dengan kecenderungan produksi Gas Bumi Nasional yang menurun serta
               tren harga gas yang terus meningkat, dan untuk menjalankan amanat
@@ -46,9 +47,6 @@
             </p>
           </div>
           <div>
-            <div class="rounded-image">
-              <!-- <img src="https://www.pi-energi.com/files/media/2020/09/image-banner-factory.jpg" class="img-fluid"''> -->
-            </div>
             <p class="text-justify">
               Tanggal 1 Desember 2021 PT Pupuk Indonesia Utilitas melakukan
               rebranding dari yang sebelumnya bernama PT Pupuk Indonesia Energi
@@ -118,6 +116,19 @@ export default {
 </script>
 
 <style scoped>
+.img-container {
+  width: 100%;
+  height: 40%;
+}
+
+.img-container img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .company-history {
   margin-top: 100px;
 }
@@ -133,12 +144,7 @@ export default {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(
-    8,
-    78,
-    139,
-    0.8
-  ); /* Use rgba for the background color with alpha channel */
+  background-color: rgba(7, 63, 111, 0.9); /* Use rgba for the background color with alpha channel */
   content: "";
   z-index: -1;
   opacity: 0.9;
@@ -187,12 +193,12 @@ export default {
 }
 
 .fade-in-left {
-  opacity: 0;
+  opacity: 1;
   transform: translateX(20px); /* Adjust this value for the desired direction */
   transition: opacity 0.8s ease, transform 0.8s ease;
 }
 .fade-in-right {
-  opacity: 0;
+  opacity: 1;
   transform: translateX(
     -20px
   ); /* Adjust this value for the desired direction */
