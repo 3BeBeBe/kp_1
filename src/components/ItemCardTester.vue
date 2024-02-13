@@ -1,7 +1,7 @@
 <template>
-    <div class="container m-5">
+    <div class="container ">
       <div class="row justify-content-left">
-        <div class="col-md-3 mb-3">
+        <div class="col-md-6 mb-3">
           <router-link to="/pabrik" style="text-decoration: none">
             <div class="card card-listrik">
               <div class="card-background"></div>
@@ -20,7 +20,7 @@
       </div>
 
       <div class="row justify-content-center">
-        <div class="col-md-3 mb-3">
+        <div class="col-md-6 mb-3">
           <router-link to="/pabrik" style="text-decoration: none">
             <div class="card card-steam">
               <div class="card-background"></div>
@@ -39,7 +39,7 @@
       </div>
 
       <div class="row justify-content-end">
-        <div class="col-md-3 mb-3">
+        <div class="col-md-6 mb-3">
           <router-link to="/pabrik" style="text-decoration: none">
             <div class="card card-nitrogen">
               <div class="card-background"></div>
@@ -83,14 +83,13 @@
   
   <style scoped>
   .card {
-    width: 850px;
-    height: 125px;
+    width: 100%;
+    height: 100%;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px;
     border-top-left-radius: 0px;
     border-bottom-right-radius: 0px;
   
-    z-index: 0;
   }
   
   .card-listrik {
@@ -146,7 +145,7 @@
   }
   
   .big-number-listrik {
-    font-size: 72px; /* Adjust as needed */
+    font-size: 50px; /* Adjust as needed */
     text-align: center;
     margin-bottom: 0.5rem;
     font-weight: 600;
@@ -155,7 +154,7 @@
     z-index: 2; /* Ensure proper stacking order */
   }
   .big-number-steam {
-    font-size: 48px; /* Adjust as needed */
+    font-size: 50px; /* Adjust as needed */
     text-align: center;
     margin-bottom: 0.5rem;
     font-weight: 600;
@@ -163,7 +162,7 @@
     z-index: 2;
   }
   .big-number-nitrogen {
-    font-size: 48px; /* Adjust as needed */
+    font-size: 50px; /* Adjust as needed */
     text-align: center;
     margin-bottom: 0.5rem;
     font-weight: 600;

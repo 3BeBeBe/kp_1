@@ -1,14 +1,15 @@
 <template>
     <!-- <div style="background-color: #143464;"> -->
-    <div class="d-flex justify-content-center align-items-center">
-        <div class="background-overlay"></div>
-        <div class="background-image"></div>
-        <div class="container mt-3 text-white">
+    <div class="background-overlay background-image-container">
+        <!-- <div class="background-overlay"></div>
+        <div class="background-image"></div> -->
+        <div class="overlay-text container carousel-image text-white d-flex justify-content-center align-items-center">
             
-            <div class="row justify-content-center">
-                <div class="col-md-4 d-flex flex-column justify-content-center align-items-start">
-                    <p class="">- Have fun reading {{ selectedImageDetails.name }}</p>
-                    <h2 class="">Catch Phrase (Kalo bisa yang panjang dikit)</h2>
+            <div class="row ">
+                <div class="col-md-6 d-flex flex-column justify-content-center align-items-start">
+                    <p class="text-with-line">Selamat membaca {{ selectedImageDetails.name }}</p>
+                    <h2 class="">Buletin Setiap Semester</h2>
+                    <h4 class="">PT. Pupuk Indonesia Utilitas</h4>
                     <p class="">{{ selectedImageDetails.subName }}</p>
                     <!-- <p class="">- {{ selectedImageDetails.name }}</p>
                     <h2 class="">{{ selectedImageDetails.subName }}</h2> -->
@@ -29,7 +30,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 d-flex justify-content-center align-items-start">
+                <div class="col-md-6 d-flex justify-content-center align-items-start">
                     <img class="img-fixed" :src="selectedImage">
                     <!-- <img class="img-fixed" src="../assets/bulletinBUZZ/edisi6.png" > -->
                 </div>
@@ -99,9 +100,10 @@
         name: 'BulletinBuzz',
         data() {
             return {
-                selectedImage: require('@/assets/bulletinBUZZ/edisi6.png'), 
+                selectedImage: require('@/assets/bulletinBUZZ/edisi7.png'), 
                 // selectedImage: null,
                 images: [
+                    { name: 'BUZZ 7', subName: 'Amplify Teamwork Building Partership', path: require('@/assets/bulletinBUZZ/edisi7.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_buletin FULL FINAL_OKE OKE OKE.pdf', pages: '19', year: '2023' },
                     { name: 'BUZZ 6', subName: 'Transformasi & Penyelarasan Bisnis', path: require('@/assets/bulletinBUZZ/edisi6.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_BULETIN_JUNI-2023_FINAL-WEB_compressed.pdf', pages: '36', year: '2023' },
                     { name: 'BUZZ 5', subName: 'Tata Kelola & Strategi Baru Korporasi', path: require('@/assets/bulletinBUZZ/edisi5.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_BULETIN_DESEMBER-2022_FINAL-CETAK-HIRES.pdf', pages: '32', year: '2022' },
                     { name: 'BUZZ 4', subName: 'Energi Baru', path: require('@/assets/bulletinBUZZ/edisi4.png'), readMoreLink: '@/assets/bulletinBUZZ/BUZZ-edisi-4.pdf', pages: '32', year: '2021' },
@@ -125,11 +127,7 @@
         },
         computed: {
             selectedImageDetails() {
-                return this.images.find(images => images.path === this.selectedImage) || {
-                    readMoreLink: '@/assets/bulletinBUZZ/PIU_BULETIN_JUNI-2023_FINAL-WEB_compressed.pdf',
-                    pages: '20 pages',
-                    year: '2023'
-                };
+                return this.images.find(images => images.path === this.selectedImage)
             }
         },
         methods: {
@@ -159,7 +157,7 @@
       margin: 0 auto; /* Center the image within the container */
     }
     .img-fixed {
-        width: 80%;
+        width: 90%;
         height: 400px;
         object-fit: cover;
     }
@@ -170,17 +168,17 @@
         background-color: #007bff;
         border-color: #007bff;
     }
-    .background-overlay {
+    /* .background-overlay {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: rgba(8, 78, 139, 0.9); /* Use rgba for the background color with alpha channel */
+        background-color: rgba(8, 78, 139, 0.9);
         content: "";
         z-index: -1;
         opacity: 0.9;
-    }
+    } */
 
     .background-image {
         position: absolute;
@@ -192,5 +190,52 @@
         background-blend-mode: overlay; /* Adjust the blend mode as needed */
         background-size: cover; /* Ensure the background image covers the container */
         z-index: -2;
+    }
+    .overlay-text {
+        position: relative;
+        color: rgb(255, 255, 255);
+        /* font-size: 24px;
+        font-weight: bold; */
+    }
+
+    .background-overlay {
+        background-image: url('@/assets/Carousal/Laporan.jpg');
+        background-size: cover; /* Cover the entire area of the component */
+        background-position: center; /* Center the image */
+        color: white;
+    }
+
+    .background-image-container {
+        position: relative;
+    }
+
+    .background-image-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(3, 55, 100, 0.9);
+        /* background: linear-gradient(to right, rgb(0, 0, 0) 25%, rgba(0, 0, 0, 0) 100%); */
+    }
+    .carousel-image {
+        height: 90vh; /* Adjust this value to your desired height */
+        object-fit: cover;
+    }
+
+    .text-with-line {
+        position: relative;
+        padding-left: 30px; /* Adjust as needed */
+    }
+
+    .text-with-line::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 20px; /* Adjust as needed */
+        height: 2px; /* Adjust as needed */
+        background-color: #db4c21;
     }
 </style>
