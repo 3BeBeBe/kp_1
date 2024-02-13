@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-0">
+  <div class="container">
       <div class="row d-flex align-items-center justify-content-center">
           <div class="col-md-8">
               <h2 class="card-title"><i><b>Visi</b></i></h2>
@@ -15,13 +15,13 @@
           </div>
           <div class="col-md-8">
               <h2 class="card-title"> 
-                  <i class="colored-text-white"><b>Misi</b></i>
+                  <i><b>Misi</b></i>
               </h2>
               <ul class="card-text justify-content-center">
-                  <li class="colored-text-white">
+                  <li>
                       Melakukan usaha dalam bidang penyediaan energi dan utilitas.
                   </li>
-                  <li class="colored-text-white">
+                  <li>
                       Memberikan nilai tambah bagi stakeholders.
                   </li>
                   <li>
@@ -41,26 +41,42 @@
   }
 </script>
 <style scoped>
-  .img-fixed {
+    .img-fixed {
       width: 100%; /* Adjust as needed */
       height: 250px; /* Adjust as needed */
       object-fit: cover;
   }
 
-  .card-custom-color {
-      background-color: #123456;
-      color: #abcdef;
-  }
-  
-  .intersect-card-1 {
-      position: absolute;
-      top: 200px; /* Adjust this value to change the vertical position of the second card */
-      right: 50px; /* Adjust this value to change the horizontal position of the second card */
+  .container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
-  .intersect-card-2 {
-      position: absolute;
-      top: 400px; /* Adjust this value to change the vertical position of the third card */
-      left: 50; /* Adjust this value to change the horizontal position of the third card */
+  h2 {
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+
+  h4, ul {
+    color: #6c757d;
+    line-height: 1.5;
+  }
+
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .card-text {
+    font-size: 16px;
+  }
+  
+  .row {
+    margin-bottom: 20px; /* Added margin to the bottom of each row */
+  }
+
+  .col-md-8, .col-md-4 {
+    padding: 10px; /* Added padding to the columns */
   }
 </style>

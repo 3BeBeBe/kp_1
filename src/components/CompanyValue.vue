@@ -1,8 +1,8 @@
 <template>
     <div class="company-value-container">
-    <div class="container mt-0">
-        <div class="row justify-content-center mb-0">
-            <div ref="column1" id="column1" class="col-md-3 mb-5 ms-4 me-4">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div ref="column1" id="column1" class="col-md-3 mb-5 ms-4 me-4 mt-5">
                 <p class="d-flex gap-2 flex-column justify-content-between">
                     <button class="btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#amanah" aria-expanded="false" aria-controls="amanah">
                         <h3><i><b>Amanah</b></i></h3>
@@ -19,7 +19,7 @@
                     </div>
                 </div>
             </div>
-            <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
+            <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4 mt-5">
                 <p class="d-flex gap-2 flex-column justify-content-between">
                     <button class="btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#kompetensi" aria-expanded="false" aria-controls="kompetensi">
                         <h3><i><b>Kompetensi</b></i></h3>
@@ -36,7 +36,7 @@
                     </div>  
                 </div>
             </div>
-            <div ref="column3" id="column3" class="col-md-3 mb-5 ms-4 me-4">
+            <div ref="column3" id="column3" class="col-md-3 mb-5 ms-4 me-4 mt-5">
                 <p class="d-flex gap-2 flex-column justify-content-between">
                     <button class="btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#harmonis" aria-expanded="false" aria-controls="harmonis">
                         <h3><i><b>Harmonis</b></i></h3>
@@ -57,7 +57,7 @@
         <div class="row justify-content-center">
             <div ref="title" id="title" class="title centered mb-5">
                 <button class="btn btn-outline-light btn-lg" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">
-                    <h2><b><i>Akhlak</i></b></h2>
+                    <h2><b><i>A K H L A K</i></b></h2>
                     <p><i>Nilai - Nilai Perusahaan</i></p>
                 </button>
             </div>
@@ -152,13 +152,15 @@
             border: 1px solid #000; /* Change color as needed */
         }
         
+        .btn, .card{
+            border-radius: 0px;
+        }
         .title {
             width: 30%;
             min-height: 0px;
             /* background-color: #084e8b; */
             color: #ffffff;
             padding: 20px;
-            border-radius: 0px;
             margin: 0 auto;
         }   
     
@@ -173,12 +175,15 @@
         .company-value-container {
             /* background: linear-gradient(to bottom, #084e8b, #ffffff);
              */
-             background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(8, 78, 139, 0.5) 10%, rgba(8, 78, 139, 1) 100%);
+            background: rgba(8, 78, 139, 0.5) 10%; 
+            /* background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(8, 78, 139, 0.5) 10%, rgba(8, 78, 139, 1) 100%); */
 
         } 
-
         .card-body {
-            height: 300px;
+            height: 400px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h3::first-letter {
+            font-size: 1.5em; /* Adjust as needed */
         }
     </style>

@@ -1,19 +1,18 @@
 <template>
-  <div class="management-list-container">
     <div class="container">
       <div class="text-center">
         <h2 class="colored-text-blue" style="font-style: italic;"><b>Manajemen</b></h2>
         <br />
       </div>
-      <DirectorInfo />
       <ComisariesInfo />
+      <DirectorInfo />
       <div class="text-center">
         <h3 class="colored-text-orange" style="font-weight: 700;">Direksi</h3>
       <br />
       </div>
       <div class="row">
         <div class="col-md-4 d-flex justify-content-center ">
-          <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#dir1" style="width: 325.29px; height: 400px;">
+          <button class="card card-fixed" data-bs-toggle="modal" data-bs-target="#D1" style="width: 325.29px; height: 400px;">
             <img src="../assets/Manajemen/Direksi/Nuri Kristiawan - Direktur Keuangan.jpg" class="img-fluid card-img-top img-fixed"/>
             <div class="card-body text-center">
               <h5 class="card-title ">Nuri Kristiawan</h5>
@@ -22,7 +21,7 @@
           </button>
         </div>
         <!-- modal -->
-        <div class="modal fade" id="dir1" tabindex="-1" aria-hidden="true">
+        <div class="modal fade" id="D1" tabindex="-1" aria-hidden="true">
           <div
             class="modal-dialog modal-md position-absolute top-50 start-50 translate-middle"
           >
@@ -52,7 +51,7 @@
           <button
             class="card card-fixed"
             data-bs-toggle="modal"
-            data-bs-target="#dir2"
+            data-bs-target="#D2"
             style="width: 325.29px; height: 400px;"
           >
             <img
@@ -68,7 +67,7 @@
         </div>
 
         <!-- modal -->
-        <div class="modal fade" id="dir2" tabindex="-1" aria-hidden="true">
+        <div class="modal fade" id="D2" tabindex="-1" aria-hidden="true">
           <div
             class="modal-dialog modal-md position-absolute top-50 start-50 translate-middle"
           >
@@ -98,7 +97,7 @@
           <button
             class="card card-fixed"
             data-bs-toggle="modal"
-            data-bs-target="#dir3"
+            data-bs-target="#D3"
           >
             <img
               src="../assets/Manajemen/Direksi/Anis Ernani - Direktur Operasi.jpg"
@@ -113,7 +112,7 @@
         </div>
 
         <!-- modal -->
-        <div class="modal fade" id="dir3" tabindex="-1" aria-hidden="true">
+        <div class="modal fade" id="D3" tabindex="-1" aria-hidden="true">
           <div
             class="modal-dialog modal-md position-absolute top-50 start-50 translate-middle"
           >
@@ -283,7 +282,6 @@
 
       </div>
     </div>
-  </div>
 </template>
 <script>
 import DirectorInfo from './DirectorInfo.vue';
