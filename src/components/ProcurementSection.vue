@@ -1,6 +1,10 @@
 <template>
-    <div class="container mt-5 mb-5">
-        <div class="row">
+    <div class="good-corporate carousel-image-container d-flex flex-column justify-content-center">
+    <div class="container p-5">
+        <div class="row mt-5 mb-5 gover-overlay-text">
+            <div class="col-md-12">
+                <h2>Pengadaan</h2>
+            </div>
             <div class="col-md-6">
                 <p>Untuk dapat mengakses laman e-procurement dapat mengunjungi link di bawah ini dengan menggunakan kredensial yang telah Anda miliki sewaktu mendaftar: </p>
                 <div class="d-inline-flex me-3">
@@ -12,12 +16,13 @@
                     </button>
                 </p>
             </div>
+        </div>
 
             <div class="collapse" id="collapseExample">
-                <div class="card card-body">
+                <div class="card card-body" style="color: black;">
                     <p>Anda dapat melakukan permintaan untuk mengunduh dokumen pengadaan yang sedang berlangsung saat ini dengan mengisi form di bawah ini, kami akan melakukan peninjauan terhadap data yang Anda berikan dan mengirimkan dokumen pengadaan jika disetujui.</p>
                     <form @submit.prevent="submitForm">
-                        <div class="row">
+                        <div class="row" style="color: black;">
                         <div class="col-md-6">
                             <div class="mb-3">
                                 <label for="inputNama" class="form-label">Nama PIC</label>
@@ -56,7 +61,8 @@
                 </div>
             </div>
             
-        </div>
+        
+    </div>
     </div>
 </template>
 <script>
@@ -67,5 +73,34 @@
 <style scoped>
     .btn, .form-control, .form-label, .card {
         border-radius: 0;
+    }
+    .gover-overlay-text {
+        position: relative;
+        color: rgb(255, 255, 255);
+        /* font-size: 24px;
+        font-weight: bold; */
+    }
+
+    .good-corporate {
+        background-image: url('../assets/Carousal/Pengadaan.jpg');
+        background-size: cover; /* Cover the entire area of the component */
+        background-position: center; /* Center the image */
+        color: white;
+        
+    }
+
+    .carousel-image-container {
+        position: relative;
+    }
+
+    .carousel-image-container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        /* background: rgba(0, 0, 0, 0.8); */
+        background: linear-gradient(to right, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%);
     }
 </style>

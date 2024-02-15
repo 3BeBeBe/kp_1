@@ -129,9 +129,6 @@ export default {
   height: 100%;
   object-fit: cover;
 }
-.company-history {
-  margin-top: 100px;
-}
 
 .company-history-container {
   position: relative;
@@ -179,17 +176,6 @@ export default {
 .background-image::after {
   bottom: 0;
   background: linear-gradient(rgba(8, 78, 139, 0), rgba(8, 78, 139, 0.8));
-}
-
-.company-history img {
-  width: 100%;
-  height: 50%;
-  opacity: 0.5;
-}
-
-.rounded-image {
-  border-radius: 25px; /* Adjust the border-radius to control the roundness of the corners */
-  overflow: hidden;
 }
 
 .fade-in-left {

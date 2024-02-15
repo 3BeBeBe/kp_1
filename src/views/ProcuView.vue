@@ -1,7 +1,6 @@
 <template>
     <div class="pengadaan">
         <NavBar />
-        <img class="img-fluid" src="https://www.pi-energi.com/files/media/2020/09/image-banner-csr.jpg">
         <ProcurementSection />
         <FooterSection />
     </div>

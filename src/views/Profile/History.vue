@@ -1,10 +1,10 @@
 <template>
     <div class="sejarah">
         <NavBar/>
-        <div class="image-container">
+        <!-- <div class="image-container">
             <img src="@/assets/Carousal/Profile.jpg" class="d-block w-100">
             <div class="image-overlay"></div>
-        </div>
+        </div> -->
         <CompanyHistory/>
         <FooterSection/>
     </div>

@@ -10,9 +10,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav navbar-auto me-auto">
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <router-link class="nav-link" to="/profile" >Profile</router-link>
-                    </li>
+                    </li> -->
 
                     <li class="nav-item dropdown">
                         <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profile</router-link>
@@ -70,10 +70,10 @@
                         <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Lingkungan</router-link>
                         <ul class="dropdown-menu">
                             <li>
-                                <router-link class="dropdown-item" to="/kdm" >Kaltim Daya Mandiri (Anak Perusahaan)</router-link>
+                                <router-link class="dropdown-item" to="/kdm" >Anak Perusahaan</router-link>
                             </li>
                             <li>
-                                <router-link class="dropdown-item" to="/ggcp" >Gresik Gas Cogeneration Plant (Pabrik)</router-link>
+                                <router-link class="dropdown-item" to="/ggcp" >Pabrik</router-link>
                             </li>
                         </ul>
                     </li>
@@ -86,7 +86,7 @@
                         <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Publikasi</router-link>
                         <ul class="dropdown-menu">
                             <li>
-                                <router-link class="dropdown-item" to="/galeri" >Galeri</router-link>
+                                <router-link class="dropdown-item" to="/galeri" >CSR</router-link>
                             </li>
                             <li>
                                 <router-link class="dropdown-item" to="/laporan" >Laporan</router-link>
@@ -126,7 +126,7 @@ export default {
 </script>
 
 <style scoped>
-.form-control {
+.btn, .form-control, .dropdown-menu {
     border-radius: 0px;
 }
 .nav-link {
@@ -134,5 +134,14 @@ export default {
 }
 .nav-link:hover{
     color: #0d6efd !important
+}
+.dropdown-item {
+  transition: background-color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #0d6efd;
+  color: #fff;
+  cursor: pointer;
 }
 </style>

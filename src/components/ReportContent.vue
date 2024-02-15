@@ -1,10 +1,11 @@
 <template>
-    <div class="container mt-5">
+    <div class="container mt-5 mb-5">
+        <h2>{{ selectedTab }}</h2>
+        <hr>
         <div class="row">
             <div class="col-md-9">
                 <div class="container tab-content mt-2 text-center">
                     <div class="tab-pane fade show active" id="laptah">
-                    <h2 class="text-start">Laporan Tahunan</h2>
                     <div class="row mt-4 ">
                         <div class="col-md-4">
                             <a href="../assets/laporanTahun/AR-PIU-2022_OK_.pdf" class="btn" download>
@@ -72,7 +73,6 @@
                     </div>
                     </div>
                     <div class="tab-pane fade" id="lapkeu">
-                    <h2 class="text-start">Laporan Keuangan</h2>
                     <div class="row mt-4 ">
                         <div class="col-md-4">
                             <a href="../assets/laporanKeuangan/FINAL-Signed-Financial-Statements-PIU-31-December-2022.pdf" class="btn" download>
@@ -149,7 +149,6 @@
                     </div>
                     </div>
                     <div class="tab-pane fade" id="lapkeb">
-                    <h2 class="text-start">Laporan Keberlanjutan</h2>
                     <div class="row mt-4 ">
                         <div class="col-md-4">
                             <a href="../assets/laporanKeberlanjutan/SR-PIU-2022_ok_compressed.pdf" class="btn" download>
@@ -169,13 +168,13 @@
                     <div class="card-header">
                         <ul class="nav nav-underline">
                         <li class="nav-item">
-                            <a id="tab1" class="nav-link active" data-bs-toggle="tab" aria-current="true" href="#laptah">Laporan Tahunan</a>
+                            <a id="tab1" class="nav-link active" @click="changeTab('Laporan Tahunan')" data-bs-toggle="tab" aria-current="true" href="#laptah">Laporan Tahunan</a>
                         </li>
                         <li class="nav-item">
-                            <a id="tab1" class="nav-link" data-bs-toggle="tab" aria-current="true" href="#lapkeu">Laporan Keuangan</a>            
+                            <a id="tab1" class="nav-link" @click="changeTab('Laporan Keuangan')" data-bs-toggle="tab" aria-current="true" href="#lapkeu">Laporan Keuangan</a>            
                         </li>
                         <li class="nav-item">
-                            <a id="tab1" class="nav-link" data-bs-toggle="tab" aria-current="true" href="#lapkeb">Laporan Keberlanjutan</a>            
+                            <a id="tab1" class="nav-link" @click="changeTab('Laporan Keberlanjutan')" data-bs-toggle="tab" aria-current="true" href="#lapkeb">Laporan Keberlanjutan</a>            
                         </li>
                         </ul>
                     </div>   
@@ -186,7 +185,17 @@
 </template>
 <script>
     export default {
-        name: 'ReportContent'
+        name: 'ReportContent',
+        data() {
+            return {
+                selectedTab: 'Laporan Tahunan', // Default tab
+            };
+        },
+        methods: {
+            changeTab(tabName) {
+                this.selectedTab = tabName;
+            },
+        },
     }
 </script>
 <style>

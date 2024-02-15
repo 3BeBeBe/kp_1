@@ -1,5 +1,5 @@
 <template>
-<div class="container mt-5">
+<div class="container mt-5 mb-5">
     <div class="text-center">
         <h2>KELUHAN PELANGGAN</h2>
     </div>
@@ -36,7 +36,7 @@
                         <option value="5">Lainnya</option>
                     </select>
                 </div>
-                <div class="mb-3">
+                <div class="mb-5">
                     <label for="inputDetail" class="form-label">Detail Pengaduan</label>
                     <textarea class="form-control" id="inputDetail" rows="7"></textarea>
                 </div>

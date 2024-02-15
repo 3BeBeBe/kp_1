@@ -1,10 +1,8 @@
 <template>
     <div class="good-corporate carousel-image-container d-flex flex-column justify-content-center">
-    <div class="container">
-        <br>
-        <h2 class="gover-overlay-text">WHISTLEBLOWING SYSTEM</h2>
-        <div class="row gover-overlay-text">
-            
+    <div class="container p-5">
+        <div class="row mt-5 mb-5 gover-overlay-text">
+            <h2>WHISTLEBLOWING SYSTEM</h2>
             <div class="col-md-7">
                 <div>
                     <p>Whistleblowing system adalah mekanisme pelaporan yang dapat diajukan oleh internal perusahaan atau eksternal perusahaan untuk melaporkan adanya perbuatan yang melanggar hukum, atau peraturan lain yang berlaku, atau perbuatan menentang etika yang dilakukan oleh karyawan di perusahaan dengan tetap menjaga rahasia dari si pelapor. Setiap pihak baik insan Perusahaan maupun pihak eksternal memiliki kesempatan yang sama dalam melaporkan dugaan tindak pelanggaran di Perusahaan. WBS merupakan bagian dari sistem pengendalian internal dalam mencegah penyimpangan dan kecurangan serta memperkuat penerapan praktik Tata Kelola Perusahaan.

@@ -12,8 +12,10 @@
                 </div>
                 <div class="d-md-block overlay-text">
                     <h1><i>Gresik Gas Cogeneration Plant (GGCP)</i></h1>
-                    <br>
-                    <h4>Dibangun untuk memenuhi kebutuhan listrik dan steam dari <b>PT Petrokimia Gresik</b> yang saat ini sedang mengembangkan fasilitas produksi terbarunya, <b>Pabrik Amurea II.</b></h4>
+                    <p>Dibangun untuk memenuhi kebutuhan listrik dan steam dari <b>PT Petrokimia Gresik</b> yang saat ini sedang mengembangkan fasilitas produksi terbarunya, <b>Pabrik Amurea II.</b></p>
+                    <div class="d-inline-flex me-3">
+                        <router-link to="/ggcp" class="btn btn-primary">Pabrik Kami</router-link>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item">
@@ -22,18 +24,22 @@
                 </div>
                 <div class="d-md-block overlay-text">
                     <h1><i>Kaltim Daya Mandiri (KDM)</i></h1>
-                    <br>
-                    <h4>Didirikan dengan tujuan untuk <b>menyuplai kebutuhan utilitas pada fasilitas produksi dan perumahan PT. Pupuk Kaltim</b> serta perusahan-perusahaan lain yang berada di lingkungan <b>Kaltim Industrial Estate.</b></h4>
+                    <p>Didirikan dengan tujuan untuk <b>menyuplai kebutuhan utilitas pada fasilitas produksi dan perumahan PT. Pupuk Kaltim</b> serta perusahan-perusahaan lain yang berada di lingkungan <b>Kaltim Industrial Estate.</b></p>
+                    <div class="d-inline-flex me-3">
+                        <router-link to="/ggcp" class="btn btn-primary">Anak Perusahaan</router-link>
+                    </div>
                 </div>
             </div>
             <div class="carousel-item">
                 <div class="carousel-image-container" data-bs-interval="100">
                     <img src="https://www.pi-utilitas.com/files/media/2021/06/banner-2.jpg" class="d-block w-100 carousel-image">
                 </div>
-                <div class="d-none d-md-block overlay-text">
+                <div class="d-md-block overlay-text">
                     <h1><i>Tolak Gratifikasi</i></h1>
-                    <br>
-                <h4>Seluruh keluarga PT Pupuk Indonesia Utilitas <b><u>MENOLAK</u></b> segala bentuk suap serta mendukung terwujudnya prinsip-prinsip <b>Tata Kelola Perusahaan yang Baik (Good Corporate Governance).</b></h4>
+                    <p>Seluruh keluarga PT Pupuk Indonesia Utilitas <b><u>MENOLAK</u></b> segala bentuk suap serta mendukung terwujudnya prinsip-prinsip <b>Tata Kelola Perusahaan yang Baik (Good Corporate Governance).</b></p>
+                    <div class="d-inline-flex me-3">
+                        <router-link to="/wbs" class="btn btn-primary">Laporkan</router-link>
+                    </div>
                 </div>
             </div>
         </div>
@@ -53,19 +59,16 @@
     }
 </script>
 <style scoped>
-    .responsive-image {
-      width: 100%; /* Set the width to 100% to make the image responsive */
-      height: 50%; /* Maintain the aspect ratio */
+    .btn{
+        border-radius: 0;
     }
-
     .overlay-text {
       position: absolute;
       top: 50%;
-      left: 40%; /* Adjust this value to move the text to the left */
+      left: 43%; /* Adjust this value to move the text to the left */
       transform: translate(-50%, -50%);
       color: rgb(255, 255, 255);
-      font-size: 24px;
-      font-weight: bold;
+      font-size: 20px;
     }
 
     .carousel-image-container {
@@ -84,10 +87,11 @@
     }
 
     .carousel-image {
-        height: 90vh; /* Adjust this value to your desired height */
+        height: 92vh; /* Adjust this value to your desired height */
         object-fit: cover;
     }
-    h4 {
+    p {
         width: 75%; /* Adjust as needed */
+        word-wrap: break-word;
     }
 </style>

@@ -2020,6 +2020,10 @@
         justify-content: center;
     }
 
+    .modal-content {
+        border-radius: 0;
+    }
+
     .active-tab {
         font-size: 2em; /* Adjust as needed */
         font-weight: bold;

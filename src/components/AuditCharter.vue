@@ -21,3 +21,8 @@
         name: 'AuditCharter'
     }
 </script>
+<style scoped>
+    .btn {
+        border-radius: 0px;
+    }
+</style>
