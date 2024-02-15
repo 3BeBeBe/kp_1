@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <button class="btn main-button" :class="{ 'right': !isLeft, 'left': isLeft, 'on-top': isLeft }" @click="toggleButton">
-      <img src="../assets/Carousal/TataKelola.jpg" alt="Main button image">
+      <img src="../assets/director.jpg" alt="Main button image">
     </button>
     <transition name="fade" @before-enter="beforeEnter" @enter="enter">
       <div class="button-row" v-if="!isLeft">

@@ -33,7 +33,7 @@
   left: 0;
   width: 100%;
   height: 25%; /* Adjust this value to control the height of the fade */
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(8, 78, 139, 0.5) 50%, rgba(8, 78, 139, 1) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(8, 78, 139, 0.5) 50%, rgba(7, 63, 111, 0.9) 100%);
 }
 .image-text {
   position: absolute;

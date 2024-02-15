@@ -30,7 +30,7 @@
         </div>
 
         <div class="col-md-6 fade-in-left" ref="fadeInElement2">
-          <div class="mb-4">
+          <div class="">
             <p class="text-justify">
               Dengan kecenderungan produksi Gas Bumi Nasional yang menurun serta
               tren harga gas yang terus meningkat, dan untuk menjalankan amanat

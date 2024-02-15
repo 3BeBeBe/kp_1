@@ -116,7 +116,7 @@
 </script>
 
 <style scoped>
-    .btn{
+    .btn, .form-control, .form-select, .card {
         border-radius: 0px;
     }
     .gover-overlay-text {

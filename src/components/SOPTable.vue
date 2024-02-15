@@ -68,3 +68,8 @@
         }
     }   
 </script>
+<style scoped>
+    .btn{
+        border-radius: 0;
+    }
+</style>

@@ -50,3 +50,9 @@
         name: 'CustomerComplaint'
     }   
 </script>
+<style scoped>
+    .btn, .form-control, .form-select, .card {
+        border-radius: 0px;
+    }
+</style>
+```
