@@ -7,6 +7,7 @@
     <ItemCardTester/>
     <!-- <FlashNews/> -->
     <NewsCarousal/>
+    <!-- <NewsCarousal2/> -->
     <FooterSection/>
   </div>
 </template>
@@ -20,6 +21,7 @@ import FlashInfo from '@/components/FlashInfo.vue'
 // import FlashNews from '@/components/FlashNews.vue'
 import FooterSection from '@/components/FooterSection.vue'
 import NewsCarousal from '@/components/NewsCarousal.vue'
+// import NewsCarousal2 from '@/components/NewsCarousal2.vue'
 import ItemCardTester from '@/components/ItemCardTester.vue'
 
 export default {
@@ -32,6 +34,7 @@ export default {
     // FlashNews,
     FooterSection,
     NewsCarousal,
+    // NewsCarousal2,
     ItemCardTester
   }
 }

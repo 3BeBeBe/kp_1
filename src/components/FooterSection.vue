@@ -3,7 +3,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <h5><b>PT. PUPUK INDONESIA UTILITAS</b></h5>
+                <h5><b>PT. Pupuk Indonesia Utilitas</b></h5>
+                <br/>
                 <p>Alamanda Tower Lt 26,Jl. T.B. Simatupang No 22-26, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430</p>
                 <p>Phone: (021) 29661630</p>
                 <p>Email:
@@ -11,7 +12,7 @@
                 </p>
             </div>
             <div class="col-md-3">
-                <h5><b>IPP GRESIK (GRESIK GAS COGENERATION PLANT)</b></h5>
+                <h5><b>IPP Gresik (Gresik Gas Congregation Plant)</b></h5>
                 <p>Jalan Gubernur Suryo, Pabrik 3 PT. Petrokimia Gresik, Gresik, Jawa Timur</p>
                 <p>Phone: -</p>
                 <p>Email: 
@@ -19,9 +20,9 @@
                 </p>
             </div>
             <div class="col-md-3">
-                <h5><b>MEDIA SOSIAL</b></h5>
-                <div class="row mt-4 mb-4 d-flex justify-content-center">
-                    <div class="col-4 d-flex justify-content-center">
+                <h5><b>Media Sosial</b></h5>
+                <div class="row mt-3 mb-4 d-flex justify-content-left">
+                    <div class="col-3 d-flex justify-content-center">
                         <a href="https://twitter.com/PIUtilitas" target="_blank">
 
                             <img class="img-fluid" src="../assets/Ikon SosMed/1.png" width="50" height="50">
@@ -29,13 +30,13 @@
                         </a>
                     </div>
                     
-                    <div class="col-4 d-flex justify-content-center">
+                    <div class="col-3 d-flex justify-content-center">
                         <a href="https://www.facebook.com/Pupuk.Indonesia" target="_blank">
                             <img class="img-fluid" src="../assets/Ikon SosMed/2.png" width="50" height="50">
                         </a>
                     </div>
 
-                    <div class="col-4 d-flex justify-content-center">
+                    <div class="col-3 d-flex justify-content-center">
                         <a href="https://www.instagram.com/pi_utilitas/" target="_blank">
                             <img class="img-fluid" src="../assets/Ikon SosMed/3.png" width="50" height="50">
                         </a>
@@ -47,8 +48,10 @@
                 </ul>
             </div>
             <div class="col-md-3">
-                <h5><b>ANAK USAHA DARI</b></h5>
-                <img class="img-fluid mt-4" src="../assets/LOGO PIU Putih.png" >
+                <h5><b>Anak Usaha Dari</b></h5>
+                <a href="https://www.pupuk-indonesia.com/" target="_blank"> <!-- Anchor tag added here -->
+                    <img class="img-fluid mt-2" src="../assets/LOGO PIU Putih.png" >
+                </a>
                 <div class="row">
                     <div class="col-4">
                         <img class="img-fluid" src="../assets/ISO/iso9001-2015.png">
@@ -67,7 +70,7 @@
         <hr>
     </div>
     <div class="row text-center">
-            <p> | 
+            <p>
             <a href="https://bumn.go.id/">KEMENTRIAN BUMN</a>
              | 
             <a href="https://www.pupuk-indonesia.com/">PT PUPUK INDONESIA</a>
@@ -85,7 +88,7 @@
             <a href="https://www.pim.co.id/">PT PUPUK ISKANDAR MUDA</a>
              | 
             <a href="https://kaltimdayamandiri.co.id/">PT KALTIM DAYA MANDIRI</a> 
-             | </p>
+            </p>
         </div>
     </div>
 </template>
@@ -98,15 +101,50 @@
 </script>
 <style scoped>
     .custom-container {
-      background-color: #084e8b; /* Custom background color (gold) */
-      color: #ffffff; /* Custom text color (dark gray) */
-      padding: 20px; /* Custom padding */
-      border-radius: 0px; /* Custom border radius */
-      /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Custom box shadow */
+      position: relative;
+      background-color: #084e8b;
+      color: #ffffff;
+      padding: 20px;
+      border-radius: 0px;
+      background-image: url('../assets/LOGO PIU Footer.png');
+      background-size: cover;
+      background-position: 5% center;
+      background-size: 13%;
+      background-repeat: no-repeat;
     }
+
+    /* Add overlay to the background image */
+    .custom-container::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(8, 78, 139, 0.3); /* Adjust the opacity as needed */
+      z-index: 0; /* Ensure the overlay is positioned behind the content */
+      border-radius: 0px; /* Inherit border radius from the container */
+    }
+
+    .custom-container p, .custom-container h5, .custom-container ul, .custom-container img {
+        position: relative;
+        z-index: 1; /* Ensure text and images remain above the overlay */
+        font-size: large;
+    }
+
+    .custom-container p {
+        font-size: small;
+    }
+
     .custom-container a {
         color: #ffffff;
+        position: relative; /* Ensure links are clickable */
+        z-index: 2; /* Ensure links are positioned above the overlay and text */
     }
+    .custom-container li {
+        font-size: small;
+    }
+
     .rounder-circle {
         border-radius: 50%;
     }
