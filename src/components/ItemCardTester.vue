@@ -1,8 +1,8 @@
 <template>
-    <div class="container ">
+    <div class="container mt-5">
       <div class="row justify-content-left">
         <div class="col-md-6 mb-3">
-          <router-link to="/pabrik" style="text-decoration: none">
+          <router-link to="/ggcp" style="text-decoration: none">
             <div class="card card-listrik">
               <div class="card-background"></div>
               <div class="card-body">
