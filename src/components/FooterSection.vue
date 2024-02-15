@@ -2,7 +2,6 @@
     <div class="good-corporate carousel-image-container">
     <div class="container">
         <div class="row">
-<<<<<<< HEAD
             <div class="col-md-3 mt-3">
                 <div class="gover-overlay-text">
                     <h5><b>PT. PUPUK INDONESIA UTILITAS</b></h5>
@@ -11,50 +10,8 @@
                     <p>Email:
                         <a href=mailto:info@pi-utilitas.com>info@pi-utilitas.com</a>
                     </p>
-=======
-            <div class="col-md-3">
-                <h5><b>PT. Pupuk Indonesia Utilitas</b></h5>
-                <br/>
-                <p>Alamanda Tower Lt 26,Jl. T.B. Simatupang No 22-26, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430</p>
-                <p>Phone: (021) 29661630</p>
-                <p>Email:
-                    <a href=mailto:info@pi-utilitas.com>info@pi-utilitas.com</a>
-                </p>
-            </div>
-            <div class="col-md-3">
-                <h5><b>IPP Gresik (Gresik Gas Congregation Plant)</b></h5>
-                <p>Jalan Gubernur Suryo, Pabrik 3 PT. Petrokimia Gresik, Gresik, Jawa Timur</p>
-                <p>Phone: -</p>
-                <p>Email: 
-                    <a href=mailto:info@pi-utilitas.com>info@pi-utilitas.com</a>
-                </p>
-            </div>
-            <div class="col-md-3">
-                <h5><b>Media Sosial</b></h5>
-                <div class="row mt-3 mb-4 d-flex justify-content-left">
-                    <div class="col-3 d-flex justify-content-center">
-                        <a href="https://twitter.com/PIUtilitas" target="_blank">
-
-                            <img class="img-fluid" src="../assets/Ikon SosMed/1.png" width="50" height="50">
-                            <!-- <img class="img-fluid rounder-circle" src="https://img.freepik.com/premium-vector/new-twitter-logo-x-2023-twitter-x-logo-official-vector-download_691560-10797.jpg" width="50" height="50"> -->
-                        </a>
-                    </div>
-                    
-                    <div class="col-3 d-flex justify-content-center">
-                        <a href="https://www.facebook.com/Pupuk.Indonesia" target="_blank">
-                            <img class="img-fluid" src="../assets/Ikon SosMed/2.png" width="50" height="50">
-                        </a>
-                    </div>
-
-                    <div class="col-3 d-flex justify-content-center">
-                        <a href="https://www.instagram.com/pi_utilitas/" target="_blank">
-                            <img class="img-fluid" src="../assets/Ikon SosMed/3.png" width="50" height="50">
-                        </a>
-                    </div>
->>>>>>> 7cc93a9f95f0b3ba956bede0d894377ef3f0590b
                 </div>
             </div>
-<<<<<<< HEAD
             <div class="col-md-3 mt-3">
                 <div class="gover-overlay-text">
                     <h5><b>IPP GRESIK (GRESIK GAS COGENERATION PLANT)</b></h5>
@@ -71,21 +28,6 @@
                     <div class="row mt-4 mb-4 d-flex justify-content-center">
                         <div class="col-3 d-flex justify-content-center">
                             <a href="https://twitter.com/PIUtilitas" target="_blank">
-=======
-            <div class="col-md-3">
-                <h5><b>Anak Usaha Dari</b></h5>
-                <a href="https://www.pupuk-indonesia.com/" target="_blank"> <!-- Anchor tag added here -->
-                    <img class="img-fluid mt-2" src="../assets/LOGO PIU Putih.png" >
-                </a>
-                <div class="row">
-                    <div class="col-4">
-                        <img class="img-fluid" src="../assets/ISO/iso9001-2015.png">
-                    </div>
-                    
-                    <div class="col-4">
-                        <img class="img-fluid" src="../assets/ISO/iso14001-2015.png">
-                    </div>
->>>>>>> 7cc93a9f95f0b3ba956bede0d894377ef3f0590b
 
                                 <img class="img-fluid" src="../assets/Ikon SosMed/1.png" width="40" height="40">
                                 <!-- <img class="img-fluid rounder-circle" src="https://img.freepik.com/premium-vector/new-twitter-logo-x-2023-twitter-x-logo-official-vector-download_691560-10797.jpg" width="50" height="50"> -->
@@ -133,7 +75,6 @@
             </div>
         </div> 
         <hr>
-<<<<<<< HEAD
         <div class="d-flex justify-content-center gover-overlay-text">
             <div class="row text-center text-holder">
                 <p>
@@ -156,29 +97,6 @@
                     <a href="https://kaltimdayamandiri.co.id/">PT KALTIM DAYA MANDIRI</a> 
                 </p>
             </div>
-=======
-    </div>
-    <div class="row text-center">
-            <p>
-            <a href="https://bumn.go.id/">KEMENTRIAN BUMN</a>
-             | 
-            <a href="https://www.pupuk-indonesia.com/">PT PUPUK INDONESIA</a>
-             | 
-            <a href="https://www.petrokimia-gresik.com/">PT PETROKIMIA GRESIK</a>
-             |             
-            <a href="https://www.pupuk-kujang.co.id/">PT PUPUK KUJANG CIKAMPEK</a>
-             | 
-            <a href="http://www.rekayasa.com/">PT REKAYASA INDUSTRI</a>
-             | 
-            <a href="http://www.pupukkaltim.com/">PT PUPUK KALIMANTAN TIMUR</a>
-             | 
-            <a href="https://www.pusri.co.id/">PT PUPUK SRIWIDJAJA PALEMBANG</a>
-             | 
-            <a href="https://www.pim.co.id/">PT PUPUK ISKANDAR MUDA</a>
-             | 
-            <a href="https://kaltimdayamandiri.co.id/">PT KALTIM DAYA MANDIRI</a> 
-            </p>
->>>>>>> 7cc93a9f95f0b3ba956bede0d894377ef3f0590b
         </div>
     </div>
     </div>
@@ -232,23 +150,8 @@
         position: relative; /* Ensure links are clickable */
         z-index: 2; /* Ensure links are positioned above the overlay and text */
     }
-<<<<<<< HEAD
     p, li {
         font-size: 13px; /* Adjust as needed */
-=======
-    .custom-container li {
-        font-size: small;
-    }
-
-    .rounder-circle {
-        border-radius: 50%;
-    }
-    .rounded-circle-container {
-        display: inline-block; /* Ensures the container only takes the space it needs */
-        overflow: hidden; /* Clips the image within the container */
-        background-color: white;
-        border-radius: 50%; /* Creates a circular shape */
->>>>>>> 7cc93a9f95f0b3ba956bede0d894377ef3f0590b
     }
 
     h5 {
