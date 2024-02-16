@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div>
-      <h1>KOMISARIS</h1>
-      <h2>PT. Pupuk Indonesia Utilitas</h2>
+      <h1 style="color: #084e8b; font-weight: 600; font-style: italic;">Komisaris</h1>
+      <h2 style="color: #e65824; font-weight: 700; font-style: italic;">PT. Pupuk Indonesia Utilitas</h2>
     </div>
     
     <!-- <button class="btn main-button" :class="{ 'right': isRight, 'left': !isRight, 'on-top': isRight }" @click="toggleButton">
@@ -10,7 +10,24 @@
     </button>
     <transition name="fade" @before-enter="beforeEnter" @enter="enter"> -->
       <div class="button-row" v-if="isRight">
-        <button class="btn image-button" data-bs-toggle="modal" data-bs-target="#kom1">
+        
+        <button
+        class="btn image-button item e1"
+        data-bs-toggle="modal"
+        data-bs-target="#kom1"
+      >
+        <img
+          src="../assets/Manajemen/Komisaris/Imam Mujahidin Fahmid - Komisaris.jpg"
+        />
+        <!-- <div class="item e1"> -->
+          <div class="text1">
+            <h3>Komisaris</h3>
+            <p>Imam Mujahidin Fahmid</p>
+          </div>
+        <!-- </div> -->
+      </button>
+        
+        <!-- <button class="btn image-button" data-bs-toggle="modal" data-bs-target="#kom1">
           <img src="../assets/Manajemen/Komisaris/Imam Mujahidin Fahmid - Komisaris.jpg" alt="Image 1">
           <div class="overlay-text">
             <div class="text-start">
@@ -18,7 +35,8 @@
               <h5>Imam Mujahidin Fahmid</h5>
             </div>
           </div>
-        </button>
+        </button> -->
+
         <!-- modal -->
         <div class="modal fade" id="kom1" tabindex="-1" aria-hidden="true">
           <div
@@ -63,7 +81,24 @@
           </div>
         </div>
         <!-- modal end -->
-        <button class="btn image-button" data-bs-toggle="modal" data-bs-target="#kom2">
+
+        <button
+        class="btn image-button item e1"
+        data-bs-toggle="modal"
+        data-bs-target="#kom2"
+      >
+        <img
+          src="../assets/Manajemen/Komisaris/Sumyana Sukandar - Komisaris Utama.jpg"
+        />
+        <!-- <div class="item e1"> -->
+          <div class="text1">
+            <h3>Komisaris Utama</h3>
+            <p>Sumyana Sukandar</p>
+          </div>
+        <!-- </div> -->
+      </button>
+
+        <!-- <button class="btn image-button" data-bs-toggle="modal" data-bs-target="#kom2">
           <img src="../assets/Manajemen/Komisaris/Sumyana Sukandar - Komisaris Utama.jpg" alt="Image 2">
           <div class="overlay-text">
             <div class="text-start">
@@ -71,7 +106,8 @@
               <h5>Sumyana Sukandar</h5>
             </div>
           </div>
-        </button>
+        </button> -->
+
         <!-- modal -->
         <div class="modal fade" id="kom2" tabindex="-1" aria-hidden="true">
           <div
@@ -116,7 +152,24 @@
           </div>
         </div>
         <!-- modal end -->
-        <button class="btn image-button" data-bs-toggle="modal" data-bs-target="#kom3">
+
+        <button
+        class="btn image-button item e1"
+        data-bs-toggle="modal"
+        data-bs-target="#kom3"
+      >
+        <img
+          src="../assets/Manajemen/Komisaris/Monica Desideria - Komisaris.jpg"
+        />
+        <!-- <div class="item e1"> -->
+          <div class="text1">
+            <h3>Komisaris</h3>
+            <p>Monica Desideria</p>
+          </div>
+        <!-- </div> -->
+      </button>
+
+        <!-- <button class="btn image-button" data-bs-toggle="modal" data-bs-target="#kom3">
           <img src="../assets/Manajemen/Komisaris/Monica Desideria - Komisaris.jpg" alt="Image 3">
           <div class="overlay-text">
             <div class="text-start">
@@ -124,7 +177,9 @@
               <h5>Monica Desideria</h5>
             </div>
           </div>
-        </button><!-- modal -->
+        </button> -->
+        
+        <!-- modal -->
         <div class="modal fade" id="kom3" tabindex="-1" aria-hidden="true">
           <div
             class="modal-dialog modal-dialog-centered modal-xl"
@@ -295,5 +350,56 @@ p{
   text-align: center;
   font-size: 24px;
   background: rgba(0, 0, 0, 0.5);
+}
+
+/* item */
+
+.item {
+  /* width: calc(94% / 3); */
+  /* margin: 1%; */
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+.item img {
+  max-width: 100%;
+  display: block;
+  transition: all 0.5s ease;
+}
+
+/* start of effect 1 */
+
+.e1 img {
+  -webkit-filter: grayscale(85%);
+  filter: grayscale(85%);
+  transition: all 0.3s ease;
+}
+.text1 {
+  position: absolute;
+  bottom: 0%;
+  left: 20px;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.text1 p {
+  text-align: left;
+  opacity: 0;
+}
+
+.text1 h3 {
+    text-align: left;
+}
+
+.e1:hover img {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+.e1:hover .text1 {
+  position: absolute;
+  bottom: 5%;
+}
+.e1:hover p {
+  opacity: 1;
 }
 </style>

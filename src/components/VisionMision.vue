@@ -1,5 +1,6 @@
 <template>
-  <div class="container">
+  <div class="another-container">
+    <div class="container">
       <div class="row d-flex align-items-center justify-content-center">
           <div class="col-md-8">
               <h2 class="card-title"><i><b>Visi</b></i></h2>
@@ -34,6 +35,8 @@
           </div>
       </div>
   </div>
+  </div>
+  
 </template>
 <script>
   export default {
@@ -46,11 +49,15 @@
       height: 250px; /* Adjust as needed */
       object-fit: cover;
   }
-
+/* 
   .container {
-    background-color: #f8f9fa;
+    background-color: #084e8b;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  } */
+
+  .another-container {
+    background-color: #ffffff;
   }
 
   h2 {
