@@ -1,10 +1,10 @@
 <template>
   <div class="container">
-    <button class="btn main-button" :class="{ 'right': !isLeft, 'left': isLeft, 'on-top': isLeft }" @click="toggleButton">
+    <!-- <button class="btn main-button" :class="{ 'right': !isLeft, 'left': isLeft, 'on-top': isLeft }" @click="toggleButton">
       <img src="../assets/director.jpg" alt="Main button image">
     </button>
-    <transition name="fade" @before-enter="beforeEnter" @enter="enter">
-      <div class="button-row" v-if="!isLeft">
+    <transition name="fade" @before-enter="beforeEnter" @enter="enter"> -->
+      <div class="button-row" v-if="isLeft">
         <button class="btn image-button" data-bs-toggle="modal" data-bs-target="#dir1">
           <img src="../assets/Manajemen/Direksi/Mochamad Safiie - Direktur Utama.jpg" alt="Image 1">
           <div class="overlay-text">
@@ -17,24 +17,42 @@
         <!-- modal -->
         <div class="modal fade" id="dir1" tabindex="-1" aria-hidden="true">
           <div
-            class="modal-dialog modal-md position-absolute top-50 start-50 translate-middle"
+            class="modal-dialog modal-dialog-centered modal-xl"
           >
             <div class="modal-content">
               <!-- <div class="modal-header">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div> -->
-              <div class="modal-body p-3">
-                <!-- <h2 class="modal-title">Nuri Kristiawan modal-title</h2> -->
-                <img
-                  src="../assets/Manajemen/Direksi/Mochamad Safiie - Direktur Utama.jpg"
-                  class="img-fluid mx-auto d-block rounded-circle p-3"
-                  style="width: 50%; height: 50%;"
-                />
-
-                <h2 class="modal-title text-center">Mochamad Safiie</h2>
-                <p class="card-text text-center">
-                  Direktur Utama
-                </p>
+              <div class="modal-body ">
+                <div class="row">
+                  <div class="col-md-12 d-flex justify-content-end">
+                    
+                  </div>
+                  <div class="col-md-8 col-12 order-2 order-md-1">
+                    <h2 class="modal-title mb-1">Pengalaman</h2>
+                    <p>
+                      Lahir di Surabaya, 15 Juni 1968. Menjabat sebagai Direktur Utama PT Pupuk Indonesia Utilitas sejak 13 November 2023. Sebelumnya menjabat sebagai SVP Commercial Marketing di PT Pupuk Indonesia (Persero) (1 Nov 2020- 13 November 2023), GM Operasi PT Pupuk Indonesia (Persero)(2016-2020). Meraih gelar Sarjana Teknik Kimia ITS Surabaya (1993). 
+                    </p>
+                    <div class="d-flex align-items-end">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >Tutup</button>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-12 order-1 order-md-1">
+                    <img
+                      src="../assets/Manajemen/Direksi/Mochamad Safiie - Direktur Utama.jpg"
+                      class="img-fluid mx-auto d-block p-3"
+                    />
+                    <h3 class="modal-title text-center">Mochamad Safiie</h3>
+                    <h4 class="card-text text-center">
+                      Direktur Utama
+                    </h4>
+                  </div>  
+                </div>
               </div>
             </div>
           </div>
@@ -52,24 +70,42 @@
         <!-- modal -->
         <div class="modal fade" id="dir2" tabindex="-1" aria-hidden="true">
           <div
-            class="modal-dialog modal-md position-absolute top-50 start-50 translate-middle"
+            class="modal-dialog modal-dialog-centered modal-xl"
           >
             <div class="modal-content">
               <!-- <div class="modal-header">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div> -->
-              <div class="modal-body p-3">
-                <!-- <h2 class="modal-title">Nuri Kristiawan modal-title</h2> -->
-                <img
-                  src="../assets/Manajemen/Direksi/Nuri Kristiawan - Direktur Keuangan.jpg"
-                  class="img-fluid mx-auto d-block rounded-circle p-3"
-                  style="width: 50%; height: 50%;"
-                />
-
-                <h2 class="modal-title text-center">Nuri Kristiawan</h2>
-                <p class="card-text text-start text-center">
-                  Direktur Keuangan
-                </p>
+              <div class="modal-body ">
+                <div class="row">
+                  <div class="col-md-12 d-flex justify-content-end">
+                    
+                  </div>
+                  <div class="col-md-8 col-12 order-2 order-md-1">
+                    <h2 class="modal-title mb-1">Pengalaman</h2>
+                    <p>
+                      Lahir pada 27 Januari 1971. Menjabat sebagai Direktur Keuangan PT Pupuk Indonesia Utilitas sejak 20 Januari 2022. Sebelumnya menjabat sebagai Direktur Keuangan PT Gresik Cipta Sejahtera (2019-2021), Chief Administration and Finance Site Office PT Rekayasa Industri (2017-2019), Chief Administration and Finance Head Office PT Rekayasa Industri (2015-2017), Administration and Finance Head Office PT Rekayasa Industri (2009-2015). Meraih gelar sarjana Mathematics Educations, Universita Sanata Dharma Yogyakarta (1996). 
+                    </p>
+                    <div class="d-flex align-items-end">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >Tutup</button>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-12 order-1 order-md-1">
+                    <img
+                      src="../assets/Manajemen/Direksi/Nuri Kristiawan - Direktur Keuangan.jpg"
+                      class="img-fluid mx-auto d-block p-3"
+                    />
+                    <h3 class="modal-title text-center">Nuri Kristiawan</h3>
+                    <h4 class="card-text text-center">
+                      Direktur Keuangan
+                    </h4>
+                  </div>  
+                </div>
               </div>
             </div>
           </div>
@@ -84,35 +120,52 @@
               <h5>Anis Ernani</h5>
             </div>
           </div>
-        </button>
-        <!-- modal -->
+        </button><!-- modal -->
         <div class="modal fade" id="dir3" tabindex="-1" aria-hidden="true">
           <div
-            class="modal-dialog modal-md position-absolute top-50 start-50 translate-middle"
+            class="modal-dialog modal-dialog-centered modal-xl"
           >
             <div class="modal-content">
               <!-- <div class="modal-header">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div> -->
-              <div class="modal-body p-3">
-                <!-- <h2 class="modal-title">Nuri Kristiawan modal-title</h2> -->
-                <img
-                  src="../assets/Manajemen/Direksi/Anis Ernani - Direktur Operasi.jpg"
-                  class="img-fluid mx-auto d-block rounded-circle p-3"
-                  style="width: 50%; height: 50%;"
-                />
-
-                <h2 class="modal-title text-center">Anis Ernani</h2>
-                <p class="card-text text-start text-center">
-                  Direktur Operasi
-                </p>
+              <div class="modal-body ">
+                <div class="row">
+                  <div class="col-md-12 d-flex justify-content-end">
+                    
+                  </div>
+                  <div class="col-md-8 col-12 order-2 order-md-1">
+                    <h2 class="modal-title mb-1">Pengalaman</h2>
+                    <p>
+                      Lahir di Surabaya, 10 Januari 1968. Menjabat sebagai Direktur Operasi PT Pupuk Indonesia Utilitas sejak 20 Janurai 2022. Sebelumnya menjabat sebagai DPB Direktur Utama Petrokimia Kayaku (2018-2021), GM Teknologi PT Petrokimia Gresik (2015-2017), GM Pengembangan PT Petrokimia Gresik (2014-2015). Meraih gelar Sarjana Teknik Kimia Institut Teknologi Sepuluh Nopember (1991) dan gelar Master Teknik Kimia Institut Teknologi Sepuluh Nopember (2007). 
+                    </p>
+                    <div class="d-flex align-items-end">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >Tutup</button>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-12 order-1 order-md-1">
+                    <img
+                      src="../assets/Manajemen/Direksi/Anis Ernani - Direktur Operasi.jpg"
+                      class="img-fluid mx-auto d-block p-3"
+                    />
+                    <h3 class="modal-title text-center">Anis Ernani</h3>
+                    <h4 class="card-text text-center">
+                      Direktur Operasi
+                    </h4>
+                  </div>  
+                </div>
               </div>
             </div>
           </div>
         </div>
         <!-- modal end -->
       </div>
-    </transition>
+    <!-- </transition> -->
     
     <div class="text-container">
       <h1>Direktur</h1>

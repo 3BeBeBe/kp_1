@@ -213,6 +213,10 @@ export default {
   transform: translateX(0);
 }
 
+p {
+  text-align: justify;
+}
+
 @media screen and (max-width: 768px) {
   .company-history-container {
     padding: 20px; /* Adjust padding for smaller screens */

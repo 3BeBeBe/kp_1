@@ -5133,21 +5133,15 @@ export default {
   justify-content: center;
 }
 
-<<<<<<< HEAD
-    .modal-content {
-        border-radius: 0;
-    }
+.modal-content {
+  border-radius: 0;
+  padding: 0;
+}
 
-    .active-tab {
-        font-size: 2em; /* Adjust as needed */
-        font-weight: bold;
-    }
-=======
 .active-tab {
   font-size: 2em; /* Adjust as needed */
   font-weight: bold;
 }
->>>>>>> 7cc93a9f95f0b3ba956bede0d894377ef3f0590b
 
 .inactive-tab {
   font-size: 1em; /* Adjust as needed */
@@ -5206,6 +5200,9 @@ export default {
   font-weight: 600;
   color: #f15a24;
   font-size: x-large;
+}
+p {
+  text-align: justify;
 }
 
 @media (max-width: 576px) {

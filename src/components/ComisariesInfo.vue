@@ -5,11 +5,11 @@
       <h2>PT. Pupuk Indonesia Utilitas</h2>
     </div>
     
-    <button class="btn main-button" :class="{ 'right': isRight, 'left': !isRight, 'on-top': isRight }" @click="toggleButton">
+    <!-- <button class="btn main-button" :class="{ 'right': isRight, 'left': !isRight, 'on-top': isRight }" @click="toggleButton">
       <img src="../assets/Carousal/TataKelola.jpg" alt="Main button image">
     </button>
-    <transition name="fade" @before-enter="beforeEnter" @enter="enter">
-      <div class="button-row" v-if="!isRight">
+    <transition name="fade" @before-enter="beforeEnter" @enter="enter"> -->
+      <div class="button-row" v-if="isRight">
         <button class="btn image-button" data-bs-toggle="modal" data-bs-target="#kom1">
           <img src="../assets/Manajemen/Komisaris/Imam Mujahidin Fahmid - Komisaris.jpg" alt="Image 1">
           <div class="overlay-text">
@@ -22,24 +22,42 @@
         <!-- modal -->
         <div class="modal fade" id="kom1" tabindex="-1" aria-hidden="true">
           <div
-            class="modal-dialog modal-md position-absolute top-50 start-50 translate-middle"
+            class="modal-dialog modal-dialog-centered modal-xl"
           >
             <div class="modal-content">
               <!-- <div class="modal-header">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div> -->
-              <div class="modal-body p-3">
-                <!-- <h2 class="modal-title">Nuri Kristiawan modal-title</h2> -->
-                <img
-                  src="../assets/Manajemen/Komisaris/Imam Mujahidin Fahmid - Komisaris.jpg"
-                  class="img-fluid mx-auto d-block rounded-circle p-3"
-                  style="width: 50%; height: 50%;"
-                />
-
-                <h2 class="modal-title text-center">Imam Mujahidin Fahmid</h2>
-                <p class="card-text text-start text-center">
-                  Komisaris
-                </p>
+              <div class="modal-body ">
+                <div class="row">
+                  <div class="col-md-12 d-flex justify-content-end">
+                    
+                  </div>
+                  <div class="col-md-8 col-12 order-2 order-md-1">
+                    <h2 class="modal-title mb-1">Pengalaman</h2>
+                    <p>
+                      Lahir di Bima, 23 Desember 1966. Menjabat sebagai Komisaris PT Pupuk Indonesai Utilitas sejak 27 Desember 2021. Saat ini juga menjabat sebagai Staf Khusus Menteri Bidang Kebijakan Pertanian, Kementerian Pertanian RI (2019 – Sekarang) dan Staf Pengajar Fakultas Pertanian & Pasca Sarjana Unhas, Makassar (1992 – Sekarang). Sebelumnya menjabat sebagai Direktur Publication Manajement Center Unhas, Makasar (2015-2018), Ketua Dewan Riset Daerah Pemprov Sulawesi Selatan, Makasar (2011-2018), Ketua Tim Ahli Gubernur Pemerintah Propinsi Sulawesi Selatan, Makasar (2009-2018), Tenaga Ahli Bappeda; Dinas Perkebunan; Dinas Pertanian; Tanaman Pangan dan Hirtikultura; Badan Ketahana Pangan Propinsi Sulawesi Selatan (2009-2018), Ketua Badan Perusda Pemprov Sulawesi Selatan (2014-2018), Komisaris GMTDC, Tbk (2009-2014). Meraih gelar Sarjana Sosial Ekonomi Pertanian Universitas Hasanudin (1990), gelar Master of Trade and Development, Newcastle University, Australia (2001), gelar Doktor Ekologi Manusia Institut Pertanian Bogor (2011). 
+                    </p>
+                    <div class="d-flex align-items-end">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >Tutup</button>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-12 order-1 order-md-1">
+                    <img
+                      src="../assets/Manajemen/Komisaris/Imam Mujahidin Fahmid - Komisaris.jpg"
+                      class="img-fluid mx-auto d-block p-3"
+                    />
+                    <h3 class="modal-title text-center">Imam Mujahidin Fahmid</h3>
+                    <h4 class="card-text text-center">
+                      Komisaris
+                    </h4>
+                  </div>  
+                </div>
               </div>
             </div>
           </div>
@@ -57,24 +75,42 @@
         <!-- modal -->
         <div class="modal fade" id="kom2" tabindex="-1" aria-hidden="true">
           <div
-            class="modal-dialog modal-md position-absolute top-50 start-50 translate-middle"
+            class="modal-dialog modal-dialog-centered modal-xl"
           >
             <div class="modal-content">
               <!-- <div class="modal-header">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div> -->
-              <div class="modal-body p-3">
-                <!-- <h2 class="modal-title">Nuri Kristiawan modal-title</h2> -->
-                <img
-                  src="../assets/Manajemen/Komisaris/Sumyana Sukandar - Komisaris Utama.jpg"
-                  class="img-fluid mx-auto d-block rounded-circle p-3"
-                  style="width: 50%; height: 50%;"
-                />
-
-                <h2 class="modal-title text-center">Sumyana Sukandar</h2>
-                <p class="card-text text-start text-center">
-                  Komisaris Utama
-                </p>
+              <div class="modal-body ">
+                <div class="row">
+                  <div class="col-md-12 d-flex justify-content-end">
+                    
+                  </div>
+                  <div class="col-md-8 col-12 order-2 order-md-1">
+                    <h2 class="modal-title mb-1">Pengalaman</h2>
+                    <p>
+                      Sumyana Sukandar, SE, MM lahir di Bandung, Jawa Barat pada 11 September 1964. Meraih gelar Sarjana Ekonomi jurusan Manajemen dari Universitas Pasundan Bandung pada 1988, kemudian menerima gelar Magister Manajemen dari STIE IPWIJA Jakarta pada 2002. Saat kuliah, Sumyana sudah bekerja sebagai staf tenaga survey BKKBN Provinsi Jawa Barat, kemudian menjadi market researcher di PT Tobby Meza.Co, berlanjut sebagai staf BRI pada 1990-1991. Selanjutnya, Sumyana bergabung di Departemen Keuangan sebagai sebagai pegawai Direktorat Persero, Ditjen Moneter hingga 1995. Beliau kemudian dipercaya menjadi Kepala Seksi Ditjen Pembinaan BUMN, Departemen Keuangan hingga 1998 kemudian menjabat Kepala Subbagian Administrasi pada Kementerian Negara P. BUMN hingga 2000. Kemudian Direktorat Jenderal Pembinaan BUMN, Departemen Keuangan pada 2001-2002. Setelah itu, Sumyana mengabdikan diri di Kementerian BUMN hingga 2015, sempat menjadi Kepala Bidang Usaha Jasa Perencanaan Konstruksi, dan Rekayasa II pada Deputi Bidang Usaha Jasa Lainnya, hingga Asisten Deputi Usaha Perkebunan dan Kehutanan, pada Kedeputian Bidang Usaha Industri Agro dan Industri Strategis. Tahun 2015, Sumyana diangkat menjadi Direktur Administrasi dan Keuangan Perum Jasa Tirta II, hingga menjadi Direktur I Perum Jasa Tirta II pada 2016-2018. Kini, menjabat sebagai Komisaris Utama PT Pupuk Indonesia Energi. 
+                    </p>
+                    <div class="d-flex align-items-end">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >Tutup</button>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-12 order-1 order-md-1">
+                    <img
+                      src="../assets/Manajemen/Komisaris/Sumyana Sukandar - Komisaris Utama.jpg "
+                      class="img-fluid mx-auto d-block p-3"
+                    />
+                    <h3 class="modal-title text-center">Sumyana Sukandar</h3>
+                    <h4 class="card-text text-center">
+                      Komisaris Utama
+                    </h4>
+                  </div>  
+                </div>
               </div>
             </div>
           </div>
@@ -88,35 +124,49 @@
               <h5>Monica Desideria</h5>
             </div>
           </div>
-        </button>
-        <!-- modal -->
+        </button><!-- modal -->
         <div class="modal fade" id="kom3" tabindex="-1" aria-hidden="true">
           <div
-            class="modal-dialog modal-md position-absolute top-50 start-50 translate-middle"
+            class="modal-dialog modal-dialog-centered modal-xl"
           >
             <div class="modal-content">
               <!-- <div class="modal-header">
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div> -->
-              <div class="modal-body p-3">
-                <!-- <h2 class="modal-title">Nuri Kristiawan modal-title</h2> -->
-                <img
-                  src="../assets/Manajemen/Komisaris/Monica Desideria - Komisaris.jpg"
-                  class="img-fluid mx-auto d-block rounded-circle p-3"
-                  style="width: 50%; height: 50%;"
-                />
-
-                <h2 class="modal-title text-center">Monica Desideria</h2>
-                <p class="card-text text-start text-center">
-                  Komisaris
-                </p>
+              <div class="modal-body ">
+                <div class="row">
+                  <div class="col-md-8 col-12 order-2 order-md-1">
+                    <h2 class="modal-title mb-1">Pengalaman</h2>
+                    <p>
+                      Lahir di Surabaya, 29 Agustus 1964. Menjabat sebagai Komisaris PT Pupuk Indonesia Utilitas sejak 27 Desember 2021. Sebelumnya menjabat sebagai GM Marketing dan Corporate Communication ANTV, Assisten GM Production ANTV, Supporting Production Manager ANTV dan Sport Manager ANTV. 
+                    </p>
+                    <div class="d-flex column-flex align-items-end">
+                      <button
+                        type="button"
+                        class="btn btn-primary"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >Tutup</button>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-12 order-1 order-md-1">
+                    <img
+                      src="../assets/Manajemen/Komisaris/Monica Desideria - Komisaris.jpg"
+                      class="img-fluid mx-auto d-block p-3"
+                    />
+                    <h3 class="modal-title text-center">Monica Desideria</h3>
+                    <h4 class="card-text text-center">
+                      Komisaris
+                    </h4>
+                  </div>  
+                </div>
               </div>
             </div>
           </div>
         </div>
         <!-- modal end -->
       </div>
-    </transition>
+    <!-- </transition> -->
   </div>
 </template>
 
@@ -147,6 +197,19 @@ export default {
 </script>
 
 <style scoped>
+.btn {
+  border-radius: 0;
+}
+p{
+  text-align: justify;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Other styles as needed */
+}
 .modal-content {
   border-radius: 0;
 }
