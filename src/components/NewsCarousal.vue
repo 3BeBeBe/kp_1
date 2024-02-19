@@ -52,7 +52,7 @@
         </p>
       </div> -->
 
-      <p style="text-align: left; font-size: 60px; color: #084e8b; font-weight: 200; font-style: italic;">Berita Terkini</p>
+      <p style="text-align: left; font-size: 45px; color: #084e8b; font-weight: 200; font-style: italic;">Berita Terkini</p>
 
       <div class="col-md-4 col-6 mb-3">
         <button class="card card-fixed">
@@ -130,7 +130,7 @@
         </p>
       </div> -->
 
-      <p style="text-align: left; font-size: 60px; color: #084e8b; font-weight: 200; font-style: italic;">Artikel Terbaru</p>
+      <p style="text-align: left; font-size: 45px; color: #084e8b; font-weight: 200; font-style: italic;">Artikel Terbaru</p>
 
       <div class="col-md-3 col-6 mb-3">
         <button class="card card-fixed">
@@ -259,8 +259,6 @@ export default {
   font-style: italic;
   font-weight: 300;
 }
-
-
 
 .card-title {
   font-weight: 700;
