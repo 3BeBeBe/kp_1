@@ -101,7 +101,5 @@
         /* background: rgba(0, 0, 0, 0.8); */
         background: linear-gradient(to right, rgb(0, 0, 0) 50%, rgba(255, 255, 255, 0) 100%);
         /* background: linear-gradient(to right, rgb(0, 0, 0) 50%, rgba(3, 112, 177, 1) 51%, rgba(16, 146, 72, 1) 52%, rgba(218, 93, 42, 1) 53%, rgba(255, 255, 255, 0) 54%); */
-        height: 100vw;
-        width: 100vw;
     }
 </style>

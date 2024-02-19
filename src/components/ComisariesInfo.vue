@@ -15,13 +15,14 @@
         class="btn image-button item e1"
         data-bs-toggle="modal"
         data-bs-target="#kom1"
+        style="border-radius: 0"
       >
         <img
           src="../assets/Manajemen/Komisaris/Imam Mujahidin Fahmid - Komisaris.jpg"
         />
         <!-- <div class="item e1"> -->
           <div class="text1">
-            <h3>Komisaris</h3>
+            <h4><b>Komisaris</b></h4>
             <p>Imam Mujahidin Fahmid</p>
           </div>
         <!-- </div> -->
@@ -92,7 +93,7 @@
         />
         <!-- <div class="item e1"> -->
           <div class="text1">
-            <h3>Komisaris Utama</h3>
+            <h4><b>Komisaris Utama</b></h4>
             <p>Sumyana Sukandar</p>
           </div>
         <!-- </div> -->
@@ -163,7 +164,7 @@
         />
         <!-- <div class="item e1"> -->
           <div class="text1">
-            <h3>Komisaris</h3>
+            <h4><b>Komisaris</b></h4>
             <p>Monica Desideria</p>
           </div>
         <!-- </div> -->
@@ -317,7 +318,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 60%;
   right: 0;
   /* z-index: 1; */
 }
@@ -375,19 +376,21 @@ p{
   transition: all 0.3s ease;
 }
 .text1 {
+  text-shadow: -1px 0 rgba(3, 112, 177, 1), 0 1px rgba(16, 146, 72, 1), 1px 0 rgba(218, 93, 42, 1), 0 -1px rgb(249, 210, 22, 1);
   position: absolute;
   bottom: 0%;
-  left: 20px;
+  left: 8px;
   color: #ffffff;
   transition: all 0.5s ease;
   cursor: pointer;
 }
 .text1 p {
   text-align: left;
+  font-weight: bold;
   opacity: 0;
 }
 
-.text1 h3 {
+.text1 h4 {
     text-align: left;
 }
 
@@ -401,5 +404,21 @@ p{
 }
 .e1:hover p {
   opacity: 1;
+}
+.e1:hover h2 {
+  opacity: 1;
+}
+/* This will hide the button on screens wider than 768px (typical breakpoint for desktop mode) */
+@media (min-width: 768px) {
+  .hide-btn {
+    display: none;
+  }
+}
+
+/* This will show the button on screens narrower than 768px (typical breakpoint for mobile mode) */
+@media (max-width: 767px) {
+  .hide-btn {
+    display: block; /* Or inline-block, inline, flex, etc. depending on your layout */
+  }
 }
 </style>

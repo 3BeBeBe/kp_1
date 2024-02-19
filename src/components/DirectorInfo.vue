@@ -17,7 +17,7 @@
         />
         <!-- <div class="item e1"> -->
         <div class="text1">
-          <h3>Direktur Utama</h3>
+          <h4><b>Direktur Utama</b></h4>
           <p>Mochamad Safiie</p>
         </div>
         <!-- </div> -->
@@ -63,7 +63,7 @@
                   <div class="d-flex align-items-end">
                     <button
                       type="button"
-                      class="btn btn-primary"
+                      class="btn hide-btn btn-primary"
                       data-bs-dismiss="modal"
                       aria-label="Close"
                     >
@@ -97,7 +97,7 @@
         />
         <!-- <div class="item e1"> -->
         <div class="text1">
-          <h3 style="font-size: 23px">Direktur Keuangan</h3>
+          <h4><b>Direktur Keuangan</b></h4>
           <p>Nuri Kristiawan</p>
         </div>
         <!-- </div> -->
@@ -146,7 +146,7 @@
                   <div class="d-flex align-items-end">
                     <button
                       type="button"
-                      class="btn btn-primary"
+                      class="btn hide-btn btn-primary"
                       data-bs-dismiss="modal"
                       aria-label="Close"
                     >
@@ -180,7 +180,7 @@
         />
         <!-- <div class="item e1"> -->
         <div class="text1">
-          <h3 style="font-size: 25px">Direktur Operasi</h3>
+          <h4><b>Direktur Operasi</b></h4>
           <p>
             Anis Ernani
           </p>
@@ -228,7 +228,7 @@
                   <div class="d-flex align-items-end">
                     <button
                       type="button"
-                      class="btn btn-primary"
+                      class="btn hide-btn btn-primary"
                       data-bs-dismiss="modal"
                       aria-label="Close"
                     >
@@ -298,6 +298,12 @@ export default {
 </script>
 
 <style scoped>
+.btn {
+  border-radius: 0;
+}
+p{
+  text-align: justify;
+}
 .modal-content {
   border-radius: 0;
 }
@@ -352,7 +358,7 @@ export default {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 60%;
   left: 0;
   /* z-index: 1; */
 }
@@ -413,15 +419,17 @@ export default {
   transition: all 0.3s ease;
 }
 .text1 {
+  text-shadow: -1px 0 rgba(3, 112, 177, 1), 0 1px rgba(16, 146, 72, 1), 1px 0 rgba(218, 93, 42, 1), 0 -1px rgb(249, 210, 22, 1);
   position: absolute;
   bottom: 0%;
-  left: 20px;
+  left: 8px;
   color: #ffffff;
   transition: all 0.5s ease;
   cursor: pointer;
 }
 .text1 p {
   text-align: left;
+  font-weight: bold;
   opacity: 0;
   /* color: #e65824;
   font-weight: 700;
@@ -440,7 +448,7 @@ export default {
   opacity: 0;
 } */
 
-.text1 h3 {
+.text1 h4 {
   text-align: left;
   /* color: #39d1ff; */
 }
@@ -459,5 +467,18 @@ export default {
 
 .e1:hover h2 {
   opacity: 1;
+}
+/* This will hide the button on screens wider than 768px (typical breakpoint for desktop mode) */
+@media (min-width: 768px) {
+  .hide-btn {
+    display: none;
+  }
+}
+
+/* This will show the button on screens narrower than 768px (typical breakpoint for mobile mode) */
+@media (max-width: 767px) {
+  .hide-btn {
+    display: block; /* Or inline-block, inline, flex, etc. depending on your layout */
+  }
 }
 </style>
