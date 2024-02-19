@@ -25,10 +25,10 @@
                             </button>
                             
                         </div>
-                    </div>
-                    <div class="col-md-6" style="color: white;">
+                        <div class="col-md-6" style="color: white;">
+                        </div>
                         <h2 style="font-weight: 700;">Kaltim Daya Mandiri</h2>
-                        <p>Kaltim Daya Mandiri (KDM) adalah salah satu perusahaan utilitas dan Energi yang didirikan dengan tujuan untuk menyuplai kebutuhan utilitas pada fasilitas produksi dan perumahan PT. Pupuk Kaltim serta perusahan-perusahaan lain yang berada di lingkungan Kaltim Industrial Estate.</p>
+                        <p>Kaltim Daya Mandiri (KDM) adalah salah satu perusahaan utilitas dan Energi yang didirikan dengan tujuan untuk menyuplai kebutuhan utilitas pada fasilitas produksi dan perumahan PT Pupuk Kaltim serta perusahan-perusahaan lain yang berada di lingkungan Kaltim Industrial Estate.</p>
                         <p>PT Kaltim Daya Mandiri (KDM), anak perusahaan PT Pupuk Indonesia Energi, berdiri sejak 14 September 1995. Awalnya, KDM menginvestasikan 1 unit Gas Turbine Generator (GTG) 34 MW, kemudian menambahkan 1 unit Heat Recovery Steam Generator (HRSG) 168 ton/jam dan 1 unit Demin Water Plant 156 m³/h pada tahun 2000. Pada tahun-tahun berikutnya, KDM membangun 1 unit Nitrogen Plant 500 Nm³/h, integrasi kelistrikan 200 MVA, dan 1 unit SWRO 2x50 m³/h. Di 2008, KDM membentuk anak usaha PT KDM Argo Energy dan mengakuisisi perusahaan energi terbarukan, PT Banyumas Energy Lestari dan PT Mitra Daya Kencana, pada 2015.</p>
                         <p>Bisnis utama KDM adalah memproduksi listrik, steam, demineralized water, nitrogen, dan jasa integrasi listrik untuk kebutuhan pabrik Pupuk Kaltim dan perusahaan-perusahaan yang ada di kawasan industri.</p>
                     </div>

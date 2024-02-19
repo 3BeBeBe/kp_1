@@ -258,7 +258,7 @@
         Direktur
       </h1>
       <h2 style="color: #e65824; font-weight: 700; font-style: italic">
-        PT. Pupuk Indonesia Utilitas
+        PT Pupuk Indonesia Utilitas
       </h2>
     </div>
 

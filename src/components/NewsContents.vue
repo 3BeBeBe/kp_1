@@ -1837,7 +1837,7 @@
                     <p class="text-justify">
                       Dalam rangka memperingati hari ulang tahunnya yang ke-2
                       pada tanggal 18 Agustus 2016, bertempat di Gedung
-                      Petrokimia Gresik Jakarta, PT. Pupuk Indonesia Energi (PI
+                      Petrokimia Gresik Jakarta, PT Pupuk Indonesia Energi (PI
                       Energi) menggelar acara syukuran dengan potong tumpeng dan
                       doa bersama yang dihadiri oleh Direksi, karyawan, dan
                       tamu-tamu undangan.
@@ -3019,13 +3019,13 @@
                     <p class="text-justify">
                       Meskipun prosesnya tidak mudah, Badan Usaha Milik Negara
                       (BUMN) di Indonesia termasuk Pupuk Indonesia Grup,
-                      diinstruksikan untuk melakukan dekarbonisasi. Bagi PT.
+                      diinstruksikan untuk melakukan dekarbonisasi. Bagi PT
                       Pupuk Indonesia Utilitas, ini adalah salah satu peluang
                       bisnis yang menjanjikan.
                     </p>
                     <p class="text-justify">
                       Saat ini, penyediaan utilitas di pabrik-pabrik pupuk yang
-                      merupakan anak-anak perusahaan PT. Pupuk Indonesia masih
+                      merupakan anak-anak perusahaan PT Pupuk Indonesia masih
                       menggunakan energi fosil.Tentu saja, penggunaan energi
                       fosil harus dikurangi secara bertahap dengan menggunakan
                       bauran energi (energy mix), hingga kelak seluruhnya akan
@@ -3047,7 +3047,7 @@
                       seiring dengan pajak karbon. Setiap emisi karbon akan
                       dikenai pajak sebesar Rp30,-/kilogram apabila melewati
                       batas jumlah emisi yang diperbolehkan. Di sinilah peluang
-                      bisnis bagi PT. PI Utilitas terbuka lebar. Akan lebih
+                      bisnis bagi PT PI Utilitas terbuka lebar. Akan lebih
                       banyak proyek-proyek berbasis EBT yang dikerjaka. Mengapa
                       demikian? Karena kemungkinannya sangat kecil untuk
                       memperoleh persetujuan jika masih melakukan pembangunan
@@ -3056,12 +3056,12 @@
                     </p>
                     <p class="text-justify">
                       Tidak ada pilihan selain membangun pola pikir (mindset)
-                      maupun komitmen terhadap EBT. Artinya PT. PI Utilitas
+                      maupun komitmen terhadap EBT. Artinya PT PI Utilitas
                       harus bisa membangun sebuah proyek percontohan (pilot
                       project) yang sukses dan mampu beroperasi dengan baik.
                       Kisah sukes itulah yang nantinya akan dijadikan referensi
                       bagi lainnya, agar terinspirasi dan kemudian menggunakan
-                      jasa PT. PI Utilitas.
+                      jasa PT PI Utilitas.
                     </p>
                     <p class="text-justify">
                       Mari kita tetap berbisnis yang menghasilkan keuntungan,

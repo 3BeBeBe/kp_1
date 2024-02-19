@@ -24,7 +24,7 @@
                 </div>
                 <div class="d-md-block overlay-text">
                     <h1><i>Kaltim Daya Mandiri (KDM)</i></h1>
-                    <p>Didirikan dengan tujuan untuk <b>menyuplai kebutuhan utilitas pada fasilitas produksi dan perumahan PT. Pupuk Kaltim</b> serta perusahan-perusahaan lain yang berada di lingkungan <b>Kaltim Industrial Estate.</b></p>
+                    <p>Didirikan dengan tujuan untuk <b>menyuplai kebutuhan utilitas pada fasilitas produksi dan perumahan PT Pupuk Kaltim</b> serta perusahan-perusahaan lain yang berada di lingkungan <b>Kaltim Industrial Estate.</b></p>
                     <div class="d-inline-flex me-3">
                         <router-link to="/ggcp" class="btn btn-primary">Anak Perusahaan</router-link>
                     </div>

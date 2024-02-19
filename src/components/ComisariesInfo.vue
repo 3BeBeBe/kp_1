@@ -2,7 +2,7 @@
   <div class="container">
     <div>
       <h1 style="color: #084e8b; font-weight: 600; font-style: italic;">Komisaris</h1>
-      <h2 style="color: #e65824; font-weight: 700; font-style: italic;">PT. Pupuk Indonesia Utilitas</h2>
+      <h2 style="color: #e65824; font-weight: 700; font-style: italic;">PT Pupuk Indonesia Utilitas</h2>
     </div>
     
     <!-- <button class="btn main-button" :class="{ 'right': isRight, 'left': !isRight, 'on-top': isRight }" @click="toggleButton">

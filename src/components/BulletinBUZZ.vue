@@ -10,7 +10,7 @@
                     <div>
                         <p class="text-with-line">Selamat membaca {{ selectedImageDetails.name }}</p>
                         <h2 class="">Buletin Setiap Semester</h2>
-                        <h4 class="">PT. Pupuk Indonesia Utilitas</h4>
+                        <h4 class="">PT Pupuk Indonesia Utilitas</h4>
                         <p class="">{{ selectedImageDetails.subName }}</p>
 
                         <hr>
