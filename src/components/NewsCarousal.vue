@@ -52,13 +52,23 @@
         </p>
       </div> -->
 
-      <p style="text-align: left; font-size: 45px; color: #084e8b; font-weight: 200; font-style: italic;">Berita Terkini</p>
+      <p
+        style="
+          text-align: left;
+          font-size: 45px;
+          color: #084e8b;
+          font-weight: 200;
+          font-style: italic;
+        "
+      >
+        Berita Terkini
+      </p>
 
-      <div class="col-md-4 col-6 mb-3">
+      <div class="col-md-3 col-6 mb-3">
         <button class="card card-fixed">
           <img src="../assets/artikel/Artikel_7.jpg" class="img-fixed" />
           <div class="card-body text-start">
-            <h5 class="card-title">Masa Depan Bisnis Utilitas</h5>
+            <h5 class="card-title">Masa Depan Bisnis Utilita213s</h5>
 
             <p class="card-text text-start">
               <small class="text-body-secondaryy">1 Agustus 2022</small>
@@ -67,11 +77,11 @@
         </button>
       </div>
 
-      <div class="col-md-4 col-6 mb-3">
+      <div class="col-md-3 col-6 mb-3">
         <button class="card card-fixed">
           <img src="../assets/artikel/Artikel_7.jpg" class="img-fixed" />
           <div class="card-body text-start">
-            <h5 class="card-title">Masa Depan Bisnis Utilitas</h5>
+            <h5 class="card-title">Masa Depan Bisnis U3123123tilitas</h5>
 
             <p class="card-text text-start">
               <small class="text-body-secondaryy">1 Agustus 2022</small>
@@ -80,15 +90,42 @@
         </button>
       </div>
 
-      <div class="col-md-4 col-6 mb-3" style="margin-top: 2cm;">
-        <button class="card card-fixed-readmore circle">
-          <!-- <img src="../assets/Salinan LOGO PIU Warna.png" class="img-fixed" style="height: 75%;"/> -->
+      <div class="col-md-3 col-6 mb-3">
+        <button class="card card-fixed">
+          <img src="../assets/artikel/Artikel_7.jpg" class="img-fixed" />
           <div class="card-body text-start">
-            <h5 class="card-title" style="text-align: center;">Berita Lain</h5>
+            <h5 class="card-title">
+              Masa Depan Bisnis U3123123tiadasdsadlitas
+            </h5>
+
+            <p class="card-text text-start">
+              <small class="text-body-secondaryy">1 Agustus 2022</small>
+            </p>
+          </div>
+        </button>
+      </div>
+
+      <div class="col-md-3 col-6 mb-3">
+        <button class="card card-more">
+          <div
+            class="card-body text-start d-flex flex-column align-items-center justify-content-center"
+          >
+            <h5 class="card-title mb-0" style="text-align: center">
+              Berita Lain
+            </h5>
             <img src="../assets/Arrow-right-resized.png" />
           </div>
         </button>
-      </div>    
+      </div>
+
+      <!-- <div class="col-md-4 col-6 mb-3" style="margin-top: 2cm">
+        <button class="card card-fixed-readmore circle">
+          <div class="card-body text-start">
+            <h5 class="card-title" style="text-align: center">Berita Lain</h5>
+            <img src="../assets/Arrow-right-resized.png" />
+          </div>
+        </button>
+      </div> -->
 
       <!-- <div class="col-md-4">
         <img
@@ -130,7 +167,17 @@
         </p>
       </div> -->
 
-      <p style="text-align: left; font-size: 45px; color: #084e8b; font-weight: 200; font-style: italic;">Artikel Terbaru</p>
+      <p
+        style="
+          text-align: left;
+          font-size: 45px;
+          color: #084e8b;
+          font-weight: 200;
+          font-style: italic;
+        "
+      >
+        Artikel Terbaru
+      </p>
 
       <div class="col-md-3 col-6 mb-3">
         <button class="card card-fixed">
@@ -162,7 +209,9 @@
         <button class="card card-fixed">
           <img src="../assets/artikel/Artikel_7.jpg" class="img-fixed" />
           <div class="card-body text-start">
-            <h5 class="card-title">Masa Depan Bisnis U3123123tiadasdsadlitas</h5>
+            <h5 class="card-title">
+              Masa Depan Bisnis U3123123tiadasdsadlitas
+            </h5>
 
             <p class="card-text text-start">
               <small class="text-body-secondaryy">1 Agustus 2022</small>
@@ -171,16 +220,27 @@
         </button>
       </div>
 
-      <div class="col-md-3 col-6 mb-3" style="margin-top: 2cm;">
+      <div class="col-md-3 col-6 mb-3">
+        <button class="card card-more">
+          <div
+            class="card-body text-start d-flex flex-column align-items-center justify-content-center"
+          >
+            <h5 class="card-title mb-0" style="text-align: center">
+              Artikel Lain
+            </h5>
+            <img src="../assets/Arrow-right-resized.png" />
+          </div>
+        </button>
+      </div>
+
+      <!-- <div class="col-md-3 col-6 mb-3" style="margin-top: 2cm;">
         <button class="card card-fixed-readmore circle">
-          <!-- <img src="../assets/Salinan LOGO PIU Warna.png" class="img-fixed" style="height: 75%;"/> -->
           <div class="card-body text-start">
             <h5 class="card-title" style="text-align: center;">Artikel Lain</h5>
             <img src="../assets/Arrow-right-resized.png" />
           </div>
         </button>
-      </div> 
-
+      </div>  -->
     </div>
   </div>
 </template>
@@ -213,42 +273,41 @@ export default {
   border-radius: 0;
   align-items: center;
 
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
 
-    /* background-color: rgba(0, 255, 0, 0.1); */
+  /* background-color: rgba(0, 255, 0, 0.1); */
 }
 
 .card-fixed-readmore:hover {
   box-shadow: 0 8px 16px rgba(0, 102, 255, 0.4); /* Adjust as needed */
   transform: scale(1.05);
-} 
+}
 
 .card-fixed-readmore.circle {
-    width: 200px; /* Set a fixed width */
-    height: 200px; /* Set a fixed height */
-    border-radius: 50%; /* Make it a circle */
-    overflow: hidden; /* Hide content overflow for circle shape */
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Vertically center the content */
-    align-items: center; /* Horizontally center the content */
-    box-shadow: 0 4px 8px rgba(0, 47, 255, 0.25);
-
+  width: 200px; /* Set a fixed width */
+  height: 200px; /* Set a fixed height */
+  border-radius: 50%; /* Make it a circle */
+  overflow: hidden; /* Hide content overflow for circle shape */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the content */
+  align-items: center; /* Horizontally center the content */
+  box-shadow: 0 4px 8px rgba(0, 47, 255, 0.25);
 }
 
 .card-fixed-readmore.circle .card-body {
-    text-align: center; /* Center the text horizontally */
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Vertically center the content */
-    align-items: center; /* Horizontally center the content */
+  text-align: center; /* Center the text horizontally */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Vertically center the content */
+  align-items: center; /* Horizontally center the content */
 }
 
 .card-fixed-readmore.circle .card-title {
-    margin-top: 10px; /* Add some top margin for better spacing */
+  margin-top: 10px; /* Add some top margin for better spacing */
 }
 .card-fixed-readmore.circle:hover {
   box-shadow: 0 8px 16px rgba(0, 102, 255, 0.4); /* Adjust as needed */
@@ -263,5 +322,17 @@ export default {
 .card-title {
   font-weight: 700;
   color: #084e8b;
+}
+
+.card-more {
+  height: 100%;
+  width: 50%;
+  box-shadow: 0 4px 8px rgba(0, 47, 255, 0.25);
+  transition: transform 0.3s ease;
+}
+
+.card-more:hover {
+  box-shadow: 0 8px 16px rgba(0, 102, 255, 0.4); /* Adjust as needed */
+  transform: scale(1.05);
 }
 </style>
