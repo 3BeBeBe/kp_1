@@ -45,13 +45,20 @@
           <div class="card card-nitrogen">
             <div class="card-background"></div>
             <div class="card-body">
-              <div class="d-flex align-items-center">
-                <h1 class="big-number-nitrogen">⠀500⠀</h1>
-                <p class="small-text">nm3/h</p>
-                <div class="card-text-wrapper">
-                  <h5 class="title-nitrogen card-title">Nitrogen</h5>
-                  <p class="card-text">Router-link to pabrik implemented</p>
+              <div class="row d-flex align-items-center">
+                <div class="col-md-4 d-flex flex-column align-items-center justify-content-center">
+                  <div class="card-text-wrapper">
+                  <h1 class="big-number-nitrogen">⠀500⠀</h1>
+                  <p class="small-text-nitrogen">nm3/h</p>
                 </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-text-wrapper">
+                    <h5 class="title-nitrogen card-title">Nitrogen</h5>
+                    <p class="card-text">Router-link to pabrik implemented</p>
+                  </div>
+                </div>
+                
               </div>
             </div>
           </div>
