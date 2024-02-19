@@ -4,8 +4,8 @@
         <div class="row">
             <div class="col-md-3 mt-3">
                 <div class="gover-overlay-text">
-                    <h5><b>PT PUPUK INDONESIA UTILITAS</b></h5>
-                    <p>Alamanda Tower Lt 26,Jl. T.B. Simatupang No 22-26, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta 12430</p>
+                    <h5><b>PT PUPUK INDONESIA UTILITAS ⠀⠀⠀⠀⠀</b></h5>
+                    <p>Alamanda Tower Lt 26,Jl. T.B. Simatupang No 22-26, Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta</p>
                     <p>Phone: (021) 29661630</p>
                     <p>Email:
                         <a href=mailto:info@pi-utilitas.com>info@pi-utilitas.com</a>
