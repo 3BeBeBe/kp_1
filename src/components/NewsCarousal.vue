@@ -34,7 +34,18 @@
         </div>
       </div>
     </div> -->
-    <div class="row mt-4">
+    <h2
+      style="
+        text-align: left;
+        font-size: 45px;
+        color: #084e8b;
+        font-weight: 200;
+        font-style: italic;
+      "
+    >
+      Berita Terkini
+    </h2>
+    <div class="row mt-4 d-flex justify-content-center">
       <!-- <div class="col-md-4">
         <img
           class="img-fluid"
@@ -51,18 +62,6 @@
           menjalankan program Corporate Social Responsibility (CSR).
         </p>
       </div> -->
-
-      <p
-        style="
-          text-align: left;
-          font-size: 45px;
-          color: #084e8b;
-          font-weight: 200;
-          font-style: italic;
-        "
-      >
-        Berita Terkini
-      </p>
 
       <div class="col-md-3 col-6 mb-3">
         <button class="card card-fixed">
@@ -105,7 +104,7 @@
         </button>
       </div>
 
-      <div class="col-md-3 col-6 mb-3">
+      <div class="col-md-2 col-6 mb-3">
         <button class="card card-more">
           <div
             class="card-body text-start d-flex flex-column align-items-center justify-content-center"
@@ -166,8 +165,8 @@
           yang dilaksanakan pada tanggal 12 dan 13 Oktober 2022.
         </p>
       </div> -->
-
-      <p
+      </div>
+      <h2
         style="
           text-align: left;
           font-size: 45px;
@@ -176,8 +175,9 @@
           font-style: italic;
         "
       >
-        Artikel Terbaru
-      </p>
+        Artikel Terkini
+      </h2>
+    <div class="row mt-4 d-flex justify-content-center">
 
       <div class="col-md-3 col-6 mb-3">
         <button class="card card-fixed">
@@ -220,7 +220,7 @@
         </button>
       </div>
 
-      <div class="col-md-3 col-6 mb-3">
+      <div class="col-md-2 col-6 mb-3">
         <button class="card card-more">
           <div
             class="card-body text-start d-flex flex-column align-items-center justify-content-center"
@@ -273,10 +273,10 @@ export default {
   border-radius: 0;
   align-items: center;
 
-  border-top-right-radius: 50px;
-  border-bottom-left-radius: 50px;
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 
   /* background-color: rgba(0, 255, 0, 0.1); */
 }
@@ -289,7 +289,7 @@ export default {
 .card-fixed-readmore.circle {
   width: 200px; /* Set a fixed width */
   height: 200px; /* Set a fixed height */
-  border-radius: 50%; /* Make it a circle */
+  border-radius: 0; /* Make it a circle */
   overflow: hidden; /* Hide content overflow for circle shape */
   display: flex;
   flex-direction: column;
@@ -304,6 +304,7 @@ export default {
   flex-direction: column;
   justify-content: center; /* Vertically center the content */
   align-items: center; /* Horizontally center the content */
+  border-radius: 0;
 }
 
 .card-fixed-readmore.circle .card-title {
@@ -326,9 +327,10 @@ export default {
 
 .card-more {
   height: 100%;
-  width: 50%;
+  width: 100%;
   box-shadow: 0 4px 8px rgba(0, 47, 255, 0.25);
   transition: transform 0.3s ease;
+  border-radius: 0;
 }
 
 .card-more:hover {
