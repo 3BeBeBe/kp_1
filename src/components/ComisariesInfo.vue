@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container info-container">
     <div>
       <h1 style="color: #084e8b; font-weight: 600; font-style: italic;">Komisaris</h1>
       <h2 style="color: #e65824; font-weight: 700; font-style: italic;">PT Pupuk Indonesia Utilitas</h2>
@@ -268,7 +268,7 @@ p{
 .modal-content {
   border-radius: 0;
 }
-.container {
+.info-container {
   position: relative;
   display: flex;
   align-items: center;

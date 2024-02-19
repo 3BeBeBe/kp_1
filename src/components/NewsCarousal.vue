@@ -171,11 +171,12 @@
         </button>
       </div>
 
-      <div class="col-md-3 col-6 mb-3" style="margin-top: 2cm;">
+      <div class="col-md-3 col-6 mb-5 p-5 d-flex flex-column justify-content-center align-items-center">
+        <h5 class="card-title mb-3">Artikel Lain</h5>
         <button class="card card-fixed-readmore circle">
           <!-- <img src="../assets/Salinan LOGO PIU Warna.png" class="img-fixed" style="height: 75%;"/> -->
           <div class="card-body text-start">
-            <h5 class="card-title" style="text-align: center;">Artikel Lain</h5>
+            
             <img src="../assets/Arrow-right-resized.png" />
           </div>
         </button>
@@ -227,8 +228,8 @@ export default {
 } 
 
 .card-fixed-readmore.circle {
-    width: 200px; /* Set a fixed width */
-    height: 200px; /* Set a fixed height */
+    width: 100px; /* Set a fixed width */
+    height: 100px; /* Set a fixed height */
     border-radius: 50%; /* Make it a circle */
     overflow: hidden; /* Hide content overflow for circle shape */
     display: flex;

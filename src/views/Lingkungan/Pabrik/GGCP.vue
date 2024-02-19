@@ -3,11 +3,10 @@
         <NavBar/>
         <div class="slide-content bg-shade fit-bg d-flex align-items-center" :style="{ backgroundImage: `url(${selectedImage})` }">
             <div class="container p-3">
-                <!-- <h1 class="text-center text-white mb-4 factory-info">Pabrik</h1> -->
+                
                 <div class="row d-flex align-items-center mb-2">
                     <div class="col-md-6 place-holder">
                         <img class="img-fluid" :src="selectedImage">
-
                         <div class="flex-container mt-2">
                             
                             <button class="btn me-2" v-if="selectedImage !== require('@/assets/pabrik/GGCP/ggcp1.jpg')" :style="buttonStyle(require('@/assets/pabrik/GGCP/ggcp1.jpg'))" @click="changeImage(require('@/assets/pabrik/GGCP/ggcp1.jpg'))">

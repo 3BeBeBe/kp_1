@@ -1,22 +1,22 @@
 <template>
     <div class="good-corporate carousel-image-container d-flex flex-column justify-content-center">
-    <div class="container p-5">
-        <div class="row mt-5 mb-5 gover-overlay-text">
-            <div class="col-md-12">
-                <h2>Pengadaan</h2>
-            </div>
-            <div class="col-md-6">
-                <p>Untuk dapat mengakses laman e-procurement dapat mengunjungi link di bawah ini dengan menggunakan kredensial yang telah Anda miliki sewaktu mendaftar: </p>
-                <div class="d-inline-flex me-3">
-                    <a href="https://eprocurement.pupuk-indonesia.com/beranda" target=”_blank” class="btn btn-primary">E-Procurement</a>
+        <div class="container mt-5 mb-5 p-5">
+            <div class="row mt-5 mb-5 p-5 gover-overlay-text">
+                <div class="col-md-12">
+                    <h2>Pengadaan</h2>
                 </div>
-                <p class="d-inline-flex">
-                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            Unduh Dokumen
-                    </button>
-                </p>
+                <div class="col-md-6">
+                    <p>Untuk dapat mengakses laman e-procurement dapat mengunjungi link di bawah ini dengan menggunakan kredensial yang telah Anda miliki sewaktu mendaftar: </p>
+                    <div class="d-inline-flex me-3">
+                        <a href="https://eprocurement.pupuk-indonesia.com/beranda" target=”_blank” class="btn btn-primary">E-Procurement</a>
+                    </div>
+                    <p class="d-inline-flex">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                Unduh Dokumen
+                        </button>
+                    </p>
+                </div>
             </div>
-        </div>
 
             <div class="collapse" id="collapseExample">
                 <div class="card card-body" style="color: black;">
@@ -60,9 +60,7 @@
                     </form>
                 </div>
             </div>
-            
-        
-    </div>
+        </div>
     </div>
 </template>
 <script>
@@ -83,8 +81,8 @@
 
     .good-corporate {
         background-image: url('../assets/Carousal/Pengadaan.jpg');
-        background-size: cover; /* Cover the entire area of the component */
-        background-position: center; /* Center the image */
+        background-size: cover;
+        background-position: center;
         color: white;
         
     }
@@ -101,6 +99,9 @@
         bottom: 0;
         left: 0;
         /* background: rgba(0, 0, 0, 0.8); */
-        background: linear-gradient(to right, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%);
+        background: linear-gradient(to right, rgb(0, 0, 0) 50%, rgba(255, 255, 255, 0) 100%);
+        /* background: linear-gradient(to right, rgb(0, 0, 0) 50%, rgba(3, 112, 177, 1) 51%, rgba(16, 146, 72, 1) 52%, rgba(218, 93, 42, 1) 53%, rgba(255, 255, 255, 0) 54%); */
+        height: 100vw;
+        width: 100vw;
     }
 </style>

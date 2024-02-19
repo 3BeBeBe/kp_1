@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="container info-container">
     <!-- <button class="btn main-button" :class="{ 'right': !isLeft, 'left': isLeft, 'on-top': isLeft }" @click="toggleButton">
         <img src="../assets/director.jpg" alt="Main button image">
       </button>
@@ -301,7 +301,7 @@ export default {
 .modal-content {
   border-radius: 0;
 }
-.container {
+.info-container {
   position: relative;
   display: flex;
   align-items: center;

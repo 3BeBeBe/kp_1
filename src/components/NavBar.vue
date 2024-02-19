@@ -96,8 +96,20 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="nav-item">
+
+                    <!-- <li class="nav-item">
                         <router-link class="nav-link" to="/berita" >Berita</router-link>
+                    </li> -->
+                    <li class="nav-item dropdown">
+                        <router-link class="nav-link dropdown-toggle" to="/berita" role="button" data-bs-toggle="dropdown" aria-expanded="false">Berita</router-link>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <router-link class="dropdown-item" to="/artikel" >Artikel</router-link>
+                            </li>
+                            <li>
+                                <router-link class="dropdown-item" to="/pers" >Siaran Pers</router-link>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
                 <form class="d-flex mb-2 mt-2" role="search" @submit.prevent="search">
