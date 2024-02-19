@@ -2,8 +2,8 @@
   <div class="home">
     <NavBar/>
     <CarousalInfo/>
-    <FlashInfo/>
-    <!-- <ItemCard/> -->
+    <!-- <FlashInfo/> -->
+    <ItemCard/>
     <ItemCardTester/>
     <!-- <FlashNews/> -->
     <NewsCarousal/>
@@ -14,10 +14,10 @@
 
 <script>
 // @ is an alias to /src
-// import ItemCard from '@/components/ItemCard.vue'
+import ItemCard from '@/components/ItemCard.vue'
 import CarousalInfo from '@/components/CarousalInfo.vue'
 import NavBar from '@/components/NavBar.vue'
-import FlashInfo from '@/components/FlashInfo.vue'
+// import FlashInfo from '@/components/FlashInfo.vue'
 // import FlashNews from '@/components/FlashNews.vue'
 import FooterSection from '@/components/FooterSection.vue'
 import NewsCarousal from '@/components/NewsCarousal.vue'
@@ -29,8 +29,8 @@ export default {
   components: {
     NavBar,
     CarousalInfo,
-    // ItemCard,
-    FlashInfo,
+    ItemCard,
+    // FlashInfo,
     // FlashNews,
     FooterSection,
     NewsCarousal,

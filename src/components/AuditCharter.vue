@@ -5,7 +5,8 @@
             </div>
             <div class="col-md-8">
                 <div>
-                    <h2 class="mb-5">PIAGAM SATUAN PENGAWAS INTERN</h2>
+                    <h2 class="">PIAGAM SATUAN PENGAWAS INTERN</h2>
+                    <hr>
                     <p>Piagam Satuan Pengawas Intern merupakan dokumen formal yang menjelaskan struktur dan kedudukan Unit Satuan Pengawas Intern, kualifikasi, ruang lingkup kerja operasional, wewenang, tanggungjawab, standar professional, hubungan dengan auditor eksternal dan Komite Audit, kode etik, serta independensi dan obyektivitas SPI. Piagam Satuan Pengawas Intern menjadi dasar bagi SPI dalam melaksanakan tugasnya serta sifatnya mengikat kepada seluruh unit kerja dan anak perusahaan.</p>
                 </div>
                 <div>

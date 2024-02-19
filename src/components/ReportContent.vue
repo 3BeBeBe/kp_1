@@ -164,8 +164,8 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="card mt-5">
-                    <div class="card-header">
+                <div class="card card-body mt-5">
+                    <div class="card-body">
                         <ul class="nav nav-underline">
                         <li class="nav-item">
                             <a id="tab1" class="nav-link active" @click="changeTab('Laporan Tahunan')" data-bs-toggle="tab" aria-current="true" href="#laptah">Laporan Tahunan</a>

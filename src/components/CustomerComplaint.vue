@@ -1,9 +1,8 @@
 <template>
 <div class="container mt-5 mb-5">
-    <div class="text-center">
-
-        
+    <div class="">
         <h2>KELUHAN PELANGGAN</h2>
+    <hr>
     </div>
     <form>
         <div class="row">

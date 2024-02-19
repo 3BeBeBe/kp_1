@@ -1,5 +1,6 @@
 <template>
-  <div class="container p-5 mt-0">
+  <div style="background-color: #edf4f9;">
+  <div class="container p-5">
     <!-- <div class="row">
       <div class="row">
         <div class="col-md-8">
@@ -37,15 +38,13 @@
     <h2
       style="
         text-align: left;
-        font-size: 45px;
         color: #084e8b;
-        font-weight: 200;
         font-style: italic;
       "
     >
       Berita Terkini
     </h2>
-    <div class="row mt-4 d-flex justify-content-center">
+    <div class="row mt-2 mb-4 d-flex justify-content-center">
       <!-- <div class="col-md-4">
         <img
           class="img-fluid"
@@ -169,15 +168,13 @@
       <h2
         style="
           text-align: left;
-          font-size: 45px;
           color: #084e8b;
-          font-weight: 200;
           font-style: italic;
         "
       >
         Artikel Terkini
       </h2>
-    <div class="row mt-4 d-flex justify-content-center">
+    <div class="row mt-2 d-flex justify-content-center">
 
       <div class="col-md-3 col-6 mb-3">
         <button class="card card-fixed">
@@ -243,6 +240,7 @@
       </div>  -->
     </div>
   </div>
+</div>
 </template>
 
 <script>
@@ -254,7 +252,7 @@ export default {
 <style scoped>
 .card-fixed {
   width: 100%; /* Adjust as needed */
-  height: 350px; /* Adjust as needed */
+  height: 300px; /* Adjust as needed */
   box-shadow: 0 4px 8px rgba(0, 183, 255, 0.25);
   transition: transform 0.3s ease;
   border-radius: 0;

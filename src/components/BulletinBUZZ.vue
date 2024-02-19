@@ -1,12 +1,14 @@
 <template>
     <div class="background-overlay background-image-container">
-        <div class="container overlay-text carousel-image d-flex justify-content-center align-items-center ">
+        <div class=" overlay-text carousel-image d-flex justify-content-center align-items-center ">
             
-            <div class="row d-flex justify-content-center align-items-center">
-                <div class="col-md-4">
-                    <img class="img-fixed" :src="selectedImage">
+            <div class="row d-flex justify-content-center align-items-center ">
+                <div class="col-md-6">
+                    <div class="image-container">
+                        <img class="img-fixed" :src="selectedImage">
+                    </div>
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-6">
                     <div>
                         <p class="text-with-line">Selamat membaca {{ selectedImageDetails.name }}</p>
                         <h2 class="">Buletin Setiap Semester</h2>
@@ -84,10 +86,16 @@
 </script>
 
 <style>
+    .image-container {
+        width: 500px;  /* Set the width of the container */
+        height: 400px;  /* Set the height of the container */
+        overflow: hidden;  /* Hide the parts of the image that don't fit in the container */
+    }
+
     .img-fixed {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+        width: 500px;  /* Make the image fill the width of the container */
+        height: 400px;  /* Make the image fill the height of the container */
+        object-fit: contain;  /* Make the image maintain its aspect ratio */
     }
     .btn{
         border-radius: 0px;

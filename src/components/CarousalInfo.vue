@@ -4,9 +4,22 @@
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
+                <div class="carousel-image-container" data-bs-interval="100">
+                    <img src="../assets/Carousal/1.jpg" class="d-block w-100 carousel-image">
+                </div>
+                <div class="d-md-block overlay-text">
+                    <h1><i>Sekilas Tentang Kami</i></h1>
+                    <p>PT Pupuk Indonesia Utilitas (PI Utilitas) didirikan pada tanggal 14 Agustus 2014, guna memenuhi pasokan listrik dan steam untuk menunjang bisnis utama PT Pupuk Indonesia (Persero) beserta anak perusahaannya.</p>
+                    <div class="d-inline-flex me-3">
+                        <router-link to="/sejarah" class="btn btn-primary">Sejarah Kami</router-link>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
                 <div class="carousel-image-container" data-bs-interval="100">
                     <img src="../assets/pabrik/GGCP/ggcp1.jpg" class="d-block w-100 carousel-image">
                 </div>
@@ -87,7 +100,7 @@
     }
 
     .carousel-image {
-        height: 92vh; /* Adjust this value to your desired height */
+        height: 60vh; /* Adjust this value to your desired height */
         object-fit: cover;
     }
     p {
