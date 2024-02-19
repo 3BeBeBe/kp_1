@@ -3,8 +3,8 @@
     <NavBar/>
     <CarousalInfo/>
     <!-- <FlashInfo/> -->
-    <ItemCard/>
-    <ItemCardTester/>
+    <!-- <ItemCard/> -->
+    <!-- <ItemCardTester/> -->
     <!-- <FlashNews/> -->
     <NewsCarousal/>
     <!-- <NewsCarousal2/> -->
@@ -14,7 +14,7 @@
 
 <script>
 // @ is an alias to /src
-import ItemCard from '@/components/ItemCard.vue'
+// import ItemCard from '@/components/ItemCard.vue'
 import CarousalInfo from '@/components/CarousalInfo.vue'
 import NavBar from '@/components/NavBar.vue'
 // import FlashInfo from '@/components/FlashInfo.vue'
@@ -22,20 +22,20 @@ import NavBar from '@/components/NavBar.vue'
 import FooterSection from '@/components/FooterSection.vue'
 import NewsCarousal from '@/components/NewsCarousal.vue'
 // import NewsCarousal2 from '@/components/NewsCarousal2.vue'
-import ItemCardTester from '@/components/ItemCardTester.vue'
+// import ItemCardTester from '@/components/ItemCardTester.vue'
 
 export default {
   name: 'HomeView',
   components: {
     NavBar,
     CarousalInfo,
-    ItemCard,
+    // ItemCard,
     // FlashInfo,
     // FlashNews,
     FooterSection,
     NewsCarousal,
     // NewsCarousal2,
-    ItemCardTester
+    // ItemCardTester
   }
 }
 </script>
