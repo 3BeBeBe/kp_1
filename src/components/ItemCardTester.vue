@@ -249,10 +249,10 @@ export default {
   background-color: rgba(255, 255, 255, 0);
   z-index: 1;
 
-  border-top-right-radius: 50px;
+  /* border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
   border-top-left-radius: 0px;
-  border-bottom-right-radius: 0px;
+  border-bottom-right-radius: 0px; */
 }
 
 .small-text-nitrogen {

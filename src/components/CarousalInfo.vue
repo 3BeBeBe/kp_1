@@ -71,9 +71,10 @@
       <div class="row mt-3 d-flex justify-content-center align-items-center">
         <div class="col-md-4">
             <div class="card card-listrik">
+              <div class="card-background-1"></div>
               <div class="card-body">
                 <div class="d-flex align-items-center">
-                  <div class="card-text-wrapper">
+                  <div class="card-text-wrapper" style="z-index: 2;">
                     <h1 class="big-number-listrik text-start">76 MW/h</h1>
                     <p class="title-listrik card-title">Listrik</p>
                   </div>
@@ -84,9 +85,10 @@
 
         <div class="col-md-4">
             <div class="card card-steam">
+              <div class="card-background-2"></div>
               <div class="card-body">
                 <div class="d-flex align-items-center">
-                  <div class="card-text-wrapper">
+                  <div class="card-text-wrapper" style="z-index: 2;">
                     <h1 class="big-number-steam text-start">316 Ton/h</h1>
                     <p class="title-steam card-title">Steam</p>
                   </div>
@@ -97,9 +99,11 @@
 
         <div class="col-md-4">
             <div class="card card-nitrogen">
+              <div class="card-background-3"></div>
                 <div class="card-body">
+                  
                   <div class="d-flex align-items-center">
-                    <div class="card-text-wrapper">
+                    <div class="card-text-wrapper" style="z-index: 2;">
                         <h1 class="big-number-nitrogen text-start">500 Nm<sup>3</sup>/h</h1>
                         <p class="title-nitrogen card-title">Nitrogen</p>
                     </div>
@@ -257,4 +261,55 @@
   .small-text {
     z-index: 2;
   }
+
+  .card-background-1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0)
+    ), 
+    url("../assets/pabrik/KDM/kdm1.jpg");
+  background-size: cover;
+  background-position: right;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 1;
+}
+
+.card-background-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0)
+    ),
+    url("../assets/pabrik/KDM/kdm2.jpg");
+  background-size: cover;
+  background-position: right;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 1;
+}
+
+.card-background-3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0)
+    ),
+    url("../assets/pabrik/GGCP/ggcp1.jpg");
+  background-size: cover;
+  background-position: right;
+  background-color: rgba(255, 255, 255, 0);
+  z-index: 1;
+}
 </style> 
