@@ -129,7 +129,7 @@
         background-size: cover; /* Cover the entire area of the component */
         background-position: center; /* Center the image */
         color: white;
-        
+        min-height: 63.3vh;
     }
 
     .carousel-image-container {

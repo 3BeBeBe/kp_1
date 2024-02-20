@@ -55,5 +55,9 @@
     .btn, .form-control, .form-select, .card {
         border-radius: 0px;
     }
+
+    .container {
+        min-height: 53.2vh;
+    }
 </style>
 ```

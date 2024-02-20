@@ -30,14 +30,14 @@
 
 <style scoped>
     .container{
-        height: 80vh;
+        min-height: 53.2vh;
     }
     .zoomable-image {
         transition: transform 0.3s, box-shadow 0.3s;
     }
 
     .zoomable-image:hover {
-        transform: scale(1.1);
+        transform: scale(1.3);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 </style>

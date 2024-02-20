@@ -58,7 +58,7 @@
 
   .another-container {
     background-color: #edf4f9;
-    min-height: 60vh;
+    min-height: 63.3vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
