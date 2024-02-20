@@ -5,7 +5,7 @@
             <div ref="column1" id="column1" class="col-md-3 mb-5 ms-4 me-4 mt-5">
                 <p class="d-flex gap-2 flex-column justify-content-between">
                     <button class="btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#amanah" aria-expanded="false" aria-controls="amanah">
-                        <h3><i><b>Amanah</b></i></h3>
+                        <h3 style="color: #21387c;"><i><b>Amanah</b></i></h3>
                     </button>
                 </p>
                 <div class="collapse multi-collapse" id="amanah">
@@ -22,7 +22,7 @@
             <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4 mt-5">
                 <p class="d-flex gap-2 flex-column justify-content-between">
                     <button class="btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#kompetensi" aria-expanded="false" aria-controls="kompetensi">
-                        <h3><i><b>Kompetensi</b></i></h3>
+                        <h3 style="color: #21387c;"><i><b>Kompetensi</b></i></h3>
                     </button>             
                 </p>
                 <div class="collapse multi-collapse" id="kompetensi">
@@ -39,7 +39,7 @@
             <div ref="column3" id="column3" class="col-md-3 mb-5 ms-4 me-4 mt-5">
                 <p class="d-flex gap-2 flex-column justify-content-between">
                     <button class="btn btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#harmonis" aria-expanded="false" aria-controls="harmonis">
-                        <h3><i><b>Harmonis</b></i></h3>
+                        <h3 style="color: #21387c;"><i><b>Harmonis</b></i></h3>
                     </button>             
                 </p>
                 <div class="collapse multi-collapse" id="harmonis">
@@ -57,8 +57,9 @@
         <div class="row justify-content-center">
             <div ref="title" id="title" class="title centered mb-5">
                 <button class="btn btn-outline-light btn-lg" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">
-                    <h2><b><i>A K H L A K</i></b></h2>
-                    <p><i>Nilai - Nilai Perusahaan</i></p>
+                    <!-- <h2><b><i>A K H L A K</i></b></h2>
+                    <p><i>Nilai - Nilai Perusahaan</i></p> -->
+                    <img src="../assets/akhlak.png" style="max-width: 100%;"/>
                 </button>
             </div>
         </div>
@@ -124,26 +125,6 @@
     
         export default {
             name: 'CompanyValue'
-            // mounted() {
-            //     this.$nextTick(() => {
-            //         const title = this.$refs.title;
-            //         const column1 = this.$refs.column1;
-            //         const column2 = this.$refs.column2;
-            //         const column3 = this.$refs.column3;
-            //         const column4 = this.$refs.column4;
-            //         const column5 = this.$refs.column5;
-            //         const column6 = this.$refs.column6;
-    
-            //         console.log(title, column1, column2, column3);
-    
-            //         new LeaderLine(title, column1, { path: 'magnet', endPlug: 'behind' });
-            //         new LeaderLine(title, column2, { path: 'magnet', endPlug: 'behind' });
-            //         new LeaderLine(title, column3, { path: 'magnet', endPlug: 'behind' });
-            //         new LeaderLine(title, column4, { path: 'magnet', endPlug: 'behind' });
-            //         new LeaderLine(title, column5, { path: 'magnet', endPlug: 'behind' });
-            //         new LeaderLine(title, column6, { path: 'magnet', endPlug: 'behind' });
-            //     });
-            // }
         }
     </script>
     
@@ -175,12 +156,13 @@
         .company-value-container {
             /* background: linear-gradient(to bottom, #084e8b, #ffffff);
              */
-            background: rgba(8, 78, 139, 0.5) 10%; 
+             background-color: #0aa4b4;
+            /* background: rgba(8, 78, 139, 0.5) 10%;  */
             /* background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(8, 78, 139, 0.5) 10%, rgba(8, 78, 139, 1) 100%); */
 
         } 
         .card-body {
-            height: 400px;
+            height: 300px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         h3::first-letter {

@@ -57,7 +57,12 @@
   } */
 
   .another-container {
-    background-color: #ffffff;
+    background-color: #edf4f9;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   h2 {
