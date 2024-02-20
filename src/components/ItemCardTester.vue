@@ -1,16 +1,36 @@
 <template>
   <div class="container mt-5">
+
     <div class="row justify-content-left">
       <div class="col-md-6 mb-3">
-        <router-link to="/ggcp" style="text-decoration: none">
+        <router-link to="/pabrik" style="text-decoration: none">
           <div class="card card-listrik">
             <div class="card-background"></div>
             <div class="card-body">
-              <div class="d-flex align-items-center">
-                <h1 class="big-number-listrik">⠀2⠀</h1>
-                <div class="card-text-wrapper">
-                  <h5 class="title-listrik card-title">Pembangkit Listrik</h5>
-                  <p class="card-text">Router-link to pabrik implemented</p>
+              <div class="row d-flex align-items-center">
+                <div
+                  class="col-md-4 d-flex flex-column align-items-center justify-content-center"
+                >
+                  <div class="card-text-wrapper">
+                    <h1 class="big-number-listrik">⠀76⠀</h1>
+                    <p
+                      class="small-text-nitrogen"
+                      style="
+                        font-size: 15px;
+                        text-align: center;
+                        color: #084e8b;
+                        font-weight: 600;
+                      "
+                    >
+                      MW/h
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-text-wrapper">
+                    <h5 class="title-listrik card-title">Listrik</h5>
+                    <p class="card-text">yang dihasilkan oleh GGCP dan KDM</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -25,12 +45,30 @@
           <div class="card card-steam">
             <div class="card-background"></div>
             <div class="card-body">
-              <div class="d-flex align-items-center">
-                <h1 class="big-number-steam">⠀316⠀</h1>
-                <!--ton / h-->
-                <div class="card-text-wrapper">
-                  <h5 class="title-steam card-title">Steam</h5>
-                  <p class="card-text">Router-link to pabrik implemented</p>
+              <div class="row d-flex align-items-center">
+                <div
+                  class="col-md-4 d-flex flex-column align-items-center justify-content-center"
+                >
+                  <div class="card-text-wrapper">
+                    <h1 class="big-number-steam">⠀316⠀</h1>
+                    <p
+                      class="small-text-nitrogen"
+                      style="
+                        font-size: 15px;
+                        text-align: center;
+                        color: #13934a;
+                        font-weight: 600;
+                      "
+                    >
+                      ton/h
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-8">
+                  <div class="card-text-wrapper">
+                    <h5 class="title-steam card-title">Steam</h5>
+                    <p class="card-text">total yang dicapai oleh kami</p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -46,19 +84,30 @@
             <div class="card-background"></div>
             <div class="card-body">
               <div class="row d-flex align-items-center">
-                <div class="col-md-4 d-flex flex-column align-items-center justify-content-center">
+                <div
+                  class="col-md-4 d-flex flex-column align-items-center justify-content-center"
+                >
                   <div class="card-text-wrapper">
-                  <h1 class="big-number-nitrogen">⠀500⠀</h1>
-                  <p class="small-text-nitrogen">nm3/h</p>
-                </div>
+                    <h1 class="big-number-nitrogen">⠀500⠀</h1>
+                    <p
+                      class="small-text-nitrogen"
+                      style="
+                        font-size: 15px;
+                        text-align: center;
+                        color: #dd5925;
+                        font-weight: 600;
+                      "
+                    >
+                      Nm3/h
+                    </p>
+                  </div>
                 </div>
                 <div class="col-md-8">
                   <div class="card-text-wrapper">
                     <h5 class="title-nitrogen card-title">Nitrogen</h5>
-                    <p class="card-text">Router-link to pabrik implemented</p>
+                    <p class="card-text">telah tercapai oleh kami</p>
                   </div>
                 </div>
-                
               </div>
             </div>
           </div>
@@ -153,7 +202,7 @@ export default {
 }
 
 .big-number-listrik {
-  font-size: 50px; /* Adjust as needed */
+  font-size: 48px; /* Adjust as needed */
   text-align: center;
   margin-bottom: 0.5rem;
   font-weight: 600;
@@ -162,7 +211,7 @@ export default {
   z-index: 2; /* Ensure proper stacking order */
 }
 .big-number-steam {
-  font-size: 50px; /* Adjust as needed */
+  font-size: 48px; /* Adjust as needed */
   text-align: center;
   margin-bottom: 0.5rem;
   font-weight: 600;
