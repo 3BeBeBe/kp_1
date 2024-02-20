@@ -60,7 +60,7 @@
                     <div class="d-flex align-items-end">
                       <button
                         type="button"
-                        class="btn btn-primary"
+                        class="btn hide-btn btn-primary"
                         data-bs-dismiss="modal"
                         aria-label="Close"
                       >Tutup</button>
@@ -131,7 +131,7 @@
                     <div class="d-flex align-items-end">
                       <button
                         type="button"
-                        class="btn btn-primary"
+                        class="btn hide-btn btn-primary"
                         data-bs-dismiss="modal"
                         aria-label="Close"
                       >Tutup</button>
@@ -199,7 +199,7 @@
                     <div class="d-flex column-flex align-items-end">
                       <button
                         type="button"
-                        class="btn btn-primary"
+                        class="btn hide-btn btn-primary"
                         data-bs-dismiss="modal"
                         aria-label="Close"
                       >Tutup</button>
