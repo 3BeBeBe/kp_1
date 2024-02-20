@@ -66,10 +66,10 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-  <div class="test-height">
-    <div class="container">
-      <div class="row mt-3 d-flex justify-content-center align-items-center">
-        <div class="col-md-4">
+  <div class="test-height" style="background-color: #edf4f9;">
+    <div class="container justify-content-center align-items-center">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-md-4 mt-3">
             <div class="card card-listrik">
               <div class="card-background-1"></div>
               <div class="card-body">
@@ -83,7 +83,7 @@
             </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 mt-3">
             <div class="card card-steam">
               <div class="card-background-2"></div>
               <div class="card-body">
@@ -97,13 +97,13 @@
             </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 mt-3">
             <div class="card card-nitrogen">
               <div class="card-background-3"></div>
                 <div class="card-body">
                   
-                  <div class="d-flex align-items-center">
-                    <div class="card-text-wrapper" style="z-index: 2;">
+                  <div class="d-flex align-items-center" style="display: flex; flex-wrap: wrap;">
+                    <div class="card-text-wrapper" style="z-index: 2; flex-shrink: 0;">
                         <h1 class="big-number-nitrogen text-start">500 Nm<sup>3</sup>/h</h1>
                         <p class="title-nitrogen card-title">Nitrogen</p>
                     </div>
