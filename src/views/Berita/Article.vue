@@ -2883,6 +2883,7 @@
     </div>
     <FooterSection/>
 </template>
+
 <script>
 import NavBar from '@/components/NavBar.vue'
 import FooterSection from '@/components/FooterSection.vue'
@@ -2894,6 +2895,7 @@ export default {
     }
 };
 </script>
+
 <style scoped>
 .modal-dialog {
   display: flex;

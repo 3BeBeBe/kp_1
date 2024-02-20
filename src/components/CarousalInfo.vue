@@ -1,5 +1,5 @@
 <template>
-    <div class="full-s">
+<div class="full-s">
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -66,17 +66,16 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <div class="test-height">
+  <div class="test-height">
     <div class="container">
-      <div class="row mt-3 mb-3 d-flex justify-content-center align-items-center">
+      <div class="row mt-3 d-flex justify-content-center align-items-center">
         <div class="col-md-4">
             <div class="card card-listrik">
-              <div class="card-background"></div>
               <div class="card-body">
                 <div class="d-flex align-items-center">
                   <div class="card-text-wrapper">
-                    <h1 class="big-number-listrik text-start">76 mw/h</h1>
-                    <h5 class="title-listrik card-title">Listrik</h5>
+                    <h1 class="big-number-listrik text-start">76 MW/h</h1>
+                    <p class="title-listrik card-title">Listrik</p>
                   </div>
                 </div>
               </div>
@@ -85,12 +84,11 @@
 
         <div class="col-md-4">
             <div class="card card-steam">
-              <div class="card-background"></div>
               <div class="card-body">
                 <div class="d-flex align-items-center">
                   <div class="card-text-wrapper">
                     <h1 class="big-number-steam text-start">316 Ton/h</h1>
-                    <h5 class="title-steam card-title">Steam</h5>
+                    <p class="title-steam card-title">Steam</p>
                   </div>
                 </div>
               </div>
@@ -100,16 +98,18 @@
         <div class="col-md-4">
             <div class="card card-nitrogen">
                 <div class="card-body">
+                  <div class="d-flex align-items-center">
                     <div class="card-text-wrapper">
-                        <h1 class="big-number-nitrogen text-start">500 nm3/h</h1>
-                        <h5 class="title-nitrogen card-title">Nitrogen</h5>
+                        <h1 class="big-number-nitrogen text-start">500 Nm<sup>3</sup>/h</h1>
+                        <p class="title-nitrogen card-title">Nitrogen</p>
                     </div>
+                  </div>
                 </div>
             </div>
         </div>
       </div>
     </div>
-</div>
+  </div>
 </div>
 </template>
 <script>
@@ -146,7 +146,7 @@
     }
 
     .carousel-image {
-        height: 60vh; /* Adjust this value to your desired height */
+        height: 70vh; /* Adjust this value to your desired height */
         object-fit: cover;
     }
     .full-s{
@@ -154,7 +154,7 @@
         object-fit: cover;
     }
     .test-height{
-        height: 40vh; /* Adjust this value to your desired height */
+        height: 30vh; /* Adjust this value to your desired height */
         object-fit: cover;
     }
     p {
@@ -166,19 +166,10 @@
     border-radius: 0;
   }
   .big-number {
-    font-size: 72px; /* Adjust as needed */
+    font-size: 60px; /* Adjust as needed */
     text-align: center;
     margin-right: 1rem; /* Add space between big number and text */
   }
-  
-  .card-text-wrapper {
-    flex-grow: 1; /* Allow the text wrapper to grow and take up remaining space */
-  }
-  
-  .container {
-        height: 40vh; /* Adjust this value to your desired height */
-        object-fit: cover;
-    }
   .card-listrik {
     box-shadow: 0 4px 8px rgba(8, 78, 139, 0.25);
     transition: transform 0.3s ease;
@@ -209,7 +200,7 @@
   .card-title {
     text-align: center;
     font-style: italic;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 600;
     position: relative; /* Ensure proper z-index */
     z-index: 2; /* Ensure proper stacking order */
@@ -249,18 +240,12 @@
     z-index: 2;
   }
   .big-number-nitrogen {
-    font-size: 48px; /* Adjust as needed */
+    font-size: 50px; /* Adjust as needed */
     text-align: center;
     margin-bottom: 0.5rem;
     font-weight: 600;
     color: #dd5925;
     z-index: 2;
-  }
-  
-  .card-text-wrapper {
-    flex-grow: 1;
-    position: relative; /* Ensure proper z-index */
-    z-index: 2; /* Ensure proper stacking order */
   }
   
   .small-text-nitrogen {
