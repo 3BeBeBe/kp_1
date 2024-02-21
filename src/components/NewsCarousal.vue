@@ -908,7 +908,7 @@
           <div
             class="card-body text-start d-flex flex-column align-items-center justify-content-center"
           >
-            <h5 class="card-title mb-0" style="text-align: center">
+            <h5 class="card-title mb-0" style="text-align: center;">
               Siaran Pers Lainnya
             </h5>
             <img src="../assets/Arrow-right-resized.png" />
@@ -932,10 +932,10 @@ export default {
   height: 300px; /* Adjust as needed */
   box-shadow: 0 4px 8px rgba(0, 183, 255, 0.25);
   transition: transform 0.3s ease;
-  border-radius: 0;
+  border-radius: 10px;
 }
 .modal-content{
-  border-radius: 0;
+  /* border-radius: 0; */
 }
 .card-fixed:hover {
   box-shadow: 0 8px 16px rgba(0, 195, 255, 0.4); /* Adjust as needed */

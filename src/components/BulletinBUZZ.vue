@@ -134,7 +134,7 @@
         /* background: linear-gradient(to right, rgb(0, 0, 0) 25%, rgba(0, 0, 0, 0) 100%); */
     }
     .carousel-image {
-        height: 90vh; /* Adjust this value to your desired height */
+        height: 75vh; /* Adjust this value to your desired height */
         object-fit: cover;
     }
 
