@@ -1,120 +1,123 @@
 <template>
-  <div class="container mt-5">
+  <div class="item-card-tester">
+    <div class="container mt-0">
 
-    <div class="row justify-content-left">
-      <div class="col-md-6 mb-3">
-        <router-link to="/pabrik" style="text-decoration: none">
-          <div class="card card-listrik">
-            <div class="card-background"></div>
-            <div class="card-body">
-              <div class="row d-flex align-items-center">
-                <div
-                  class="col-md-4 d-flex flex-column align-items-center justify-content-center"
+<div class="row justify-content-left">
+  <div class="col-md-6 mb-3">
+    <router-link to="/pabrik" style="text-decoration: none">
+      <div class="card card-listrik">
+        <div class="card-background"></div>
+        <div class="card-body">
+          <div class="row d-flex align-items-center">
+            <div
+              class="col-md-4 d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="card-text-wrapper">
+                <h1 class="big-number-listrik">⠀76⠀</h1>
+                <p
+                  class="small-text-nitrogen"
+                  style="
+                    font-size: 15px;
+                    text-align: center;
+                    color: #084e8b;
+                    font-weight: 600;
+                  "
                 >
-                  <div class="card-text-wrapper">
-                    <h1 class="big-number-listrik">⠀76⠀</h1>
-                    <p
-                      class="small-text-nitrogen"
-                      style="
-                        font-size: 15px;
-                        text-align: center;
-                        color: #084e8b;
-                        font-weight: 600;
-                      "
-                    >
-                      MW/h
-                    </p>
-                  </div>
-                </div>
-                <div class="col-md-8">
-                  <div class="card-text-wrapper">
-                    <h5 class="title-listrik card-title">Listrik</h5>
-                    <p class="card-text">yang dihasilkan oleh GGCP dan KDM</p>
-                  </div>
-                </div>
+                  MW/h
+                </p>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-text-wrapper">
+                <h5 class="title-listrik card-title">Listrik</h5>
+                <p class="card-text">yang dihasilkan oleh GGCP dan KDM</p>
               </div>
             </div>
           </div>
-        </router-link>
+        </div>
       </div>
-    </div>
-
-    <div class="row justify-content-center">
-      <div class="col-md-6 mb-3">
-        <router-link to="/pabrik" style="text-decoration: none">
-          <div class="card card-steam">
-            <div class="card-background"></div>
-            <div class="card-body">
-              <div class="row d-flex align-items-center">
-                <div
-                  class="col-md-4 d-flex flex-column align-items-center justify-content-center"
-                >
-                  <div class="card-text-wrapper">
-                    <h1 class="big-number-steam">⠀316⠀</h1>
-                    <p
-                      class="small-text-nitrogen"
-                      style="
-                        font-size: 15px;
-                        text-align: center;
-                        color: #13934a;
-                        font-weight: 600;
-                      "
-                    >
-                      ton/h
-                    </p>
-                  </div>
-                </div>
-                <div class="col-md-8">
-                  <div class="card-text-wrapper">
-                    <h5 class="title-steam card-title">Steam</h5>
-                    <p class="card-text">total yang dicapai oleh kami</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </router-link>
-      </div>
-    </div>
-
-    <div class="row justify-content-end">
-      <div class="col-md-6 mb-3">
-        <router-link to="/pabrik" style="text-decoration: none">
-          <div class="card card-nitrogen">
-            <div class="card-background"></div>
-            <div class="card-body">
-              <div class="row d-flex align-items-center">
-                <div
-                  class="col-md-4 d-flex flex-column align-items-center justify-content-center"
-                >
-                  <div class="card-text-wrapper">
-                    <h1 class="big-number-nitrogen">⠀500⠀</h1>
-                    <p
-                      class="small-text-nitrogen"
-                      style="
-                        font-size: 15px;
-                        text-align: center;
-                        color: #dd5925;
-                        font-weight: 600;
-                      "
-                    >
-                      Nm3/h
-                    </p>
-                  </div>
-                </div>
-                <div class="col-md-8">
-                  <div class="card-text-wrapper">
-                    <h5 class="title-nitrogen card-title">Nitrogen</h5>
-                    <p class="card-text">telah tercapai oleh kami</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </router-link>
-      </div>
-    </div>
+    </router-link>
   </div>
+</div>
+
+<div class="row justify-content-center">
+  <div class="col-md-6 mb-3">
+    <router-link to="/pabrik" style="text-decoration: none">
+      <div class="card card-steam">
+        <div class="card-background"></div>
+        <div class="card-body">
+          <div class="row d-flex align-items-center">
+            <div
+              class="col-md-4 d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="card-text-wrapper">
+                <h1 class="big-number-steam">⠀316⠀</h1>
+                <p
+                  class="small-text-nitrogen"
+                  style="
+                    font-size: 15px;
+                    text-align: center;
+                    color: #13934a;
+                    font-weight: 600;
+                  "
+                >
+                  ton/h
+                </p>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-text-wrapper">
+                <h5 class="title-steam card-title">Steam</h5>
+                <p class="card-text">total yang dicapai oleh kami</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </router-link>
+  </div>
+</div>
+
+<div class="row justify-content-end">
+  <div class="col-md-6 mb-3">
+    <router-link to="/pabrik" style="text-decoration: none">
+      <div class="card card-nitrogen">
+        <div class="card-background"></div>
+        <div class="card-body">
+          <div class="row d-flex align-items-center">
+            <div
+              class="col-md-4 d-flex flex-column align-items-center justify-content-center"
+            >
+              <div class="card-text-wrapper">
+                <h1 class="big-number-nitrogen">⠀500⠀</h1>
+                <p
+                  class="small-text-nitrogen"
+                  style="
+                    font-size: 15px;
+                    text-align: center;
+                    color: #dd5925;
+                    font-weight: 600;
+                  "
+                >
+                  Nm3/h
+                </p>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="card-text-wrapper">
+                <h5 class="title-nitrogen card-title">Nitrogen</h5>
+                <p class="card-text">telah tercapai oleh kami</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </router-link>
+  </div>
+</div>
+</div>
+  </div>
+  
 </template>
 
 <style scoped>
@@ -249,10 +252,10 @@ export default {
   background-color: rgba(255, 255, 255, 0);
   z-index: 1;
 
-  /* border-top-right-radius: 50px;
+  border-top-right-radius: 50px;
   border-bottom-left-radius: 50px;
   border-top-left-radius: 0px;
-  border-bottom-right-radius: 0px; */
+  border-bottom-right-radius: 0px;
 }
 
 .small-text-nitrogen {
@@ -263,5 +266,11 @@ export default {
 
 .small-text {
   z-index: 2;
+}
+
+.item-card-tester {
+  background-image: url("../assets/smlswhite.png");
+  background-repeat: repeat;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 </style>

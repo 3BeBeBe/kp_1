@@ -50,15 +50,15 @@
                             <li>
                                 <router-link class="dropdown-item" to="/audit" >Audit Charter</router-link>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <router-link class="dropdown-item" to="/complaint" >Customer Complaint</router-link>
-                            </li>
+                            </li> -->
                             <!-- <li>
                                 <router-link class="dropdown-item" to="/procurement" >Pengadaan</router-link>
                             </li> -->
-                            <li>
+                            <!-- <li>
                                 <router-link class="dropdown-item" to="/wbs" >Whistle Blowing System</router-link>
-                            </li>
+                            </li> -->
                         </ul>
                     </li>
 
@@ -78,9 +78,9 @@
                         </ul>
                     </li>
 
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <router-link class="nav-link" to="/pengadaan" >Pengadaan</router-link>
-                    </li>
+                    </li> -->
                     
                     <li class="nav-item dropdown">
                         <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Publikasi</router-link>
@@ -94,6 +94,31 @@
                             <li>
                                 <router-link class="dropdown-item" to="/buzz" >Bulletin BUZZ</router-link>
                             </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <router-link class="nav-link dropdown-toggle" to="/laporan" role="button" data-bs-toggle="dropdown" aria-expanded="false">Laporan</router-link>
+                        <ul class="dropdown-menu">
+                            <!-- <li>
+                                <router-link class="dropdown-item" to="/laporan" >Laporan Tahunan</router-link>
+                            </li>
+                            <li>
+                                <router-link class="dropdown-item" to="/laporan" >Laporan Keuangan</router-link>
+                            </li>
+                            <li>
+                                <router-link class="dropdown-item" to="/laporan" >Laporan Keberlanjutan</router-link>
+                            </li> -->
+                            <li>
+                                <router-link class="dropdown-item" to="/laporan">Laporan Tahunan</router-link>
+                            </li>
+                            <li>
+                                <router-link class="dropdown-item" to="/laporan">Laporan Keuangan</router-link>
+                            </li>
+                            <li>
+                                <router-link class="dropdown-item" to="/laporan">Laporan Keberlanjutan</router-link>
+                            </li>
+
                         </ul>
                     </li>
 
@@ -111,6 +136,23 @@
                             </li>
                         </ul>
                     </li>
+
+                    <li class="nav-item dropdown">
+                        <router-link class="nav-link dropdown-toggle" to="/pelaporan" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pelaporan</router-link>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <router-link class="dropdown-item" to="/complaint" >Customer Complaint</router-link>
+                            </li>
+                            <li>
+                                <router-link class="dropdown-item" to="/wbs" >Whistle Blowing System (WBS)</router-link>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <router-link class="nav-link" to="/pengadaan" >Pengadaan</router-link>
+                    </li>
+                    
                 </ul>
                 <form class="d-flex mb-2 mt-2" role="search" @submit.prevent="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" v-model="searchQuery">
@@ -138,9 +180,9 @@ export default {
 </script>
 
 <style scoped>
-.btn, .form-control, .dropdown-menu {
+/* .btn, .form-control, .dropdown-menu {
     border-radius: 0px;
-}
+} */
 .nav-link {
     color: #084e8b !important
 }

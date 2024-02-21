@@ -123,7 +123,7 @@
 </script>
 <style scoped>
     .btn{
-        border-radius: 0;
+        /* border-radius: 0; */
     }
     .overlay-text {
       position: absolute;
