@@ -1,8 +1,8 @@
 <template>
-    <nav class="navbar sticky-top bg-body-tertiary navbar-expand-lg bg-body-tertiary border-bottom border-body py-0" style="padding: 0.5rem 1rem;">
+    <nav class="navbar transparent-navbar sticky-top bg-body-tertiary navbar-expand-lg bg-body-tertiary border-bottom border-body py-0" style="padding: 0.5rem 1rem;">
         <div class="container">
             <a class="navbar-brand" href="/">
-                <img src="../assets/Salinan LOGO PIU Warna.png" width="60" height="48">
+                <img src="../assets/Salinan LOGO PIU Warna.png" width="120" height="96">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -150,7 +150,9 @@ export default {
 .dropdown-item {
   transition: background-color 0.3s ease;
 }
-
+.transparent-navbar {
+  background-color: transparent;
+}
 .dropdown-item:hover {
   background-color: #0d6efd;
   color: #fff;
