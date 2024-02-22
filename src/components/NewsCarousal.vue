@@ -934,9 +934,9 @@ export default {
   transition: transform 0.3s ease;
   border-radius: 10px;
 }
-.modal-content{
-  /* border-radius: 0; */
-}
+/* .modal-content{
+  border-radius: 0;
+} */
 .card-fixed:hover {
   box-shadow: 0 8px 16px rgba(0, 195, 255, 0.4); /* Adjust as needed */
   transform: scale(1.05);
