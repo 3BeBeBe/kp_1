@@ -10,104 +10,10 @@
     </button>
     <transition name="fade" @before-enter="beforeEnter" @enter="enter"> -->
       <div class="button-row" v-if="isRight">
-        
         <button
-        class="btn image-button item e1"
+        class="btn-square image-button item e1"
         data-bs-toggle="modal"
         data-bs-target="#kom1"
-        style="border-radius: 0"
-      >
-        <img
-          src="../assets/Manajemen/Komisaris/Imam Mujahidin Fahmid - Komisaris.jpg"
-        />
-        <!-- <div class="item e1"> -->
-          <div class="text1">
-            <h4><b>Komisaris</b></h4>
-            <p>Imam Mujahidin Fahmid</p>
-          </div>
-        <!-- </div> -->
-      </button>
-        
-        <!-- <button class="btn image-button" data-bs-toggle="modal" data-bs-target="#kom1">
-          <img src="../assets/Manajemen/Komisaris/Imam Mujahidin Fahmid - Komisaris.jpg" alt="Image 1">
-          <div class="overlay-text">
-            <div class="text-start">
-              <h4>Komisaris</h4>
-              <h5>Imam Mujahidin Fahmid</h5>
-            </div>
-          </div>
-        </button> -->
-
-        <!-- modal -->
-        <div class="modal fade" id="kom1" tabindex="-1" aria-hidden="true">
-          <div
-            class="modal-dialog modal-dialog-centered modal-xl"
-          >
-            <div class="modal-content">
-              <!-- <div class="modal-header">
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div> -->
-              <div class="modal-body ">
-                <div class="row">
-                  <div class="col-md-12 d-flex justify-content-end">
-                    
-                  </div>
-                  <div class="col-md-8 col-12 order-2 order-md-1">
-                    <h2 class="modal-title mb-1">Biodata</h2>
-                    <ul>
-                      <li>Nama : Imam Mujahidin Fahmid</li>
-                      <li>Tempat, Tanggal Lahir : Bima, 23 Desember 1966</li>
-                      <li>Pendidikan : 
-                        <ul>
-                          <li>Sarjana Sosial Ekonomi Pertanian Universitas Hasanudin (1990)</li>
-                          <li>Master of Trade and Development Newcastle University Australia (2001)</li> 
-                          <li>Doktor Ekologi Manusia Institut Pertanian Bogor (2011)</li>
-                        </ul>
-                      </li>
-                      <li>Pengalaman : 
-                        <ul>
-                          <li>Menjabat sebagai Komisaris PT Pupuk Indonesai Utilitas (27 Desember 2021 - Sekarang)</li>
-                          <li>Staf Khusus Menteri Bidang Kebijakan Pertanian, Kementerian Pertanian RI (2019 – Sekarang)</li>
-                          <li>Staf Pengajar Fakultas Pertanian & Pasca Sarjana Unhas, Makassar (1992 – Sekarang)</li>
-                          <li>Direktur Publication Manajement Center Unhas, Makasar (2015-2018)</li>
-                          <li>Ketua Dewan Riset Daerah Pemprov Sulawesi Selatan, Makasar (2011-2018)</li>
-                          <li>Ketua Tim Ahli Gubernur Pemerintah Propinsi Sulawesi Selatan, Makasar (2009-2018)</li>
-                          <li>Tenaga Ahli Bappeda; Dinas Perkebunan; Dinas Pertanian; Tanaman Pangan dan Hirtikultura; Badan Ketahana Pangan Propinsi Sulawesi Selatan (2009-2018)</li>
-                          <li>Ketua Badan Perusda Pemprov Sulawesi Selatan (2014-2018)</li>
-                          <li>Komisaris GMTDC, Tbk (2009-2014)</li>
-                        </ul>
-                      </li>
-                    </ul>
-                    <div class="d-flex align-items-end">
-                      <button
-                        type="button"
-                        class="btn hide-btn btn-primary"
-                        data-bs-dismiss="modal"
-                        aria-label="Close"
-                      >Tutup</button>
-                    </div>
-                  </div>
-                  <div class="col-md-4 col-12 order-1 order-md-1">
-                    <img
-                      src="../assets/Manajemen/Komisaris/Imam Mujahidin Fahmid - Komisaris.jpg"
-                      class="img-fluid mx-auto d-block p-3"
-                    />
-                    <h3 class="modal-title text-center">Imam Mujahidin Fahmid</h3>
-                    <h4 class="card-text text-center">
-                      Komisaris
-                    </h4>
-                  </div>  
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- modal end -->
-
-        <button
-        class="btn image-button item e1"
-        data-bs-toggle="modal"
-        data-bs-target="#kom2"
       >
         <img
           src="../assets/Manajemen/Komisaris/Sumyana Sukandar - Komisaris Utama.jpg"
@@ -131,7 +37,7 @@
         </button> -->
 
         <!-- modal -->
-        <div class="modal fade" id="kom2" tabindex="-1" aria-hidden="true">
+        <div class="modal fade" id="kom1" tabindex="-1" aria-hidden="true">
           <div
             class="modal-dialog modal-dialog-centered modal-xl"
           >
@@ -197,9 +103,103 @@
           </div>
         </div>
         <!-- modal end -->
+        <button
+        class="btn-square image-button item e1"
+        data-bs-toggle="modal"
+        data-bs-target="#kom2"
+        style="border-radius: 0"
+      >
+        <img
+          src="../assets/Manajemen/Komisaris/Imam Mujahidin Fahmid - Komisaris.jpg"
+        />
+        <!-- <div class="item e1"> -->
+          <div class="text1">
+            <h4><b>Komisaris</b></h4>
+            <p>Imam Mujahidin Fahmid</p>
+          </div>
+        <!-- </div> -->
+      </button>
+        
+        <!-- <button class="btn image-button" data-bs-toggle="modal" data-bs-target="#kom1">
+          <img src="../assets/Manajemen/Komisaris/Imam Mujahidin Fahmid - Komisaris.jpg" alt="Image 1">
+          <div class="overlay-text">
+            <div class="text-start">
+              <h4>Komisaris</h4>
+              <h5>Imam Mujahidin Fahmid</h5>
+            </div>
+          </div>
+        </button> -->
+
+        <!-- modal -->
+        <div class="modal fade" id="kom2" tabindex="-1" aria-hidden="true">
+          <div
+            class="modal-dialog modal-dialog-centered modal-xl"
+          >
+            <div class="modal-content">
+              <!-- <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div> -->
+              <div class="modal-body ">
+                <div class="row">
+                  <div class="col-md-12 d-flex justify-content-end">
+                    
+                  </div>
+                  <div class="col-md-8 col-12 order-2 order-md-1">
+                    <h2 class="modal-title mb-1">Biodata</h2>
+                    <ul>
+                      <li>Nama : Imam Mujahidin Fahmid</li>
+                      <li>Tempat, Tanggal Lahir : Bima, 23 Desember 1966</li>
+                      <li>Pendidikan : 
+                        <ul>
+                          <li>Sarjana Sosial Ekonomi Pertanian Universitas Hasanudin (1990)</li>
+                          <li>Master of Trade and Development Newcastle University Australia (2001)</li> 
+                          <li>Doktor Ekologi Manusia Institut Pertanian Bogor (2011)</li>
+                        </ul>
+                      </li>
+                      <li>Pengalaman : 
+                        <ul>
+                          <li>Menjabat sebagai Komisaris PT Pupuk Indonesai Utilitas (27 Desember 2021 - Sekarang)</li>
+                          <li>Staf Khusus Menteri Bidang Kebijakan Pertanian, Kementerian Pertanian RI (2019 – Sekarang)</li>
+                          <li>Staf Pengajar Fakultas Pertanian & Pasca Sarjana Unhas, Makassar (1992 – Sekarang)</li>
+                          <li>Direktur Publication Manajement Center Unhas, Makasar (2015-2018)</li>
+                          <li>Ketua Dewan Riset Daerah Pemprov Sulawesi Selatan, Makasar (2011-2018)</li>
+                          <li>Ketua Tim Ahli Gubernur Pemerintah Propinsi Sulawesi Selatan, Makasar (2009-2018)</li>
+                          <li>Tenaga Ahli Bappeda; Dinas Perkebunan; Dinas Pertanian; Tanaman Pangan dan Hirtikultura; Badan Ketahana Pangan Propinsi Sulawesi Selatan (2009-2018)</li>
+                          <li>Ketua Badan Perusda Pemprov Sulawesi Selatan (2014-2018)</li>
+                          <li>Komisaris GMTDC, Tbk (2009-2014)</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <div class="d-flex align-items-end">
+                      <button
+                        type="button"
+                        class="btn hide-btn btn-primary"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >Tutup</button>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-12 order-1 order-md-1">
+                    <img
+                      src="../assets/Manajemen/Komisaris/Imam Mujahidin Fahmid - Komisaris.jpg"
+                      class="img-fluid mx-auto d-block p-3"
+                    />
+                    <h3 class="modal-title text-center">Imam Mujahidin Fahmid</h3>
+                    <h4 class="card-text text-center">
+                      Komisaris
+                    </h4>
+                  </div>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal end -->
+
+        
 
         <button
-        class="btn image-button item e1"
+        class="btn-square image-button item e1"
         data-bs-toggle="modal"
         data-bs-target="#kom3"
       >
@@ -314,9 +314,6 @@ export default {
 </script>
 
 <style scoped>
-.btn {
-  border-radius: 0;
-}
 p{
   text-align: justify;
 }
@@ -327,15 +324,12 @@ p{
   transform: translate(-50%, -50%);
   /* Other styles as needed */
 }
-.modal-content {
-  border-radius: 0;
-}
 .info-container {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 70vh;
+  height: 50vh;
 }
 
 .main-button {
@@ -391,6 +385,7 @@ p{
   border: none;
   padding: 0;
   background: none;
+  border-radius: 0;
 }
 
 .image-button img {
