@@ -51,15 +51,23 @@
               <div class="row">
                 <div class="col-md-12 d-flex justify-content-end"></div>
                 <div class="col-md-8 col-12 order-2 order-md-1">
-                  <h2 class="modal-title mb-1">Pengalaman</h2>
-                  <p>
-                    Lahir di Surabaya, 15 Juni 1968. Menjabat sebagai Direktur
-                    Utama PT Pupuk Indonesia Utilitas sejak 13 November 2023.
-                    Sebelumnya menjabat sebagai SVP Commercial Marketing di PT
-                    Pupuk Indonesia (Persero) (1 Nov 2020- 13 November 2023), GM
-                    Operasi PT Pupuk Indonesia (Persero)(2016-2020). Meraih
-                    gelar Sarjana Teknik Kimia ITS Surabaya (1993).
-                  </p>
+                  <h2 class="modal-title mb-1">Biodata</h2>
+                  <ul>
+                      <li>Nama : Mochamad Safiie</li>
+                      <li>Tempat, Tanggal Lahir : Surabaya, 15 Juni 1968</li>
+                      <li>Pendidikan : 
+                        <ul>
+                          <li>Sarjana Teknik Kimia ITS Surabaya (1993)</li>
+                        </ul>
+                      </li>
+                      <li>Pengalaman : 
+                        <ul>
+                          <li>Direktur Utama PT Pupuk Indonesia Utilitas (13 November 2023 - Sekarang)</li>
+                          <li>SVP Commercial Marketing di PT Pupuk Indonesia (Persero) (1 Nov 2020- 13 November 2023)</li>
+                          <li>GM Operasi PT Pupuk Indonesia (Persero)(2016-2020)</li>
+                        </ul>
+                      </li>
+                    </ul>
                   <div class="d-flex align-items-end">
                     <button
                       type="button"
@@ -130,19 +138,25 @@
               <div class="row">
                 <div class="col-md-12 d-flex justify-content-end"></div>
                 <div class="col-md-8 col-12 order-2 order-md-1">
-                  <h2 class="modal-title mb-1">Pengalaman</h2>
-                  <p>
-                    Lahir pada 27 Januari 1971. Menjabat sebagai Direktur
-                    Keuangan PT Pupuk Indonesia Utilitas sejak 20 Januari 2022.
-                    Sebelumnya menjabat sebagai Direktur Keuangan PT Gresik
-                    Cipta Sejahtera (2019-2021), Chief Administration and
-                    Finance Site Office PT Rekayasa Industri (2017-2019), Chief
-                    Administration and Finance Head Office PT Rekayasa Industri
-                    (2015-2017), Administration and Finance Head Office PT
-                    Rekayasa Industri (2009-2015). Meraih gelar sarjana
-                    Mathematics Educations, Universita Sanata Dharma Yogyakarta
-                    (1996).
-                  </p>
+                  <h2 class="modal-title mb-1">Biodata</h2>
+                  <ul>
+                      <li>Nama : Nuri Kristiawan</li>
+                      <li>Tempat, Tanggal Lahir : Surabaya, 27 Januari 1971</li>
+                      <li>Pendidikan : 
+                        <ul>
+                          <li>Sarjana Mathematics Educations, Universita Sanata Dharma Yogyakarta (1996)</li>
+                        </ul>
+                      </li>
+                      <li>Pengalaman : 
+                        <ul>
+                          <li>Direktur Keuangan PT Pupuk Indonesia Utilitas (20 Januari 2022 - Sekarang)</li>
+                          <li>Direktur Keuangan PT Gresik Cipta Sejahtera (2019-2021)</li>
+                          <li>Chief Administration and Finance Site Office PT Rekayasa Industri (2017-2019)</li>
+                          <li>Chief Administration and Finance Head Office PT Rekayasa Industri (2015-2017)</li>
+                          <li>Administration and Finance Head Office PT Rekayasa Industri (2009-2015)</li>
+                        </ul>
+                      </li>
+                    </ul>
                   <div class="d-flex align-items-end">
                     <button
                       type="button"
@@ -214,17 +228,25 @@
               <div class="row">
                 <div class="col-md-12 d-flex justify-content-end"></div>
                 <div class="col-md-8 col-12 order-2 order-md-1">
-                  <h2 class="modal-title mb-1">Pengalaman</h2>
-                  <p>
-                    Lahir di Surabaya, 10 Januari 1968. Menjabat sebagai
-                    Direktur Operasi PT Pupuk Indonesia Utilitas sejak 20
-                    Janurai 2022. Sebelumnya menjabat sebagai DPB Direktur Utama
-                    Petrokimia Kayaku (2018-2021), GM Teknologi PT Petrokimia
-                    Gresik (2015-2017), GM Pengembangan PT Petrokimia Gresik
-                    (2014-2015). Meraih gelar Sarjana Teknik Kimia Institut
-                    Teknologi Sepuluh Nopember (1991) dan gelar Master Teknik
-                    Kimia Institut Teknologi Sepuluh Nopember (2007).
-                  </p>
+                  <h2 class="modal-title mb-1">Biodata</h2>
+                  <ul>
+                      <li>Nama : Anis Ernani</li>
+                      <li>Tempat, Tanggal Lahir : Surabaya, 10 Januari 1968</li>
+                      <li>Pendidikan : 
+                        <ul>
+                          <li>Sarjana Teknik Kimia Institut Teknologi Sepuluh Nopember (1991)</li>
+                          <li>Master Teknik Kimia Institut Teknologi Sepuluh Nopember (2007)</li>
+                        </ul>
+                      </li>
+                      <li>Pengalaman : 
+                        <ul>
+                          <li>Direktur Operasi PT Pupuk Indonesia Utilitas (20 Januari 2022 - Sekarang)</li>
+                          <li>DPB Direktur Utama Petrokimia Kayaku (2018-2021)</li>
+                          <li>GM Teknologi PT Petrokimia Gresik (2015-2017)</li>
+                          <li>GM Pengembangan PT Petrokimia Gresik (2014-2015)</li>
+                        </ul>
+                      </li>
+                    </ul>
                   <div class="d-flex align-items-end">
                     <button
                       type="button"
