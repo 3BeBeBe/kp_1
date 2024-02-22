@@ -970,4 +970,20 @@ export default {
   height: 110px; /* Adjust as needed */
   object-fit: cover;
 }
+.modal-title {
+  font-weight: 700;
+  color: #084e8b;
+  font-style: italic;
+  text-align: center;
+  /* text-shadow: 2px 1px #00b7ff; */
+}
+
+.head-modal {
+  font-weight: 600;
+  color: #f15a24;
+  font-size: x-large;
+}
+p {
+  text-align: justify;
+}
 </style>
