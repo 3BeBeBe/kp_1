@@ -320,21 +320,22 @@ export default {
 </script>
 
 <style scoped>
-.btn {
-  border-radius: 0;
-}
 p{
   text-align: justify;
 }
-.modal-content {
-  border-radius: 0;
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* Other styles as needed */
 }
 .info-container {
   position: relative;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  height: 70vh;
+  height: 50vh;
 }
 
 .main-button {
@@ -392,6 +393,7 @@ p{
   border: none;
   padding: 0;
   background: none;
+  border-radius: 0;
 }
 
 .image-button img {
