@@ -2,20 +2,12 @@
     <div class="container mt-5 mb-5">
       <h2>Laporan Keuangan</h2>
       <hr />
-      <div class="row">
-        <div class="col-md-9">
-          <div class="container tab-content mt-2 text-center">
-            <div class="tab-pane fade show active" id="lapkeu">
-              <div class="row mt-4">
-                <div class="col-md-3 d-flex justify-content-center align-items-center" v-for="(report, index) in reports" :key="index">
+      <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-md-3 d-flex justify-content-center align-items-center" v-for="(report, index) in reports" :key="index">
                   <a :href="report.link" class="btn" download>
                     <img class="img-fluid size-image mt-2" :src="report.coverImage" />
                   </a>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </template>
@@ -28,7 +20,7 @@
         reports: [
           {
             link: "../assets/laporanKeuangan/FINAL-Signed-Financial-Statements-PIU-31-December-2022.pdf",
-            coverImage: "../assets/laporanKeuangan/coverLK.jpeg"
+            coverImage: require("../assets/laporanKeuangan/coverLK.jpeg")
           },
           {
             link: "../assets/laporanKeuangan/FINAL-Financial-statements-PIU-31-December-2021_signed-version-1.pdf",
