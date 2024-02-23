@@ -1,157 +1,132 @@
 <template>
-    <div style="background-color: #143464;">
-        <div class="container p-5 text-white">
-            <div class="row justify-content-center">
-                <div class="col-md-4 d-flex flex-column justify-content-center align-items-start">
-                    <p class="">- Have fun reading our Magz</p>
-                    <h2 class="">Catch Phrase (Kalo bisa yang panjang dikit)</h2>
-                    <p class="">lorem ipsum dolor and so'on</p>
-
-                    <a :href="selectedImageDetails.readMoreLink" class="btn btn-primary mb-3" download>Read More</a>
-
-                    <div class="row">
-                        <div class="col-md-10">
-                            <p>Page</p>
-                            <p>{{ selectedImageDetails.pages }}</p>
-                        </div>
-                        <div class="col-md-2">
-                            <p>Year</p>
-                            <p>{{ selectedImageDetails.year }}</p>
-                        </div>
-                    </div>
+    <div style="background-color: rgba(3, 112, 177, 1);">
+    <div class="container">
+        <div class="row" style="display: flex; justify-content: space-between;">
+            <div class="col-md-3 mt-3 mb-3 d-flex align-items-center">
+                <div>
+                    <h1><b>Layanan</b></h1>
+                    <p>Lorem ipsum dolor bla blabla tesat i dont know what to put here</p>
                 </div>
-                <div class="col-md-4 d-flex justify-content-center align-items-start">
-                    <img class="img-fixed" :src="selectedImage">
-                    <!-- <img class="img-fixed" src="../assets/bulletinBUZZ/edisi6.png" > -->
+            </div>
+            <div class="col-md-7">
+                <div class="row mt-5 mb-5">
+                    <div class="col-md-12">
+                        <button class="btn image-button">
+                            <span class="default-content image-button">
+                                <img class="img-fluid" src="../assets/pabrik/GGCP/ggcp4.jpg"/>
+                                <div class="overlay1"></div>
+                            </span>
+                            <span class="hover-content image-button" style="background-color: white;">
+                                <h3 class="mb-3">GGCP</h3>
+                                <div class="row justify-content-center">
+                                    <div class="col-md-4 mb-5">
+                                        <p>GTG 22MW</p>
+                                    </div>
+                                    <div class="col-md-4 mb-5">
+                                        <p>HRSG 60 tph</p>
+                                        <p>PB 100 tph</p>
+                                    </div>
+                                    <div class="col-md-4 mb-5">
+                                        <p>Poly 4.2 kWp</p>
+                                        <p>Mono 4.6 kWp</p>
+                                    </div>
+                                </div>
+                            </span>
+                        </button>
+                    </div>
+                    <div class="col-md-12">
+                        <button class="btn image-button">
+                            <span class="default-content image-button">
+                                <img class="img-fluid" src="../assets/pabrik/KDM/kdm2.jpg"/>
+                                <div class="overlay2"></div>
+                            </span>
+                            <span class="hover-content image-button" style="background-color: white;">
+                                <h3 class="mb-3">KDM</h3>
+                                <div class="row d-flex align-items-center">
+                                    <div class="col-md-4 mb-5">
+                                        <p>GTG 22MW</p>
+                                    </div>
+                                    <div class="col-md-4 mb-5">
+                                        <p>HRSG 156 tph</p>
+                                    </div>
+                                    <div class="col-md-4 mb-5">
+                                        <p>500 Nm<sup>3</sup>/hr</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p>Coal Trading</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p>Integrasi List. 33 kV, 200 MVA</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p>PLTS 1.2 MWp</p>
+                                    </div>
+                                </div>
+                            </span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="container">
-        <div class="row">
-            <div v-for="(images, index) in images" :key="index" class="col-md-3 d-flex justify-content-center align-items-start p-5">
-                <button class="btn me-2" :class="{ 'selected': selectedImage === images.path }" :style="buttonStyle(images.path)" @click="selectImage(images.path)">
-                </button>
-            </div>
-        <!-- <div class="col-md-3 d-flex justify-content-center align-items-start p-5">
-            <button class="btn me-2" :class="{ 'selected': selectedImage === require('@/assets/bulletinBUZZ/edisi6.png') }" :style="buttonStyle(require('@/assets/bulletinBUZZ/edisi6.png'))" @click="changeImage(require('@/assets/bulletinBUZZ/edisi6.png'))">
-            </button>
-        </div>
-        <div class="col-md-3 d-flex justify-content-center align-items-start p-5">        
-            <button class="btn me-2" :class="{ 'selected': selectedImage === require('@/assets/bulletinBUZZ/edisi5.png') }" :style="buttonStyle(require('@/assets/bulletinBUZZ/edisi5.png'))" @click="changeImage(require('@/assets/bulletinBUZZ/edisi5.png'))">
-            </button>
-        </div>
-        <div class="col-md-3 d-flex justify-content-center align-items-start p-5">
-            <button class="btn me-2" :class="{ 'selected': selectedImage === require('@/assets/bulletinBUZZ/edisi4.png') }" :style="buttonStyle(require('@/assets/bulletinBUZZ/edisi4.png'))" @click="changeImage(require('@/assets/bulletinBUZZ/edisi4.png'))">
-            </button>
-        </div>
-        <div class="col-md-3 d-flex justify-content-center align-items-start p-5">
-            <button class="btn me-2" :class="{ 'selected': selectedImage === require('@/assets/bulletinBUZZ/edisi3.jpg') }" :style="buttonStyle(require('@/assets/bulletinBUZZ/edisi3.jpg'))" @click="changeImage(require('@/assets/bulletinBUZZ/edisi3.jpg'))">
-            </button>
-        </div>
-        <div class="col-md-3 d-flex justify-content-center align-items-start p-5">
-            <button class="btn me-2" :class="{ 'selected': selectedImage === require('@/assets/bulletinBUZZ/edisi2.jpg') }" :style="buttonStyle(require('@/assets/bulletinBUZZ/edisi2.jpg'))" @click="changeImage(require('@/assets/bulletinBUZZ/edisi2.jpg'))">
-            </button>
-        </div> -->
-        </div>
-        <!-- <div class="row">
-            <div class="col-md-3 d-flex justify-content-center align-items-start p-5">
-                <button class="btn">
-                <img class="img-fixed" src="../assets/bulletinBUZZ/edisi6.png" >
-                </button>
-            </div>
-            <div class="col-md-3 d-flex justify-content-center align-items-start p-5">
-                <button class="btn">
-                <img class="img-fixed" src="../assets/bulletinBUZZ/edisi5.png" >
-                </button>
-            </div>
-            <div class="col-md-3 d-flex justify-content-center align-items-start p-5">
-                <button class="btn">
-                <img class="img-fixed" src="../assets/bulletinBUZZ/edisi4.png" >
-                </button>
-            </div>
-            <div class="col-md-3 d-flex justify-content-center align-items-start p-5">
-                <button class="btn">
-                <img class="img-fixed" src="../assets/bulletinBUZZ/edisi3.jpg" >
-                </button>
-            </div>
-            <div class="col-md-3 d-flex justify-content-center align-items-start p-5">
-                <button class="btn">
-                <img class="img-fixed" src="../assets/bulletinBUZZ/edisi2.jpg" >
-                </button>
-            </div>
-        </div> -->
     </div>
 </template>
 
 <script>
     export default {
         name: 'NewsPages',
-        data() {
-            return {
-                selectedImage: require('@/assets/bulletinBUZZ/edisi6.png'), 
-                // selectedImage: null,
-                images: [
-                    { path: require('@/assets/bulletinBUZZ/edisi6.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_BULETIN_JUNI-2023_FINAL-WEB_compressed.pdf', pages: '36 Pages', year: '2023' },
-                    { path: require('@/assets/bulletinBUZZ/edisi5.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_BULETIN_DESEMBER-2022_FINAL-CETAK-HIRES.pdf', pages: '32 Pages', year: '2022' },
-                    { path: require('@/assets/bulletinBUZZ/edisi4.png'), readMoreLink: '@/assets/bulletinBUZZ/BUZZ-edisi-4.pdf', pages: '32 Pages', year: '2021' },
-                    { path: require('@/assets/bulletinBUZZ/edisi3.jpg'), readMoreLink: '@/assets/bulletinBUZZ/BUZZ-III-Agustus-2020.pdf', pages: '32 Pages', year: '2020' },
-                    { path: require('@/assets/bulletinBUZZ/edisi2.jpg'), readMoreLink: '@/assets/bulletinBUZZ/BUZZ-II-Februari-2019(1).pdf', pages: '32 Pages', year: '2019' },
-                    // {
-                    //     name: 'edisi6',
-                    //     readMoreLink: '@/assets/bulletinBUZZ/PIU_BULETIN_JUNI-2023_FINAL-WEB_compressed.pdf',
-                    //     pages: '20 pages',
-                    //     year: '2023'
-                    // },
-                    // {
-                    //     name: 'edisi5',
-                    //     readMoreLink: '@/assets/bulletinBUZZ/PIU_BULETIN_DESEMBER-2022_FINAL-CETAK-HIRES.pdf',
-                    //     pages: '30 pages',
-                    //     year: '2024'
-                    // },
-                    // Add more images as needed
-                ]
-            };
-        },
-        computed: {
-            selectedImageDetails() {
-                return this.images.find(images => images.path === this.selectedImage) || {
-                    readMoreLink: '@/assets/bulletinBUZZ/PIU_BULETIN_JUNI-2023_FINAL-WEB_compressed.pdf',
-                    pages: '20 pages',
-                    year: '2023'
-                };
-            }
-        },
-        methods: {
-            changeImage(imagePath) {
-                this.selectedImage = imagePath;
-            },
-            buttonStyle(imagePath) {
-                return {
-                    background: `url(${imagePath}) no-repeat center center / cover`,
-                    width: '100%',
-                    height: '250px',
-                };
-            },
-            selectImage(imagePath) {
-                this.selectedImage = imagePath;
-            },
-        },
     }
 </script>
 
 <style scoped>
-    .img-fixed {
-        width: 90%;
-        height: 420px;
+    .image-button {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        border: none;
+        padding: 0;
+        background: none;
+        border-radius: 0;
+    }
+    .image-button img {
+        width: 100%;
+        height: 100%;
         object-fit: cover;
     }
-    .btn{
-        border-radius: 0px;
+    .image-button .default-content {
+        display: block;
     }
-    .selected {
-        background-color: #007bff;
-        border-color: #007bff;
+    .image-button .hover-content {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .image-button:hover .default-content {
+        display: none;
+    }
+    .image-button:hover .hover-content {
+        display: block;
+    }
+    .image-button .default-content {
+        position: relative;
+    }
+    .image-button .default-content .overlay1 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(218, 93, 42, 0.5);
+    }
+    .image-button .default-content .overlay2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(16, 146, 72, 0.5);
     }
 </style>
