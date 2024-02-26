@@ -6,6 +6,7 @@
     <!-- <ItemCard/> -->
     <!-- <ItemCardTester/> -->
     <!-- <FlashNews/> -->
+    <PillarTest/>
     <BusinessProfile/>
     <NewsCarousal/>
     <!-- <NewsCarousal2/> -->
@@ -17,6 +18,7 @@
 // @ is an alias to /src
 // import ItemCard from '@/components/ItemCard.vue'
 import VideoCaraousal from '@/components/VideoCaraousal.vue'
+import PillarTest from '@/components/PillarTest.vue'
 // import NavBar from '@/components/NavBar.vue'
 // import FlashInfo from '@/components/FlashInfo.vue'
 // import FlashNews from '@/components/FlashNews.vue'
@@ -31,6 +33,7 @@ export default {
   components: {
     // NavBar,
     VideoCaraousal,
+    PillarTest,
     // ItemCard,
     // FlashInfo,
     // FlashNews,
