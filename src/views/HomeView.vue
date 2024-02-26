@@ -6,6 +6,7 @@
     <!-- <ItemCard/> -->
     <!-- <ItemCardTester/> -->
     <!-- <FlashNews/> -->
+    <BusinessProfile/>
     <NewsCarousal/>
     <!-- <NewsCarousal2/> -->
     <FooterSection/>
@@ -23,6 +24,7 @@ import FooterSection from '@/components/FooterSection.vue'
 import NewsCarousal from '@/components/NewsCarousal.vue'
 // import NewsCarousal2 from '@/components/NewsCarousal2.vue'
 // import ItemCardTester from '@/components/ItemCardTester.vue'
+import BusinessProfile from '@/components/BusinessProfile.vue'
 
 export default {
   name: 'HomeView',
@@ -36,6 +38,7 @@ export default {
     NewsCarousal,
     // NewsCarousal2,
     // ItemCardTester
+    BusinessProfile
   }
 }
 </script>
