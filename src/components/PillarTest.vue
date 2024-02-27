@@ -12,15 +12,64 @@
         <div class="row justify-content-center mt-5">
             <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
                 <div class="d-flex align-items-center justify-content-center position-relative">
-                    <button class="btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
-                        <h3 style="color: #21387c;"><i><b></b></i></h3>
+                    <button class="btn businessline-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
+                        <h3 style="color: #21387c;"><i><b>gawk</b></i></h3>
                     </button>  
-                    <div class="hidden-content" v-show="isContentVisible" style="transform: translate(250px, -500px); width: 300px; height: 300px;">
-                        <p>This is the content revealed on hover</p>
+                    <div class="hidden-content" v-show="isContentVisible" style="transform: translate(-700px, -600px); width: 300px; height: 300px;">
+                        <p>This is the content revealed on hover 1</p>
+                    </div>           
+                </div>
+            </div>
+
+            <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
+                <div class="d-flex align-items-center justify-content-center position-relative">
+                    <button class="btn business-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
+                        <h3 style="color: #21387c;"><i><b>rwar</b></i></h3>
+                    </button>  
+                    <div class="hidden-content" v-show="isContentVisible" style="transform: translate(20px, -600px); width: 300px; height: 300px;">
+                        <p>This is the content revealed on hover 2</p>
+                    </div>           
+                </div>
+            </div>   
+        </div>
+
+        <div class="row justify-content-center mt-5">
+            <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
+                <div class="d-flex align-items-center justify-content-center position-relative">
+                    <button class="btn corpval-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
+                        <h3 style="color: #21387c;"><i><b>gawk1</b></i></h3>
+                    </button>  
+                    <div class="hidden-content" v-show="isContentVisible" style="transform: translate(-700px, -600px); width: 300px; height: 300px;">
+                        <p>This is the content revealed on hover 1</p>
+                    </div>           
+                </div>
+            </div>
+
+            <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
+                <div class="d-flex align-items-center justify-content-center position-relative">
+                    <button class="btn corpmis-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
+                        <h3 style="color: #21387c;"><i><b>rwar1</b></i></h3>
+                    </button>  
+                    <div class="hidden-content" v-show="isContentVisible" style="transform: translate(20px, -600px); width: 300px; height: 300px;">
+                        <p>This is the content revealed on hover 2</p>
+                    </div>           
+                </div>
+            </div>   
+        </div>
+
+        <div class="row justify-content-center mt-5">
+            <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
+                <div class="d-flex align-items-center justify-content-center position-relative">
+                    <button class="btn vis-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
+                        <h3 style="color: #21387c;"><i><b>gawk2</b></i></h3>
+                    </button>  
+                    <div class="hidden-content" v-show="isContentVisible" style="transform: translate(-700px, -600px); width: 300px; height: 300px;">
+                        <p>This is the content revealed on hover 1</p>
                     </div>           
                 </div>
             </div>
         </div>
+
     </div>
 </template>
 
@@ -43,14 +92,54 @@ export default {
 </script>
 
 <style scoped>
-.btn {
+.businessline-btn {
     width: 50px; /* Adjust as needed */
     height: 50px; /* Adjust as needed */
     background-color: transparent;
     border: none;
     outline: none;
     cursor: pointer;
-    transform: translate(100px, -450px);
+    transform: translate(80px, -450px);
+}
+
+.business-btn {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transform: translate(-120px, -450px);
+}
+
+.corpmis-btn {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transform: translate(-60px, -425px);
+}
+
+.corpval-btn {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transform: translate(15px, -425px);
+}
+
+.vis-btn {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transform: translate(-25px, -450px);
 }
 
 .hidden-content {
