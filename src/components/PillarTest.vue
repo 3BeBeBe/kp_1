@@ -4,7 +4,7 @@
         <hr><br>
 
         <img
-            src="../assets/Figpie.png"
+            src="../assets/Figpieblank.png"
             class="img-fluid zoomable-image d-block mx-auto"
             alt=""
         />
@@ -13,7 +13,7 @@
             <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
                 <div class="d-flex align-items-center justify-content-center position-relative">
                     <button class="btn businessline-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
-                        <h3 style="color: #21387c;"><i><b>gawk</b></i></h3>
+                        <h3 style="color: #21387c;"><i><b>Business Enablers</b></i></h3>
                     </button>  
                     <div class="hidden-content" v-show="isContentVisible" style="transform: translate(-700px, -600px); width: 300px; height: 300px;">
                         <p>This is the content revealed on hover 1</p>
@@ -24,7 +24,7 @@
             <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
                 <div class="d-flex align-items-center justify-content-center position-relative">
                     <button class="btn business-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
-                        <h3 style="color: #21387c;"><i><b>rwar</b></i></h3>
+                        <h3 style="color: #21387c;"><i><b>Business Line</b></i></h3>
                     </button>  
                     <div class="hidden-content" v-show="isContentVisible" style="transform: translate(20px, -600px); width: 300px; height: 300px;">
                         <p>This is the content revealed on hover 2</p>
@@ -37,7 +37,7 @@
             <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
                 <div class="d-flex align-items-center justify-content-center position-relative">
                     <button class="btn corpval-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
-                        <h3 style="color: #21387c;"><i><b>gawk1</b></i></h3>
+                        <h3 style="color: #21387c;"><i><b>Corporate Value</b></i></h3>
                     </button>  
                     <div class="hidden-content" v-show="isContentVisible" style="transform: translate(-700px, -600px); width: 300px; height: 300px;">
                         <p>This is the content revealed on hover 1</p>
@@ -48,7 +48,7 @@
             <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
                 <div class="d-flex align-items-center justify-content-center position-relative">
                     <button class="btn corpmis-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
-                        <h3 style="color: #21387c;"><i><b>rwar1</b></i></h3>
+                        <h3 style="color: #21387c;"><i><b>Corporate Mission</b></i></h3>
                     </button>  
                     <div class="hidden-content" v-show="isContentVisible" style="transform: translate(20px, -600px); width: 300px; height: 300px;">
                         <p>This is the content revealed on hover 2</p>
@@ -61,7 +61,7 @@
             <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
                 <div class="d-flex align-items-center justify-content-center position-relative">
                     <button class="btn vis-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
-                        <h3 style="color: #21387c;"><i><b>gawk2</b></i></h3>
+                        <h3 style="color: #21387c;"><i><b>Vision</b></i></h3>
                     </button>  
                     <div class="hidden-content" v-show="isContentVisible" style="transform: translate(-700px, -600px); width: 300px; height: 300px;">
                         <p>This is the content revealed on hover 1</p>
@@ -139,7 +139,7 @@ export default {
     border: none;
     outline: none;
     cursor: pointer;
-    transform: translate(-25px, -450px);
+    transform: translate(-25px, -435px);
 }
 
 .hidden-content {
