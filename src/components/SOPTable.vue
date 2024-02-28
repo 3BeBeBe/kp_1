@@ -1,4 +1,4 @@
-<template>
+    <template>
     <div class="container mt-5 mb-5">
         <div class="row justify-content-center">
         <div class="col-md-6 mb-3 d-flex flex-column justify-content-between">
@@ -41,7 +41,9 @@
                 <p>Board Manual merupakan dokumen yang menjelaskan secara garis besar hak, kewajiban, tugas, wewenang, Dewan Komisaris dan Direksi sebagai Organ Utama Perusahaan serta proses hubungan dan fungsi anatara kedua organ tersebut.</p>
             </div>
                 <div class="text-end">
-                    <a href="../assets/tataKelola/PEDOMAN-ETIKA-DAN-PERILAKU-CODE-OF-CONDUCT.pdf" class="btn btn-primary" download>Download</a>
+                    <a href="../assets/tataKelola/PEDOMAN-ETIKA-DAN-PERILAKU-CODE-OF-CONDUCT.pdf" download>
+                        <img src="../assets/ButtonDesign/ButtonDesign - Download.png" alt="Download" />
+                    </a>
                 </div>
                 <hr>
         </div>

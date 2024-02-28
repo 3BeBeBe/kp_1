@@ -30,7 +30,7 @@
           </div> -->
           <div>
     <a href="../assets/tataKelola/PIAGAM-SATUAN-PENGAWASAN-INTERN-INTERNAL-AUDIT-CHARTER.pdf" download>
-        <img src="../assets/ButtonDesign - AuditCharter.png" alt="Audit Charter" />
+        <img src="../assets/ButtonDesign/ButtonDesign - AuditCharter.png" alt="Audit Charter" />
     </a>
 </div>
 
