@@ -7,11 +7,13 @@
                 <p>Tata Kelola Perusahaan berisi Arahan Strategis Direksi dan Dewan Komisaris dalam Penerapan GCG di Perusahaan dan menjadi induk kebijakan perusahaan  yang menjadi acuan bagi seluruh kegiatan Indonesia Power meliputi Hubungan antara Perusahaan dengan Pemegang Saham, Fungsi serta peran Dewan Komisaris dan Direksi, Hubungan Perusahaan dengan pemangku kepentingan (Stakeholder) dan prinsip-prinsip mengenai kebijakan pokok Perusahaan.</p>
             </div>
                 <div class="text-end d-flex justify-content-end">
-                    <button class="btn btn-primary me-2" type="button" data-bs-toggle="collapse" data-bs-target="#gcg" aria-expanded="false" aria-controls="gcg">
-                        GCG Assesment
+                    <button class="btn me-2" data-bs-toggle="collapse" data-bs-target="#gcg" aria-expanded="false" aria-controls="gcg">
+                        <img src="../assets/ButtonDesign/ButtonDesign - GCGAssessment.png" alt="GCG Assessment"/>
                     </button>
                     
-                    <a href="../assets/tataKelola/PEDOMAN-PENILAIAN-PENERAPAN-GCG-GCG-ASSESSMENT.pdf" class="btn btn-primary" download>Download</a>
+                    <a href="../assets/tataKelola/PEDOMAN-PENILAIAN-PENERAPAN-GCG-GCG-ASSESSMENT.pdf" class="mt-2" download>
+                        <img src="../assets/ButtonDesign/ButtonDesign - Download.png" />
+                    </a>
                 </div>
                 <hr>
         </div>
@@ -22,7 +24,9 @@
                 <p>Pedoman Etika Perusahaan merupakan acuan dalam melakukan interaksi di antara manajemen, pegawai serta para pemangku kepentingan (stakeholder) sesuai dengan nilai dan budaya perusahaan dan prinsip-prinsip GCG. COC ini mengatur mengenai apa yang patut dan tidak patut, baik dan tidak baik, hal-hal yang terpuji dan yang tercela, serta hal-hal yang dihargai dan tidak dihargai yang  dilakukann oleh pegawai IP dalam relasinya dengan semua stakeholder Perusahaan.</p>
             </div>
                 <div class="text-end">
-                    <a href="../assets/tataKelola/Board-Manual_compressed.pdf" class="btn btn-primary" download>Download</a>
+                    <a href="../assets/tataKelola/Board-Manual_compressed.pdf" download>
+                        <img src="../assets/ButtonDesign/ButtonDesign - Download.png" />
+                    </a>
                 </div>
                 <hr>
         </div>
@@ -53,7 +57,9 @@
                 <p>Kebijakan Pengendalian Gratifikasi memberikan panduan bagi pegawai untuk memahami definisi dan konsep Gratifikasi serta memahami cara bersikap apabila menghadapi adanya praktik Gratifikasi.</p>
             </div> 
                 <div class="text-end">
-                    <a href="../assets/tataKelola/gratifikasi.pdf" class="btn btn-primary" download>Download</a>
+                    <a href="../assets/tataKelola/gratifikasi.pdf" download>
+                        <img src="../assets/ButtonDesign/ButtonDesign - Download.png" />
+                    </a>
                 </div>
                 <hr>
         </div>

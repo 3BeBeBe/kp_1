@@ -906,6 +906,7 @@ export default {
         object-fit: cover;
         width: 100%;
         height: 100%;
+        border-radius: 15px;
     }
     .cardia-overlay {
         background-color: rgba(0, 0, 0, 0.5);
@@ -918,6 +919,8 @@ export default {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+        border-radius: 15px;
+
     }
     .cardia-overlay-text {
         color: #fff; 
