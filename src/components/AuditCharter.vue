@@ -20,14 +20,20 @@
               seluruh unit kerja dan anak perusahaan.
             </p>
           </div>
-          <div>
+          <!-- <div>
             <a
               href="../assets/tataKelola/PIAGAM-SATUAN-PENGAWASAN-INTERN-INTERNAL-AUDIT-CHARTER.pdf"
               class="btn btn-primary"
               download
               >Audit Charter</a
             >
-          </div>
+          </div> -->
+          <div>
+    <a href="../assets/tataKelola/PIAGAM-SATUAN-PENGAWASAN-INTERN-INTERNAL-AUDIT-CHARTER.pdf" download>
+        <img src="../assets/ButtonDesign - AuditCharter.png" alt="Audit Charter" />
+    </a>
+</div>
+
         </div>
       </div>
     </div>
