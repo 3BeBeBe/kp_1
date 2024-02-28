@@ -12,7 +12,7 @@
         <div class="row justify-content-center mt-5">
             <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
                 <div class="d-flex align-items-center justify-content-center position-relative">
-                    <button class="btn businessline-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
+                    <button class="btn businessenab-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
                         <h3 style="color: #21387c;"><i><b>Business Enablers</b></i></h3>
                     </button>  
                     <div class="hidden-content" v-show="isContentVisible" style="transform: translate(-700px, -600px); width: 300px; height: 300px;">
@@ -23,7 +23,7 @@
 
             <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
                 <div class="d-flex align-items-center justify-content-center position-relative">
-                    <button class="btn business-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
+                    <button class="btn businessline-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
                         <h3 style="color: #21387c;"><i><b>Business Line</b></i></h3>
                     </button>  
                     <div class="hidden-content" v-show="isContentVisible" style="transform: translate(20px, -600px); width: 300px; height: 300px;">
@@ -57,18 +57,44 @@
             </div>   
         </div>
 
-        <div class="row justify-content-center mt-5">
+        <!-- <div class="row justify-content-center mt-5">
             <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
                 <div class="d-flex align-items-center justify-content-center position-relative">
                     <button class="btn vis-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
                         <h3 style="color: #21387c;"><i><b>Vision</b></i></h3>
                     </button>  
+
                     <div class="hidden-content" v-show="isContentVisible" style="transform: translate(-700px, -600px); width: 300px; height: 300px;">
                         <p>This is the content revealed on hover 1</p>
-                    </div>           
+                    </div>      
+
+                    <div class="hidden-content" v-show="isContentVisible" style="transform: translate(100px, -600px); width: 300px; height: 300px;">
+                        <p>This is the content revealed on hover 2</p>
+                    </div>
+                    
                 </div>
             </div>
+        </div> -->
+
+        <div class="row justify-content-center mt-5">
+    <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
+        <div class="d-flex align-items-center justify-content-center position-relative">
+            <button class="btn vis-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
+                <h3 style="color: #21387c;"><i><b>Vision</b></i></h3>
+            </button>  
+
+            <div class="hidden-content" v-show="isContentVisible" style="position: absolute; top: 0; left: 0;">
+                <div style="transform: translate(-700px, -600px); width: 300px; height: 300px;">
+                    <p>This is the content revealed on hover 1</p>
+                </div>
+                <div style="transform: translate(100px, -600px); width: 300px; height: 300px;">
+                    <p>This is the content revealed on hover 2</p>
+                </div>
+            </div>      
         </div>
+    </div>
+</div>
+
 
     </div>
 </template>
@@ -92,6 +118,16 @@ export default {
 </script>
 
 <style scoped>
+.businessenab-btn {
+    width: 50px; /* Adjust as needed */
+    height: 50px; /* Adjust as needed */
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transform: translate(60px, -460px);
+}
+
 .businessline-btn {
     width: 50px; /* Adjust as needed */
     height: 50px; /* Adjust as needed */
@@ -99,17 +135,7 @@ export default {
     border: none;
     outline: none;
     cursor: pointer;
-    transform: translate(80px, -450px);
-}
-
-.business-btn {
-    width: 50px; /* Adjust as needed */
-    height: 50px; /* Adjust as needed */
-    background-color: transparent;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    transform: translate(-120px, -450px);
+    transform: translate(-140px, -460px);
 }
 
 .corpmis-btn {
@@ -119,7 +145,7 @@ export default {
     border: none;
     outline: none;
     cursor: pointer;
-    transform: translate(-60px, -425px);
+    transform: translate(-90px, -435px);
 }
 
 .corpval-btn {
@@ -129,7 +155,7 @@ export default {
     border: none;
     outline: none;
     cursor: pointer;
-    transform: translate(15px, -425px);
+    transform: translate(5px, -435px);
 }
 
 .vis-btn {
@@ -139,7 +165,7 @@ export default {
     border: none;
     outline: none;
     cursor: pointer;
-    transform: translate(-25px, -435px);
+    transform: translate(-25px, -445px);
 }
 
 .hidden-content {
