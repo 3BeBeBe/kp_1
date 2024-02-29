@@ -8,11 +8,13 @@
                 <div class="col-md-6">
                     <p>Untuk dapat mengakses laman e-procurement dapat mengunjungi link di bawah ini dengan menggunakan kredensial yang telah Anda miliki sewaktu mendaftar: </p>
                     <div class="d-inline-flex me-3">
-                        <a href="https://eprocurement.pupuk-indonesia.com/beranda" target=”_blank” class="btn btn-primary">E-Procurement</a>
+                        <a href="https://eprocurement.pupuk-indonesia.com/beranda" target=”_blank”>
+                            <img src="../assets/ButtonDesign/ButtonDesign - EProc.png" style="width: 100%;" />
+                        </a>
                     </div>
                     <p class="d-inline-flex">
-                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                Unduh Dokumen
+                        <button class="hidden-button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <img src="../assets/ButtonDesign/ButtonDesign - Download.png"/>
                         </button>
                     </p>
                 </div>
@@ -101,5 +103,13 @@
         /* background: rgba(0, 0, 0, 0.8); */
         background: linear-gradient(to right, rgb(0, 0, 0) 50%, rgba(255, 255, 255, 0) 100%);
         /* background: linear-gradient(to right, rgb(0, 0, 0) 50%, rgba(3, 112, 177, 1) 51%, rgba(16, 146, 72, 1) 52%, rgba(218, 93, 42, 1) 53%, rgba(255, 255, 255, 0) 54%); */
+    }
+
+    .hidden-button {
+        border: none;
+        background: none;
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
     }
 </style>
