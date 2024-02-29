@@ -3,16 +3,16 @@
         <div class="row justify-content-center">
         <div class="col-md-6 mb-3 d-flex flex-column justify-content-between">
             <div>
-                <h3 >Pedoman GCG</h3>
+                <h3><b><i>Pedoman GCG</i></b></h3>
                 <p>Tata Kelola Perusahaan berisi Arahan Strategis Direksi dan Dewan Komisaris dalam Penerapan GCG di Perusahaan dan menjadi induk kebijakan perusahaan  yang menjadi acuan bagi seluruh kegiatan Indonesia Power meliputi Hubungan antara Perusahaan dengan Pemegang Saham, Fungsi serta peran Dewan Komisaris dan Direksi, Hubungan Perusahaan dengan pemangku kepentingan (Stakeholder) dan prinsip-prinsip mengenai kebijakan pokok Perusahaan.</p>
             </div>
-                <div class="text-end d-flex justify-content-end">
-                    <button class="btn me-2" data-bs-toggle="collapse" data-bs-target="#gcg" aria-expanded="false" aria-controls="gcg">
-                        <img src="../assets/ButtonDesign/ButtonDesign - GCGAssessment.png" alt="GCG Assessment"/>
+                <div class="text-end d-flex justify-content-end align-items-right">
+                    <button class="hidden-button" data-bs-toggle="collapse" data-bs-target="#gcg" aria-expanded="false" aria-controls="gcg">
+                        <img src="../assets/ButtonDesign/ButtonDesign - GCGAssessment.png" alt="GCG Assessment" style="width: 72.5%;"/>
                     </button>
                     
-                    <a href="../assets/tataKelola/PEDOMAN-PENILAIAN-PENERAPAN-GCG-GCG-ASSESSMENT.pdf" class="mt-2" download>
-                        <img src="../assets/ButtonDesign/ButtonDesign - Download.png" />
+                    <a href="../assets/tataKelola/PEDOMAN-PENILAIAN-PENERAPAN-GCG-GCG-ASSESSMENT.pdf" class="mt-0" download>
+                        <img src="../assets/ButtonDesign/ButtonDesign - Download.png" style="width: 72.5%;"/>
                     </a>
                 </div>
                 <hr>
@@ -20,12 +20,12 @@
         
         <div class="col-md-6 mb-3 d-flex flex-column justify-content-between order-3 order-md-2">
             <div>                
-                <h3 >Board Manual</h3>
+                <h3><b><i>Board Manual</i></b></h3>
                 <p>Pedoman Etika Perusahaan merupakan acuan dalam melakukan interaksi di antara manajemen, pegawai serta para pemangku kepentingan (stakeholder) sesuai dengan nilai dan budaya perusahaan dan prinsip-prinsip GCG. COC ini mengatur mengenai apa yang patut dan tidak patut, baik dan tidak baik, hal-hal yang terpuji dan yang tercela, serta hal-hal yang dihargai dan tidak dihargai yang  dilakukann oleh pegawai IP dalam relasinya dengan semua stakeholder Perusahaan.</p>
             </div>
                 <div class="text-end">
                     <a href="../assets/tataKelola/Board-Manual_compressed.pdf" download>
-                        <img src="../assets/ButtonDesign/ButtonDesign - Download.png" />
+                        <img src="../assets/ButtonDesign/ButtonDesign - Download.png" style="width: 22.5%;"/>
                     </a>
                 </div>
                 <hr>
@@ -41,24 +41,24 @@
 
         <div class="col-md-6 mb-3 d-flex flex-column justify-content-between order-2 order-md-2">
             <div> 
-                <h3 >Pedoman COC</h3>
+                <h3><b><i>Pedoman COC</i></b></h3>
                 <p>Board Manual merupakan dokumen yang menjelaskan secara garis besar hak, kewajiban, tugas, wewenang, Dewan Komisaris dan Direksi sebagai Organ Utama Perusahaan serta proses hubungan dan fungsi anatara kedua organ tersebut.</p>
             </div>
                 <div class="text-end">
                     <a href="../assets/tataKelola/PEDOMAN-ETIKA-DAN-PERILAKU-CODE-OF-CONDUCT.pdf" download>
-                        <img src="../assets/ButtonDesign/ButtonDesign - Download.png" alt="Download" />
+                        <img src="../assets/ButtonDesign/ButtonDesign - Download.png" alt="Download" style="width: 22.5%;"/>
                     </a>
                 </div>
                 <hr>
         </div>
         <div class="col-md-6 mb-3 d-flex flex-column justify-content-between order-3 order-md-2">
             <div> 
-                <h3 >Pedoman Pengendalian Gratifikasi</h3>
+                <h3><b><i>Pedoman Pengendalian Gratifikasi</i></b></h3>
                 <p>Kebijakan Pengendalian Gratifikasi memberikan panduan bagi pegawai untuk memahami definisi dan konsep Gratifikasi serta memahami cara bersikap apabila menghadapi adanya praktik Gratifikasi.</p>
             </div> 
                 <div class="text-end">
                     <a href="../assets/tataKelola/gratifikasi.pdf" download>
-                        <img src="../assets/ButtonDesign/ButtonDesign - Download.png" />
+                        <img src="../assets/ButtonDesign/ButtonDesign - Download.png" style="width: 22.5%;"/>
                     </a>
                 </div>
                 <hr>
@@ -79,5 +79,13 @@
 <style scoped>
     .btn{
         border-radius: 0;
+    }
+
+    .hidden-button {
+        border: none;
+        background: none;
+        padding: 0;
+        margin: 0;
+        cursor: pointer;
     }
 </style>

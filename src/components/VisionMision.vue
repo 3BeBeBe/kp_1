@@ -76,7 +76,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.80);
+    background-color: rgba(255, 255, 255, 0.95);
     z-index: -1; /* Ensure the overlay is behind the container */
   }
 
@@ -91,7 +91,7 @@
   ul {
     /* color: #6c757d; */
     /* color: #eb5211; */
-    color: white;
+    /* color: white; */
     line-height: 1.5;
     position: relative; /* Added position relative to ensure z-index works */
     z-index: 3; /* Ensure the text is above the overlay */
@@ -115,18 +115,18 @@
     padding: 10px;
   }
 
-  .outline-text-w {
-    color: white; /* Text color */
+  /* .outline-text-w {
+    color: white;
     text-shadow: 
         -2px -2px 0 #00ccff,  
          2px -2px 0 #00ccff,
         -2px  2px 0 #0088ff,
          2px  2px 0 #0088ff;
-  }
+  } */
 
   .container {
     /* background-color: #2b4dbe; */
-    background-color: #006881;
+    /* background-color: #006881; */
     border-radius: 20px;
     margin-top: 15px;
     margin-bottom: 15px;
