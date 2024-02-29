@@ -88,9 +88,9 @@
                             <li>
                                 <router-link class="dropdown-item" to="/galeri" >CSR</router-link>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <router-link class="dropdown-item" to="/laporan" >Laporan</router-link>
-                            </li>
+                            </li> -->
                             <li>
                                 <router-link class="dropdown-item" to="/buzz" >Bulletin BUZZ</router-link>
                             </li>
