@@ -4,6 +4,7 @@
         <img src="../assets/director.jpg" alt="Main button image">
       </button>
       <transition name="fade" @before-enter="beforeEnter" @enter="enter"> -->
+      
     <div class="button-row" v-if="isLeft">
       <!-- <div class="item e1"> -->
       <button
@@ -335,7 +336,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  height: 50vh;
+  height: 70vh;
 }
 
 .main-button {

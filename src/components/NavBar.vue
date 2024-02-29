@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar transparent-navbar sticky-top bg-body-tertiary navbar-expand-lg bg-body-tertiary border-bottom border-body py-0" style="padding: 0.5rem 1rem;">
+    <nav class="navbar transparent-navbar sticky-top navbar-expand-lg bg-body-tertiary border-bottom border-body">
         <div class="container">
             <a class="navbar-brand" href="/">
                 <img src="../assets/Salinan LOGO PIU Warna.png" width="120" height="96">
@@ -154,7 +154,7 @@
                     </li>
                     
                 </ul>
-                <form class="d-flex mb-2 mt-2" role="search" @submit.prevent="search">
+                <form class="d-flex ms-5 mb-2 mt-2" role="search" @submit.prevent="search">
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" v-model="searchQuery">
                     <button class="btn btn-outline-primary" type="submit">Search</button>
                 </form>
