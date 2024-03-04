@@ -2,7 +2,7 @@
     <div style="background-color: rgba(3, 112, 177, 1);">
     <div class="container">
         <div class="row" style="display: flex; justify-content: space-between;">
-            <div class="col-md-4 mt-3 mb-3 d-flex align-items-center">
+            <div class="col-md-5 mt-3 mb-3 d-flex align-items-center">
                 <div class="centered-justify">
                     <h1 style="text-align: start;"><b>Portofolio Bisnis Perusahaan</b></h1>
                     <p>PT Pupuk Indonesia Utilitas memiliki aset fasilitas produksi di 2 (dua) lokasi, yaitu:</p>
@@ -12,11 +12,12 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <div class="row mt-5 mb-5">
                     <div class="col-md-12">
-                        <button class="btn image-button" data-bs-toggle="modal" data-bs-target="#ggcp">
-                            <span class="default-content image-button">
+                        <button class="btn image-button overlay1" data-bs-toggle="modal" data-bs-target="#ggcp">
+                            <img class="img-fluid" src="../assets/pabrik/GGCP/ggcp4.jpg"/>
+                            <!-- <span class="default-content image-button">
                                 <img class="img-fluid" src="../assets/pabrik/GGCP/ggcp4.jpg"/>
                                 <div class="overlay1"></div>
                             </span>
@@ -37,7 +38,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </span>
+                            </span> -->
                         </button>
                     </div>
 
@@ -58,8 +59,9 @@
                     </div>
 
                     <div class="col-md-12">
-                        <button class="btn image-button" data-bs-toggle="modal" data-bs-target="#kdm">
-                            <span class="default-content image-button">
+                        <button class="btn image-button overlay2" data-bs-toggle="modal" data-bs-target="#kdm">
+                            <img class="img-fluid" src="../assets/pabrik/KDM/kdm2.jpg"/>
+                            <!-- <span class="default-content image-button">
                                 <img class="img-fluid" src="../assets/pabrik/KDM/kdm2.jpg"/>
                                 <div class="overlay2"></div>
                             </span>
@@ -87,7 +89,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </span>
+                            </span> -->
                         </button>
                     </div>
 
@@ -139,7 +141,7 @@
         height: 100%;
         object-fit: cover;
     }
-    .image-button .default-content {
+    /* .image-button .default-content {
         display: block;
     }
     .image-button .hover-content {
@@ -166,13 +168,58 @@
         width: 100%;
         height: 100%;
         background: rgba(218, 93, 42, 0.5);
-    }
-    .image-button .default-content .overlay2 {
+    } */
+    /* .image-button .default-content .overlay2 {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
         background: rgba(16, 146, 72, 0.5);
+    } */
+    .overlay1 {
+        position: relative; /* Needed for the :after pseudo-element to work */
+        overflow: hidden;
+        color: white; /* White text */
+        cursor: pointer;
     }
+    .overlay1::after {
+        content: ""; /* This is necessary for the pseudo-element to work */
+        display: block; /* Display the background as a block */
+        position: absolute; /* Position it at the top-left corner of the button */
+        top: 0;
+        left: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        background: rgba(218, 93, 42, 0.5);
+    }
+    .overlay1 img {
+        transition: transform 0.3s ease; /* Adds a transition effect when scaling the img */
+    }
+    .overlay1:hover img{
+        transform: scale(1.1);
+    }
+    .overlay2 {
+        position: relative; /* Needed for the :after pseudo-element to work */
+        overflow: hidden;
+        color: white; /* White text */
+        cursor: pointer;
+    }
+    .overlay2::after {
+        content: ""; /* This is necessary for the pseudo-element to work */
+        display: block; /* Display the background as a block */
+        position: absolute; /* Position it at the top-left corner of the button */
+        top: 0;
+        left: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        background: rgba(16, 146, 72, 0.5);
+    }
+    .overlay2 img {
+        transition: transform 0.3s ease; /* Adds a transition effect when scaling the img */
+    }
+    .overlay2:hover img{
+        transform: scale(1.1);
+    }
+
 </style>

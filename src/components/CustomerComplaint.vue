@@ -4,20 +4,20 @@
         <h2>KELUHAN PELANGGAN</h2>
     <hr>
     </div>
-    <form>
+    <form @submit.prevent="handleSubmit">
         <div class="row">
             <div class="col">
                 <div class="mb-3">
                     <label for="inputNama" class="form-label">Nama</label>
-                    <input type="email" class="form-control" id="inputNama" aria-describedby="emailHelp">
+                    <input type="email" class="form-control" id="inputNama" v-model="nama">
                 </div>
                 <div class="mb-3">
                     <label for="inputTelepon" class="form-label">No. telepon</label>
-                    <input type="email" class="form-control" id="inputTelepon" aria-describedby="emailHelp">
+                    <input type="email" class="form-control" id="inputTelepon" v-model="telepon">
                 </div>
                 <div class="mb-3">
                     <label for="inputEmail" class="form-label">Alamat email</label>
-                    <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp">
+                    <input type="email" class="form-control" id="inputEmail" v-model="email">
                 </div>
                 <!-- <div class="mb-3 form-check">
                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -28,7 +28,7 @@
             <div class="col">
                 <div class="mb-3">
                     <label for="inputJenis" class="form-label">Jenis Pengaduan</label>
-                    <select class="form-select" aria-label="Default select example">
+                    <select class="form-select" aria-label="Default select example" v-model="jenis">
                         <option selected>---</option>
                         <option value="1">Unit Kerja Pengadaan</option>
                         <option value="2">Keuangan</option>
@@ -39,25 +39,55 @@
                 </div>
                 <div class="mb-5">
                     <label for="inputDetail" class="form-label">Detail Pengaduan</label>
-                    <textarea class="form-control" id="inputDetail" rows="7"></textarea>
+                    <textarea class="form-control" id="inputDetail" rows="7" v-model="detail"></textarea>
                 </div>
             </div>
         </div>
     </form>
+    <p>{{ message }}</p>
 </div>
 </template>
 <script>
+    import axios from 'axios';
+
     export default {
-        name: 'CustomerComplaint'
+        name: 'CustomerComplaint',
+        data() {
+            return {
+                nama: '',
+                telepon: '',
+                email: '',
+                jenis: '',
+                detail: '',
+                message: '', // Add this line
+            };
+        },
+        methods: {
+            handleSubmit() {
+                const formData = {
+                    nama: this.nama,
+                    telepon: this.telepon,
+                    email: this.email,
+                    jenis: this.jenis,
+                    detail: this.detail
+                };
+
+                axios.post('https://myapi.com/users', formData)
+                .then(response => {
+                    console.log(response);
+                    this.message = 'Form submitted successfully!'; // Add this line
+                })
+                .catch(error => {
+                    console.error(error);
+                    this.message = 'An error occurred while submitting the form.'; // Add this line
+                });
+            }
+        }
     }   
 </script>
 <style scoped>
-    .btn, .form-control, .form-select, .card {
-        border-radius: 0px;
-    }
 
     .container {
         min-height: 53.2vh;
     }
 </style>
-```

@@ -37,7 +37,7 @@
     }
 
     .zoomable-image:hover {
-        transform: scale(1.3);
+        transform: scale(1.1);
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 </style>

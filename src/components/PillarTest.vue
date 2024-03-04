@@ -1,5 +1,5 @@
 <template>
-    <div class="container mt-5 mb-5">
+    <div class="container mt-5">
         <h2 class="text-center" style="color: #084e8b; font-weight: 700; font-style: italic;">Pilar Perusahaan</h2>
         <hr><br>
 
@@ -10,7 +10,7 @@
         />
 
         <div class="row justify-content-center mt-5">
-            <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
+            <div ref="column2" id="column2" class="col-md-3 ms-4 me-4">
                 <div class="d-flex align-items-center justify-content-center position-relative">
                     <button class="btn businessenab-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
                         <h3 style="color: #21387c;"><i><b>Business Enablers</b></i></h3>
@@ -21,7 +21,7 @@
                 </div>
             </div>
 
-            <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
+            <div ref="column2" id="column2" class="col-md-3 ms-4 me-4">
                 <div class="d-flex align-items-center justify-content-center position-relative">
                     <button class="btn businessline-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
                         <h3 style="color: #21387c;"><i><b>Business Line</b></i></h3>
@@ -34,7 +34,7 @@
         </div>
 
         <div class="row justify-content-center mt-5">
-            <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
+            <div ref="column2" id="column2" class="col-md-3 ms-4 me-4">
                 <div class="d-flex align-items-center justify-content-center position-relative">
                     <button class="btn corpval-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
                         <h3 style="color: #21387c;"><i><b>Corporate Value</b></i></h3>
@@ -45,7 +45,7 @@
                 </div>
             </div>
 
-            <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
+            <div ref="column2" id="column2" class="col-md-3 ms-4 me-4">
                 <div class="d-flex align-items-center justify-content-center position-relative">
                     <button class="btn corpmis-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
                         <h3 style="color: #21387c;"><i><b>Corporate Mission</b></i></h3>
@@ -77,7 +77,7 @@
         </div> -->
 
         <div class="row justify-content-center mt-5">
-    <div ref="column2" id="column2" class="col-md-3 mb-5 ms-4 me-4">
+    <div ref="column2" id="column2" class="col-md-3 ms-4 me-4">
         <div class="d-flex align-items-center justify-content-center position-relative">
             <button class="btn vis-btn" type="button" @mouseover="showContent" @mouseleave="hideContent">
                 <h3 style="color: #21387c;"><i><b>Vision</b></i></h3>

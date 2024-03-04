@@ -886,7 +886,7 @@ export default {
 <style scoped>
 
     .card{
-        border-radius: 0px;
+        border-radius: 15px;
     }
     .cardia {
         position: relative;
@@ -897,6 +897,7 @@ export default {
         background: none;
         box-shadow: 0 4px 8px rgba(0, 183, 255, 0.25);
         transition: transform 0.3s ease;
+        border-radius: 15px;
     }
     .cardia:hover{
         box-shadow: 0 8px 16px rgba(0, 195, 255, 0.4); /* Adjust as needed */
