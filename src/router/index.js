@@ -210,7 +210,17 @@ const routes = [
   {
     path: '/lapkeu',
     name: 'lapkeu',
-    component: () => import ('../views/MoneyView.vue')
+    component: () => import ('../views/Laporan/Financial.vue')
+  },
+  {
+    path: '/laptah',
+    name: 'laptah',
+    component: () => import ('../views/Laporan/Yearly.vue')
+  },
+  {
+    path: '/lapkeb',
+    name: 'lapkeb',
+    component: () => import ('../views/Laporan/Sustainability.vue')
   }
   
 ]

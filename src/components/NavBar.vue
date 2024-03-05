@@ -110,13 +110,13 @@
                                 <router-link class="dropdown-item" to="/laporan" >Laporan Keberlanjutan</router-link>
                             </li> -->
                             <li>
-                                <router-link class="dropdown-item" to="/laporan">Laporan Tahunan</router-link>
+                                <router-link class="dropdown-item" to="/laptah">Laporan Tahunan</router-link>
                             </li>
                             <li>
                                 <router-link class="dropdown-item" to="/lapkeu">Laporan Keuangan</router-link>
                             </li>
                             <li>
-                                <router-link class="dropdown-item" to="/laporan">Laporan Keberlanjutan</router-link>
+                                <router-link class="dropdown-item" to="/lapkeb">Laporan Keberlanjutan</router-link>
                             </li>
 
                         </ul>
