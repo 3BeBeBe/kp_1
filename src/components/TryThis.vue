@@ -1,17 +1,17 @@
 <template>
   <div class="container">
     <div class="row">
-      <div class="col-md-4 d-flex align-items-center">
+      <div class="col-md-12 d-flex align-items-center justify-content-center rounded-contain-l text-center">
         <h3>Vision</h3>
-        <!-- <p class="">
-          Menjadi Perusahaan Energi dan Utilitas terintegrasi kelas dunia untuk menunjang bisnis utama PT Pupuk Indonesia (Persero) beserta anak perusahaan.
-        </p> -->
+        <p class="hiddening-text">opdjaiwdjawdioawjoawdjawdijawdjawiowaodajdojwaidadawjdadioaw</p>
       </div>
-      <div class="col-md-8">
+      <!-- <div class="col-md-8 rounded-contain-r">
         <p class="">
           Menjadi Perusahaan Energi dan Utilitas terintegrasi kelas dunia untuk menunjang bisnis utama PT Pupuk Indonesia (Persero) beserta anak perusahaan.
         </p>
-      </div>
+      </div> -->
+    </div>
+    <div class="row">
       <div class="col-md-4 d-flex align-items-center">
         <h3>Mission</h3>
         <!-- <ul class="">
@@ -169,5 +169,81 @@ export default {
   transform: rotate(-90deg);
   writing-mode: horizontal-tb;
   text-orientation: upright;
+}
+
+.rounded-contain-l {
+  background-color: rgb(0, 162, 255);
+  /* background: linear-gradient(to bottom, rgb(0, 255, 55), white); */
+  width: 100px;
+  height: 50px;
+  margin: 0 auto;
+  overflow: hidden;
+  color: white;
+  border-radius: 5px;
+  transition: width 1s, color 1.5s, border-radius 1s, height 1.5s, box-shadow 1.5s, background-color 1.5s;
+  position: relative;
+}
+
+.rounded-contain-l::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgb(0, 162, 255), white);
+  opacity: 0;
+  transition: opacity 1.5s; 
+  border-radius: inherit; 
+}
+
+.rounded-contain-l:hover {
+  width: 600px;
+  color: black;
+  border-radius: 20px;
+  height: 150px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.rounded-contain-l:hover::before {
+  opacity: 1;
+}
+
+.hiddening-text {
+  color: white;
+  transition: color 2s;
+}
+
+.hiddening-text:hover {
+  color: black;
+}
+
+
+
+/* .rounded-contain-l {
+  background: linear-gradient(to bottom, rgb(0, 255, 55), white);
+  width: 100px;
+  height: 50px;
+  margin: 0 auto;
+  overflow: hidden;
+  color: white;
+  border-radius: 5px;
+  transition: width 1s, color 1.5s, border-radius 1s, height 1.5s, box-shadow 1.5s, opacity 1.5s;
+}
+
+.rounded-contain-l:hover {
+  width: 600px;
+  color: black;
+  border-radius: 20px;
+  height: 150px;
+  background: linear-gradient(to bottom, rgb(0, 162, 255), white);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+} */
+
+.rounded-contain-r {
+  background: linear-gradient(to right, green, orange);
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  color: white;
 }
 </style>

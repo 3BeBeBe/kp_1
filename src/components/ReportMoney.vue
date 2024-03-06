@@ -28,7 +28,7 @@
         reports: [
           {
             link: "../assets/laporanKeuangan/FINAL-Signed-Financial-Statements-PIU-31-December-2022.pdf",
-            coverImage: require("../assets/laporanKeuangan/coverLK.jpeg")
+            coverImage: require("../assets/laporanKeuangan/LK2021.png")
           },
           {
             link: "../assets/laporanKeuangan/FINAL-Financial-statements-PIU-31-December-2021_signed-version-1.pdf",
