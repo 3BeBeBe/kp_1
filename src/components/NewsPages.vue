@@ -1,178 +1,289 @@
 <template>
-    <div style="background-color: rgba(3, 112, 177, 1);">
-    <div class="container">
-        <div class="row" style="display: flex; justify-content: space-between;">
-            <div class="col-md-4 mt-3 mb-3 d-flex align-items-center">
-                <div class="centered-justify">
-                    <h1 style="text-align: start;"><b>Portofolio Bisnis Perusahaan</b></h1>
-                    <p>PT Pupuk Indonesia Utilitas memiliki aset fasilitas produksi di 2 (dua) lokasi, yaitu:</p>
-                    <ul>
-                        <li>Gresik Gas Cogeneration Plant di Gresik : GTG 22 MW, HRSG 60 tph, PB 100 tph</li>
-                        <li>Cogeneration Plant di Bontang, melalui subsidiary PT Kaltim Daya Mandiri (KDM): GTG 34 MW, HRSG 156 tph, N2 Plant 500 Nm3/h, SWRO 2x50 m3/h, dan jaringan integrasi listrik. Melalui anak perusahaannya yaitu PT Kaltim Daya Mandiri Agro Energy (KDM-AE), KDM melakukan pengembangan lini bisnis pada bidang trading batubara. Sampai dengan tahun 2019 KDM-AE sudah melakukan pengiriman batubara hingga 270.000 MT/year ke wilayah Kalimantan Timur dan Sulawesi Barat.</li>
-                    </ul>
+    <div class="container mt-5 mb-5">
+        <div class="text-start">
+            <h2 style="font-style: italic; color: #084e8b; font-weight: 700">
+                Penghargaan
+            </h2>
+        </div>
+        <hr>
+      
+        <div class="row mt-4">
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/Sertifikat-ISO-9001-PT-Pupuk-Indonesia-Utilitas-Tahun-2022.jpg" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">ISO 9001:2015</h5>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-7">
-                <div class="row mt-5 mb-5">
-                    <div class="col-md-12">
-                        <button class="btn image-button" data-bs-toggle="modal" data-bs-target="#ggcp">
-                            <span class="default-content image-button">
-                                <img class="img-fluid" src="../assets/pabrik/GGCP/ggcp4.jpg"/>
-                                <div class="overlay1"></div>
-                            </span>
-                            <span class="hover-content image-button" style="background-color: white;">
-                                <div class="p-3">
-                                    <h3 class="mb-3">GGCP</h3>
-                                    <div class="row text-start">
-                                        <div class="col-md-4 mb-5">
-                                            <p>GTG 22MW</p>
-                                        </div>
-                                        <div class="col-md-4 mb-5">
-                                            <p>HRSG 60 tph</p>
-                                            <p>PB 100 tph</p>
-                                        </div>
-                                        <div class="col-md-4 mb-5">
-                                            <p>Poly 4.2 kWp</p>
-                                            <p>Mono 4.6 kWp</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </span>
-                        </button>
-                    </div>
 
-                    <div class="modal fade" id="ggcp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered modal-xl">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <img class="img-fluid" src="../assets/pabrik/GGCP/pub_ggcp.jpg"/>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/IQA-2022.png" class="img-fluid size-image"/>
 
-                    <div class="col-md-12">
-                        <button class="btn image-button" data-bs-toggle="modal" data-bs-target="#kdm">
-                            <span class="default-content image-button">
-                                <img class="img-fluid" src="../assets/pabrik/KDM/kdm2.jpg"/>
-                                <div class="overlay2"></div>
-                            </span>
-                            <span class="hover-content image-button" style="background-color: white;">
-                                <div class="p-3">
-                                    <h3 class="mb-3">KDM</h3>
-                                    <div class="row text-start">
-                                        <div class="col-md-4 mb-5">
-                                            <p>GTG 22MW</p>
-                                        </div>
-                                        <div class="col-md-4 mb-5">
-                                            <p>HRSG 156 tph</p>
-                                        </div>
-                                        <div class="col-md-4 mb-5">
-                                            <p>500 Nm<sup>3</sup>/hr</p>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <p>Coal Trading</p>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <p>Integrasi List. 33 kV, 200 MVA</p>
-                                        </div>
-                                        <div class="col-md-4">
-                                            <p>PLTS 1.2 MWp</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </span>
-                        </button>
+                        <h5 class="card-title colored-text-orange">IQA 2022</h5>
                     </div>
+                </div>
+            </div>
 
-                    <div class="modal fade" id="kdm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered modal-xl">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
-                                <div class="modal-body">
-                                    <img class="img-fluid" src="../assets/pabrik/KDM/pub_kdm.jpg"/>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                </div>
-                            </div>
-                        </div>
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/TKMPN-XXVI-copy.jpg" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">Predikat “Platinum” pada Gugus GKM Jamur Merang di Temu Karya Mutu Produktivitas Nasional (TKMPN) XXVI</h5>
                     </div>
+                </div>
+            </div>
 
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/TKMPN-XXVI-copy-2.jpg" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">Predikat “Gold” pada Gugus GKM Cute di Temu Karya Mutu Produktivitas Nasional (TKMPN) XXVI</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/TKMPN-XXVI.jpg" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">Predikat “Gold” pada Gugus QCC Warning di Temu Karya Mutu Produktivitas Nasional (TKMPN) XXVI</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/IQPC-Bali.png" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">IQPC 2022</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/Penghargaan-The-Most-Committed-GRC-Leader_rotated_page-0001.png" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">The Most Committed GRC Leader Agus Subekti – Direktur Utama</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/Special-Appriciation-of-Top-GRC-Awards-2022-on-Fraud-Control-System_rotated_page-0001.png" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">TOP SPECIAL RECOGNITION TOP GRC AWARDS 2022</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/TOP-GRC-Awards-2022-3-Stars_rotated_page-0001.png" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">TOP GRC AWARDS 2022 # 3 STARS</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/WhatsApp-Image-2022-07-19-at-5.18.23-PM.jpeg" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">Kecelakaan Nihil</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/WhatsApp_Image_2022-06-23_at_4.46.16_PM__1_-removebg-preview-1.png" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">ICCOSH 2022</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/DSC00461-removebg-preview.png" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">PIQI 2021</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/DSC00458-removebg-preview.png" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">PIQI 2021</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/DSC03015-removebg-preview.png" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">ICCOSH 2021</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/TKMPN-QCC-ENERGIZE-COGEN-2021_page-0002.jpg" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">TKMPN XXV dan IQPC 2021</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/TKMPN-QCC-ENERGIZE-COGEN-2021_page-0001.jpg" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">TKMPN XXV dan IQPC 2021</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/Sertifikat-ISO-45001-PT-Pupuk-Indonesia-Utilitas-Tahun-2022.jpg" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">ISO 45001:2018</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/Sertifikat-ISO-37001-PT-Pupuk-Indonesia-Utilitas-Tahun-2022.jpg" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">ISO 37001:2016</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/Sertifikat-ISO-14001-PT-Pupuk-Indonesia-Utilitas-Tahun-2022.jpg" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">ISO 14001:2015</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/Picture4.png" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">APQO IC 2021</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/Picture3.png" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">APQO IC 2021</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/Picture2.png" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">ICQCC 2021</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/Picture1.png" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">ICQCC 2021</h5>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 mb-3 zoomable-image">
+                <div class="card card-fixed">
+                    <div class="card-body d-flex flex-column justify-content-start">
+                        <img src="../assets/award/PIALA-QCC-COGEN-piutilitas.png" class="img-fluid size-image"/>
+
+                        <h5 class="card-title colored-text-orange">TKMPN 2019</h5>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    </div>
-</template>
+  </template>
+  <script>
+  export default {
+    name: "tryThis",
+  };
+  </script>
+  
+  <style scoped>
+  .size-image {
+    max-width: 100%; /* Adjust the maximum width as needed */
+    max-height: 200px; /* Adjust the maximum height as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevents extra space below inline images */
+    margin: 0 auto; /* Center the image within the container */
+  }
+  .zoomable-image {
+    transition: transform 0.3s;
+  }
+  
+  .zoomable-image:hover {
+    transform: scale(1.1);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .colored-text-orange {
+    color: rgb(204, 133, 0);
+    font-weight: 700;
+  }
 
-<script>
-    export default {
-        name: 'NewsPages',
-    }
-</script>
-
-<style scoped>
-    .centered-justify {
-        text-align: justify;
-        color: white;
-    }
-    .image-button {
-        position: relative;
-        width: 100%;
-        height: 300px;
-        border: none;
-        padding: 0;
-        background: none;
-        border-radius: 0;
-    }
-    .image-button img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-    .image-button .default-content {
-        display: block;
-    }
-    .image-button .hover-content {
-        display: none;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-    }
-    .image-button:hover .default-content {
-        display: none;
-    }
-    .image-button:hover .hover-content {
-        display: block;
-    }
-    .image-button .default-content {
-        position: relative;
-    }
-    .image-button .default-content .overlay1 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(218, 93, 42, 0.5);
-    }
-    .image-button .default-content .overlay2 {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(16, 146, 72, 0.5);
-    }
-</style>
+  .card-fixed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* ensure the container takes up the full height of the card */
+  }
+  </style>
+  

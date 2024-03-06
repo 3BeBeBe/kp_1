@@ -10,8 +10,9 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art1"
               >
-                <img src="@/assets/artikel/Artikel_1.jpeg" class="img-fixed" />
+                
                 <div class="card-body text-start">
+                  <img src="@/assets/artikel/Artikel_1.jpeg" class="img-fixed" />
                   <h5 class="card-title">
                     Berdayakan Kelompok Wanita, PI Utilitas Bentuk Bank Sampah
                     Desa Banyuwangi
@@ -130,8 +131,9 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art2"
               >
-                <img src="@/assets/artikel/Artikel_2.jpg" class="img-fixed" />
+                
                 <div class="card-body text-start">
+                  <img src="@/assets/artikel/Artikel_2.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     Terus Kembangkan Potensi, PI Utilitas Bekali Warga Cara
                     Mengolah Buah Nipah
@@ -270,8 +272,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art3"
               >
-                <img src="@/assets/artikel/Artikel_3.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/artikel/Artikel_3.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     Komisi VII DPR RI Lakukan Kunjungan Kerja Spesifik ke GGCP
                   </h5>
@@ -450,8 +452,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art4"
               >
-                <img src="@/assets/artikel/Artikel_4.jpeg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/artikel/Artikel_4.jpeg" class="img-fixed" />
                   <h5 class="card-title">
                     PI Utilitas Disiplin Implementasikan GRC
                   </h5>
@@ -579,8 +581,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art5"
               >
-                <img src="@/assets/artikel/Artikel_5.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/artikel/Artikel_5.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     Dukungan Keuangan untuk Pengembangan Bisnis Utilitas
                     Berbasis Energi Baru Terbarukan
@@ -737,8 +739,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art6"
               >
-                <img src="@/assets/artikel/Artikel_6.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/artikel/Artikel_6.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     Bisnis Utilitas Berbasis Energi Baru Terbarukan
                   </h5>
@@ -867,8 +869,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art7"
               >
-                <img src="@/assets/artikel/Artikel_7.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/artikel/Artikel_7.jpg" class="img-fixed" />
                   <h5 class="card-title">Masa Depan Bisnis Utilitas</h5>
 
                   <p class="card-text text-start">
@@ -1022,8 +1024,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art8"
               >
-                <img src="@/assets/artikel/Artikel_8.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/artikel/Artikel_8.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     PT Pupuk Indonesia Utilitas Catatkan Kinerja Positif Selama
                     Tahun 2021
@@ -1102,7 +1104,7 @@
                     </p>
                     <h5
                       class="text-justify"
-                      style="color: #f15a24 font-weight: bold"
+                      style="color: #f15a24; font-weight: bold;"
                     >
                       <p>Strategi Operasional yang Tepat dan Efisien</p>
                     </h5>
@@ -1248,8 +1250,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art9"
               >
-                <img src="@/assets/artikel/Artikel_9.png" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/artikel/Artikel_9.png" class="img-fixed" />
                   <h5 class="card-title">
                     e-Announcement LHKPN Pupuk Indonesia Group
                   </h5>
@@ -1313,8 +1315,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art10"
               >
-                <img src="@/assets/artikel/Artikel_10.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/artikel/Artikel_10.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     Dua Sertifikat ISO Diraih Sekaligus Oleh PT Pupuk Indonesia
                     Utilitas
@@ -1411,8 +1413,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art11"
               >
-                <img src="@/assets/artikel/Artikel_11.png" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/artikel/Artikel_11.png" class="img-fixed" />
                   <h5 class="card-title">
                     Kebijakan Mutu, Keselamatan dan Kesehatan Kerja, Lindung
                     Lingkungan dan Anti Penyuapan
@@ -1543,8 +1545,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art11"
               >
-                <img src="@/assets/artikel/Artikel_12.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/artikel/Artikel_12.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     Tingkatkan Kompetensi SDM, PI Utilitas Tandatangani MoU
                     dengan UGM
@@ -1635,8 +1637,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art12"
               >
-                <img src="@/assets/artikel/Artikel_13.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/artikel/Artikel_13.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     Kunjungi Yogyakarta, Dirut PI-Energi Dalami Potensi Energi
                     Baru Terbarukan
@@ -1739,8 +1741,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art13"
               >
-                <img src="@/assets/artikel/Artikel_14.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/artikel/Artikel_14.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     Lestarikan Ekowisata, PT Pupuk Indonesia Energi Salurkan
                     Dana CSR
@@ -1836,8 +1838,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art15"
               >
-                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                   <h5 class="card-title">Jelajah</h5>
 
                   <p class="card-text text-start">
@@ -1965,8 +1967,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art16"
               >
-                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                   <h5 class="card-title">Tiga Masalah, Tiga Solusi</h5>
 
                   <p class="card-text text-start">
@@ -2181,8 +2183,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art17"
               >
-                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     Tumbuh Kembang Energi Listrik Di Indonesia
                   </h5>
@@ -2372,8 +2374,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art18"
               >
-                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     Prospek Energi Surya Dan Mini Hidro Di Indonesia
                   </h5>
@@ -2586,8 +2588,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art19"
               >
-                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                   <h5 class="card-title">Efisiensi Yang Telah Teruji</h5>
 
                   <p class="card-text text-start">
@@ -2750,8 +2752,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art20"
               >
-                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     Pupuk Indonesia Energi, Hadir Untuk Efisiensi
                   </h5>
@@ -2928,7 +2930,7 @@ export default {
   height: 350px; /* Adjust as needed */
   box-shadow: 0 4px 8px rgba(0, 183, 255, 0.25);
   transition: transform 0.3s ease;
-  border-radius: 0;
+  border-radius: 15px;
 }
 
 .card-fixed:hover {

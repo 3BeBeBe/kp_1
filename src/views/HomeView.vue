@@ -174,7 +174,7 @@
       </div>
     </div>
   </div>
-    <PillarTest/>
+    <CompanyPillars/>
     <BusinessProfile/>
     <NewsCarousal/>
     <FooterSection/>
@@ -185,8 +185,9 @@
 // @ is an alias to /src
 // import ItemCard from '@/components/ItemCard.vue'
 // import VideoCaraousal from '@/components/VideoCaraousal.vue'
-import PillarTest from '@/components/PillarTest.vue'
+// import PillarTest from '@/components/PillarTest.vue'
 import NavBar from '@/components/NavBar.vue'
+import CompanyPillars from '@/components/CompanyPillars.vue'
 // import FlashInfo from '@/components/FlashInfo.vue'
 // import FlashNews from '@/components/FlashNews.vue'
 import FooterSection from '@/components/FooterSection.vue'
@@ -200,7 +201,7 @@ export default {
   components: {
     NavBar,
     // VideoCaraousal,
-    PillarTest,
+    // PillarTest,
     // ItemCard,
     // FlashInfo,
     // FlashNews,
@@ -208,7 +209,8 @@ export default {
     NewsCarousal,
     // NewsCarousal2,
     // ItemCardTester
-    BusinessProfile
+    BusinessProfile,
+    CompanyPillars
   },
   data() {
     return {

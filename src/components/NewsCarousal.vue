@@ -17,8 +17,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art1"
               >
-                <img src="@/assets/artikel/Artikel_1.jpeg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/artikel/Artikel_1.jpeg" class="img-fixed" />
                   <h5 class="card-title">
                     Berdayakan Kelompok Wanita, PI Utilitas Bentuk Bank Sampah
                     Desa Banyuwangi
@@ -137,8 +137,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art2"
               >
-                <img src="@/assets/artikel/Artikel_2.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/artikel/Artikel_2.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     Terus Kembangkan Potensi, PI Utilitas Bekali Warga Cara
                     Mengolah Buah Nipah
@@ -277,8 +277,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#art3"
               >
-                <img src="@/assets/artikel/Artikel_3.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/artikel/Artikel_3.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     Komisi VII DPR RI Lakukan Kunjungan Kerja Spesifik ke GGCP
                   </h5>
@@ -480,8 +480,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers1"
               >
-                <img src="@/assets/siaranPers/SP-1.jpg" class="img-fixed" />
                 <div class="card-body">
+                <img src="@/assets/siaranPers/SP-1.jpg" class="img-fixed" />
                   <h5 class="card-title text-start">
                     PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award
                     2022
@@ -597,8 +597,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers2"
               >
-                <img src="@/assets/siaranPers/SP-2.jpg" class="img-fixed" />
                 <div class="card-body">
+                <img src="@/assets/siaranPers/SP-2.jpg" class="img-fixed" />
                   <h5 class="card-title text-start">
                     Pupuk Indonesia Lunurkan Program Kompetisi Jurnalistik
                   </h5>
@@ -732,8 +732,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers3"
               >
-                <img src="@/assets/siaranPers/SP-3.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/siaranPers/SP-3.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     Pupuk Indonesia Utilitas Raih Tiga Penghargaan di Ajang TOP
                     GRC Awards 2022
@@ -929,7 +929,7 @@ export default {
 <style scoped>
 .card-fixed {
   width: 100%; /* Adjust as needed */
-  height: 300px; /* Adjust as needed */
+  height: 350px; /* Adjust as needed */
   box-shadow: 0 4px 8px rgba(0, 183, 255, 0.25);
   transition: transform 0.3s ease;
   border-radius: 10px;
@@ -958,7 +958,7 @@ export default {
   width: 100%;
   box-shadow: 0 4px 8px rgba(0, 47, 255, 0.25);
   transition: transform 0.3s ease;
-  border-radius: 0;
+  border-radius: 10px;
 }
 
 .card-more:hover {
@@ -967,7 +967,7 @@ export default {
 }
 .img-fixed {
   width: 100%; /* Adjust as needed */
-  height: 110px; /* Adjust as needed */
+  height: 150px; /* Adjust as needed */
   object-fit: cover;
 }
 .modal-title {

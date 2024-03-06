@@ -114,9 +114,9 @@
 </script>
 
 <style scoped>
-    .btn, .form-control, .form-select, .card {
+    /* .btn, .form-control, .form-select, .card {
         border-radius: 0px;
-    }
+    } */
     .gover-overlay-text {
         position: relative;
         color: rgb(255, 255, 255);

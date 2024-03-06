@@ -10,8 +10,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers1"
               >
-                <img src="@/assets/siaranPers/SP-1.jpg" class="img-fixed" />
                 <div class="card-body">
+                <img src="@/assets/siaranPers/SP-1.jpg" class="img-fixed" />
                   <h5 class="card-title text-start">
                     PT Pupuk Indonesia Utilitas Raih Indonesian Quality Award
                     2022
@@ -127,8 +127,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers2"
               >
-                <img src="@/assets/siaranPers/SP-2.jpg" class="img-fixed" />
                 <div class="card-body">
+                <img src="@/assets/siaranPers/SP-2.jpg" class="img-fixed" />
                   <h5 class="card-title text-start">
                     Pupuk Indonesia Lunurkan Program Kompetisi Jurnalistik
                   </h5>
@@ -262,8 +262,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers3"
               >
-                <img src="@/assets/siaranPers/SP-3.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/siaranPers/SP-3.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     Pupuk Indonesia Utilitas Raih Tiga Penghargaan di Ajang TOP
                     GRC Awards 2022
@@ -439,8 +439,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers4"
               >
-                <img src="@/assets/siaranPers/SP-4.jpg" class="img-fixed" />
                 <div class="card-body">
+                <img src="@/assets/siaranPers/SP-4.jpg" class="img-fixed" />
                   <h5 class="card-title text-start">
                     Genap Berusia Sewindu, PI Utilitas Rumuskan Sembilan Rencana
                     Strategis
@@ -585,8 +585,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers5"
               >
-                <img src="@/assets/siaranPers/SP-5.jpg" class="img-fixed" />
                 <div class="card-body">
+                <img src="@/assets/siaranPers/SP-5.jpg" class="img-fixed" />
                   <h5 class="card-title text-start">
                     Pupuk Indonesia Energi Melakukan Rebranding Menjadi Pupuk
                     Indonesia Utilitas
@@ -730,8 +730,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers6"
               >
-                <img src="@/assets/siaranPers/SP-6.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/siaranPers/SP-6.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     PI Utilitas Raih Sertifikasi ISO 9001:2015 Terkait Manajemen
                     Mutu
@@ -817,8 +817,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers7"
               >
-                <img src="@/assets/siaranPers/SP-7.jpg" class="img-fixed" />
                 <div class="card-body">
+                <img src="@/assets/siaranPers/SP-7.jpg" class="img-fixed" />
                   <h5 class="card-title text-start">
                     PI-Energi Salurkan Bantuan Sembako untuk Pondok Pesantren
                   </h5>
@@ -919,8 +919,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers8"
               >
-                <img src="@/assets/siaranPers/SP-8.jpg" class="img-fixed" />
                 <div class="card-body">
+                <img src="@/assets/siaranPers/SP-8.jpg" class="img-fixed" />
                   <h5 class="card-title text-start">
                     Langkah Preventif PI-Energi Cegah COVID-19
                   </h5>
@@ -1016,8 +1016,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers9"
               >
-                <img src="@/assets/siaranPers/SP-9.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/siaranPers/SP-9.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     PI-Energi Bagikan Sembako Untuk Yayasan Yatim Piatu
                   </h5>
@@ -1083,8 +1083,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers10"
               >
-                <img src="@/assets/siaranPers/SP-10.jpg" class="img-fixed" />
                 <div class="card-body">
+                <img src="@/assets/siaranPers/SP-10.jpg" class="img-fixed" />
                   <h5 class="card-title text-start">
                     Kunjungi Yogyakarta, Dirut PI-Energi Dalami Potensi Energi
                     Baru Terbarukan
@@ -1192,8 +1192,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers11"
               >
-                <img src="@/assets/siaranPers/SP-11.jpg" class="img-fixed" />
                 <div class="card-body">
+                <img src="@/assets/siaranPers/SP-11.jpg" class="img-fixed" />
                   <h5 class="card-title text-start">
                     Lestarikan Ekowisata, PT Pupuk Indonesia Energi Salurkan
                     Dana CSR
@@ -1290,8 +1290,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers12"
               >
-                <img src="@/assets/siaranPers/SP-12.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/siaranPers/SP-12.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     PI-Energi Raih Penghargaan Temu Karya Mutu dan Produktivitas
                     Nasional
@@ -1386,8 +1386,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers13"
               >
-                <img src="@/assets/siaranPers/SP-13.jpg" class="img-fixed" />
                 <div class="card-body">
+                <img src="@/assets/siaranPers/SP-13.jpg" class="img-fixed" />
                   <h5 class="card-title text-start">
                     Pemegang Saham PI Energi Angkat Direktur Operasi Baru
                   </h5>
@@ -1481,8 +1481,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers14"
               >
-                <img src="@/assets/siaranPers/SP-14.jpg" class="img-fixed" />
                 <div class="card-body">
+                <img src="@/assets/siaranPers/SP-14.jpg" class="img-fixed" />
                   <h5 class="card-title text-start">
                     Serahkan Bantuan Pendidikan, PI-Energi Fokus Kembangkan SDM
                     Di Indonesia
@@ -1618,8 +1618,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers15"
               >
-                <img src="@/assets/siaranPers/SP-15.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/siaranPers/SP-15.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     Kembangkan Bisnis, Pupuk Indonesia Energi Gandeng
                     Universitas Padjajaran
@@ -1760,8 +1760,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers16"
               >
-                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                 <div class="card-body">
+                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                   <h5 class="card-title text-start">
                     Dirgahayu PT Pupuk Indonesia Energi Ke-2
                   </h5>
@@ -1882,8 +1882,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers17"
               >
-                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                 <div class="card-body">
+                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                   <h5 class="card-title text-start">
                     Penandatanganan Kontrak EPCC Gresik Gas Cogeneration Plant
                   </h5>
@@ -1955,8 +1955,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers18"
               >
-                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     Pupuk Indonesia Energi Bangun Pembangkit Listrik di Gresik
                   </h5>
@@ -2082,8 +2082,8 @@
                 data-bs-toggle="modal"
                 data-bs-target="#pers19"
               >
-                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                 <div class="card-body text-start">
+                <img src="@/assets/siaranPers/SP-16.jpg" class="img-fixed" />
                   <h5 class="card-title">
                     PT Pupuk Indonesia Raih Annual Report Award 2015
                   </h5>
@@ -2230,7 +2230,7 @@ export default {
   height: 350px; /* Adjust as needed */
   box-shadow: 0 4px 8px rgba(0, 183, 255, 0.25);
   transition: transform 0.3s ease;
-  border-radius: 0;
+  border-radius: 15px;
 }
 
 .card-fixed:hover {

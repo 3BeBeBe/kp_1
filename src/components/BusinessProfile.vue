@@ -5,6 +5,7 @@
             <div class="col-md-5 mt-3 mb-3 d-flex align-items-center">
                 <div class="centered-justify">
                     <h1 style="text-align: start;"><b>Portofolio Bisnis Perusahaan</b></h1>
+                    <hr>
                     <p>PT Pupuk Indonesia Utilitas memiliki aset fasilitas produksi di 2 (dua) lokasi, yaitu:</p>
                     <ul>
                         <li>Gresik Gas Cogeneration Plant di Gresik : GTG 22 MW, HRSG 60 tph, PB 100 tph</li>

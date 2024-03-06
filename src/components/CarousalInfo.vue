@@ -122,9 +122,9 @@
     }
 </script>
 <style scoped>
-    .btn{
-        /* border-radius: 0; */
-    }
+    /* .btn{
+        border-radius: 0;
+    } */
     .overlay-text {
       position: absolute;
       top: 50%;

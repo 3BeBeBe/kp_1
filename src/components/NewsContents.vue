@@ -3317,7 +3317,7 @@
                     </p>
                     <h5
                       class="text-justify"
-                      style="color: #f15a24 font-weight: bold"
+                      style="color: #f15a24; font-weight: bold;"
                     >
                       <p>Strategi Operasional yang Tepat dan Efisien</p>
                     </h5>

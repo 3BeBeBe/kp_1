@@ -85,7 +85,7 @@
     }
 </script>
 
-<style>
+<style scoped>
     .image-container {
         width: 500px;  /* Set the width of the container */
         height: 400px;  /* Set the height of the container */
@@ -97,9 +97,9 @@
         height: 400px;  /* Make the image fill the height of the container */
         object-fit: contain;  /* Make the image maintain its aspect ratio */
     }
-    .btn{
+    /* .btn{
         border-radius: 0px;
-    }
+    } */
     .selected {
         background-color: #007bff;
         border-color: #007bff;
