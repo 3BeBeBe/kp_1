@@ -1,9 +1,38 @@
 <template>
     <nav class="navbar transparent-navbar sticky-top navbar-expand-lg bg-body-tertiary border-bottom border-body">
-        <div class="container">
-            <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="/">
                 <img src="../assets/Salinan LOGO PIU Warna.png" width="120" height="96">
             </a>
+        <div class="row">
+            <div class="container">
+                <!-- <a class="navbar-brand" href="/">
+                    <img src="../assets/Salinan LOGO PIU Warna.png" width="120" height="96">
+                </a> -->
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav navbar-auto me-auto">
+                    <li class="nav-item dropdown">
+                        <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profile</router-link>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <router-link class="dropdown-item" to="/sejarah" >Sejarah</router-link>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+                </div>
+            </div>
+
+            <div class="container">
+            <!-- <a class="navbar-brand" href="/">
+                <img src="../assets/Salinan LOGO PIU Warna.png" width="120" height="96">
+            </a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -164,6 +193,9 @@
                 </form>
             </div>
         </div>
+        </div>
+
+        
     </nav>
 </template>
 
