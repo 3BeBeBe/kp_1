@@ -1,7 +1,5 @@
 <template>
     <div class="container mt-3">
-        <h2>Corporate Social Responsibility</h2>
-        
         <hr>
         <div class="row mb-4">
             <div class="col-md-3">

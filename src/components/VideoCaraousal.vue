@@ -184,20 +184,6 @@ export default {
 </script>
 
 <style scoped>
-.nav-link {
-    color: #ffffff !important
-}
-.nav-link:hover{
-    color: #ffffff !important
-}
-.dropdown-item {
-  transition: background-color 0.3s ease;
-}
-.dropdown-item:hover {
-  background-color: #0d6efd;
-  color: #fff;
-  cursor: pointer;
-}
 .video-container {
   position: relative;
   width: 100%;

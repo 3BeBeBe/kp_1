@@ -73,13 +73,13 @@
                     </li> -->
 
                     <li class="nav-item dropdown">
-                        <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Lingkungan</router-link>
+                        <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Produk & Layanan</router-link>
                         <ul class="dropdown-menu">
                             <li>
-                                <router-link class="dropdown-item" to="/kdm" >Anak Perusahaan</router-link>
+                                <router-link class="dropdown-item" to="/ggcp" >Produk</router-link>
                             </li>
                             <li>
-                                <router-link class="dropdown-item" to="/ggcp" >Pabrik</router-link>
+                                <router-link class="dropdown-item" to="/kdm" >Anak Perusahaan</router-link>
                             </li>
                         </ul>
                     </li>
@@ -88,20 +88,17 @@
                         <router-link class="nav-link" to="/pengadaan" >Pengadaan</router-link>
                     </li> -->
                     
-                    <li class="nav-item dropdown">
+                    <!-- <li class="nav-item dropdown">
                         <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Publikasi</router-link>
                         <ul class="dropdown-menu">
                             <li>
                                 <router-link class="dropdown-item" to="/galeri" >CSR</router-link>
                             </li>
-                            <!-- <li>
-                                <router-link class="dropdown-item" to="/laporan" >Laporan</router-link>
-                            </li> -->
                             <li>
-                                <router-link class="dropdown-item" to="/buzz" >Bulletin BUZZ</router-link>
+                                <router-link class="dropdown-item" to="/laporan" >Laporan</router-link>
                             </li>
                         </ul>
-                    </li>
+                    </li> -->
 
                     <li class="nav-item dropdown">
                         <router-link class="nav-link dropdown-toggle" to="/laporan" role="button" data-bs-toggle="dropdown" aria-expanded="false">Laporan</router-link>
@@ -116,13 +113,13 @@
                                 <router-link class="dropdown-item" to="/laporan" >Laporan Keberlanjutan</router-link>
                             </li> -->
                             <li>
-                                <router-link class="dropdown-item" to="/laporan">Laporan Tahunan</router-link>
+                                <router-link class="dropdown-item" to="/laptah">Laporan Tahunan</router-link>
                             </li>
                             <li>
                                 <router-link class="dropdown-item" to="/lapkeu">Laporan Keuangan</router-link>
                             </li>
                             <li>
-                                <router-link class="dropdown-item" to="/laporan">Laporan Keberlanjutan</router-link>
+                                <router-link class="dropdown-item" to="/lapkeb">Laporan Keberlanjutan</router-link>
                             </li>
 
                         </ul>
@@ -139,6 +136,9 @@
                             </li>
                             <li>
                                 <router-link class="dropdown-item" to="/pers" >Siaran Pers</router-link>
+                            </li>
+                            <li>
+                                <router-link class="dropdown-item" to="/buzz" >Bulletin BUZZ</router-link>
                             </li>
                         </ul>
                     </li>
@@ -157,6 +157,10 @@
 
                     <li class="nav-item">
                         <router-link class="nav-link" to="/pengadaan" >Pengadaan</router-link>
+                    </li>
+
+                    <li class="nav-item">
+                        <router-link class="nav-link" to="/galeri" >CSR</router-link>
                     </li>
                     
                 </ul>

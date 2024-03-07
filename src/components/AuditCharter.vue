@@ -78,7 +78,7 @@ export default {
   } */
 
   .another-container {
-  background-image: url("../assets/Pattern_1.png");
+  background-image: url("../assets/PIU bg.png");
   background-size: cover;
   display: flex;
   background-repeat: no-repeat;
@@ -97,7 +97,7 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.5);
     z-index: -1; /* Ensure the overlay is behind the container */
   }
 

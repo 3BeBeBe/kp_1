@@ -54,7 +54,7 @@
 
   .another-container {
     /* background-color: rgba(8, 78, 139, 0.432); */
-    background-image: url(../assets/Pattern_1.png);
+    background-image: url("../assets/PIU bg.png");
     /* background-image: url(../assets/tester1.png); */
     /* background-image: url(../assets/logo\ PIU.png); */
     background-size: 1950px;
@@ -76,7 +76,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.5);
     z-index: -1; /* Ensure the overlay is behind the container */
   }
 
