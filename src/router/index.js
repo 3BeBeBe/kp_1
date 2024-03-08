@@ -221,6 +221,11 @@ const routes = [
     path: '/lapkeb',
     name: 'lapkeb',
     component: () => import ('../views/Laporan/Sustainability.vue')
+  },
+  {
+    path: '/sketchy',
+    name: 'contact',
+    component: () => import ('../views/ContactView.vue')
   }
   
 ]
