@@ -54,10 +54,10 @@
 
   .another-container {
     /* background-color: rgba(8, 78, 139, 0.432); */
-    background-image: url("../assets/PIU bg.png");
+    background-image: url("../assets/Pattern_3.png");
     /* background-image: url(../assets/tester1.png); */
     /* background-image: url(../assets/logo\ PIU.png); */
-    background-size: 1950px;
+    /* background-size: 1950px; */
     /* background-repeat: no-repeat; */
     /* background-position: center; */
     min-height: 63.3vh;

@@ -10,7 +10,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <div class="row justify-content-end">
                     <div class="col-md-12">
-                        <ul class="navbar-nav navbar-auto me-auto d-flex justify-content-end align-items-end">
+                        <ul class="navbar-nav navbar-auto d-flex justify-content-end align-items-end">
                             <li class="nav-item">
                                 <router-link class="nav-link" to="/wbs" >Whistle Blowing System</router-link>
                             </li>
@@ -59,7 +59,7 @@
                                         <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tata Kelola</router-link>
                                         <ul class="dropdown-menu">
                                             <li>
-                                                <router-link class="dropdown-item" to="/governance" >Governance</router-link>
+                                                <router-link class="dropdown-item" to="/governance" >Pedoman Tata Kelola</router-link>
                                             </li>
                                             <li>
                                                 <router-link class="dropdown-item" to="/audit" >Audit Charter</router-link>

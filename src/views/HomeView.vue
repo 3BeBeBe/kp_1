@@ -14,9 +14,9 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="row justify-content-end">
+                <div class="row">
                     <div class="col-md-12">
-                        <ul class="navbar-nav navbar-auto me-auto d-flex justify-content-end align-items-end">
+                        <ul class="navbar-nav navbar-auto d-flex justify-content-end align-items-end">
                             <li class="nav-item">
                                 <router-link class="nav-link" to="/wbs" >Whistle Blowing System</router-link>
                             </li>
@@ -65,7 +65,7 @@
                                         <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tata Kelola</router-link>
                                         <ul class="dropdown-menu">
                                             <li>
-                                                <router-link class="dropdown-item" to="/governance" >Governance</router-link>
+                                                <router-link class="dropdown-item" to="/governance" >Pedoman Tata Kelola</router-link>
                                             </li>
                                             <li>
                                                 <router-link class="dropdown-item" to="/audit" >Audit Charter</router-link>
@@ -315,6 +315,8 @@ import NewsCarousal from '@/components/NewsCarousal.vue'
 // import ItemCardTester from '@/components/ItemCardTester.vue'
 import BusinessProfile from '@/components/BusinessProfile.vue'
 
+import axios from 'axios';
+
 export default {
   name: 'HomeView',
   components: {
@@ -333,13 +335,28 @@ export default {
   },
   data() {
     return {
-      isTop: true
+      isTop: true,
+      searchQuery: '',
+      searchResults: [],
     };
   },
   methods: {
     checkScroll() {
       this.isTop = window.scrollY === 0;
-    }
+    },
+    search() {
+      axios.get('https://myapi.com/search', {
+        params: {
+          query: this.searchQuery,
+        },
+      })
+      .then(response => {
+        this.searchResults = response.data;
+      })
+      .catch(error => {
+        console.error(error);
+      });
+    },
   },
   mounted() {
     window.addEventListener('scroll', this.checkScroll);
