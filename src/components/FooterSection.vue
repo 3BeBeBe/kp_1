@@ -1,5 +1,5 @@
 <template>
-    <div class="good-corporate carousel-image-container">
+    <div class="good-corporate carousel-image-container fixed-bottom">
     <div class="container">
         <div class="row">
             <div class="col-md-3 mt-3">

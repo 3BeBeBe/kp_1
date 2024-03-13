@@ -1,36 +1,7 @@
 <template>
     <nav class="navbar transparent-navbar sticky-top navbar-expand-lg bg-body-tertiary border-bottom border-body">
-        <a class="navbar-brand" href="/">
-                <img src="../assets/Salinan LOGO PIU Warna.png" width="120" height="96">
-            </a>
-        <div class="row">
-            <div class="container">
-                <!-- <a class="navbar-brand" href="/">
-                    <img src="../assets/Salinan LOGO PIU Warna.png" width="120" height="96">
-                </a> -->
-
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav navbar-auto me-auto">
-                    <li class="nav-item dropdown">
-                        <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profile</router-link>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <router-link class="dropdown-item" to="/sejarah" >Sejarah</router-link>
-                            </li>
-                        </ul>
-                    </li>
-                    
-                </ul>
-                </div>
-            </div>
-
-            <div class="container">
-            <!-- <a class="navbar-brand" href="/">
+        <div class="container">
+            <!-- <a class="navbar-brand mt-4" href="/">
                 <img src="../assets/Salinan LOGO PIU Warna.png" width="120" height="96">
             </a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -38,164 +9,180 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav navbar-auto me-auto">
-                    <!-- <li class="nav-item">
-                        <router-link class="nav-link" to="/profile" >Profile</router-link>
-                    </li> -->
-
-                    <li class="nav-item dropdown">
-                        <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profile</router-link>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <router-link class="dropdown-item" to="/sejarah" >Sejarah</router-link>
+                <div class="row">
+                    <div class="col-12">
+                        <ul class="navbar-nav navbar-auto me-auto d-flex justify-content-end align-items-end">
+                            <li class="nav-item">
+                                <router-link class="nav-link" to="/wbs" >Whistle Blowing System</router-link>
                             </li>
-                            <li>
-                                <router-link class="dropdown-item" to="/visimisi" >Visi Misi</router-link>
-                            </li>
-                            <li>
-                                <router-link class="dropdown-item" to="/nilai" >Nilai-Nilai</router-link>
-                            </li>
-                            <li>
-                                <router-link class="dropdown-item" to="/manajemen" >Manajemen</router-link>
-                            </li>
-                            <li>
-                                <router-link class="dropdown-item" to="/struktur" >Struktur</router-link>
-                            </li>
-                            <li>
-                                <router-link class="dropdown-item" to="/penghargaan" >Penghargaan</router-link>
+                            <li class="nav-item">
+                                <router-link class="nav-link" to="/complaint" >Kontak Kami</router-link>
                             </li>
                         </ul>
-                    </li>
-                    <!-- <li class="nav-item">
-                        <router-link class="nav-link" to="/governance" >Tata Kelola</router-link>
-                    </li> -->
+                    </div>
+                    <div class="col-md-12 ">
+                        <!-- <hr> -->
+                        <ul class="navbar-nav navbar-auto me-auto d-flex justify-content-center align-items-center">
+                            <li class="nav-item">
+                                <a class="navbar-brand" href="/">
+                                    <img src="../assets/Salinan LOGO PIU Warna.png" width="120" height="96">
+                                </a>
+                            </li>
 
-                    <li class="nav-item dropdown">
-                        <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tata Kelola</router-link>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <router-link class="dropdown-item" to="/governance" >Governance</router-link>
+                            <li class="nav-item dropdown">
+                                <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profile</router-link>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <router-link class="dropdown-item" to="/sejarah" >Sejarah</router-link>
+                                    </li>
+                                    <li>
+                                        <router-link class="dropdown-item" to="/visimisi" >Visi Misi</router-link>
+                                    </li>
+                                    <li>
+                                        <router-link class="dropdown-item" to="/nilai" >Nilai-Nilai</router-link>
+                                    </li>
+                                    <li>
+                                        <router-link class="dropdown-item" to="/manajemen" >Manajemen</router-link>
+                                    </li>
+                                    <li>
+                                        <router-link class="dropdown-item" to="/struktur" >Struktur</router-link>
+                                    </li>
+                                    <li>
+                                        <router-link class="dropdown-item" to="/penghargaan" >Penghargaan</router-link>
+                                    </li>
+                                </ul>
                             </li>
-                            <li>
-                                <router-link class="dropdown-item" to="/audit" >Audit Charter</router-link>
-                            </li>
-                            <!-- <li>
-                                <router-link class="dropdown-item" to="/complaint" >Customer Complaint</router-link>
+                            <!-- <li class="nav-item">
+                                <router-link class="nav-link" to="/governance" >Tata Kelola</router-link>
                             </li> -->
-                            <!-- <li>
-                                <router-link class="dropdown-item" to="/procurement" >Pengadaan</router-link>
+
+                            <li class="nav-item dropdown">
+                                <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Tata Kelola</router-link>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <router-link class="dropdown-item" to="/governance" >Governance</router-link>
+                                    </li>
+                                    <li>
+                                        <router-link class="dropdown-item" to="/audit" >Audit Charter</router-link>
+                                    </li>
+                                    <!-- <li>
+                                        <router-link class="dropdown-item" to="/complaint" >Customer Complaint</router-link>
+                                    </li> -->
+                                    <!-- <li>
+                                        <router-link class="dropdown-item" to="/procurement" >Pengadaan</router-link>
+                                    </li> -->
+                                    <!-- <li>
+                                        <router-link class="dropdown-item" to="/wbs" >Whistle Blowing System</router-link>
+                                    </li> -->
+                                </ul>
+                            </li>
+
+                            <!-- <li class="nav-item">
+                                <router-link class="nav-link" to="/pabrik" >Pabrik</router-link>
                             </li> -->
-                            <!-- <li>
-                                <router-link class="dropdown-item" to="/wbs" >Whistle Blowing System</router-link>
+
+                            <li class="nav-item dropdown">
+                                <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Produk & Layanan</router-link>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <router-link class="dropdown-item" to="/ggcp" >Produk</router-link>
+                                    </li>
+                                    <li>
+                                        <router-link class="dropdown-item" to="/kdm" >Anak Perusahaan</router-link>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- <li class="nav-item">
+                                <router-link class="nav-link" to="/pengadaan" >Pengadaan</router-link>
                             </li> -->
-                        </ul>
-                    </li>
-
-                    <!-- <li class="nav-item">
-                        <router-link class="nav-link" to="/pabrik" >Pabrik</router-link>
-                    </li> -->
-
-                    <li class="nav-item dropdown">
-                        <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Produk & Layanan</router-link>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <router-link class="dropdown-item" to="/ggcp" >Produk</router-link>
-                            </li>
-                            <li>
-                                <router-link class="dropdown-item" to="/kdm" >Anak Perusahaan</router-link>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <!-- <li class="nav-item">
-                        <router-link class="nav-link" to="/pengadaan" >Pengadaan</router-link>
-                    </li> -->
-                    
-                    <!-- <li class="nav-item dropdown">
-                        <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Publikasi</router-link>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <router-link class="dropdown-item" to="/galeri" >CSR</router-link>
-                            </li>
-                            <li>
-                                <router-link class="dropdown-item" to="/laporan" >Laporan</router-link>
-                            </li>
-                        </ul>
-                    </li> -->
-
-                    <li class="nav-item dropdown">
-                        <router-link class="nav-link dropdown-toggle" to="/laporan" role="button" data-bs-toggle="dropdown" aria-expanded="false">Laporan</router-link>
-                        <ul class="dropdown-menu">
-                            <!-- <li>
-                                <router-link class="dropdown-item" to="/laporan" >Laporan Tahunan</router-link>
-                            </li>
-                            <li>
-                                <router-link class="dropdown-item" to="/laporan" >Laporan Keuangan</router-link>
-                            </li>
-                            <li>
-                                <router-link class="dropdown-item" to="/laporan" >Laporan Keberlanjutan</router-link>
+                            
+                            <!-- <li class="nav-item dropdown">
+                                <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Publikasi</router-link>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <router-link class="dropdown-item" to="/galeri" >CSR</router-link>
+                                    </li>
+                                    <li>
+                                        <router-link class="dropdown-item" to="/laporan" >Laporan</router-link>
+                                    </li>
+                                </ul>
                             </li> -->
-                            <li>
-                                <router-link class="dropdown-item" to="/laptah">Laporan Tahunan</router-link>
-                            </li>
-                            <li>
-                                <router-link class="dropdown-item" to="/lapkeu">Laporan Keuangan</router-link>
-                            </li>
-                            <li>
-                                <router-link class="dropdown-item" to="/lapkeb">Laporan Keberlanjutan</router-link>
+
+                            <li class="nav-item dropdown">
+                                <router-link class="nav-link dropdown-toggle" to="/laporan" role="button" data-bs-toggle="dropdown" aria-expanded="false">Laporan</router-link>
+                                <ul class="dropdown-menu">
+                                    <!-- <li>
+                                        <router-link class="dropdown-item" to="/laporan" >Laporan Tahunan</router-link>
+                                    </li>
+                                    <li>
+                                        <router-link class="dropdown-item" to="/laporan" >Laporan Keuangan</router-link>
+                                    </li>
+                                    <li>
+                                        <router-link class="dropdown-item" to="/laporan" >Laporan Keberlanjutan</router-link>
+                                    </li> -->
+                                    <li>
+                                        <router-link class="dropdown-item" to="/laptah">Laporan Tahunan</router-link>
+                                    </li>
+                                    <li>
+                                        <router-link class="dropdown-item" to="/lapkeu">Laporan Keuangan</router-link>
+                                    </li>
+                                    <li>
+                                        <router-link class="dropdown-item" to="/lapkeb">Laporan Keberlanjutan</router-link>
+                                    </li>
+
+                                </ul>
                             </li>
 
+                            <!-- <li class="nav-item">
+                                <router-link class="nav-link" to="/berita" >Berita</router-link>
+                            </li> -->
+                            <li class="nav-item dropdown">
+                                <router-link class="nav-link dropdown-toggle" to="/berita" role="button" data-bs-toggle="dropdown" aria-expanded="false">Berita</router-link>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <router-link class="dropdown-item" to="/artikel" >Artikel</router-link>
+                                    </li>
+                                    <li>
+                                        <router-link class="dropdown-item" to="/pers" >Siaran Pers</router-link>
+                                    </li>
+                                    <li>
+                                        <router-link class="dropdown-item" to="/buzz" >Bulletin BUZZ</router-link>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <!-- <li class="nav-item dropdown">
+                                <router-link class="nav-link dropdown-toggle" to="/pelaporan" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pelaporan</router-link>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <router-link class="dropdown-item" to="/complaint" >Customer Complaint</router-link>
+                                    </li>
+                                    <li>
+                                        <router-link class="dropdown-item" to="/wbs" >Whistle Blowing System (WBS)</router-link>
+                                    </li>
+                                </ul>
+                            </li> -->
+
+                            <li class="nav-item">
+                                <router-link class="nav-link" to="/pengadaan" >Pengadaan</router-link>
+                            </li>
+
+                            <li class="nav-item">
+                                <router-link class="nav-link" to="/galeri" >CSR</router-link>
+                            </li>
+
+                            <li class="nav-item d-flex justify-content-center align-items-center">
+                                <form class="d-flex ms-5" role="search" @submit.prevent="search">
+                                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" v-model="searchQuery">
+                                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                                </form>
+                            </li>
                         </ul>
-                    </li>
-
-                    <!-- <li class="nav-item">
-                        <router-link class="nav-link" to="/berita" >Berita</router-link>
-                    </li> -->
-                    <li class="nav-item dropdown">
-                        <router-link class="nav-link dropdown-toggle" to="/berita" role="button" data-bs-toggle="dropdown" aria-expanded="false">Berita</router-link>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <router-link class="dropdown-item" to="/artikel" >Artikel</router-link>
-                            </li>
-                            <li>
-                                <router-link class="dropdown-item" to="/pers" >Siaran Pers</router-link>
-                            </li>
-                            <li>
-                                <router-link class="dropdown-item" to="/buzz" >Bulletin BUZZ</router-link>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item dropdown">
-                        <router-link class="nav-link dropdown-toggle" to="/pelaporan" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pelaporan</router-link>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <router-link class="dropdown-item" to="/complaint" >Customer Complaint</router-link>
-                            </li>
-                            <li>
-                                <router-link class="dropdown-item" to="/wbs" >Whistle Blowing System (WBS)</router-link>
-                            </li>
-                        </ul>
-                    </li>
-
-                    <li class="nav-item">
-                        <router-link class="nav-link" to="/pengadaan" >Pengadaan</router-link>
-                    </li>
-
-                    <li class="nav-item">
-                        <router-link class="nav-link" to="/galeri" >CSR</router-link>
-                    </li>
-                    
-                </ul>
-                <form class="d-flex ms-5 mb-2 mt-2" role="search" @submit.prevent="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" v-model="searchQuery">
-                    <button class="btn btn-outline-primary" type="submit">Search</button>
-                </form>
+                    </div>
+                </div>
             </div>
         </div>
-        </div>
-
-        
     </nav>
 </template>
 
