@@ -40,12 +40,12 @@
                                             <li>
                                                 <router-link class="dropdown-item" to="/sejarah" >Sejarah</router-link>
                                             </li>
-                                            <li>
+                                            <!-- <li>
                                                 <router-link class="dropdown-item" to="/visimisi" >Visi Misi</router-link>
                                             </li>
                                             <li>
                                                 <router-link class="dropdown-item" to="/nilai" >Nilai-Nilai</router-link>
-                                            </li>
+                                            </li> -->
                                             <li>
                                                 <router-link class="dropdown-item" to="/manajemen" >Manajemen</router-link>
                                             </li>

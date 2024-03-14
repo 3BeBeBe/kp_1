@@ -1,5 +1,5 @@
 <template>
-    <div style="background-color: rgba(3, 112, 177, 1);">
+    <div class="parallax">
     <div class="container">
         <div class="row" style="display: flex; justify-content: space-between;">
             <div class="col-md-5 mt-3 mb-3 d-flex align-items-center">
@@ -124,9 +124,28 @@
 </script>
 
 <style scoped>
+    .parallax {
+        background-image: url("../assets/pabrik/GGCP/ggcp1.jpg");
+        min-height: 500px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .parallax::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(3, 112, 177, 0.5);
+    }
     .centered-justify {
-        text-align: justify;
+        text-align: relative;
         color: white;
+        z-index: 1;
     }
     .image-button {
         position: relative;

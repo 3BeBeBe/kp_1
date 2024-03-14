@@ -78,7 +78,7 @@ export default {
   } */
 
   .another-container {
-  background-image: url("../assets/PIU bg.png");
+  background-image: url("../assets/Pattern_2.png");
   background-size: cover;
   display: flex;
   background-repeat: no-repeat;
