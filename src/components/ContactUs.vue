@@ -91,15 +91,44 @@
               <hr class="short-line" />
 
               <div class="d-flex">
-                <div
-                  class="d-flex flex-column justify-content-left"
-                  style="margin-left: 50px"
-                >
-                  <!-- First flex-column -->
+                <div class="d-flex flex-column" style="margin-left: 50px">
                   <p style="font-weight: 650; font-size: 30px">Main Office</p>
-                  <p>moment</p>
-                  <p>moment2</p>
+                  <div class="d-flex flex-row">
+                    <img
+                      src="../assets/logo PIU.png"
+                      style="
+                        width: 15%;
+                        height: auto;
+                        align-self: center;
+                        margin-right: 25px;
+                      "
+                    />
+                    <div class="bolding-text">
+                      <p>Alamanda Tower Lt 26,Jl. T.B. Simatupang No 22-26</p>
+                      <p>Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta</p>
+                      <div class="d-flex flex-row align-items-center">
+                        <p>(021) 29661630</p>
+                        <!-- <img
+                          src="../assets/084retrophone.png"
+                          style="width: 7.5%; height: auto; margin-left: 10px; margin-bottom: 15px;"
+                        /> -->
+                      </div>
+                      <div class="d-flex flex-row align-items-center">
+                        <p>info@pi-utilitas.com</p>
+                        <!-- <img
+                          src="../assets/084email.png"
+                          style="width: 7.5%; height: auto; margin-left: 10px; margin-bottom: 15px;"
+                          /> -->
+                      </div>
+                      
+                    </div>
+                  </div>
                 </div>
+                
+                <p style="font-weight: 650; font-size: 30px">
+                    Gresik Gas Congregation Plant
+                  </p>
+
                 <div
                   class="d-flex flex-column justify-content-end"
                   style="
@@ -108,10 +137,6 @@
                     margin-right: 50px;
                   "
                 >
-                  <!-- Second flex-column with ml-auto class -->
-                  <p style="font-weight: 650; font-size: 30px">
-                    Gresik Gas Congregation Plant
-                  </p>
                   <p>moment</p>
                   <p>moment2</p>
                 </div>
@@ -124,7 +149,7 @@
           <div class="col-md-6 mt-5">
             <h3>tester</h3>
           </div>
-            
+
           <div
             class="col-md-6 d-flex flex-column justify-content-end"
             style="margin-left: auto"
@@ -256,6 +281,10 @@
 .flex-column-wrapper {
   display: flex;
   justify-content: space-between;
+}
+
+.bolding-text{
+  font-weight: 500;
 }
 </style>
 
