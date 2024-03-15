@@ -120,12 +120,44 @@
                           style="width: 7.5%; height: auto; margin-left: 10px; margin-bottom: 15px;"
                           /> -->
                       </div>
-                      
                     </div>
                   </div>
                 </div>
-                
-                <p style="font-weight: 650; font-size: 30px">
+
+                <div class="d-flex flex-column" style="margin-left: 50px">
+                  <p style="font-weight: 650; font-size: 30px">Main Office</p>
+                  <div class="d-flex flex-row">
+                    <img
+                      src="../assets/logo PIU.png"
+                      style="
+                        width: 15%;
+                        height: auto;
+                        align-self: center;
+                        margin-right: 25px;
+                      "
+                    />
+                    <div class="bolding-text">
+                      <p>Alamanda Tower Lt 26,Jl. T.B. Simatupang No 22-26</p>
+                      <p>Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta</p>
+                      <div class="d-flex flex-row align-items-center">
+                        <p>(021) 29661630</p>
+                        <!-- <img
+                          src="../assets/084retrophone.png"
+                          style="width: 7.5%; height: auto; margin-left: 10px; margin-bottom: 15px;"
+                        /> -->
+                      </div>
+                      <div class="d-flex flex-row align-items-center">
+                        <p>info@pi-utilitas.com</p>
+                        <!-- <img
+                          src="../assets/084email.png"
+                          style="width: 7.5%; height: auto; margin-left: 10px; margin-bottom: 15px;"
+                          /> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <p style="font-weight: 650; font-size: 30px">
                     Gresik Gas Congregation Plant
                   </p>
 
@@ -139,15 +171,18 @@
                 >
                   <p>moment</p>
                   <p>moment2</p>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-md-6 mt-5">
-            <h3>tester</h3>
+          <div
+            class="col-md-6 mt-5 d-flex flex-column justify-content-center align-items-center"
+          >
+            <h2>Your words are important to us.</h2>
+            <h5>Send us a message using this form.</h5>
           </div>
 
           <div
@@ -167,22 +202,60 @@
                         class="form-control"
                         id="inputNama"
                         v-model="nama"
-                      />
-                    </div>
-                    <div class="mb-3">
-                      <label for="inputTelepon" class="form-label"
-                        >Waktu Kejadian</label
-                      >
-                      <input
-                        type="telepon"
-                        class="form-control"
-                        id="inputTelepon"
-                        v-model="telepon"
+                        style="width: 600px"
                       />
                     </div>
                   </div>
+
+                    <!-- <div class="row">
+                      <div class="col-md-6">
+                    
+                      <div class="mb-3">
+                        <label for="inputTelepon" class="form-label"
+                          >Nomor Telepon</label
+                        >
+                        <input
+                          type="telepon"
+                          class="form-control"
+                          id="inputTelepon"
+                          v-model="telepon"
+                        />
+                      </div>
+                    </div>
+                    </div> -->
+                
+
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label for="inputNama" class="form-label"
+                          >Nomor Telepon</label
+                        >
+                        <input
+                          type="nama"
+                          class="form-control"
+                          id="inputTelepon"
+                          v-model="telepon"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="mb-3">
+                        <label for="inputTelepon" class="form-label"
+                          >E-mail</label
+                        >
+                        <input
+                          type="telepon"
+                          class="form-control"
+                          id="inputEmail"
+                          v-model="email"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
                   <div class="col-md-6">
-                    <div class="mb-3">
+                    <!-- <div class="mb-3">
                       <label for="inputJenis" class="form-label"
                         >Unit Kerja</label
                       >
@@ -194,8 +267,8 @@
                         <option value="4">Unit IPP Gresik</option>
                         <option value="5">Lainnya</option>
                       </select>
-                    </div>
-                    <div class="mb-3">
+                    </div> -->
+                    <!-- <div class="mb-3">
                       <label for="inputLokasi" class="form-label"
                         >Tempat Kejadian</label
                       >
@@ -205,12 +278,12 @@
                         id="inputLokasi"
                         v-model="lokasi"
                       />
-                    </div>
+                    </div> -->
                   </div>
 
                   <div class="mb-3">
                     <label for="inputDetail" class="form-label"
-                      >Detail Pengaduan</label
+                      >Pesan</label
                     >
                     <textarea
                       class="form-control"
@@ -219,7 +292,7 @@
                       v-model="detail"
                     ></textarea>
                   </div>
-                  <div class="mb-3">
+                  <!-- <div class="mb-3">
                     <label for="formFileMultiple" class="form-label"
                       >File Pendukung</label
                     >
@@ -229,7 +302,7 @@
                       id="formFileMultiple"
                       multiple
                     />
-                  </div>
+                  </div> -->
                   <div class="col">
                     <button type="submit" class="btn btn-primary">
                       Submit
@@ -283,7 +356,7 @@
   justify-content: space-between;
 }
 
-.bolding-text{
+.bolding-text {
   font-weight: 500;
 }
 </style>
