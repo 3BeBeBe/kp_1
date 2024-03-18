@@ -140,7 +140,8 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background-color: rgba(3, 112, 177, 0.5);
+        /* background-color: rgba(3, 112, 177, 0.5); */
+        background-color: rgba(0, 0, 0, 0.5);
     }
     .centered-justify {
         text-align: relative;

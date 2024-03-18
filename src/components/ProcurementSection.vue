@@ -3,20 +3,30 @@
         <div class="container mt-5 mb-5 p-5">
             <div class="row mt-5 mb-5 p-5 gover-overlay-text">
                 <div class="col-md-12">
-                    <h2>Pengadaan</h2>
+                    <h2 style="font-style: italic; color: white; font-weight: 700">Pengadaan</h2>
                 </div>
                 <div class="col-md-6">
                     <p>Untuk dapat mengakses laman e-procurement dapat mengunjungi link di bawah ini dengan menggunakan kredensial yang telah Anda miliki sewaktu mendaftar: </p>
                     <div class="d-inline-flex me-3">
-                        <a href="https://eprocurement.pupuk-indonesia.com/beranda" target=”_blank”>
-                            <img src="../assets/ButtonDesign/ButtonDesign - EProc.png" style="width: 100%;" />
-                        </a>
-                    </div>
-                    <p class="d-inline-flex">
-                        <button class="hidden-button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                                <img src="../assets/ButtonDesign/ButtonDesign - Download.png"/>
+                        <button href="https://eprocurement.pupuk-indonesia.com/beranda" target=”_blank” class="btn d-flex justify-content-center" style="width: 235px;">
+                            <div class="d-flex flex-column justify-content-center align-items-center" style="background-color: #0088ff; border: 3px solid #0088ff; border-radius: 50px 0px 0px 50px;">
+                                <p class="text-white m-0 p-2 ms-2"><b>PROCUREMENT</b></p>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center" style="background-color: #ffffff; border: 3px solid #0088ff; border-radius: 0px 50px 50px 0px;">
+                                <img src="../assets/logo PIU.png" class="me-3" style="max-width: 50%; max-height: 100%; height: auto; display: block; margin: 5px auto;">
+                            </div>
                         </button>
-                    </p>
+                    </div>
+                    <div class="d-inline-flex">
+                        <button data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" class="btn d-flex justify-content-center" style="width: 210px;">
+                            <div class="d-flex flex-column justify-content-center align-items-center" style="background-color: #0088ff; border: 3px solid #0088ff; border-radius: 50px 0px 0px 50px;">
+                                <p class="text-white m-0 p-2 ms-2"><b>DOWNLOAD</b></p>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center" style="background-color: #ffffff; border: 3px solid #0088ff; border-radius: 0px 50px 50px 0px;">
+                                <img src="../assets/logo PIU.png" class="me-3" style="max-width: 50%; max-height: 100%; height: auto; display: block; margin: 5px auto;">
+                            </div>
+                        </button>
+                    </div>
                 </div>
             </div>
 
@@ -71,9 +81,9 @@
     }
 </script>
 <style scoped>
-    .btn, .form-control, .form-label, .card {
+    /* .btn, .form-control, .form-label, .card {
         border-radius: 0;
-    }
+    } */
     .gover-overlay-text {
         position: relative;
         color: rgb(255, 255, 255);

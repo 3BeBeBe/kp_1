@@ -2,7 +2,7 @@
     <div class="good-corporate carousel-image-container d-flex flex-column justify-content-center">
     <div class="container p-5">
         <div class="row mt-5 mb-5 gover-overlay-text">
-            <h2>WHISTLEBLOWING SYSTEM</h2>
+            <h2 style="font-style: italic; color: white; font-weight: 700">WHISTLEBLOWING SYSTEM</h2>
             <div class="col-md-7">
                 <div>
                     <p>Whistleblowing system adalah mekanisme pelaporan yang dapat diajukan oleh internal perusahaan atau eksternal perusahaan untuk melaporkan adanya perbuatan yang melanggar hukum, atau peraturan lain yang berlaku, atau perbuatan menentang etika yang dilakukan oleh karyawan di perusahaan dengan tetap menjaga rahasia dari si pelapor. Setiap pihak baik insan Perusahaan maupun pihak eksternal memiliki kesempatan yang sama dalam melaporkan dugaan tindak pelanggaran di Perusahaan. WBS merupakan bagian dari sistem pengendalian internal dalam mencegah penyimpangan dan kecurangan serta memperkuat penerapan praktik Tata Kelola Perusahaan.
@@ -10,13 +10,25 @@
                     <p>Whistleblower PI Utilitas dapat di akses di <a href="https://wbs.pupuk-indonesia.com/">https://wbs.pupuk-indonesia.com/</a>
                     </p>   
 
-                    <p class="d-inline-flex gap-1 me-3">
-                        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                            Pengajuan
+                    <div class="d-inline-flex gap-1 me-3">
+                        <button  type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" class="btn d-flex justify-content-center" style="width: 220px;">
+                            <div class="d-flex flex-column justify-content-center align-items-center" style="background-color: #0088ff; border: 3px solid #0088ff; border-radius: 50px 0px 0px 50px;">
+                                <p class="text-white m-0 p-2 ms-2"><b>PENGAJUAN</b></p>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center" style="background-color: #ffffff; border: 3px solid #0088ff; border-radius: 0px 50px 50px 0px;">
+                                <img src="../assets/logo PIU.png" class="me-3" style="max-width: 50%; max-height: 100%; height: auto; display: block; margin: 5px auto;">
+                            </div>
                         </button>
-                    </p>
+                    </div>
                     <div class="d-inline-flex gap-1">
-                        <a href="../assets/tataKelola/PEDOMAN-WHISTLE-BLOWING-SYSTEM-WBS.pdf" class="btn btn-primary" download>Pedoman WBS</a>
+                        <button href="../assets/tataKelola/PEDOMAN-WHISTLE-BLOWING-SYSTEM-WBS.pdf" download class="btn d-flex justify-content-center" style="width: 210px;">
+                            <div class="d-flex flex-column justify-content-center align-items-center" style="background-color: #0088ff; border: 3px solid #0088ff; border-radius: 50px 0px 0px 50px;">
+                                <p class="text-white m-0 p-2 ms-2"><b>DOWNLOAD</b></p>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center" style="background-color: #ffffff; border: 3px solid #0088ff; border-radius: 0px 50px 50px 0px;">
+                                <img src="../assets/logo PIU.png" class="me-3" style="max-width: 50%; max-height: 100%; height: auto; display: block; margin: 5px auto;">
+                            </div>
+                        </button>
                     </div>
 
                 </div>

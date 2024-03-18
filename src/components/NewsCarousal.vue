@@ -1,13 +1,7 @@
 <template>
   <div style="background-color: #edf4f9;">
   <div class="container p-5">
-    <h2
-      style="
-        text-align: left;
-        color: #084e8b;
-        font-style: italic;
-      "
-    >
+    <h2 style="font-style: italic; color: #084e8b; font-weight: 700">
       Artikel
     </h2>
     <div class="row mt-2 mb-4 d-flex justify-content-center">
@@ -464,13 +458,7 @@
         </router-link>
       </div>
     </div>
-      <h2
-        style="
-          text-align: left;
-          color: #084e8b;
-          font-style: italic;
-        "
-      >
+      <h2 style="font-style: italic; color: #084e8b; font-weight: 700">
         Siaran Pers
       </h2>
     <div class="row mt-2 d-flex justify-content-center">

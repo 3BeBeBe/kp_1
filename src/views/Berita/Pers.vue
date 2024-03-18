@@ -1,7 +1,7 @@
 <template>
     <NavBar/>
     <div class="container mt-3">
-        <h2>Siaran Pers</h2>
+        <h2 style="font-style: italic; color: #084e8b; font-weight: 700">Siaran Pers</h2>
         <hr>
         <div class="row">
             <div class="col-md-4 col-6 mb-3">

@@ -303,7 +303,8 @@ export default {
     border-radius: 0px;
 } */
 .nav-link {
-    color: #084e8b !important
+    color: #084e8b !important;
+    font-weight: bold;
 }
 .nav-link:hover{
     color: #0d6efd !important

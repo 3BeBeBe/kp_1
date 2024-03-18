@@ -373,7 +373,8 @@ export default {
   width: 100%;
 }
 .nav-link {
-    color: #ffffff !important
+    color: #ffffff !important;
+    font-weight: bold;
 }
 .nav-link:hover{
     color: #ffffff !important

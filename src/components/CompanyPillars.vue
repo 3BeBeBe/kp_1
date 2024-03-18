@@ -3,7 +3,7 @@
     <div class="row gx-0 d-flex justify-content-center">
       <div class="col-md-3">
         <div>
-          <h2>Pilar PI-Utilitas</h2>
+          <h1 style="font-style: italic; color: #084e8b; font-weight: 700">Pilar PI-Utilitas</h1>
         </div>
         <nav class="nav flex-column">
           <a class="tab-menu nav-link active" aria-current="true" data-bs-toggle="tab" href="#vision">Vision</a>
@@ -13,13 +13,15 @@
           <a class="tab-menu nav-link" aria-current="true" data-bs-toggle="tab" href="#corporate-value">Corporate Value</a>
         </nav>
       </div>
-      <div class="col-md-9 tab-content" style="background-color: rgba(3, 112, 177, 1);; color: white;">
+      <div class="col-md-9 tab-content" style="background-color: rgba(3, 112, 177, 1); color: white;">
         <div class="tab-pane fade show active m-4" id="vision">
           <h3 class=""><i><b>Visi</b></i></h3>
+          <hr>
           <p class="">Menjadi Perusahaan Energi dan Utilitas terintegrasi kelas dunia untuk menunjang bisnis utama PT Pupuk Indonesia (Persero) beserta anak perusahaannya.</p>
         </div>
         <div class="tab-pane fade m-4" id="mission">
           <h3 class=""><i><b>Misi</b></i></h3>
+          <hr>
           <ul class="">
             <li>
               Melakukan usaha dalam bidang penyediaan energi dan utilitas.
@@ -37,71 +39,121 @@
         </div>
         <div class="tab-pane fade m-4" id="business-line">
           <h3 class=""><i><b>Business Line</b></i></h3>
+          <hr>
           <div class="row row-space">
-            <div class="col-md-4">
-              <p class="">
-                (Listrik)<br><b>GTG</b> GGCP + KDM<br><b>STG</b> RDM<br><b>PLTS</b> Green Energy
-              </p>
+            <div class="col-md-4 mb-3">
+              <div class="card card-fixed">
+                <div class="card-body text-start">
+                  <h5 class="card-title">
+                    (Listrik)<br><b>GTG</b> GGCP + KDM<br><b>STG</b> RDM<br><b>PLTS</b> Green Energy
+                  </h5>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4">
-              <p class="">
-                (Steam)<br><b>HRSG</b> GGCP + KDM
-              </p>
+            <div class="col-md-4 mb-3">
+              <div class="card card-fixed">
+                <div class="card-body text-start">
+                  <h5 class="card-title">
+                    (Steam)<br><b>HRSG</b> GGCP + KDM
+                  </h5>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4">
-              <p class="">
-                (N2 & O2)<br>Industrial Gases
-              </p>
+            <div class="col-md-4 mb-3">
+              <div class="card card-fixed">
+                <div class="card-body text-start">
+                  <h5 class="card-title">
+                    (N2 & O2)<br>Industrial Gases
+                  </h5>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4">
-              <p class="">
-                (SPKLU)<br>Waste Water Treatment
-              </p>
+            <div class="col-md-4 mb-3">
+              <div class="card card-fixed">
+                <div class="card-body text-start">
+                  <h5 class="card-title">
+                    (SPKLU)<br>Waste Water Treatment
+                  </h5>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4">
-              <p class="">
-                (Jasa Planting Services)<br><b>O&M</b> Tracon Industri
-              </p>
+            <div class="col-md-4 mb-3">
+              <div class="card card-fixed">
+                <div class="card-body text-start">
+                  <h5 class="card-title">
+                    (Jasa Planting Services)<br><b>O&M</b> Tracon Industri
+                  </h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="tab-pane fade m-4" id="business-enabler">
           <h3 class=""><i><b>Business Enabler</b></i></h3>
+          <hr>
           <div class="row row-space">
-            <div class="col-md-4">
-              <p class="">
-                Business Development
-              </p>
+            <div class="col-md-3 mb-3">
+              <div class="card card-fixed">
+                <div class="card-body text-start p-3">
+                  <h5 class="card-title">
+                    Business Development
+                  </h5>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4">
-              <p class="">
-                Supply Chain
-              </p>
+            <div class="col-md-3 mb-3">
+              <div class="card card-fixed">
+                <div class="card-body text-start p-3">
+                  <h5 class="card-title">
+                    Supply Chain
+                  </h5>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4">
-              <p class="">
-                Operasional Efficiency
-              </p>
+            <div class="col-md-3 mb-3">
+              <div class="card card-fixed">
+                <div class="card-body text-start p-3">
+                  <h5 class="card-title">
+                    Operasional Efficiency
+                  </h5>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4">
-              <p class="">
-                Sistem IT
-              </p>
+            <div class="col-md-3 mb-3">
+              <div class="card card-fixed">
+                <div class="card-body text-start p-3">
+                  <h5 class="card-title">
+                    Sistem IT
+                  </h5>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4">
-              <p class="">
-                Enterprise Risk Management
-              </p>
+            <div class="col-md-3 mb-3">
+              <div class="card card-fixed">
+                <div class="card-body text-start p-3">
+                  <h5 class="card-title">
+                    Enterprise Risk Management
+                  </h5>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4">
-              <p class="">
-                GCG
-              </p>
+            <div class="col-md-3 mb-3">
+              <div class="card card-fixed">
+                <div class="card-body text-start p-3">
+                  <h5 class="card-title">
+                    GCG
+                  </h5>
+                </div>
+              </div>
             </div>
-            <div class="col-md-4">
-              <p class="">
-                Audit
-              </p>
+            <div class="col-md-3 mb-3">
+              <div class="card card-fixed">
+                <div class="card-body text-start p-3">
+                  <h5 class="card-title">
+                    Audit
+                  </h5>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -237,8 +289,11 @@ export default {
 </script>
 
 <style scoped>
+hr {
+  color: white;
+}
 .tab-menu {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: white;
   /* border: 1px solid black; */
   /* margin: 5px; */
@@ -247,16 +302,35 @@ export default {
 }
 .tab-menu:hover,
 .tab-menu.active {
+  color: white;
   background-color: rgba(3, 112, 177, 1) !important; /* Change color on hover and when active */
+  font-weight: bold;
 }
 
 .outlined {
   border: 1px solid #000; /* Change color as needed */
 }
-        
-.btn, .card{
-  border-radius: 0px;
+.card {
+  height: 140px;
+  background-color: #009eaa;
+  color: white;
+  box-shadow: 0 4px 8px rgba(4, 136, 145, 0.3);
 }
+.col-md-3 .card {
+  height: 100px;
+  background-color: #009eaa;
+  color: white;
+  box-shadow: 0 4px 8px rgba(4, 136, 145, 0.3);
+}
+.card-title {
+  font-weight: bold;
+}
+.card-title b {
+  color: #1d2a57;
+}
+/* .btn, .card{
+  border-radius: 0px;
+} */
         .title {
             width: 30%;
             min-height: 0px;

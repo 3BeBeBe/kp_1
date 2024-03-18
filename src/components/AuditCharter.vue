@@ -8,16 +8,9 @@
         <div class="col-md-8">
           <div>
             <h2 class="styling-title">PIAGAM SATUAN PENGAWAS INTERN</h2>
-            <hr />
+            <hr>
             <p>
-              Piagam Satuan Pengawas Intern merupakan dokumen formal yang
-              menjelaskan struktur dan kedudukan Unit Satuan Pengawas Intern,
-              kualifikasi, ruang lingkup kerja operasional, wewenang,
-              tanggungjawab, standar professional, hubungan dengan auditor
-              eksternal dan Komite Audit, kode etik, serta independensi dan
-              obyektivitas SPI. Piagam Satuan Pengawas Intern menjadi dasar bagi
-              SPI dalam melaksanakan tugasnya serta sifatnya mengikat kepada
-              seluruh unit kerja dan anak perusahaan.
+              Piagam Satuan Pengawas Intern merupakan dokumen formal yang menjelaskan struktur dan kedudukan Unit Satuan Pengawas Intern, kualifikasi, ruang lingkup kerja operasional, wewenang, tanggungjawab, standar professional, hubungan dengan auditor eksternal dan Komite Audit, kode etik, serta independensi dan obyektivitas SPI. Piagam Satuan Pengawas Intern menjadi dasar bagi SPI dalam melaksanakan tugasnya serta sifatnya mengikat kepada seluruh unit kerja dan anak perusahaan.
             </p>
           </div>
           <!-- <div>
@@ -29,11 +22,15 @@
             >
           </div> -->
           <div>
-    <a href="../assets/tataKelola/PIAGAM-SATUAN-PENGAWASAN-INTERN-INTERNAL-AUDIT-CHARTER.pdf" download>
-        <img src="../assets/ButtonDesign/ButtonDesign - AuditCharter.png" alt="Audit Charter" style="width: 22.5%;"/>
-    </a>
-</div>  
-
+            <button href="../assets/tataKelola/PIAGAM-SATUAN-PENGAWASAN-INTERN-INTERNAL-AUDIT-CHARTER.pdf" download class="btn d-flex justify-content-center" style="width: 210px;">
+              <div class="d-flex flex-column justify-content-center align-items-center" style="background-color: #0088ff; border: 3px solid #0088ff; border-radius: 50px 0px 0px 50px;">
+                <p class="text-white m-0 p-2 ms-2"><b>DOWNLOAD</b></p>
+              </div>
+              <div class="d-flex justify-content-center align-items-center" style="background-color: #ffffff; border: 3px solid #0088ff; border-radius: 0px 50px 50px 0px;">
+                <img src="../assets/logo PIU.png" class="me-3" style="max-width: 50%; max-height: 100%; height: auto; display: block; margin: 5px auto;">
+              </div>
+            </button>
+          </div>  
         </div>
       </div>
     </div>
@@ -97,7 +94,7 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.7);
     z-index: -1; /* Ensure the overlay is behind the container */
   }
 

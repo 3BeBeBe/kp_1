@@ -2,14 +2,12 @@
     <div class="container mt-3">
         <hr>
         <div class="row mb-4">
-            <div class="col-md-3">
+            <div class="col-md-3 mb-3">
                 <div class="card card-body">
-                    <h4>CSR</h4>
                     <p>
                         Sebagai salah satu bentuk tanggung jawab sosial perusahaan terhadap konsumen, karyawan, pemegang saham, komunitas dan lingkungan dalam segala aspek operasional perusahaan, PT Pupuk Indonesia Energi berkomitmen untuk memberikan bantuan dan melakukan kegiatan sosial untuk masyarakat terutama yang berada di sekitar wilayah operasional Perusahaan. 
                     </p>
                 </div>
-                
             </div>
             <div class="col-md-9">
                 <div class="row mb-4" id="r1">

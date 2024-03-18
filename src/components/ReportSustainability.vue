@@ -1,6 +1,6 @@
 <template>
     <div class="container mt-5 mb-5">
-      <h2>Laporan Keberlanjutan</h2>
+      <h2 style="font-style: italic; color: #084e8b; font-weight: 700">Laporan Keberlanjutan</h2>
       <hr />
       <div class="row mt-4 d-flex align-items-center">
         <!-- <div class="col-md-9">

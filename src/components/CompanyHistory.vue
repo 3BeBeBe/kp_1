@@ -3,9 +3,7 @@
     <div class="container gover-overlay-text">
       <div class="row mt-5 mb-5">
         <div class="col-md-12">
-          <h2>
-            <i><b>Sejarah Perusahaan</b></i>
-          </h2>
+          <h2 style="font-style: italic; color: #084e8b; font-weight: 700">Sejarah Perusahaan</h2>
           <br />
         </div>
         <div class="col-md-6">
