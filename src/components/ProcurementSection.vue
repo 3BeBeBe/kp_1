@@ -8,24 +8,24 @@
                 <div class="col-md-6">
                     <p>Untuk dapat mengakses laman e-procurement dapat mengunjungi link di bawah ini dengan menggunakan kredensial yang telah Anda miliki sewaktu mendaftar: </p>
                     <div class="d-inline-flex me-3">
-                        <button href="https://eprocurement.pupuk-indonesia.com/beranda" target=”_blank” class="btn d-flex justify-content-center" style="width: 235px;">
+                        <a href="https://eprocurement.pupuk-indonesia.com/beranda" target=”_blank” class="btn d-flex justify-content-center" style="width: 210px;">
                             <div class="d-flex flex-column justify-content-center align-items-center" style="background-color: #0088ff; border: 3px solid #0088ff; border-radius: 50px 0px 0px 50px;">
                                 <p class="text-white m-0 p-2 ms-2"><b>PROCUREMENT</b></p>
                             </div>
                             <div class="d-flex justify-content-center align-items-center" style="background-color: #ffffff; border: 3px solid #0088ff; border-radius: 0px 50px 50px 0px;">
                                 <img src="../assets/logo PIU.png" class="me-3" style="max-width: 50%; max-height: 100%; height: auto; display: block; margin: 5px auto;">
                             </div>
-                        </button>
+                        </a>
                     </div>
                     <div class="d-inline-flex">
-                        <button data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" class="btn d-flex justify-content-center" style="width: 210px;">
+                        <a data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" class="btn d-flex justify-content-center" style="width: 210px;">
                             <div class="d-flex flex-column justify-content-center align-items-center" style="background-color: #0088ff; border: 3px solid #0088ff; border-radius: 50px 0px 0px 50px;">
                                 <p class="text-white m-0 p-2 ms-2"><b>DOWNLOAD</b></p>
                             </div>
                             <div class="d-flex justify-content-center align-items-center" style="background-color: #ffffff; border: 3px solid #0088ff; border-radius: 0px 50px 50px 0px;">
                                 <img src="../assets/logo PIU.png" class="me-3" style="max-width: 50%; max-height: 100%; height: auto; display: block; margin: 5px auto;">
                             </div>
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
