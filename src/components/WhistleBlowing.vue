@@ -11,7 +11,7 @@
                     </p>   
 
                     <div class="d-inline-flex gap-1 me-3">
-                        <button  type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" class="btn d-flex justify-content-center" style="width: 220px;">
+                        <button  type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" class="btn d-flex justify-content-center" style="width: 210px;">
                             <div class="d-flex flex-column justify-content-center align-items-center" style="background-color: #0088ff; border: 3px solid #0088ff; border-radius: 50px 0px 0px 50px;">
                                 <p class="text-white m-0 p-2 ms-2"><b>PENGAJUAN</b></p>
                             </div>

@@ -7,7 +7,7 @@
                     <p>Tata Kelola Perusahaan berisi Arahan Strategis Direksi dan Dewan Komisaris dalam Penerapan GCG di Perusahaan dan menjadi induk kebijakan perusahaan  yang menjadi acuan bagi seluruh kegiatan Indonesia Power meliputi Hubungan antara Perusahaan dengan Pemegang Saham, Fungsi serta peran Dewan Komisaris dan Direksi, Hubungan Perusahaan dengan pemangku kepentingan (Stakeholder) dan prinsip-prinsip mengenai kebijakan pokok Perusahaan.</p>
                 </div>
                 <div class="text-end d-flex justify-content-end align-items-right">
-                    <button data-bs-toggle="collapse" data-bs-target="#gcg" aria-expanded="false" aria-controls="gcg" class="btn d-flex justify-content-center" style="width: 220px;">
+                    <button data-bs-toggle="collapse" data-bs-target="#gcg" aria-expanded="false" aria-controls="gcg" class="btn d-flex justify-content-center" style="width: 210px;">
                         <div class="d-flex flex-column justify-content-center align-items-center" style="background-color: #0088ff; border: 3px solid #0088ff; border-radius: 50px 0px 0px 50px;">
                             <p class="text-white m-0 p-2 ms-2"><b>ASSESSMENT</b></p>
                         </div>
