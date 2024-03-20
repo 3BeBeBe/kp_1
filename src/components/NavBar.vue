@@ -3,9 +3,9 @@
     class="navbar transparent-navbar sticky-top navbar-expand-lg bg-body-tertiary border-bottom border-body"
   >
     <div class="container">
-      <!-- <a class="navbar-brand" href="/">
-                <img src="../assets/LOGO_PIU_BnW.png" width="120" height="96">
-            </a> -->
+      <a class="navbar-brand" href="/">
+        <img src="../assets/Salinan LOGO PIU Warna.png" width="180" height="144">
+      </a>
       <button
         class="navbar-toggler"
         type="button"
@@ -28,20 +28,22 @@
                   >Whistle Blowing System</router-link
                 >
               </li>
-              <li class="nav-item d-flex align-items-center">
-                <router-link class="nav-link" to="/sketchy">
-                  <img
+              <li class="nav-item">
+                <router-link class="nav-link d-flex justify-content-end align-items-center" to="/sketchy">
+                  <!-- <img
                     src="../assets/ButtonDesign/ButtonDesign - Tester.png"
                     style="width: 65%"
                     alt="Kontak Kami"
-                  />
+                  /> -->
+                  Kontak Kami
                 </router-link>
               </li>
             </ul>
           </div>
+          <hr>
           <div class="col-md-12">
-            <div class="row">
-              <div
+            <div class="row d-flex justify-content-end">
+              <!-- <div
                 class="col-md-2 d-flex justify-content-start align-items-center"
               >
                 <a class="navbar-brand" href="/">
@@ -51,9 +53,9 @@
                     height="96"
                   />
                 </a>
-              </div>
+              </div> -->
               <div
-                class="col-md-7 d-flex justify-content-start align-items-center"
+                class="col-md-8 d-flex justify-content-end align-items-center"
               >
                 <ul class="navbar-nav navbar-auto">
                   <li class="nav-item dropdown">

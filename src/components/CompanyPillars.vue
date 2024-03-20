@@ -1,16 +1,17 @@
 <template>
+  <div class="">
   <div class="container mt-5 mb-5">
     <div class="row gx-0 d-flex justify-content-center">
       <div class="col-md-3">
         <div>
-          <h1 style="font-style: italic; color: #084e8b; font-weight: 700">Pilar PI-Utilitas</h1>
+          <h1 style="font-style: italic; color: #084e8b; font-weight: 700">Pilar<br> PI-Utilitas</h1>
         </div>
         <nav class="nav flex-column">
-          <a class="tab-menu nav-link active" aria-current="true" data-bs-toggle="tab" href="#vision">Vision</a>
-          <a class="tab-menu nav-link" aria-current="true" data-bs-toggle="tab" href="#mission">Mission</a>
-          <a class="tab-menu nav-link" aria-current="true" data-bs-toggle="tab" href="#business-line">Business Line</a>
-          <a class="tab-menu nav-link" aria-current="true" data-bs-toggle="tab" href="#business-enabler">Business Enabler</a>
-          <a class="tab-menu nav-link" aria-current="true" data-bs-toggle="tab" href="#corporate-value">Corporate Value</a>
+          <a class="ps-5 tab-menu nav-link active" aria-current="true" data-bs-toggle="tab" href="#vision">Vision</a>
+          <a class="ps-5 tab-menu nav-link" aria-current="true" data-bs-toggle="tab" href="#mission">Mission</a>
+          <a class="ps-5 tab-menu nav-link" aria-current="true" data-bs-toggle="tab" href="#business-line">Business Line</a>
+          <a class="ps-5 tab-menu nav-link" aria-current="true" data-bs-toggle="tab" href="#business-enabler">Business Enabler</a>
+          <a class="ps-5 tab-menu nav-link" aria-current="true" data-bs-toggle="tab" href="#corporate-value">Corporate Value</a>
         </nav>
       </div>
       <div class="col-md-9 tab-content" style="background-color: rgba(3, 112, 177, 1); color: white;">
@@ -280,6 +281,7 @@
       </div>
     </div>
   </div> 
+  </div>
 </template>
 
 <script>
@@ -289,78 +291,112 @@ export default {
 </script>
 
 <style scoped>
-hr {
-  color: white;
-}
-.tab-menu {
-  font-size: 1.2rem;
-  color: white;
-  /* border: 1px solid black; */
-  /* margin: 5px; */
-  padding: 15px; /* Add some padding */
-  background-color: black;
-}
-.tab-menu:hover,
-.tab-menu.active {
-  color: white;
-  background-color: rgba(3, 112, 177, 1) !important; /* Change color on hover and when active */
-  font-weight: bold;
-}
+  hr {
+    color: white;
+  }
+  .tab-content {
+    border-radius: 10px;
+    height: 500px;
+  }
+  .tab-menu {
+    font-size: 1.2rem;
+    color: black;
+    /* border: 1px solid black; */
+    /* margin: 5px; */
+    padding: 15px; /* Add some padding */
+    /* background-color: rgb(187, 226, 248); */
+    font-weight: bold;
+    border-radius: 30px 0px 0px 30px;
+  }
+  .tab-menu:hover {
+    color: white;
+    background-color: rgb(116, 199, 247) !important; /* Change color on hover and when active */
+    font-weight: bold;
+    border-radius: 30px 0px 0px 30px;
+  }
+  .tab-menu.active {
+    color: white;
+    background-color: rgba(3, 112, 177, 1) !important; /* Change color on hover and when active */
+    font-weight: bold;
+    border-radius: 30px 0px 0px 30px;
+  }
 
-.outlined {
-  border: 1px solid #000; /* Change color as needed */
-}
-.card {
-  height: 140px;
-  background-color: #009eaa;
-  color: white;
-  box-shadow: 0 4px 8px rgba(4, 136, 145, 0.3);
-}
-.col-md-3 .card {
-  height: 100px;
-  background-color: #009eaa;
-  color: white;
-  box-shadow: 0 4px 8px rgba(4, 136, 145, 0.3);
-}
-.card-title {
-  font-weight: bold;
-}
-.card-title b {
-  color: #1d2a57;
-}
-/* .btn, .card{
-  border-radius: 0px;
-} */
-        .title {
-            width: 30%;
-            min-height: 0px;
-            /* background-color: #084e8b; */
-            color: #ffffff;
-            padding: 20px;
-            margin: 0 auto;
-        }   
-    
-        .centered{
-            /* display: flex;  */
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
+  .outlined {
+    border: 1px solid #000; /* Change color as needed */
+  }
+  .card {
+    height: 140px;
+    background-color: #009eaa;
+    color: white;
+    box-shadow: 0 4px 8px rgba(4, 136, 145, 0.3);
+    border-radius: 15px;
+  }
+  .col-md-3 .card {
+    height: 100px;
+    background-color: #009eaa;
+    color: white;
+    box-shadow: 0 4px 8px rgba(4, 136, 145, 0.3);
+  }
+  .card-title {
+    font-weight: bold;
+  }
+  .card-title b {
+    color: #1d2a57;
+  }
+  /* .btn, .card{
+    border-radius: 0px;
+  } */
+  .title {
+    width: 30%;
+    min-height: 0px;
+              /* background-color: #084e8b; */
+    color: #ffffff;
+    padding: 20px;
+    margin: 0 auto;
+  }   
+      
+  .centered{
+    /* display: flex;  */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 
-        .company-value-container {
-            /* background: linear-gradient(to bottom, #084e8b, #ffffff);
-             */
-             background-color: #0aa4b4;
-            /* background: rgba(8, 78, 139, 0.5) 10%;  */
-            /* background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(8, 78, 139, 0.5) 10%, rgba(8, 78, 139, 1) 100%); */
+  .company-value-container {
+    /* background: linear-gradient(to bottom, #084e8b, #ffffff);*/
+    background-color: #0aa4b4;
+    /* background: rgba(8, 78, 139, 0.5) 10%;  */
+    /* background: linear-gradient(to top, rgba(255, 255, 255, 0) 0%, rgba(8, 78, 139, 0.5) 10%, rgba(8, 78, 139, 1) 100%); */
+  } 
+  .card-body {
+    /* height: 300px; */
+    box-shadow: 0 4px 8px rgba(4, 136, 145, 0.3);
+  }
+  h3::first-letter {
+    font-size: 1.5em; /* Adjust as needed */
+  }
+  .another-container {
+    background-image: url("../assets/Pattern_2.png");
+    background-size: cover;
+    display: flex;
+    background-repeat: no-repeat;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; /* Ensure the container is above the overlay */
+    min-height: 65vh;
+  }
 
-        } 
-        .card-body {
-            /* height: 300px; */
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        h3::first-letter {
-            font-size: 1.5em; /* Adjust as needed */
-        }
+  .another-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1; /* Ensure the overlay is behind the container */
+  }
 </style>

@@ -16,14 +16,14 @@
                         </div>
                     </button>
 
-                    <button href="../assets/tataKelola/PEDOMAN-PENILAIAN-PENERAPAN-GCG-GCG-ASSESSMENT.pdf" download class="btn d-flex justify-content-center" style="width: 210px;">
+                    <a href="../assets/tataKelola/PEDOMAN-PENILAIAN-PENERAPAN-GCG-GCG-ASSESSMENT.pdf" download class="btn d-flex justify-content-center" style="width: 210px;">
                         <div class="d-flex flex-column justify-content-center align-items-center" style="background-color: #0088ff; border: 3px solid #0088ff; border-radius: 50px 0px 0px 50px;">
                             <p class="text-white m-0 p-2 ms-2"><b>DOWNLOAD</b></p>
                         </div>
                         <div class="d-flex justify-content-center align-items-center" style="background-color: #ffffff; border: 3px solid #0088ff; border-radius: 0px 50px 50px 0px;">
                             <img src="../assets/logo PIU.png" class="me-3" style="max-width: 50%; max-height: 100%; height: auto; display: block; margin: 5px auto;">
                         </div>
-                    </button>
+                    </a>
                 </div>
                 <hr>
             </div>
@@ -34,14 +34,14 @@
                     <p>Pedoman Etika Perusahaan merupakan acuan dalam melakukan interaksi di antara manajemen, pegawai serta para pemangku kepentingan (stakeholder) sesuai dengan nilai dan budaya perusahaan dan prinsip-prinsip GCG. COC ini mengatur mengenai apa yang patut dan tidak patut, baik dan tidak baik, hal-hal yang terpuji dan yang tercela, serta hal-hal yang dihargai dan tidak dihargai yang  dilakukann oleh pegawai IP dalam relasinya dengan semua stakeholder Perusahaan.</p>
                 </div>
                 <div class="d-flex justify-content-end">
-                    <button href="../assets/tataKelola/Board-Manual_compressed.pdf" download class="btn d-flex justify-content-center" style="width: 210px;">
+                    <a href="../assets/tataKelola/Board-Manual_compressed.pdf" download class="btn d-flex justify-content-center" style="width: 210px;">
                         <div class="d-flex flex-column justify-content-center align-items-center" style="background-color: #0088ff; border: 3px solid #0088ff; border-radius: 50px 0px 0px 50px;">
                             <p class="text-white m-0 p-2 ms-2"><b>DOWNLOAD</b></p>
                         </div>
                         <div class="d-flex justify-content-center align-items-center" style="background-color: #ffffff; border: 3px solid #0088ff; border-radius: 0px 50px 50px 0px;">
                             <img src="../assets/logo PIU.png" class="me-3" style="max-width: 50%; max-height: 100%; height: auto; display: block; margin: 5px auto;">
                         </div>
-                    </button>
+                    </a>
                 </div>
                 <hr>
             </div>
@@ -60,14 +60,14 @@
                     <p>Board Manual merupakan dokumen yang menjelaskan secara garis besar hak, kewajiban, tugas, wewenang, Dewan Komisaris dan Direksi sebagai Organ Utama Perusahaan serta proses hubungan dan fungsi anatara kedua organ tersebut.</p>
                 </div>
                 <div class="d-flex justify-content-end">
-                    <button href="../assets/tataKelola/PEDOMAN-ETIKA-DAN-PERILAKU-CODE-OF-CONDUCT.pdf" download class="btn d-flex justify-content-center" style="width: 210px;">
+                    <a href="../assets/tataKelola/PEDOMAN-ETIKA-DAN-PERILAKU-CODE-OF-CONDUCT.pdf" download class="btn d-flex justify-content-center" style="width: 210px;">
                         <div class="d-flex flex-column justify-content-center align-items-center" style="background-color: #0088ff; border: 3px solid #0088ff; border-radius: 50px 0px 0px 50px;">
                             <p class="text-white m-0 p-2 ms-2"><b>DOWNLOAD</b></p>
                         </div>
                         <div class="d-flex justify-content-center align-items-center" style="background-color: #ffffff; border: 3px solid #0088ff; border-radius: 0px 50px 50px 0px;">
                             <img src="../assets/logo PIU.png" class="me-3" style="max-width: 50%; max-height: 100%; height: auto; display: block; margin: 5px auto;">
                         </div>
-                    </button>
+                    </a>
                 </div>
                 <hr>
             </div>
@@ -78,14 +78,14 @@
                     <p>Kebijakan Pengendalian Gratifikasi memberikan panduan bagi pegawai untuk memahami definisi dan konsep Gratifikasi serta memahami cara bersikap apabila menghadapi adanya praktik Gratifikasi.</p>
                 </div>
                 <div class="d-flex justify-content-end">
-                    <button href="../assets/tataKelola/gratifikasi.pdf" download class="btn d-flex justify-content-center" style="width: 210px;">
+                    <a href="../assets/tataKelola/gratifikasi.pdf" download class="btn d-flex justify-content-center" style="width: 210px;">
                         <div class="d-flex flex-column justify-content-center align-items-center" style="background-color: #0088ff; border: 3px solid #0088ff; border-radius: 50px 0px 0px 50px;">
                             <p class="text-white m-0 p-2 ms-2"><b>DOWNLOAD</b></p>
                         </div>
                         <div class="d-flex justify-content-center align-items-center" style="background-color: #ffffff; border: 3px solid #0088ff; border-radius: 0px 50px 50px 0px;">
                             <img src="../assets/logo PIU.png" class="me-3" style="max-width: 50%; max-height: 100%; height: auto; display: block; margin: 5px auto;">
                         </div>
-                    </button>
+                    </a>
                 </div>
                 <hr>
             </div>

@@ -18,6 +18,7 @@
                     <div class="col-md-12">
                         <button class="btn image-button overlay1" data-bs-toggle="modal" data-bs-target="#ggcp">
                             <img class="img-fluid" src="../assets/pabrik/GGCP/ggcp4.jpg"/>
+                            <h3>Gresik Gas Cogeneration Plant</h3>
                             <!-- <span class="default-content image-button">
                                 <img class="img-fluid" src="../assets/pabrik/GGCP/ggcp4.jpg"/>
                                 <div class="overlay1"></div>
@@ -62,6 +63,7 @@
                     <div class="col-md-12">
                         <button class="btn image-button overlay2" data-bs-toggle="modal" data-bs-target="#kdm">
                             <img class="img-fluid" src="../assets/pabrik/KDM/kdm2.jpg"/>
+                            <h3>PT Kaltim Daya Mandiri</h3>
                             <!-- <span class="default-content image-button">
                                 <img class="img-fluid" src="../assets/pabrik/KDM/kdm2.jpg"/>
                                 <div class="overlay2"></div>
@@ -124,6 +126,7 @@
 </script>
 
 <style scoped>
+    
     .parallax {
         background-image: url("../assets/pabrik/GGCP/ggcp1.jpg");
         min-height: 500px; 
@@ -141,7 +144,7 @@
         bottom: 0;
         left: 0;
         /* background-color: rgba(3, 112, 177, 0.5); */
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.7);
     }
     .centered-justify {
         text-align: relative;
@@ -161,6 +164,22 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+    .image-button h3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        color: white;
+        font-weight: bold;
+        opacity: 0; /* Hide the <h3> tag by default */
+        transition: opacity 0.3s; /* Add a transition effect */
+        text-shadow: -1px 0 rgba(3, 112, 177, 1), 0 1px rgba(16, 146, 72, 1), 1px 0 rgba(218, 93, 42, 1), 0 -1px rgb(249, 210, 22, 1);
+    }
+
+    .image-button:hover h3 {
+        opacity: 1; /* Show the <h3> tag when the .image-button is hovered */
     }
     /* .image-button .default-content {
         display: block;

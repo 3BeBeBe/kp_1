@@ -7,9 +7,9 @@
     <div class="overlay"></div>
     <nav v-if="isTop" class="navbar sticky-top bg-transparent navbar-expand-lg">
         <div class="container">
-            <!-- <a class="navbar-brand" href="/">
-                <img src="../assets/LOGO_PIU_BnW.png" width="120" height="96">
-            </a> -->
+            <a class="navbar-brand" href="/">
+                <img src="../assets/LOGO_PIU_BnW.png" width="180" height="144">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,14 +25,15 @@
                             </li>
                         </ul>
                     </div>
+                    <hr style="color: white;">
                     <div class="col-md-12">
-                        <div class="row">
-                            <div class="col-md-2 d-flex justify-content-start align-items-center">
+                        <div class="row d-flex justify-content-end">
+                            <!-- <div class="col-md-2 d-flex justify-content-start align-items-center">
                                 <a class="navbar-brand" href="/">
                                     <img src="../assets/LOGO_PIU_BnW.png" width="120" height="96">
                                 </a>
-                            </div>
-                            <div class="col-md-7 d-flex justify-content-start align-items-center">
+                            </div> -->
+                            <div class="col-md-8 d-flex justify-content-end align-items-center">
                                 <ul class="navbar-nav navbar-auto">
                                     <li class="nav-item dropdown">
                                         <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profile</router-link>

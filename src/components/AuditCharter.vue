@@ -22,14 +22,14 @@
             >
           </div> -->
           <div>
-            <button href="../assets/tataKelola/PIAGAM-SATUAN-PENGAWASAN-INTERN-INTERNAL-AUDIT-CHARTER.pdf" download class="btn d-flex justify-content-center" style="width: 210px;">
+            <a href="../assets/tataKelola/PIAGAM-SATUAN-PENGAWASAN-INTERN-INTERNAL-AUDIT-CHARTER.pdf" download class="btn d-flex justify-content-center" style="width: 210px;">
               <div class="d-flex flex-column justify-content-center align-items-center" style="background-color: #0088ff; border: 3px solid #0088ff; border-radius: 50px 0px 0px 50px;">
                 <p class="text-white m-0 p-2 ms-2"><b>DOWNLOAD</b></p>
               </div>
               <div class="d-flex justify-content-center align-items-center" style="background-color: #ffffff; border: 3px solid #0088ff; border-radius: 0px 50px 50px 0px;">
                 <img src="../assets/logo PIU.png" class="me-3" style="max-width: 50%; max-height: 100%; height: auto; display: block; margin: 5px auto;">
               </div>
-            </button>
+            </a>
           </div>  
         </div>
       </div>
@@ -75,17 +75,17 @@ export default {
   } */
 
   .another-container {
-  background-image: url("../assets/Pattern_2.png");
-  background-size: cover;
-  display: flex;
-  background-repeat: no-repeat;
-  position: relative;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  z-index: 1; /* Ensure the container is above the overlay */
-  min-height: 65vh;
-}
+    background-image: url("../assets/Pattern_2.png");
+    background-size: cover;
+    display: flex;
+    background-repeat: no-repeat;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; /* Ensure the container is above the overlay */
+    min-height: 65vh;
+  }
 
   .another-container::before {
     content: "";
