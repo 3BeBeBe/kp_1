@@ -10,15 +10,15 @@
                     <p>Whistleblower PI Utilitas dapat di akses di <a href="https://wbs.pupuk-indonesia.com/">https://wbs.pupuk-indonesia.com/</a>
                     </p>   
 
-                    <div class="d-inline-flex gap-1 me-3">
-                        <button  type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" class="btn d-flex justify-content-center" style="width: 210px;">
+                    <div class="d-inline-flex me-3">
+                        <a  type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample" class="btn d-flex justify-content-center" style="width: 210px;">
                             <div class="d-flex flex-column justify-content-center align-items-center" style="background-color: #0088ff; border: 3px solid #0088ff; border-radius: 50px 0px 0px 50px;">
                                 <p class="text-white m-0 p-2 ms-2"><b>PENGAJUAN</b></p>
                             </div>
                             <div class="d-flex justify-content-center align-items-center" style="background-color: #ffffff; border: 3px solid #0088ff; border-radius: 0px 50px 50px 0px;">
                                 <img src="../assets/logo PIU.png" class="me-3" style="max-width: 50%; max-height: 100%; height: auto; display: block; margin: 5px auto;">
                             </div>
-                        </button>
+                        </a>
                     </div>
                     <div class="d-inline-flex gap-1">
                         <a href="../assets/tataKelola/PEDOMAN-WHISTLE-BLOWING-SYSTEM-WBS.pdf" download class="btn d-flex justify-content-center" style="width: 210px;">
