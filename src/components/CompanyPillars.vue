@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="another-container">
   <div class="container mt-5 mb-5">
     <div>
       <h1 style="font-style: italic; color: #084e8b; font-weight: 700">Pilar PI-Utilitas</h1>
@@ -379,7 +379,7 @@ export default {
     font-size: 1.5em; /* Adjust as needed */
   }
   .another-container {
-    background-image: url("../assets/Pattern_2.png");
+    background-image: url("../assets/Pattern5.png");
     background-size: cover;
     display: flex;
     background-repeat: no-repeat;
