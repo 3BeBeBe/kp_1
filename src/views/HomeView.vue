@@ -426,7 +426,7 @@ export default {
   position: absolute;
   bottom: 10%; /* Position from the bottom */
   color: white;
-  font-size: 3em;
+  font-size: 4rem;
 }
 .content {
   position: relative;
@@ -434,7 +434,7 @@ export default {
 }
 @media (max-width: 768px) {
   .overlay-text {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 480px) {

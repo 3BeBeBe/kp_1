@@ -1,17 +1,20 @@
 <template>
   <div class="">
   <div class="container mt-5 mb-5">
-    <div class="row gx-0 d-flex justify-content-center">
-      <div class="col-md-3">
-        <div>
-          <h1 style="font-style: italic; color: #084e8b; font-weight: 700">Pilar<br> PI-Utilitas</h1>
-        </div>
-        <nav class="nav flex-column">
-          <a class="ps-5 tab-menu nav-link active" aria-current="true" data-bs-toggle="tab" href="#vision">Vision</a>
-          <a class="ps-5 tab-menu nav-link" aria-current="true" data-bs-toggle="tab" href="#mission">Mission</a>
-          <a class="ps-5 tab-menu nav-link" aria-current="true" data-bs-toggle="tab" href="#business-line">Business Line</a>
-          <a class="ps-5 tab-menu nav-link" aria-current="true" data-bs-toggle="tab" href="#business-enabler">Business Enabler</a>
-          <a class="ps-5 tab-menu nav-link" aria-current="true" data-bs-toggle="tab" href="#corporate-value">Corporate Value</a>
+    <div>
+      <h1 style="font-style: italic; color: #084e8b; font-weight: 700">Pilar PI-Utilitas</h1>
+      <h5>Dalam menciptakan fondasi yang kokoh dan berkelanjutan bagi kesuksesan PT Pupuk Indonesia Utilitas</h5>
+    </div>
+    <hr>
+
+    <div class="row gx-0 d-flex justify-content-center ps-5 pe-5">
+      <div class="col-md-3 pb-3 pt-3">
+        <nav class="nav flex-column ps-3">
+          <a class="ps-5 mb-1 tab-menu nav-link active" aria-current="true" data-bs-toggle="tab" href="#vision">Vision</a>
+          <a class="ps-5 mb-1 tab-menu nav-link" aria-current="true" data-bs-toggle="tab" href="#mission">Mission</a>
+          <a class="ps-5 mb-1 tab-menu nav-link" aria-current="true" data-bs-toggle="tab" href="#business-line">Business Line</a>
+          <a class="ps-5 mb-1 mb-1 tab-menu nav-link" aria-current="true" data-bs-toggle="tab" href="#business-enabler">Business Enabler</a>
+          <a class="ps-5 mb-1 tab-menu nav-link" aria-current="true" data-bs-toggle="tab" href="#corporate-value">Corporate Value</a>
         </nav>
       </div>
       <div class="col-md-9 tab-content" style="background-color: rgba(3, 112, 177, 1); color: white;">
@@ -291,12 +294,11 @@ export default {
 </script>
 
 <style scoped>
-  hr {
+  .row hr {
     color: white;
   }
   .tab-content {
     border-radius: 10px;
-    height: 500px;
   }
   .tab-menu {
     font-size: 1.2rem;
