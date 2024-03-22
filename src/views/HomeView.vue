@@ -33,7 +33,7 @@
                                     <img src="../assets/LOGO_PIU_BnW.png" width="120" height="96">
                                 </a>
                             </div> -->
-                            <div class="col-md-8 d-flex justify-content-end align-items-center">
+                            <div class="col-md-8 me-5 d-flex justify-content-center align-items-center">
                                 <ul class="navbar-nav navbar-auto">
                                     <li class="nav-item dropdown">
                                         <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profile</router-link>

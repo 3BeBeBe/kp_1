@@ -55,7 +55,7 @@
                 </a>
               </div> -->
               <div
-                class="col-md-8 d-flex justify-content-end align-items-center"
+                class="col-md-8 me-5 d-flex justify-content-center align-items-center"
               >
                 <ul class="navbar-nav navbar-auto">
                   <li class="nav-item dropdown">
