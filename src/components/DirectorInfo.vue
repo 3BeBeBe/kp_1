@@ -336,7 +336,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  height: 500px;
+  height: 450px;
 }
 
 .main-button {

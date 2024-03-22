@@ -379,7 +379,7 @@ export default {
     font-size: 1.5em; /* Adjust as needed */
   }
   .another-container {
-    background-image: url("../assets/Pattern5.png");
+    background-image: url("../assets/Pattern_4.png");
     background-size: cover;
     display: flex;
     background-repeat: no-repeat;

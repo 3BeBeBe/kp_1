@@ -8,8 +8,9 @@
             <div class="tab-pane fade show active" id="lapkeu">
               <div class="row mt-4"> -->
                 <div class="col-md-3 " v-for="(report, index) in reports" :key="index">
-                  <a :href="report.link" class="btn" download>
+                  <a :href="report.link" class="btn report-link" download>
                     <img class="img-fluid size-image mt-2" :src="report.coverImage" />
+                    <h3 class="report-title">{{ report.title }}</h3>
                   </a>
                 </div>
               </div>
@@ -27,6 +28,7 @@
       return {
         reports: [
           {
+            title: "Laporan Keberlanjutan 2021",
             link: "../assets/LaporanKeberlanjutan/SR-PIU-2022_ok_compressed.pdf",
             coverImage: require("../assets/laporanKeberlanjutan/coverLK.png")
           },
@@ -36,7 +38,7 @@
   };
   </script>
   
-  <style>
+<style scoped>
   .card {
     border-radius: 0px;
   }
@@ -47,5 +49,39 @@
     display: block; /* Prevents extra space below inline images */
     margin: 0 auto; /* Center the image within the container */
   }
-  </style>
+  .report-link {
+    position: relative;
+    display: block;
+  }
+
+  .report-link::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    transition: background 0.3s ease;
+  }
+
+  .report-link:hover::before {
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .report-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-weight: bold;
+  }
+
+  .report-link:hover .report-title {
+    opacity: 1;
+  }
+</style>
   
