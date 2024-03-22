@@ -329,7 +329,7 @@ p{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 70vh;
+  height: 500px;
 }
 
 .main-button {
