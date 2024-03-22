@@ -8,7 +8,7 @@
                 <div class="col-md-6">
                     <p>Untuk dapat mengakses laman e-procurement dapat mengunjungi link di bawah ini dengan menggunakan kredensial yang telah Anda miliki sewaktu mendaftar: </p>
                     <div class="d-inline-flex me-3">
-                        <a href="https://eprocurement.pupuk-indonesia.com/beranda" target=”_blank” class="btn d-flex justify-content-center" style="width: 210px;">
+                        <a href="https://eprocurement.pupuk-indonesia.com/beranda" target=”_blank” class="btn d-flex justify-content-center" style="width: 230px;">
                             <div class="d-flex flex-column justify-content-center align-items-center" style="background-color: #0088ff; border: 3px solid #0088ff; border-radius: 50px 0px 0px 50px;">
                                 <p class="text-white m-0 p-2 ms-2"><b>PROCUREMENT</b></p>
                             </div>

@@ -27,19 +27,21 @@
                 </h5>
               </div>
 
-              <hr class="short-line" />
+              <!-- <hr class="short-line" /> -->
 
-              <div class="d-flex">
+              <!-- <div class="d-flex">
                 <div
                   class="d-flex flex-column justify-content-left"
                   style="margin-left: 50px"
                 >
-                  <!-- First flex-column -->
                   <p style="font-weight: 650; font-size: 30px">
                     Suara Pelanggan
                   </p>
-                  <p>moment</p>
-                  <p>moment2</p>
+                  <div class="bolding-text">
+                    <p>(021) 29661630</p>
+                    <p>info@pi-utilitas.com</p>
+                  </div>
+                  
                 </div>
                 <div
                   class="d-flex flex-column justify-content-end"
@@ -49,16 +51,12 @@
                     margin-right: 50px;
                   "
                 >
-                  <!-- Second flex-column with ml-auto class -->
                   <p style="font-weight: 650; font-size: 30px">
                     International Contact⠀⠀⠀⠀⠀⠀⠀
                   </p>
-                  <p>moment</p>
-                  <p>moment2</p>
+                  <p>info@pi-utilitas.com</p>
                 </div>
-              </div>
-
-              <!-- <hr class="short-line" /> -->
+              </div> -->
 
               <div
                 class="card card-divider align-items-center justify-content-center mt-3"
@@ -94,7 +92,7 @@
                 <div class="d-flex flex-column" style="margin-left: 50px">
                   <p style="font-weight: 650; font-size: 30px">Main Office</p>
                   <div class="d-flex flex-row">
-                    <img
+                    <!-- <img
                       src="../assets/logo PIU.png"
                       style="
                         width: 15%;
@@ -102,30 +100,27 @@
                         align-self: center;
                         margin-right: 25px;
                       "
-                    />
-                    <div class="bolding-text">
+                    /> -->
+                    <div class="bolding-text" style="overflow: visible;">
                       <p>Alamanda Tower Lt 26,Jl. T.B. Simatupang No 22-26</p>
                       <p>Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta</p>
                       <div class="d-flex flex-row align-items-center">
                         <p>(021) 29661630</p>
-                        <!-- <img
-                          src="../assets/084retrophone.png"
-                          style="width: 7.5%; height: auto; margin-left: 10px; margin-bottom: 15px;"
-                        /> -->
+                      
                       </div>
                       <div class="d-flex flex-row align-items-center">
                         <p>info@pi-utilitas.com</p>
-                        <!-- <img
-                          src="../assets/084email.png"
-                          style="width: 7.5%; height: auto; margin-left: 10px; margin-bottom: 15px;"
-                          /> -->
+                        
                       </div>
                     </div>
                   </div>
                 </div>
 
-                <div class="d-flex flex-column" style="margin-left: 50px">
-                  <p style="font-weight: 650; font-size: 30px">Main Office</p>
+                <div class="d-flex flex-column" style="margin-left: auto; align-items: end;">
+                  
+                  <img src="../assets/FO_3.jpg" style="width: 80%; height: auto;"/>
+
+                  <!-- <p style="font-weight: 650; font-size: 30px">IPP Gresik</p>
                   <div class="d-flex flex-row">
                     <img
                       src="../assets/logo PIU.png"
@@ -137,24 +132,16 @@
                       "
                     />
                     <div class="bolding-text">
-                      <p>Alamanda Tower Lt 26,Jl. T.B. Simatupang No 22-26</p>
-                      <p>Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta</p>
+                      <p>Jl. Gubernur Suryo, Pabrik 3 PT Petrokimia Gresik</p>
+                      <p>Gresik, Jawa Timur</p>
                       <div class="d-flex flex-row align-items-center">
-                        <p>(021) 29661630</p>
-                        <!-- <img
-                          src="../assets/084retrophone.png"
-                          style="width: 7.5%; height: auto; margin-left: 10px; margin-bottom: 15px;"
-                        /> -->
+                        <p>-</p>
                       </div>
                       <div class="d-flex flex-row align-items-center">
                         <p>info@pi-utilitas.com</p>
-                        <!-- <img
-                          src="../assets/084email.png"
-                          style="width: 7.5%; height: auto; margin-left: 10px; margin-bottom: 15px;"
-                          /> -->
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
 
                 <!-- <p style="font-weight: 650; font-size: 30px">
@@ -189,7 +176,7 @@
             class="col-md-6 d-flex flex-column justify-content-end"
             style="margin-left: auto"
           >
-            <div class="card card-body card-form mt-5">
+            <div class="card card-body card-form mt-5" style="box-shadow: 0 0 10px rgba(3, 205, 255, 0.205);">
               <form @submit.prevent="submitForm">
                 <div class="row" style="color: black">
                   <div class="col-md-6">
