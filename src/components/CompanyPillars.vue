@@ -21,12 +21,12 @@
         <div class="tab-pane fade show active m-4" id="vision">
           <h3 class=""><i><b>Visi</b></i></h3>
           <hr>
-          <p class="">Menjadi Perusahaan Energi dan Utilitas terintegrasi kelas dunia untuk menunjang bisnis utama PT Pupuk Indonesia (Persero) beserta anak perusahaannya.</p>
+          <p class="" style="font-size: 20px;">Menjadi Perusahaan Energi dan Utilitas terintegrasi kelas dunia untuk menunjang bisnis utama PT Pupuk Indonesia (Persero) beserta anak perusahaannya.</p>
         </div>
         <div class="tab-pane fade m-4" id="mission">
           <h3 class=""><i><b>Misi</b></i></h3>
           <hr>
-          <ul class="">
+          <ul class="" style="font-size: 20px;">
             <li>
               Melakukan usaha dalam bidang penyediaan energi dan utilitas.
             </li>
@@ -48,45 +48,45 @@
             <div class="col-md-4 mb-3">
               <div class="card card-fixed">
                 <div class="card-body text-start">
-                  <h5 class="card-title">
-                    <b style="color: white;">Listrik</b><br><b>GTG</b> GGCP + KDM<br><b>STG</b> RDM<br><b>PLTS</b> Green Energy
-                  </h5>
+                  <h5 class="card-title"><b style="color: white;">Listrik</b></h5>
+                  <hr style="margin-top: 0.25rem; margin-bottom: 0.25rem;"/>
+                  <h5 class="card-title"><b>GTG</b> GGCP + KDM<br><b>STG</b> RDM<br><b>PLTS</b> Green Energy</h5>
                 </div>
               </div>
             </div>
             <div class="col-md-4 mb-3">
               <div class="card card-fixed">
                 <div class="card-body text-start">
-                  <h5 class="card-title">
-                    <b style="color: white;">Steam</b><br><b>HRSG</b> GGCP + KDM
-                  </h5>
+                  <h5 class="card-title"><b style="color: white;">Steam</b></h5>
+                  <hr style="margin-top: 0.25rem; margin-bottom: 0.25rem;"/>
+                  <h5 class="card-title"><br><b>HRSG</b> GGCP + KDM</h5>
                 </div>
               </div>
             </div>
             <div class="col-md-4 mb-3">
               <div class="card card-fixed">
                 <div class="card-body text-start">
-                  <h5 class="card-title">
-                    <b style="color: white;">N2 & O2</b><br>Industrial Gases
-                  </h5>
+                  <h5 class="card-title"><b style="color: white;">N2 & O2</b></h5>
+                  <hr style="margin-top: 0.25rem; margin-bottom: 0.25rem;"/>
+                  <h5 class="card-title"><br>Industrial Gases</h5>
                 </div>
               </div>
             </div>
             <div class="col-md-4 mb-3">
               <div class="card card-fixed">
                 <div class="card-body text-start">
-                  <h5 class="card-title">
-                    <b style="color: white;">SPKLU</b><br>Waste Water Treatment
-                  </h5>
+                  <h5 class="card-title"><b style="color: white;">SPKLU</b></h5>
+                  <hr style="margin-top: 0.25rem; margin-bottom: 0.25rem;"/>
+                  <h5 class="card-title"><br>Waste Water Treatment</h5>
                 </div>
               </div>
             </div>
             <div class="col-md-4 mb-3">
               <div class="card card-fixed">
                 <div class="card-body text-start">
-                  <h5 class="card-title">
-                    <b style="color: white;">Jasa Planting Services</b><br><b>O&M</b> Tracon Industri
-                  </h5>
+                  <h5 class="card-title"><b style="color: white;">Jasa Planting Services</b></h5>
+                  <hr style="margin-top: 0.25rem; margin-bottom: 0.25rem;"/>
+                  <h5 class="card-title "><br><b>O&M</b> Tracon Industri</h5>
                 </div>
               </div>
             </div>
@@ -98,8 +98,8 @@
           <div class="row row-space">
             <div class="col-md-3 mb-3">
               <div class="card card-fixed">
-                <div class="card-body text-start p-3">
-                  <h5 class="card-title">
+                <div class="card-body text-center p-3 d-flex justify-content-center align-items-center">
+                  <h5 class="card-title" >
                     Business Development
                   </h5>
                 </div>
@@ -107,7 +107,7 @@
             </div>
             <div class="col-md-3 mb-3">
               <div class="card card-fixed">
-                <div class="card-body text-start p-3">
+                <div class="card-body text-center p-3 d-flex justify-content-center align-items-center">
                   <h5 class="card-title">
                     Supply Chain
                   </h5>
@@ -116,7 +116,7 @@
             </div>
             <div class="col-md-3 mb-3">
               <div class="card card-fixed">
-                <div class="card-body text-start p-3">
+                <div class="card-body text-center p-3 d-flex justify-content-center align-items-center">
                   <h5 class="card-title">
                     Operasional Efficiency
                   </h5>
@@ -125,7 +125,7 @@
             </div>
             <div class="col-md-3 mb-3">
               <div class="card card-fixed">
-                <div class="card-body text-start p-3">
+                <div class="card-body text-center p-3 d-flex justify-content-center align-items-center">
                   <h5 class="card-title">
                     Sistem IT
                   </h5>
@@ -134,7 +134,7 @@
             </div>
             <div class="col-md-3 mb-3">
               <div class="card card-fixed">
-                <div class="card-body text-start p-3">
+                <div class="card-body text-center p-3 d-flex justify-content-center align-items-center">
                   <h5 class="card-title">
                     Enterprise Risk Management
                   </h5>
@@ -143,7 +143,7 @@
             </div>
             <div class="col-md-3 mb-3">
               <div class="card card-fixed">
-                <div class="card-body text-start p-3">
+                <div class="card-body text-center p-3 d-flex justify-content-center align-items-center">
                   <h5 class="card-title">
                     GCG
                   </h5>
@@ -152,7 +152,7 @@
             </div>
             <div class="col-md-3 mb-3">
               <div class="card card-fixed">
-                <div class="card-body text-start p-3">
+                <div class="card-body text-center p-3 d-flex justify-content-center align-items-center">
                   <h5 class="card-title">
                     Audit
                   </h5>
