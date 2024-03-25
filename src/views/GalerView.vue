@@ -1,18 +1,20 @@
 <template>
     <div class="galeri">
         <NavBar/>
-        <div class="video-background video-container">
-            <video playsinline autoplay muted loop disablePictureInPicture>
-                <source src="@/assets/video/COMPRO 3.mp4" type="video/mp4">
-            </video>
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="overlay-text">
-                    <p><b>Corporate Social Responsibility</b></p>
-                </div>
-            </div>
-        </div>
+        <div style="background-color: #f0f5f8;">
+          <div class="video-background video-container">
+              <video playsinline autoplay muted loop disablePictureInPicture>
+                  <source src="@/assets/video/COMPRO 3.mp4" type="video/mp4">
+              </video>
+              <div class="overlay"></div>
+              <div class="container">
+                  <div class="overlay-text">
+                      <p><b>Corporate Social Responsibility</b></p>
+                  </div>
+              </div>
+          </div>
         <GaleryContent/>
+        </div>
         <FooterSection/>
     </div>
 </template>

@@ -278,7 +278,7 @@
 
     <div class="text-container">
       <h1 style="color: #084e8b; font-weight: 600; font-style: italic">
-        Direktur
+        <b>Direktur</b>
       </h1>
       <h2 style="color: #e65824; font-weight: 700; font-style: italic">
         PT Pupuk Indonesia Utilitas

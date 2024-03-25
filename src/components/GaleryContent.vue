@@ -1,7 +1,8 @@
 <template>
-    <div class="container mt-3">
-        <hr>
-        <div class="row mb-4">
+    <div class="" style="background-color: #f0f5f8;">
+    <div class="container">
+        <hr class="mt-3">
+        <div class="row mb-4 ">
             <div class="col-md-3 mb-3">
                 <div class="card card-body">
                     <p>
@@ -870,6 +871,7 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </template>
 

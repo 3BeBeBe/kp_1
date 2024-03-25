@@ -10,16 +10,23 @@
                 </div>
                 <div class="col-md-6">
                     <div>
-                        <p class="text-with-line">Selamat membaca {{ selectedImageDetails.name }}</p>
-                        <h2 class="">Buletin Setiap Semester</h2>
-                        <h4 class="">PT Pupuk Indonesia Utilitas</h4>
+                        <p class="text-with-line" style="font-weight: bold;">Selamat membaca {{ selectedImageDetails.name }}</p>
+                        <h2 class="" style="font-weight: bold;">Buletin Setiap Semester</h2>
+                        <h4 class="" style="font-weight: bold;">PT Pupuk Indonesia Utilitas</h4>
                         <p class="">{{ selectedImageDetails.subName }}</p>
 
                         <hr>
 
                         <div class="row">
-                            <div class="col-md-12">
-                                <a :href="selectedImageDetails.readMoreLink" class="btn btn-primary mb-3" download>{{ selectedImageDetails.name }} Download</a>
+                            <div class="col-md-12 mb-3">
+                                <a :href="selectedImageDetails.readMoreLink" download class="btn d-flex justify-content-center" style="width: 160px;">
+                                    <div class="d-flex justify-content-center align-items-center" style="background-color: #0088ff; border: 3px solid #0088ff; border-radius: 50px 0px 0px 50px;">
+                                        <p class="text-white m-0 p-1 ms-2" style="white-space: nowrap;"><b>{{ selectedImageDetails.name }}</b></p>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center" style="background-color: #ffffff; border: 3px solid #0088ff; border-radius: 0px 50px 50px 0px;">
+                                        <img src="../assets/logo PIU.png" class="me-3" style="width: 50%; height: 100%; height: auto; display: block; margin: 5px auto;">
+                                    </div>
+                                </a>
                             </div>
                             <div class="col-md-6 col-4">
                                 <p>Pages:</p>
@@ -53,12 +60,12 @@
             return {
                 selectedImage: require('@/assets/bulletinBUZZ/edisi7.png'), 
                 images: [
-                    { name: 'BUZZ 7', subName: 'Amplify Teamwork Building Partership', path: require('@/assets/bulletinBUZZ/edisi7.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_buletin FULL FINAL_OKE OKE OKE.pdf', pages: '19', year: '2023' },
-                    { name: 'BUZZ 6', subName: 'Transformasi & Penyelarasan Bisnis', path: require('@/assets/bulletinBUZZ/edisi6.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_BULETIN_JUNI-2023_FINAL-WEB_compressed.pdf', pages: '36', year: '2023' },
-                    { name: 'BUZZ 5', subName: 'Tata Kelola & Strategi Baru Korporasi', path: require('@/assets/bulletinBUZZ/edisi5.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_BULETIN_DESEMBER-2022_FINAL-CETAK-HIRES.pdf', pages: '32', year: '2022' },
-                    { name: 'BUZZ 4', subName: 'Energi Baru', path: require('@/assets/bulletinBUZZ/edisi4.png'), readMoreLink: '@/assets/bulletinBUZZ/BUZZ-edisi-4.pdf', pages: '32', year: '2021' },
-                    { name: 'BUZZ 3', subName: 'Inovasi Di Tengah Pandemi', path: require('@/assets/bulletinBUZZ/edisi3.jpg'), readMoreLink: '@/assets/bulletinBUZZ/BUZZ-III-Agustus-2020.pdf', pages: '32', year: '2020' },
-                    { name: 'BUZZ 2', subName: 'Inovasi Berkelanjutan', path: require('@/assets/bulletinBUZZ/edisi2.jpg'), readMoreLink: '@/assets/bulletinBUZZ/BUZZ-II-Februari-2019(1).pdf', pages: '32', year: '2019' },
+                    { name: 'BUZZ 07', subName: 'Amplify Teamwork Building Partership', path: require('@/assets/bulletinBUZZ/edisi7.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_buletin FULL FINAL_OKE OKE OKE.pdf', pages: '19', year: '2023' },
+                    { name: 'BUZZ 06', subName: 'Transformasi & Penyelarasan Bisnis', path: require('@/assets/bulletinBUZZ/edisi6.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_BULETIN_JUNI-2023_FINAL-WEB_compressed.pdf', pages: '36', year: '2023' },
+                    { name: 'BUZZ 05', subName: 'Tata Kelola & Strategi Baru Korporasi', path: require('@/assets/bulletinBUZZ/edisi5.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_BULETIN_DESEMBER-2022_FINAL-CETAK-HIRES.pdf', pages: '32', year: '2022' },
+                    { name: 'BUZZ 04', subName: 'Energi Baru', path: require('@/assets/bulletinBUZZ/edisi4.png'), readMoreLink: '@/assets/bulletinBUZZ/BUZZ-edisi-4.pdf', pages: '32', year: '2021' },
+                    { name: 'BUZZ 03', subName: 'Inovasi Di Tengah Pandemi', path: require('@/assets/bulletinBUZZ/edisi3.jpg'), readMoreLink: '@/assets/bulletinBUZZ/BUZZ-III-Agustus-2020.pdf', pages: '32', year: '2020' },
+                    { name: 'BUZZ 02', subName: 'Inovasi Berkelanjutan', path: require('@/assets/bulletinBUZZ/edisi2.jpg'), readMoreLink: '@/assets/bulletinBUZZ/BUZZ-II-Februari-2019(1).pdf', pages: '32', year: '2019' },
                 ]
             };
         },

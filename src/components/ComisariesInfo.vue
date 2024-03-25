@@ -1,7 +1,7 @@
 <template>
   <div class="container info-container">
     <div>
-      <h1 style="color: #084e8b; font-weight: 600; font-style: italic;">Komisaris</h1>
+      <h1 style="color: #084e8b; font-weight: 600; font-style: italic;"><b>Komisaris</b></h1>
       <h2 style="color: #e65824; font-weight: 700; font-style: italic;">PT Pupuk Indonesia Utilitas</h2>
     </div>
     

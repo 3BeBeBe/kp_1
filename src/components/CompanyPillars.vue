@@ -49,7 +49,7 @@
               <div class="card card-fixed">
                 <div class="card-body text-start">
                   <h5 class="card-title">
-                    (Listrik)<br><b>GTG</b> GGCP + KDM<br><b>STG</b> RDM<br><b>PLTS</b> Green Energy
+                    <b style="color: white;">Listrik</b><br><b>GTG</b> GGCP + KDM<br><b>STG</b> RDM<br><b>PLTS</b> Green Energy
                   </h5>
                 </div>
               </div>
@@ -58,7 +58,7 @@
               <div class="card card-fixed">
                 <div class="card-body text-start">
                   <h5 class="card-title">
-                    (Steam)<br><b>HRSG</b> GGCP + KDM
+                    <b style="color: white;">Steam</b><br><b>HRSG</b> GGCP + KDM
                   </h5>
                 </div>
               </div>
@@ -67,7 +67,7 @@
               <div class="card card-fixed">
                 <div class="card-body text-start">
                   <h5 class="card-title">
-                    (N2 & O2)<br>Industrial Gases
+                    <b style="color: white;">N2 & O2</b><br>Industrial Gases
                   </h5>
                 </div>
               </div>
@@ -76,7 +76,7 @@
               <div class="card card-fixed">
                 <div class="card-body text-start">
                   <h5 class="card-title">
-                    (SPKLU)<br>Waste Water Treatment
+                    <b style="color: white;">SPKLU</b><br>Waste Water Treatment
                   </h5>
                 </div>
               </div>
@@ -85,7 +85,7 @@
               <div class="card card-fixed">
                 <div class="card-body text-start">
                   <h5 class="card-title">
-                    (Jasa Planting Services)<br><b>O&M</b> Tracon Industri
+                    <b style="color: white;">Jasa Planting Services</b><br><b>O&M</b> Tracon Industri
                   </h5>
                 </div>
               </div>
@@ -334,13 +334,16 @@ export default {
     border-radius: 15px;
   }
   .col-md-3 .card {
-    height: 100px;
+    height: 100%;
     background-color: #009eaa;
     color: white;
     box-shadow: 0 4px 8px rgba(4, 136, 145, 0.3);
   }
-  .card-title {
-    font-weight: bold;
+  .col-md-6 .card {
+    height: 90px;
+    background-color: #009eaa;
+    color: white;
+    box-shadow: 0 4px 8px rgba(4, 136, 145, 0.3);
   }
   .card-title b {
     color: #1d2a57;
@@ -351,7 +354,7 @@ export default {
   .title {
     width: 30%;
     min-height: 0px;
-              /* background-color: #084e8b; */
+    /* background-color: #084e8b; */
     color: #ffffff;
     padding: 20px;
     margin: 0 auto;
