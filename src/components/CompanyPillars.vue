@@ -59,7 +59,7 @@
                 <div class="card-body text-start">
                   <h5 class="card-title"><b style="color: white;">Steam</b></h5>
                   <hr style="margin-top: 0.25rem; margin-bottom: 0.25rem;"/>
-                  <h5 class="card-title"><br><b>HRSG</b> GGCP + KDM</h5>
+                  <h5 class="card-title"><b>HRSG</b> GGCP + KDM</h5>
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@
                 <div class="card-body text-start">
                   <h5 class="card-title"><b style="color: white;">N2 & O2</b></h5>
                   <hr style="margin-top: 0.25rem; margin-bottom: 0.25rem;"/>
-                  <h5 class="card-title"><br>Industrial Gases</h5>
+                  <h5 class="card-title">Industrial Gases</h5>
                 </div>
               </div>
             </div>
@@ -77,7 +77,7 @@
                 <div class="card-body text-start">
                   <h5 class="card-title"><b style="color: white;">SPKLU</b></h5>
                   <hr style="margin-top: 0.25rem; margin-bottom: 0.25rem;"/>
-                  <h5 class="card-title"><br>Waste Water Treatment</h5>
+                  <h5 class="card-title">Waste Water Treatment</h5>
                 </div>
               </div>
             </div>
@@ -86,7 +86,7 @@
                 <div class="card-body text-start">
                   <h5 class="card-title"><b style="color: white;">Jasa Planting Services</b></h5>
                   <hr style="margin-top: 0.25rem; margin-bottom: 0.25rem;"/>
-                  <h5 class="card-title "><br><b>O&M</b> Tracon Industri</h5>
+                  <h5 class="card-title "><b>O&M</b> Tracon Industri</h5>
                 </div>
               </div>
             </div>
@@ -98,7 +98,7 @@
           <div class="row row-space">
             <div class="col-md-3 mb-3">
               <div class="card card-fixed">
-                <div class="card-body text-center p-3 d-flex justify-content-center align-items-center">
+                <div class="card-body p-3">
                   <h5 class="card-title" >
                     Business Development
                   </h5>
@@ -107,7 +107,7 @@
             </div>
             <div class="col-md-3 mb-3">
               <div class="card card-fixed">
-                <div class="card-body text-center p-3 d-flex justify-content-center align-items-center">
+                <div class="card-body p-3">
                   <h5 class="card-title">
                     Supply Chain
                   </h5>
@@ -116,7 +116,7 @@
             </div>
             <div class="col-md-3 mb-3">
               <div class="card card-fixed">
-                <div class="card-body text-center p-3 d-flex justify-content-center align-items-center">
+                <div class="card-body p-3">
                   <h5 class="card-title">
                     Operasional Efficiency
                   </h5>
@@ -125,7 +125,7 @@
             </div>
             <div class="col-md-3 mb-3">
               <div class="card card-fixed">
-                <div class="card-body text-center p-3 d-flex justify-content-center align-items-center">
+                <div class="card-body p-3">
                   <h5 class="card-title">
                     Sistem IT
                   </h5>
@@ -134,7 +134,7 @@
             </div>
             <div class="col-md-3 mb-3">
               <div class="card card-fixed">
-                <div class="card-body text-center p-3 d-flex justify-content-center align-items-center">
+                <div class="card-body p-3">
                   <h5 class="card-title">
                     Enterprise Risk Management
                   </h5>
@@ -143,7 +143,7 @@
             </div>
             <div class="col-md-3 mb-3">
               <div class="card card-fixed">
-                <div class="card-body text-center p-3 d-flex justify-content-center align-items-center">
+                <div class="card-body p-3">
                   <h5 class="card-title">
                     GCG
                   </h5>
@@ -152,7 +152,7 @@
             </div>
             <div class="col-md-3 mb-3">
               <div class="card card-fixed">
-                <div class="card-body text-center p-3 d-flex justify-content-center align-items-center">
+                <div class="card-body p-3">
                   <h5 class="card-title">
                     Audit
                   </h5>

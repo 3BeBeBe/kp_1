@@ -13,7 +13,7 @@
                   </div>
               </div>
           </div>
-        <GaleryContent/>
+          <GaleryContent/>
         </div>
         <FooterSection/>
     </div>
@@ -72,7 +72,7 @@
   position: absolute;
   bottom: 10%; /* Position from the bottom */
   color: white;
-  font-size: 3em;
+  font-size: 4em;
 }
 .content {
   position: relative;

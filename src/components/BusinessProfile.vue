@@ -47,15 +47,15 @@
                     <div class="modal fade" id="ggcp" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered modal-xl">
                             <div class="modal-content">
-                                <div class="modal-header">
+                                <!-- <div class="modal-header">
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
+                                </div> -->
                                 <div class="modal-body">
-                                    <img class="img-fluid" src="../assets/pabrik/GGCP/pub_ggcp.jpg"/>
+                                    <img class="img-fluid" src="../assets/pabrik/GGCP/Skema Porto GGCP.jpg"/>
                                 </div>
-                                <div class="modal-footer">
+                                <!-- <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -99,15 +99,15 @@
                     <div class="modal fade" id="kdm" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-centered modal-xl">
                             <div class="modal-content">
-                                <div class="modal-header">
+                                <!-- <div class="modal-header">
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                </div>
+                                </div> -->
                                 <div class="modal-body">
-                                    <img class="img-fluid" src="../assets/pabrik/KDM/pub_kdm.jpg"/>
+                                    <img class="img-fluid" src="../assets/pabrik/KDM/Skema Porto KDM.jpg"/>
                                 </div>
-                                <div class="modal-footer">
+                                <!-- <div class="modal-footer">
                                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -126,7 +126,6 @@
 </script>
 
 <style scoped>
-    
     .parallax {
         background-image: url("../assets/pabrik/GGCP/ggcp1.jpg");
         min-height: 500px; 
