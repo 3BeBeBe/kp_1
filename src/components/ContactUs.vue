@@ -105,17 +105,18 @@
                     <div class="bolding-text" style="overflow: hidden;">
                       <div class="d-flex flex-row align-items-center">
                       <img class="img-fluid" src="../assets/icons/landmark.png" width="30" height="30" style="margin-right: 10px;">
-                      <p>Alamanda Tower Lt 26,Jl. T.B. Simatupang No 22-26</p>
-                      <p>Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta</p>
+                      <p class="mt-3">Alamanda Tower Lt 26,Jl. T.B. Simatupang No 22-26
+                      <br>
+                      Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta</p>
                       </div>
                       <div class="d-flex flex-row align-items-center">
                         <img class="img-fluid" src="../assets/icons/phonering.png" width="30" height="30" style="margin-right: 10px;">
-                        <p>(021) 29661630</p>
+                        <p class="mt-2">(021) 29661630</p>
                       
                       </div>
                       <div class="d-flex flex-row align-items-center">
                         <img class="img-fluid" src="../assets/icons/mailplane.png" width="30" height="30" style="margin-right: 10px;">
-                        <p>info@pi-utilitas.com</p>
+                        <p class="mt-3">info@pi-utilitas.com</p>
                         
                       </div>
                     </div>
