@@ -223,7 +223,7 @@ const routes = [
     component: () => import ('../views/Laporan/Sustainability.vue')
   },
   {
-    path: '/sketchy',
+    path: '/contact',
     name: 'contact',
     component: () => import ('../views/ContactView.vue')
   }

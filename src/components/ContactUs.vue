@@ -21,9 +21,10 @@
             <div class="card-body">
               <div class="d-flex align-items-center justify-content-center">
                 <h5 class="text-center">
-                  As the largest fertilizer industry holding in Indonesia, PT
+                  <!-- As the largest fertilizer industry holding in Indonesia, PT
                   Pupuk Indonesia (Persero) strives to continuously improve
-                  services to customers through 'Suara Pelanggan' service.
+                  services to customers through 'Suara Pelanggan' service. -->
+                  Kontak PT Pupuk Indonesia Utilitas melalui sarana yang telah disediakan berikut
                 </h5>
               </div>
 
@@ -101,14 +102,19 @@
                         margin-right: 25px;
                       "
                     /> -->
-                    <div class="bolding-text" style="overflow: visible;">
+                    <div class="bolding-text" style="overflow: hidden;">
+                      <div class="d-flex flex-row align-items-center">
+                      <img class="img-fluid" src="../assets/icons/landmark.png" width="30" height="30" style="margin-right: 10px;">
                       <p>Alamanda Tower Lt 26,Jl. T.B. Simatupang No 22-26</p>
                       <p>Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta</p>
+                      </div>
                       <div class="d-flex flex-row align-items-center">
+                        <img class="img-fluid" src="../assets/icons/phonering.png" width="30" height="30" style="margin-right: 10px;">
                         <p>(021) 29661630</p>
                       
                       </div>
                       <div class="d-flex flex-row align-items-center">
+                        <img class="img-fluid" src="../assets/icons/mailplane.png" width="30" height="30" style="margin-right: 10px;">
                         <p>info@pi-utilitas.com</p>
                         
                       </div>
@@ -118,7 +124,7 @@
 
                 <div class="d-flex flex-column" style="margin-left: auto; align-items: end;">
                   
-                  <img src="../assets/FO_3.jpg" style="width: 80%; height: auto;"/>
+                  <!-- <img src="../assets/FO_3.jpg" style="width: 80%; height: auto;"/> -->
 
                   <!-- <p style="font-weight: 650; font-size: 30px">IPP Gresik</p>
                   <div class="d-flex flex-row">

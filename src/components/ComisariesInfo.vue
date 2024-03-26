@@ -1,4 +1,5 @@
 <template>
+  <div class="wallpaper-container">
   <div class="container info-container">
     <div>
       <h1 style="color: #084e8b; font-weight: 600; font-style: italic;"><b>Komisaris</b></h1>
@@ -285,6 +286,7 @@
       </div>
     <!-- </transition> -->
   </div>
+  </div>
 </template>
 
 <script>
@@ -477,4 +479,28 @@ p{
     display: block; /* Or inline-block, inline, flex, etc. depending on your layout */
   }
 }
+
+.wallpaper-container {
+    background-image: url("../assets/Pattern_4.png");
+    background-size: cover;
+    display: flex;
+    background-repeat: no-repeat;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; /* Ensure the container is above the overlay */
+    min-height: 65vh;
+  }
+
+  .wallpaper-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: -1; /* Ensure the overlay is behind the container */
+  }
 </style>

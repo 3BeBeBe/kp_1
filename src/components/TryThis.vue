@@ -18,6 +18,7 @@
           <h3 class=""><i><b>Visi</b></i></h3>
           <p class="">Menjadi Perusahaan Energi dan Utilitas terintegrasi kelas dunia untuk menunjang bisnis utama PT Pupuk Indonesia (Persero) beserta anak perusahaannya.</p>
         </div>
+        
         <div class="tab-pane fade m-4" id="mission">
           <h3 class=""><i><b>Misi</b></i></h3>
           <ul class="">
@@ -229,6 +230,8 @@
       </div>
     </div>
   </div> 
+
+  
 </template>
 
 <script>

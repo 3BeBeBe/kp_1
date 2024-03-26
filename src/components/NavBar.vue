@@ -29,7 +29,7 @@
                 >
               </li>
               <li class="nav-item">
-                <router-link class="nav-link d-flex justify-content-end align-items-center" to="/sketchy">
+                <router-link class="nav-link d-flex justify-content-end align-items-center" to="/contact">
                   <!-- <img
                     src="../assets/ButtonDesign/ButtonDesign - Tester.png"
                     style="width: 65%"
