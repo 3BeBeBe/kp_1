@@ -37,7 +37,7 @@
 .video-container {
   position: relative;
   width: 100%;
-  height: 60vh; /* This makes the container take up the full height of the viewport */
+  height: 100vh; /* This makes the container take up the full height of the viewport */
   overflow: hidden;
 }
 .video-container video {
