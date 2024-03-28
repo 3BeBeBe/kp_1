@@ -1,5 +1,5 @@
 <template>
-  <div class="wallpaper-container">
+  <!-- <div class="wallpaper-container"> -->
   <div class="container info-container">
     <div>
       <h1 style="color: #084e8b; font-weight: 600; font-style: italic;"><b>Komisaris</b></h1>
@@ -286,7 +286,7 @@
       </div>
     <!-- </transition> -->
   </div>
-  </div>
+  <!-- </div> -->
 </template>
 
 <script>
@@ -318,6 +318,9 @@ export default {
 <style scoped>
 p{
   text-align: justify;
+}
+h3 {
+  font-weight: bold;
 }
 .modal {
   position: fixed;

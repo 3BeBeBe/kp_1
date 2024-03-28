@@ -1,5 +1,5 @@
 <template>
-  <div class="wallpaper-container">
+  <!-- <div class="wallpaper-container"> -->
   <div class="container info-container">
     <!-- <button class="btn main-button" :class="{ 'right': !isLeft, 'left': isLeft, 'on-top': isLeft }" @click="toggleButton">
         <img src="../assets/director.jpg" alt="Main button image">
@@ -294,7 +294,7 @@
     </div>
   </div> -->
   </div>
-</div>
+<!-- </div> -->
 </template>
 
 <script>
@@ -325,6 +325,9 @@ export default {
 <style scoped>
 p{
   text-align: justify;
+}
+h3 {
+  font-weight: bold;
 }
 .modal {
   position: fixed;
