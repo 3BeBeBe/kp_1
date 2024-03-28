@@ -21,9 +21,6 @@
             <div class="card-body">
               <div class="d-flex align-items-center justify-content-center">
                 <h5 class="text-center">
-                  <!-- As the largest fertilizer industry holding in Indonesia, PT
-                  Pupuk Indonesia (Persero) strives to continuously improve
-                  services to customers through 'Suara Pelanggan' service. -->
                   Kontak PT Pupuk Indonesia Utilitas melalui sarana yang telah disediakan berikut
                 </h5>
               </div>
@@ -104,10 +101,11 @@
                     /> -->
                     <div class="bolding-text" style="overflow: hidden;">
                       <div class="d-flex flex-row align-items-center">
-                      <img class="img-fluid" src="../assets/icons/landmark.png" width="30" height="30" style="margin-right: 10px;">
-                      <p class="mt-3">Alamanda Tower Lt 26,Jl. T.B. Simatupang No 22-26
-                      <br>
-                      Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta</p>
+                        
+                           <img class="img-fluid mb-3" src="../assets/icons/landmark.png"  style="margin-right: 10px; width: 30px; height: 30px;">
+                          <p class="mt-0">Alamanda Tower Lt 26,Jl. T.B. Simatupang No 22-26 <br> Kota Jakarta Selatan, Daerah Khusus Ibukota Jakarta</p>
+                        
+                      
                       </div>
                       <div class="d-flex flex-row align-items-center">
                         <img class="img-fluid" src="../assets/icons/phonering.png" width="30" height="30" style="margin-right: 10px;">
@@ -123,49 +121,12 @@
                   </div>
                 </div>
 
-                <div class="d-flex flex-column" style="margin-left: auto; align-items: end;">
+                  <div class="d-flex flex-column" style="width: 50%; margin-left: auto; margin-right: auto;">
                   
-                  <!-- <img src="../assets/FO_3.jpg" style="width: 80%; height: auto;"/> -->
+                  <img src="../assets/FO_3.jpg" style="width: 100%; height: auto;"/>
 
-                  <!-- <p style="font-weight: 650; font-size: 30px">IPP Gresik</p>
-                  <div class="d-flex flex-row">
-                    <img
-                      src="../assets/logo PIU.png"
-                      style="
-                        width: 15%;
-                        height: auto;
-                        align-self: center;
-                        margin-right: 25px;
-                      "
-                    />
-                    <div class="bolding-text">
-                      <p>Jl. Gubernur Suryo, Pabrik 3 PT Petrokimia Gresik</p>
-                      <p>Gresik, Jawa Timur</p>
-                      <div class="d-flex flex-row align-items-center">
-                        <p>-</p>
-                      </div>
-                      <div class="d-flex flex-row align-items-center">
-                        <p>info@pi-utilitas.com</p>
-                      </div>
-                    </div>
-                  </div> -->
                 </div>
 
-                <!-- <p style="font-weight: 650; font-size: 30px">
-                    Gresik Gas Congregation Plant
-                  </p>
-
-                <div
-                  class="d-flex flex-column justify-content-end"
-                  style="
-                    margin-left: auto;
-                    text-align: left;
-                    margin-right: 50px;
-                  "
-                >
-                  <p>moment</p>
-                  <p>moment2</p>
-                </div> -->
               </div>
             </div>
           </div>
@@ -200,24 +161,6 @@
                       />
                     </div>
                   </div>
-
-                    <!-- <div class="row">
-                      <div class="col-md-6">
-                    
-                      <div class="mb-3">
-                        <label for="inputTelepon" class="form-label"
-                          >Nomor Telepon</label
-                        >
-                        <input
-                          type="telepon"
-                          class="form-control"
-                          id="inputTelepon"
-                          v-model="telepon"
-                        />
-                      </div>
-                    </div>
-                    </div> -->
-                
 
                   <div class="row">
                     <div class="col-md-6">
