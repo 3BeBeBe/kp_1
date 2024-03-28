@@ -57,6 +57,11 @@
               <div
                 class="col-md-8 me-5 d-flex justify-content-center align-items-center"
               >
+
+              <!-- <div
+                class="col-md-8 d-flex justify-content-end align-items-center pe-0"
+              > -->
+              
                 <ul class="navbar-nav navbar-auto">
                   <li class="nav-item dropdown">
                     <router-link
