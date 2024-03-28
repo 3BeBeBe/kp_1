@@ -14,15 +14,15 @@
           <button
           class="btn-square image-button item e1"
           data-bs-toggle="modal"
-          data-bs-target="#kom1"
+          data-bs-target="#svp1"
         >
           <img
-            src="../assets/Manajemen/Komisaris/Sumyana Sukandar - Komisaris Utama.jpg"
+            src="../assets/Manajemen/SVP/Pak Hisar Desmon crop.png"
           />
           <!-- <div class="item e1"> -->
             <div class="text1">
-              <h4><b>Komisaris Utama</b></h4>
-              <p>Sumyana Sukandar</p>
+              <h4><b>SVP Operasi</b></h4>
+              <p>Hisar Desmon</p>
             </div>
           <!-- </div> -->
         </button>
@@ -38,14 +38,11 @@
           </button> -->
   
           <!-- modal -->
-          <div class="modal fade" id="kom1" tabindex="-1" aria-hidden="true">
+          <div class="modal fade" id="svp1" tabindex="-1" aria-hidden="true">
             <div
               class="modal-dialog modal-dialog-centered modal-xl"
             >
               <div class="modal-content">
-                <!-- <div class="modal-header">
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div> -->
                 <div class="modal-body ">
                   <div class="row">
                     <div class="col-md-12 d-flex justify-content-end">
@@ -54,17 +51,17 @@
                     <div class="col-md-8 col-12 order-2 order-md-1">
                       <h2 class="modal-title mb-1">Biodata</h2>
                       <ul>
-                        <li>Nama : Sumyana Sukandar</li>
-                        <li>Tempat, Tanggal Lahir : Bandung, 11 September 1964</li>
+                        <li>Nama : Hisar Desmon</li>
+                        <li>Tempat, Tanggal Lahir : </li>
                         <li>Pendidikan : 
                           <ul>
-                            <li>Sarjana Ekonomi jurusan Manajemen dari Universitas Pasundan Bandung (1988)</li>
-                            <li>Magister Manajemen dari STIE IPWIJA Jakarta (2002)</li>
+                            <!-- <li>Sarjana Ekonomi jurusan Manajemen dari Universitas Pasundan Bandung (1988)</li>
+                            <li>Magister Manajemen dari STIE IPWIJA Jakarta (2002)</li> -->
                           </ul>
                         </li>
                         <li>Pengalaman : 
                           <ul>
-                            <li>Menjabat sebagai Komisaris Utama PT Pupuk Indonesia Utilitas</li>
+                            <!-- <li>Menjabat sebagai Komisaris Utama PT Pupuk Indonesia Utilitas</li>
                             <li>Direktur I Perum Jasa Tirta II pada 2016-2018</li>
                             <li>Direktur Administrasi dan Keuangan Perum Jasa Tirta II pada 2015</li>
                             <li>Asisten Deputi Usaha Perkebunan dan Kehutanan, pada Kedeputian Bidang Usaha Industri Agro dan Industri Strategis</li>
@@ -75,7 +72,7 @@
                             <li>Pegawai Direktorat Persero, Departemen Keuangan Ditjen Moneter hingga 1995</li>
                             <li>Staf BRI (1990-1991)</li>
                             <li>Market researcher di PT Tobby Meza.Co</li>
-                            <li>Staf tenaga survey BKKBN Provinsi Jawa Barat</li>
+                            <li>Staf tenaga survey BKKBN Provinsi Jawa Barat</li> -->
                           </ul>
                         </li>
                       </ul>
@@ -90,12 +87,12 @@
                     </div>
                     <div class="col-md-4 col-12 order-1 order-md-1">
                       <img
-                        src="../assets/Manajemen/Komisaris/Sumyana Sukandar - Komisaris Utama.jpg "
+                        src="../assets/Manajemen/SVP/Pak Hisar Desmon crop.png"
                         class="img-fluid mx-auto d-block p-3"
                       />
-                      <h3 class="modal-title text-center">Sumyana Sukandar</h3>
+                      <h3 class="modal-title text-center">Hisar Desmon</h3>
                       <h4 class="card-text text-center">
-                        Komisaris Utama
+                        SVP Operasi
                       </h4>
                     </div>  
                   </div>
@@ -107,16 +104,16 @@
           <button
           class="btn-square image-button item e1"
           data-bs-toggle="modal"
-          data-bs-target="#kom2"
+          data-bs-target="#svp2"
           style="border-radius: 0"
         >
           <img
-            src="../assets/Manajemen/Komisaris/Imam Mujahidin Fahmid - Komisaris.jpg"
+            src="../assets/Manajemen/SVP/Pak Mazni Sastra crop.png"
           />
           <!-- <div class="item e1"> -->
             <div class="text1">
-              <h4><b>Komisaris</b></h4>
-              <p>Imam Mujahidin Fahmid</p>
+              <h4><b>SVP Keuangan</b></h4>
+              <p>Mazni Sastra </p>
             </div>
           <!-- </div> -->
         </button>
@@ -132,7 +129,7 @@
           </button> -->
   
           <!-- modal -->
-          <div class="modal fade" id="kom2" tabindex="-1" aria-hidden="true">
+          <div class="modal fade" id="svp2" tabindex="-1" aria-hidden="true">
             <div
               class="modal-dialog modal-dialog-centered modal-xl"
             >
@@ -148,17 +145,17 @@
                     <div class="col-md-8 col-12 order-2 order-md-1">
                       <h2 class="modal-title mb-1">Biodata</h2>
                       <ul>
-                        <li>Nama : Imam Mujahidin Fahmid</li>
-                        <li>Tempat, Tanggal Lahir : Bima, 23 Desember 1966</li>
+                        <li>Nama : Mazni Sastra</li>
+                        <li>Tempat, Tanggal Lahir : </li>
                         <li>Pendidikan : 
-                          <ul>
+                          <!-- <ul>
                             <li>Sarjana Sosial Ekonomi Pertanian Universitas Hasanudin (1990)</li>
                             <li>Master of Trade and Development Newcastle University Australia (2001)</li> 
                             <li>Doktor Ekologi Manusia Institut Pertanian Bogor (2011)</li>
-                          </ul>
+                          </ul> -->
                         </li>
                         <li>Pengalaman : 
-                          <ul>
+                          <!-- <ul>
                             <li>Menjabat sebagai Komisaris PT Pupuk Indonesai Utilitas (27 Desember 2021 - Sekarang)</li>
                             <li>Staf Khusus Menteri Bidang Kebijakan Pertanian, Kementerian Pertanian RI (2019 – Sekarang)</li>
                             <li>Staf Pengajar Fakultas Pertanian & Pasca Sarjana Unhas, Makassar (1992 – Sekarang)</li>
@@ -168,7 +165,7 @@
                             <li>Tenaga Ahli Bappeda; Dinas Perkebunan; Dinas Pertanian; Tanaman Pangan dan Hirtikultura; Badan Ketahana Pangan Propinsi Sulawesi Selatan (2009-2018)</li>
                             <li>Ketua Badan Perusda Pemprov Sulawesi Selatan (2014-2018)</li>
                             <li>Komisaris GMTDC, Tbk (2009-2014)</li>
-                          </ul>
+                          </ul> -->
                         </li>
                       </ul>
                       <div class="d-flex align-items-end">
@@ -182,12 +179,12 @@
                     </div>
                     <div class="col-md-4 col-12 order-1 order-md-1">
                       <img
-                        src="../assets/Manajemen/Komisaris/Imam Mujahidin Fahmid - Komisaris.jpg"
+                        src="../assets/Manajemen/SVP/Pak Mazni Sastra crop.png"
                         class="img-fluid mx-auto d-block p-3"
                       />
-                      <h3 class="modal-title text-center">Imam Mujahidin Fahmid</h3>
+                      <h3 class="modal-title text-center">Mazni Sastra</h3>
                       <h4 class="card-text text-center">
-                        Komisaris
+                        SVP Keuangan
                       </h4>
                     </div>  
                   </div>
@@ -202,15 +199,15 @@
         <button
           class="btn-square image-button item e1"
           data-bs-toggle="modal"
-          data-bs-target="#kom3"
+          data-bs-target="#svp3"
         >
           <img
-            src="../assets/Manajemen/Komisaris/Monica Desideria - Komisaris.jpg"
+            src="../assets/Manajemen/SVP/Pak Rama Usvika crop.png"
           />
           <!-- <div class="item e1"> -->
             <div class="text1">
-              <h4><b>Komisaris</b></h4>
-              <p>Monica Desideria</p>
+              <h4><b>SVP Investasi & Pengembangan</b></h4>
+              <p>Rama Usvika</p>
             </div>
           <!-- </div> -->
         </button>
@@ -226,7 +223,7 @@
           </button> -->
           
           <!-- modal -->
-          <div class="modal fade" id="kom3" tabindex="-1" aria-hidden="true">
+          <div class="modal fade" id="svp3" tabindex="-1" aria-hidden="true">
             <div
               class="modal-dialog modal-dialog-centered modal-xl"
             >
@@ -239,22 +236,22 @@
                     <div class="col-md-8 col-12 order-2 order-md-1">
                       <h2 class="modal-title mb-1">Biodata</h2>
                       <ul>
-                        <li>Nama : Monica Desideria</li>
-                        <li>Tempat, Tanggal Lahir : Surabaya, 29 Agustus 1964</li>
+                        <li>Nama : Rama Usvika</li>
+                        <li>Tempat, Tanggal Lahir : </li>
                         <li>Pendidikan : 
                           <ul>
-                            <li>Sarjana Sosial Ekonomi Pertanian Universitas Hasanudin (1990)</li>
+                            <!-- <li>Sarjana Sosial Ekonomi Pertanian Universitas Hasanudin (1990)</li>
                             <li>Master of Trade and Development Newcastle University Australia (2001)</li> 
-                            <li>Doktor Ekologi Manusia Institut Pertanian Bogor (2011)</li>
+                            <li>Doktor Ekologi Manusia Institut Pertanian Bogor (2011)</li> -->
                           </ul>
                         </li>
                         <li>Pengalaman : 
                           <ul>
-                            <li>Menjabat sebagai Komisaris PT Pupuk Indonesia Utilitas (27 Desember 2021 - Sekarang)</li>
+                            <!-- <li>Menjabat sebagai Komisaris PT Pupuk Indonesia Utilitas (27 Desember 2021 - Sekarang)</li>
                             <li>GM Marketing dan Corporate Communication ANTV</li>
                             <li>Assisten GM Production ANTV</li>
                             <li>Supporting Production Manager ANTV</li>
-                            <li>Sport Manager ANTV</li>
+                            <li>Sport Manager ANTV</li> -->
                           </ul>
                         </li>
                       </ul>
@@ -269,12 +266,12 @@
                     </div>
                     <div class="col-md-4 col-12 order-1 order-md-1">
                       <img
-                        src="../assets/Manajemen/Komisaris/Monica Desideria - Komisaris.jpg"
+                        src="../assets/Manajemen/SVP/Pak Rama Usvika crop.png"
                         class="img-fluid mx-auto d-block p-3"
                       />
-                      <h3 class="modal-title text-center">Monica Desideria</h3>
+                      <h3 class="modal-title text-center">Rama Usvika</h3>
                       <h4 class="card-text text-center">
-                        Komisaris
+                        SVP Investasi & Pengembangan
                       </h4>
                     </div>  
                   </div>
@@ -286,15 +283,15 @@
           <button
           class="btn-square image-button item e1"
           data-bs-toggle="modal"
-          data-bs-target="#kom4"
+          data-bs-target="#svp4"
         >
           <img
-            src="../assets/Manajemen/Komisaris/Monica Desideria - Komisaris.jpg"
+            src="../assets/Manajemen/SVP/Pak Said Ridho crop.png"
           />
           <!-- <div class="item e1"> -->
             <div class="text1">
-              <h4><b>Komisaris</b></h4>
-              <p>Monica Desideria</p>
+              <h4><b>SVP Sekretaris Perusahaan</b></h4>
+              <p>Said Ridho</p>
             </div>
           <!-- </div> -->
         </button>
@@ -310,7 +307,7 @@
           </button> -->
           
           <!-- modal -->
-          <div class="modal fade" id="kom4" tabindex="-1" aria-hidden="true">
+          <div class="modal fade" id="svp4" tabindex="-1" aria-hidden="true">
             <div
               class="modal-dialog modal-dialog-centered modal-xl"
             >
@@ -323,22 +320,22 @@
                     <div class="col-md-8 col-12 order-2 order-md-1">
                       <h2 class="modal-title mb-1">Biodata</h2>
                       <ul>
-                        <li>Nama : Monica Desideria</li>
-                        <li>Tempat, Tanggal Lahir : Surabaya, 29 Agustus 1964</li>
+                        <li>Nama : Said Ridho</li>
+                        <li>Tempat, Tanggal Lahir : </li>
                         <li>Pendidikan : 
                           <ul>
-                            <li>Sarjana Sosial Ekonomi Pertanian Universitas Hasanudin (1990)</li>
+                            <!-- <li>Sarjana Sosial Ekonomi Pertanian Universitas Hasanudin (1990)</li>
                             <li>Master of Trade and Development Newcastle University Australia (2001)</li> 
-                            <li>Doktor Ekologi Manusia Institut Pertanian Bogor (2011)</li>
+                            <li>Doktor Ekologi Manusia Institut Pertanian Bogor (2011)</li> -->
                           </ul>
                         </li>
                         <li>Pengalaman : 
                           <ul>
-                            <li>Menjabat sebagai Komisaris PT Pupuk Indonesia Utilitas (27 Desember 2021 - Sekarang)</li>
+                            <!-- <li>Menjabat sebagai Komisaris PT Pupuk Indonesia Utilitas (27 Desember 2021 - Sekarang)</li>
                             <li>GM Marketing dan Corporate Communication ANTV</li>
                             <li>Assisten GM Production ANTV</li>
                             <li>Supporting Production Manager ANTV</li>
-                            <li>Sport Manager ANTV</li>
+                            <li>Sport Manager ANTV</li> -->
                           </ul>
                         </li>
                       </ul>
@@ -353,12 +350,12 @@
                     </div>
                     <div class="col-md-4 col-12 order-1 order-md-1">
                       <img
-                        src="../assets/Manajemen/Komisaris/Monica Desideria - Komisaris.jpg"
+                        src="../assets/Manajemen/SVP/Pak Said Ridho crop.png"
                         class="img-fluid mx-auto d-block p-3"
                       />
-                      <h3 class="modal-title text-center">Monica Desideria</h3>
+                      <h3 class="modal-title text-center">Said Ridho</h3>
                       <h4 class="card-text text-center">
-                        Komisaris
+                        SVP Sekretaris Perusahaan
                       </h4>
                     </div>  
                   </div>
@@ -370,15 +367,15 @@
           <button
           class="btn-square image-button item e1"
           data-bs-toggle="modal"
-          data-bs-target="#kom5"
+          data-bs-target="#svp5"
         >
           <img
-            src="../assets/Manajemen/Komisaris/Monica Desideria - Komisaris.jpg"
+            src="../assets/Manajemen/SVP/Pak Yulianto Ramadhan crop.png"
           />
           <!-- <div class="item e1"> -->
             <div class="text1">
-              <h4><b>Komisaris</b></h4>
-              <p>Monica Desideria</p>
+              <h4><b>SVP Satuan Pengawasan Intern</b></h4>
+              <p>Yulianto Ramadhan</p>
             </div>
           <!-- </div> -->
         </button>
@@ -394,7 +391,7 @@
           </button> -->
           
           <!-- modal -->
-          <div class="modal fade" id="kom5" tabindex="-1" aria-hidden="true">
+          <div class="modal fade" id="svp5" tabindex="-1" aria-hidden="true">
             <div
               class="modal-dialog modal-dialog-centered modal-xl"
             >
@@ -407,22 +404,22 @@
                     <div class="col-md-8 col-12 order-2 order-md-1">
                       <h2 class="modal-title mb-1">Biodata</h2>
                       <ul>
-                        <li>Nama : Monica Desideria</li>
-                        <li>Tempat, Tanggal Lahir : Surabaya, 29 Agustus 1964</li>
+                        <li>Nama : Yulianto Ramadhan</li>
+                        <li>Tempat, Tanggal Lahir : </li>
                         <li>Pendidikan : 
                           <ul>
-                            <li>Sarjana Sosial Ekonomi Pertanian Universitas Hasanudin (1990)</li>
+                            <!-- <li>Sarjana Sosial Ekonomi Pertanian Universitas Hasanudin (1990)</li>
                             <li>Master of Trade and Development Newcastle University Australia (2001)</li> 
-                            <li>Doktor Ekologi Manusia Institut Pertanian Bogor (2011)</li>
+                            <li>Doktor Ekologi Manusia Institut Pertanian Bogor (2011)</li> -->
                           </ul>
                         </li>
                         <li>Pengalaman : 
                           <ul>
-                            <li>Menjabat sebagai Komisaris PT Pupuk Indonesia Utilitas (27 Desember 2021 - Sekarang)</li>
+                            <!-- <li>Menjabat sebagai Komisaris PT Pupuk Indonesia Utilitas (27 Desember 2021 - Sekarang)</li>
                             <li>GM Marketing dan Corporate Communication ANTV</li>
                             <li>Assisten GM Production ANTV</li>
                             <li>Supporting Production Manager ANTV</li>
-                            <li>Sport Manager ANTV</li>
+                            <li>Sport Manager ANTV</li> -->
                           </ul>
                         </li>
                       </ul>
@@ -437,12 +434,12 @@
                     </div>
                     <div class="col-md-4 col-12 order-1 order-md-1">
                       <img
-                        src="../assets/Manajemen/Komisaris/Monica Desideria - Komisaris.jpg"
+                        src="../assets/Manajemen/SVP/Pak Yulianto Ramadhan crop.png"
                         class="img-fluid mx-auto d-block p-3"
                       />
-                      <h3 class="modal-title text-center">Monica Desideria</h3>
+                      <h3 class="modal-title text-center">Yulianto Ramadhan</h3>
                       <h4 class="card-text text-center">
-                        Komisaris
+                        SVP Satuan Pengawasan Intern
                       </h4>
                     </div>  
                   </div>

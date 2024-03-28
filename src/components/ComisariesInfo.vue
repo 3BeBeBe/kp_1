@@ -17,7 +17,7 @@
         data-bs-target="#kom1"
       >
         <img
-          src="../assets/Manajemen/Komisaris/Sumyana Sukandar - Komisaris Utama.jpg"
+          src="../assets/Manajemen/Komisaris/Pak Sumyana crop.png"
         />
         <!-- <div class="item e1"> -->
           <div class="text1">
@@ -90,7 +90,7 @@
                   </div>
                   <div class="col-md-4 col-12 order-1 order-md-1">
                     <img
-                      src="../assets/Manajemen/Komisaris/Sumyana Sukandar - Komisaris Utama.jpg "
+                      src="../assets/Manajemen/Komisaris/Pak Sumyana crop.png "
                       class="img-fluid mx-auto d-block p-3"
                     />
                     <h3 class="modal-title text-center">Sumyana Sukandar</h3>
@@ -111,7 +111,7 @@
         style="border-radius: 0"
       >
         <img
-          src="../assets/Manajemen/Komisaris/Imam Mujahidin Fahmid - Komisaris.jpg"
+          src="../assets/Manajemen/Komisaris/Pak Imam Mujahidin crop.png"
         />
         <!-- <div class="item e1"> -->
           <div class="text1">
@@ -182,7 +182,7 @@
                   </div>
                   <div class="col-md-4 col-12 order-1 order-md-1">
                     <img
-                      src="../assets/Manajemen/Komisaris/Imam Mujahidin Fahmid - Komisaris.jpg"
+                      src="../assets/Manajemen/Komisaris/Pak Imam Mujahidin crop.png"
                       class="img-fluid mx-auto d-block p-3"
                     />
                     <h3 class="modal-title text-center">Imam Mujahidin Fahmid</h3>
@@ -205,7 +205,7 @@
         data-bs-target="#kom3"
       >
         <img
-          src="../assets/Manajemen/Komisaris/Monica Desideria - Komisaris.jpg"
+          src="../assets/Manajemen/Komisaris/Bu Monica Desideria crop.png"
         />
         <!-- <div class="item e1"> -->
           <div class="text1">
@@ -269,7 +269,7 @@
                   </div>
                   <div class="col-md-4 col-12 order-1 order-md-1">
                     <img
-                      src="../assets/Manajemen/Komisaris/Monica Desideria - Komisaris.jpg"
+                      src="../assets/Manajemen/Komisaris/Bu Monica Desideria crop.png"
                       class="img-fluid mx-auto d-block p-3"
                     />
                     <h3 class="modal-title text-center">Monica Desideria</h3>

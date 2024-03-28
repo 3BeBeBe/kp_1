@@ -15,7 +15,7 @@
         style="border-radius: 0"
       >
         <img
-          src="../assets/Manajemen/Direksi/Mochamad Safiie - Direktur Utama.jpg"
+          src="../assets/Manajemen/Direksi/Pak Mochamad Safiie crop.png"
         />
         <!-- <div class="item e1"> -->
         <div class="text1">
@@ -83,7 +83,7 @@
                 </div>
                 <div class="col-md-4 col-12 order-1 order-md-1">
                   <img
-                    src="../assets/Manajemen/Direksi/Mochamad Safiie - Direktur Utama.jpg"
+                    src="../assets/Manajemen/Direksi/Pak Mochamad Safiie crop.png"
                     class="img-fluid mx-auto d-block p-3"
                   />
                   <h3 class="modal-title text-center">Mochamad Safiie</h3>
@@ -103,7 +103,7 @@
         style="border-radius: 0"
       >
         <img
-          src="../assets/Manajemen/Direksi/Nuri Kristiawan - Direktur Keuangan.jpg"
+          src="../assets/Manajemen/Direksi/Pak Nuri Kristiawan crop.png"
         />
         <!-- <div class="item e1"> -->
         <div class="text1">
@@ -172,7 +172,7 @@
                 </div>
                 <div class="col-md-4 col-12 order-1 order-md-1">
                   <img
-                    src="../assets/Manajemen/Direksi/Nuri Kristiawan - Direktur Keuangan.jpg"
+                    src="../assets/Manajemen/Direksi/Pak Nuri Kristiawan crop.png"
                     class="img-fluid mx-auto d-block p-3"
                   />
                   <h3 class="modal-title text-center">Nuri Kristiawan</h3>
