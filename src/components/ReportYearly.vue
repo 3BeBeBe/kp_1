@@ -95,6 +95,7 @@
     height: 100%;
     background: rgba(0, 0, 0, 0);
     transition: background 0.3s ease;
+    border-radius: 20px;
   }
 
   .report-link:hover::before {
