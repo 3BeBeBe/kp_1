@@ -137,7 +137,7 @@
     }
 
     .good-corporate {
-        background-image: url('../assets/tataKelola/whistle blowing.png');
+        background-image: url('../assets/tataKelola/framedfo22.png');
         background-size: cover; /* Cover the entire area of the component */
         background-position: center; /* Center the image */
         color: white;
@@ -156,7 +156,7 @@
         bottom: 0;
         left: 0;
         /* background: rgba(0, 0, 0, 0.8); */
-        background: linear-gradient(to right, rgb(0, 0, 0) 50%, rgba(0, 0, 0, 0) 100%);
+        background: linear-gradient(to right, rgb(0, 0, 0) 35%, rgba(0, 0, 0, 0) 75%);
     }
     
 </style>
