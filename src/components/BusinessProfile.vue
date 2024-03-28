@@ -8,8 +8,8 @@
                     <hr>
                     <p>PT Pupuk Indonesia Utilitas memiliki aset fasilitas produksi di 2 (dua) lokasi, yaitu:</p>
                     <ul>
-                        <li>Gresik Gas Cogeneration Plant di Gresik : GTG 22 MW, HRSG 60 tph, PB 100 tph</li>
-                        <li>Cogeneration Plant di Bontang, melalui subsidiary PT Kaltim Daya Mandiri (KDM): GTG 34 MW, HRSG 156 tph, N2 Plant 500 Nm3/h, SWRO 2x50 m3/h, dan jaringan integrasi listrik. Melalui anak perusahaannya yaitu PT Kaltim Daya Mandiri Agro Energy (KDM-AE), KDM melakukan pengembangan lini bisnis pada bidang trading batubara. Sampai dengan tahun 2019 KDM-AE sudah melakukan pengiriman batubara hingga 270.000 MT/year ke wilayah Kalimantan Timur dan Sulawesi Barat.</li>
+                        <li><b>Gresik Gas Cogeneration Plant</b> di Gresik : GTG 22 MW, HRSG 60 tph, PB 100 tph</li>
+                        <li>Cogeneration Plant di Bontang, melalui subsidiary <b>PT Kaltim Daya Mandiri (KDM) </b>: GTG 34 MW, HRSG 156 tph, N2 Plant 500 Nm3/h, SWRO 2x50 m3/h, dan jaringan integrasi listrik. Melalui anak perusahaannya yaitu PT Kaltim Daya Mandiri Agro Energy (KDM-AE), KDM melakukan pengembangan lini bisnis pada bidang trading batubara. Sampai dengan tahun 2019 KDM-AE sudah melakukan pengiriman batubara hingga 270.000 MT/year ke wilayah Kalimantan Timur dan Sulawesi Barat.</li>
                     </ul>
                 </div>
             </div>
