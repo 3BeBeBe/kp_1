@@ -3,6 +3,7 @@
         <NavBar/>
         <ComisariesInfo/>
         <DirectorInfo/>
+        <SVPInfo/>
         <FooterSection/>
     </div>
 </template>
@@ -11,6 +12,7 @@
     import FooterSection from '@/components/FooterSection.vue'
     import DirectorInfo from '@/components/DirectorInfo.vue'
     import ComisariesInfo from '@/components/ComisariesInfo.vue'
+    import SVPInfo from '@/components/SVPInfo.vue'
 
     export default {
         name: 'manajemenDireksiKomisaris',
@@ -18,7 +20,8 @@
             NavBar,
             FooterSection,
             DirectorInfo,
-            ComisariesInfo
+            ComisariesInfo,
+            SVPInfo
         },
     }
 </script>

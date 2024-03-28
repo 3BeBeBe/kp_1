@@ -291,7 +291,7 @@
 
 <script>
 export default {
-  name: 'DirectorInfo',
+  name: 'CommisariesInfo',
   data() {
     return {
       isRight: true,
