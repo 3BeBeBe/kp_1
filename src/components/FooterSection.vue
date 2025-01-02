@@ -58,9 +58,6 @@
                         <!-- <div class="col-12 mb-2 d-flex justify-content-center">    
                             <img class="img-fluid" src="../assets/LOGO PIU Putih.png" width="200">
                         </div> -->
-                        <div class="col-3">
-                            <img class="img-fluid" src="../assets/ISO/iso9001-2015.png" width="60">
-                        </div>
 
                         <div class="col-3">
                             <img class="img-fluid" src="../assets/ISO/iso9001-2015.png" width="60">
@@ -72,6 +69,10 @@
 
                         <div class="col-3">
                             <img class="img-fluid" src="../assets/ISO/iso137001-2016.png" width="60">
+                        </div>
+
+                        <div class="col-3 mt-1">
+                            <img class="img-fluid" src="../assets/ISO/ISO-45001-white.png" width="47">
                         </div>
                     </div>
                 </div>
