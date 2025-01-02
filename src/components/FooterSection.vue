@@ -55,13 +55,13 @@
                 <div class="gover-overlay-text">
                     <h5><b>SERTIFIKASI SISTEM MANAJEMEN ISO</b></h5>
                     <div class="row mt-3 d-flex justify-content-center">
-                        <div class="col-12 mb-2 d-flex justify-content-center">    
+                        <!-- <div class="col-12 mb-2 d-flex justify-content-center">    
                             <img class="img-fluid" src="../assets/LOGO PIU Putih.png" width="200">
-                        </div>
+                        </div> -->
                         <div class="col-3">
                             <img class="img-fluid" src="../assets/ISO/iso9001-2015.png" width="60">
                         </div>
-                        
+
                         <div class="col-3">
                             <img class="img-fluid" src="../assets/ISO/iso9001-2015.png" width="60">
                         </div>

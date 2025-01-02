@@ -89,9 +89,51 @@
 
                                     <li class="nav-item dropdown">
                                         <router-link class="nav-link dropdown-toggle" to="/media" role="button" data-bs-toggle="dropdown" aria-expanded="false">Produk & Layanan</router-link>
-                                        <ul class="dropdown-menu">
+                                        <ul class="dropdown-menu" style="width:200%;">
                                             <li>
                                                 <router-link class="dropdown-item" to="/ggcp" >Produk</router-link>
+                                            </li>
+                                            <li class="dropdown">
+                                                <router-link 
+                                                class="dropdown-item dropdown-toggle" 
+                                                to="/"
+                                                id="layananDropdown"
+                                                >
+                                                Layanan
+                                                </router-link>
+                                                
+                                                <ul class="dropdown-menu dropdown-submenu" aria-labelledby="layananDropdown">
+                                                <li>
+                                                    <router-link class="dropdown-item" to="/"> 
+                                                    Operation and Maintenance Service
+                                                    </router-link>
+                                                </li>
+                                                <li>
+                                                    <router-link class="dropdown-item" to="/"> 
+                                                    Penyediaan Gas Industri
+                                                    </router-link>
+                                                </li>
+                                                <li>
+                                                    <router-link class="dropdown-item" to="/"> 
+                                                    Pembangkit Listrik Tenaga Surya
+                                                    </router-link>
+                                                </li>
+                                                <li>
+                                                    <router-link class="dropdown-item" to="/"> 
+                                                    Shore to Ship Connection
+                                                    </router-link>
+                                                </li>
+                                                <li>
+                                                    <router-link class="dropdown-item" to="/"> 
+                                                    Pengelolaan Air Industri dan Demon
+                                                    </router-link>
+                                                </li>
+                                                <li>
+                                                    <router-link class="dropdown-item" to="/"> 
+                                                    Integrasi Listrik
+                                                    </router-link>
+                                                </li>
+                                                </ul>
                                             </li>
                                             <li>
                                                 <router-link class="dropdown-item" to="/kdm" >Anak Perusahaan</router-link>
@@ -452,5 +494,19 @@ export default {
     color: white;
     font-size: 1em;
   }
+}
+
+.dropdown-menu .dropdown-submenu {
+display: none;
+position: absolute;
+left: 100%;
+top: -7px;
+}
+.dropdown-menu .dropdown-submenu-left {
+right: 100%;
+left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+display: block;
 }
 </style>
