@@ -150,12 +150,30 @@
                       aria-expanded="false"
                       >Produk & Layanan</router-link
                     >
-                    <ul class="dropdown-menu">
+                    <ul class="dropdown-menu" style="width: 200%;">
                       <li>
                         <router-link class="dropdown-item" to="/ggcp"
                           >Produk</router-link
                         >
                       </li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li>
+                        <router-link 
+                          class="dropdown-item" 
+                          to="/"
+                          >
+                          Layanan
+                        </router-link>
+                        <ul>
+                          <li>Operation and Maintenance Service</li>
+                          <li>Penyediaan Gas Industri</li>
+                          <li>Pembangkit Listrik Tenaga Surya</li>
+                          <li>Shore to Ship Connection</li>
+                          <li>Pengelolaan Air Industri dan Demon</li>
+                          <li>Integrasi Listrik</li>
+                        </ul>
+                      </li>
+                      <li><hr class="dropdown-divider"></li>
                       <li>
                         <router-link class="dropdown-item" to="/kdm"
                           >Anak Perusahaan</router-link

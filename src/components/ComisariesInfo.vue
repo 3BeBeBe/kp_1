@@ -11,7 +11,7 @@
     </button>
     <transition name="fade" @before-enter="beforeEnter" @enter="enter"> -->
       <div class="button-row" v-if="isRight">
-        <button
+      <button
         class="btn-square image-button item e1"
         data-bs-toggle="modal"
         data-bs-target="#kom1"

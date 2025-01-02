@@ -3,22 +3,14 @@
       <h2 style="font-style: italic; color: #084e8b; font-weight: 700">Laporan Tahunan</h2>
       <hr />
       <div class="row mt-4 d-flex align-items-center">
-        <!-- <div class="col-md-9">
-          <div class="container tab-content mt-2 text-center">
-            <div class="tab-pane fade show active" id="lapkeu">
-              <div class="row mt-4"> -->
-                <div class="col-md-3 " v-for="(report, index) in reports" :key="index">
-                  <a :href="report.link" class="btn report-link" download>
-                    <img class="img-fluid size-image mt-2" :src="report.coverImage" />
-                    <h3 class="report-title">{{ report.title }}</h3>
-                  </a>
-                </div>
-              </div>
-            </div>
-          <!-- </div>
+        <div class="col-md-3 " v-for="(report, index) in reports" :key="index">
+          <a :href="report.link" class="btn report-link" download>
+            <img class="img-fluid size-image mt-2" :src="report.coverImage" />
+            <h3 class="report-title">{{ report.title }}</h3>
+          </a>
         </div>
       </div>
-    </div> -->
+    </div>
   </template>
   
   <script>
