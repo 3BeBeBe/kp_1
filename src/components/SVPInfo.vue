@@ -290,7 +290,7 @@
           />
           <!-- <div class="item e1"> -->
             <div class="text1">
-              <h4><b>SVP Sekretaris Perusahaan</b></h4>
+              <h4><b>Sekretaris Perusahaan</b></h4>
               <p>Said Ridho</p>
             </div>
           <!-- </div> -->
@@ -374,7 +374,7 @@
           />
           <!-- <div class="item e1"> -->
             <div class="text1">
-              <h4><b>SVP Satuan Pengawasan Intern</b></h4>
+              <h4><b>Ka. Satuan Pengawasan Intern</b></h4>
               <p>Yulianto Ramadhan</p>
             </div>
           <!-- </div> -->

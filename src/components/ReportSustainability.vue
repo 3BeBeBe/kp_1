@@ -28,6 +28,11 @@
       return {
         reports: [
           {
+            title: "Laporan Keberlanjutan 2023",
+            link: "../assets/LaporanKeberlanjutan/SR-PIU-2023_ok_compressed.pdf",
+            coverImage: require("../assets/laporanKeberlanjutan/coverLK23.png")
+          },
+          {
             title: "Laporan Keberlanjutan 2021",
             link: "../assets/LaporanKeberlanjutan/SR-PIU-2022_ok_compressed.pdf",
             coverImage: require("../assets/laporanKeberlanjutan/coverLK.png")

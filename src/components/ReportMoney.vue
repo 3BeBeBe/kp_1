@@ -28,6 +28,11 @@
       return {
         reports: [
           {
+            title: "Laporan Keuangan 2023",
+            link: "../assets/laporanKeuangan/FINAL-Signed-Financial-Statements-PIU-31-December-2023.pdf",
+            coverImage: require("../assets/laporanKeuangan/coverLK.jpeg")
+          },
+          {
             title: "Laporan Keuangan 2022",
             link: "../assets/laporanKeuangan/FINAL-Signed-Financial-Statements-PIU-31-December-2022.pdf",
             coverImage: require("../assets/laporanKeuangan/coverLK.jpeg")

@@ -60,6 +60,8 @@
             return {
                 selectedImage: require('@/assets/bulletinBUZZ/edisi7.png'), 
                 images: [
+                    { name: 'BUZZ 09', subName: 'Strengthening the Foundation for A Better Future', path: require('@/assets/bulletinBUZZ/edisi9.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_buletin FULL FINAL_OKE OKE OKE_9.pdf', pages: '35', year: '2024' },
+                    { name: 'BUZZ 08', subName: 'Powering the Future', path: require('@/assets/bulletinBUZZ/edisi8.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_buletin FULL FINAL_OKE OKE OKE_8.pdf', pages: '35', year: '2024' },
                     { name: 'BUZZ 07', subName: 'Amplify Teamwork Building Partership', path: require('@/assets/bulletinBUZZ/edisi7.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_buletin FULL FINAL_OKE OKE OKE.pdf', pages: '19', year: '2023' },
                     { name: 'BUZZ 06', subName: 'Transformasi & Penyelarasan Bisnis', path: require('@/assets/bulletinBUZZ/edisi6.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_BULETIN_JUNI-2023_FINAL-WEB_compressed.pdf', pages: '36', year: '2023' },
                     { name: 'BUZZ 05', subName: 'Tata Kelola & Strategi Baru Korporasi', path: require('@/assets/bulletinBUZZ/edisi5.png'), readMoreLink: '@/assets/bulletinBUZZ/PIU_BULETIN_DESEMBER-2022_FINAL-CETAK-HIRES.pdf', pages: '32', year: '2022' },

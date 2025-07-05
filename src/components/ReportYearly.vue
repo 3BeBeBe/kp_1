@@ -20,6 +20,11 @@
       return {
         reports: [
           {
+            title: "Laporan Tahunan 2023",
+            link: "../assets/LaporanTahunan/AR-PIU-2023_OK_.pdf",
+            coverImage: require("../assets/laporanTahun/23.jpg")
+          },
+          {
             title: "Laporan Tahunan 2022",
             link: "../assets/LaporanTahunan/AR-PIU-2022_OK_.pdf",
             coverImage: require("../assets/laporanTahun/1.png")

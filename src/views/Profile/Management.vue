@@ -12,7 +12,7 @@
     import FooterSection from '@/components/FooterSection.vue'
     import DirectorInfo from '@/components/DirectorInfo.vue'
     import ComisariesInfo from '@/components/ComisariesInfo.vue'
-    import SVPInfo from '@/components/SVPInfo.vue'
+    // import SVPInfo from '@/components/SVPInfo.vue'
 
     export default {
         name: 'manajemenDireksiKomisaris',
@@ -21,7 +21,7 @@
             FooterSection,
             DirectorInfo,
             ComisariesInfo,
-            SVPInfo
+            // SVPInfo
         },
     }
 </script>

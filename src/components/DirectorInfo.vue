@@ -279,7 +279,7 @@
 
     <div class="text-container">
       <h1 style="color: #084e8b; font-weight: 600; font-style: italic">
-        <b>Direktur</b>
+        <b>Direksi</b>
       </h1>
       <h2 style="color: #e65824; font-weight: 700; font-style: italic">
         PT Pupuk Indonesia Utilitas
